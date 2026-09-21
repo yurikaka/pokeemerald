@@ -1815,7 +1815,6 @@ const u8 gJirachiPokedexText[] = _(
 			"醒来后可使用能实现任何愿望的力量。");
 
 const u8 gDeoxysPokedexText[] = _(
-    "A POKéMON that mutated from an\n"
-    "extraterrestrial virus exposed to a laser\n"
-    "beam. Its body is configured for superior\n"
-    "agility and speed.");
+			"当宇宙病毒被激光照射时，\n"
+			"发生突变而形成的宝可梦。\n"
+			"身体的形状很适合快速移动。");

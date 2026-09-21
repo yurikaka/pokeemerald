@@ -41,8 +41,8 @@ static const u8 sScratchDescription[] = _(
 			"子抓对手攻击。");
 
 static const u8 sViceGripDescription[] = _(
-    "Grips the foe with large and\n"
-    "powerful pincers.");
+			"将对手从两侧夹住，\n"
+			"给予伤害。");
 
 static const u8 sGuillotineDescription[] = _(
 			"用钳子或剪刀夹断对手攻击。\n"
@@ -539,8 +539,8 @@ static const u8 sSoftBoiledDescription[] = _(
 			"回复自己最大HP的一半。");
 
 static const u8 sHiJumpKickDescription[] = _(
-    "A jumping knee kick. If it\n"
-    "misses, the user is hurt.");
+			"跳起后用膝盖撞对手攻击。\n"
+			"如果撞偏则自己会受到伤害。");
 
 static const u8 sGlareDescription[] = _(
 			"用腹部的花纹使对手害怕，\n"
@@ -736,8 +736,8 @@ static const u8 sScaryFaceDescription[] = _(
 			"害怕，大幅降低对手的速度。");
 
 static const u8 sFaintAttackDescription[] = _(
-    "Draws the foe close, then\n"
-    "strikes without fail.");
+			"能够攻击使用守住类招式的\n"
+			"对手。解除其守护效果。");
 
 static const u8 sSweetKissDescription[] = _(
 			"像天使般可爱地亲吻对手，\n"
@@ -1055,8 +1055,8 @@ static const u8 sFocusPunchDescription[] = _(
 			"若受到攻击则会失败。");
 
 static const u8 sSmellingSaltDescription[] = _(
-    "Powerful against paralyzed\n"
-    "foes, but also heals them.");
+			"对于麻痹的对手，威力变成2倍。\n"
+			"但对手的麻痹也会被治愈。");
 
 static const u8 sFollowMeDescription[] = _(
 			"引起对手的注意，\n"

@@ -53,13 +53,13 @@ gTrickHouse_Mechadoll_Carvanha::
 	.string "CARVANHA$"
 
 gTrickHouse_Mechadoll_BurnHeal::
-	.string "BURN HEAL$"
+	.string "灼伤药$"
 
 gTrickHouse_Mechadoll_HarborMail::
-	.string "HARBOR MAIL$"
+	.string "港口邮件$"
 
 gTrickHouse_Mechadoll_SamePrice::
-	.string "Same price$"
+	.string "价格相等$"
 
 gTrickHouse_Mechadoll_60Yen::
 	.string "¥60$"
@@ -68,37 +68,37 @@ gTrickHouse_Mechadoll_55Yen::
 	.string "¥55$"
 
 gTrickHouse_Mechadoll_Nothing::
-	.string "Nothing$"
+	.string "不会剩下$"
 
 gTrickHouse_Mechadoll_CostMore::
-	.string "They will cost more.$"
+	.string "花得更多$"
 
 gTrickHouse_Mechadoll_CostLess::
-	.string "They will cost less.$"
+	.string "花得更少$"
 
 gTrickHouse_Mechadoll_SamePrice2::
-	.string "Same price$"
+	.string "价格相同$"
 
 gTrickHouse_Mechadoll_Male::
-	.string "Male$"
+	.string "男人$"
 
 gTrickHouse_Mechadoll_Female::
-	.string "Female$"
+	.string "女人$"
 
 gTrickHouse_Mechadoll_Neither::
-	.string "Neither$"
+	.string "都不是$"
 
 gTrickHouse_Mechadoll_ElderlyMen::
-	.string "Elderly men$"
+	.string "老爷爷$"
 
 gTrickHouse_Mechadoll_ElderlyLadies::
-	.string "Elderly ladies$"
+	.string "老奶奶$"
 
 gTrickHouse_Mechadoll_SameNumber::
-	.string "Same number$"
+	.string "相等$"
 
 gTrickHouse_Mechadoll_None::
-	.string "None$"
+	.string "没有$"
 
 gTrickHouse_Mechadoll_One::
 	.string "1$"

@@ -1,195 +1,191 @@
 @ Contest move effect descriptions
 
 gText_HighlyAppealingMove::
-	.string "A highly appealing move.$"
+	.string "能够吸引人的表演。$"
 
 gText_UserMoreEasilyStartled::
-	.string "After this move, the user is\n"
-	.string "more easily startled.$"
+	.string "虽然能够演出很好的表演，\n"
+	.string "但是之后会更容易受干扰。$"
 
 gText_GreatAppealButNoMoreToEnd::
-	.string "Makes a great appeal, but\n"
-	.string "allows no more to the end.$"
+	.string "极具吸引力的表演，\n"
+	.string "但是此后无法再进行表演。$"
 
 gText_UsedRepeatedlyWithoutBoringJudge::
-	.string "Can be repeatedly used\n"
-	.string "without boring the JUDGE.$"
+	.string "即使重复演出也不会\n"
+	.string "让评委感到无聊。$"
 
 gText_AvoidStartledByOthersOnce::
-	.string "Can avoid being startled\n"
-	.string "by others once.$"
+	.string "即使被之后的宝可梦干扰\n"
+	.string "也会挺住一次。$"
 
 gText_AvoidStartledByOthers::
-	.string "Can avoid being startled\n"
-	.string "by others.$"
+	.string "即使被之后的宝可梦干扰\n"
+	.string "也会挺住。$"
 
 gText_AvoidStartledByOthersLittle::
-	.string "Can avoid being startled\n"
-	.string "by others a little.$"
+	.string "能够稍稍避免受到\n"
+	.string "被其他宝可梦干扰。$"
 
 gText_UserLessLikelyStartled::
-	.string "After this move, the user is\n"
-	.string "less likely to be startled.$"
+	.string "在表演这个招式之后\n"
+	.string "宝可梦会变得不易受干扰。$"
 
 gText_SlightlyStartleFrontMon::
-	.string "Slightly startles the\n"
-	.string "POKéMON in front.$"
+	.string "稍稍干扰在自己之前表演的\n"
+	.string "宝可梦。$"
 
 gText_SlightlyStartleAppealed::
-	.string "Slightly startles those\n"
-	.string "that have made appeals.$"
+	.string "稍稍干扰表演完成的\n"
+	.string "所有宝可梦。$"
 
 gText_StartleAppealedBeforeUser::
-	.string "Startles the POKéMON that\n"
-	.string "appealed before the user.$"
+	.string "干扰在自己之前表演的\n"
+	.string "宝可梦。$"
 
 gText_StartleAllAppealed::
-	.string "Startles all POKéMON that\n"
-	.string "have done their appeals.$"
+	.string "干扰表演完成的\n"
+	.string "所有宝可梦。$"
 
 gText_BadlyStartleFrontMon::
-	.string "Badly startles the\n"
-	.string "POKéMON in front.$"
+	.string "严重干扰在自己之前表演的\n"
+	.string "宝可梦。$"
 
 gText_BadlyStartleAppealed::
-	.string "Badly startles those that\n"
-	.string "have made appeals.$"
+	.string "严重干扰表演完成的\n"
+	.string "所有宝可梦。$"
 
 gText_StartleAppealedBeforeUser2::
-	.string "Startles the POKéMON that\n"
-	.string "appealed before the user.$"
+	.string "干扰在自己之前表演的\n"
+	.string "宝可梦。$"
 
 gText_StartleAllAppealed2::
-	.string "Startles all POKéMON that\n"
-	.string "have done their appeals.$"
+	.string "干扰表演完成的\n"
+	.string "所有宝可梦。$"
 
 gText_ShiftJudgesAttentionFromOthers::
-	.string "Shifts the JUDGE's\n"
-	.string "attention from others.$"
+	.string "分散评委对之前宝可梦的\n"
+	.string "注意。$"
 
 gText_StartleMonHasJudgesAttention::
-	.string "Startles the POKéMON that\n"
-	.string "has the JUDGE's attention.$"
+	.string "特别干扰评委注意的\n"
+	.string "宝可梦。$"
 
 gText_JamOthersMissesTurn::
-	.string "Jams the others, and misses\n"
-	.string "one turn of appeals.$"
+	.string "激烈地干扰大家，\n"
+	.string "但无法参加下一次表演。$"
 
 gText_StartleMonsMadeSameTypeAppeal::
-	.string "Startles POKéMON that\n"
-	.string "made a same-type appeal.$"
+	.string "特别干扰演出了相同类别的\n"
+	.string "宝可梦。$"
 
 gText_BadlyStartleCoolAppeals::
-	.string "Badly startles POKéMON\n"
-	.string "that made COOL appeals.$"
+	.string "特别干扰演出了帅气招式的\n"
+	.string "宝可梦。$"
 
 gText_BadlyStartleBeautyAppeals::
-	.string "Badly startles POKéMON\n"
-	.string "that made BEAUTY appeals.$"
+	.string "特别干扰演出了美丽招式的\n"
+	.string "宝可梦。$"
 
 gText_BadlyStartleCuteAppeals::
-	.string "Badly startles POKéMON\n"
-	.string "that made CUTE appeals.$"
+	.string "特别干扰演出了可爱招式的\n"
+	.string "宝可梦。$"
 
 gText_BadlyStartleSmartAppeals::
-	.string "Badly startles POKéMON\n"
-	.string "that made SMART appeals.$"
+	.string "特别干扰演出了聪明招式的\n"
+	.string "宝可梦。$"
 
 gText_BadlyStartleToughAppeals::
-	.string "Badly startles POKéMON\n"
-	.string "that made TOUGH appeals.$"
+	.string "特别干扰演出了强壮招式的\n"
+	.string "宝可梦。$"
 
 gText_MakeMonAfterUserNervous::
-	.string "Makes one POKéMON after\n"
-	.string "the user nervous.$"
+	.string "让下一只表演的宝可梦\n"
+	.string "感到紧张。$"
 
 gText_MakeAllMonsAfterUserNervous::
-	.string "Makes all POKéMON after\n"
-	.string "the user nervous.$"
+	.string "让之后表演的所有宝可梦\n"
+	.string "都感到紧张。$"
 
 gText_WorsenConditionOfThoseMadeAppeals::
-	.string "Worsens the condition of\n"
-	.string "those that made appeals.$"
+	.string "降低表演完成的\n"
+	.string "宝可梦的气势。$"
 
 gText_BadlyStartleMonsGoodCondition::
-	.string "Badly startles POKéMON in\n"
-	.string "good condition.$"
+	.string "严重干扰气势良好的\n"
+	.string "所有宝可梦。$"
 
 gText_AppealGreatIfPerformedFirst::
-	.string "The appeal works great if\n"
-	.string "performed first.$"
+	.string "最先演出时表演\n"
+	.string "会更加吸引人。$"
 
 gText_AppealGreatIfPerformedLast::
-	.string "The appeal works great if\n"
-	.string "performed last.$"
+	.string "最后演出时表演\n"
+	.string "会更加吸引人。$"
 
 gText_AppealAsGoodAsThoseBeforeIt::
-	.string "Makes the appeal as good\n"
-	.string "as those before it.$"
+	.string "演出和此前所有宝可梦表演\n"
+	.string "吸引力程度相当的表演。$"
 
 gText_AppealAsGoodAsOneBeforeIt::
-	.string "Makes the appeal as good\n"
-	.string "as the one before it.$"
+	.string "和前一位宝可梦的\n"
+	.string "表演一样吸引人。$"
 
 gText_AppealBetterLaterItsPerformed::
-	.string "The appeal works better\n"
-	.string "the later it is performed.$"
+	.string "演出时排序越靠后，\n"
+	.string "越能演出吸引人的表演。$"
 
 gText_AppealVariesDependingOnTiming::
-	.string "The appeal's quality varies\n"
-	.string "depending on its timing.$"
+	.string "每次演出的结果都不同。$"
 
 gText_WorksWellIfSameTypeAsBefore::
-	.string "Works well if it's the same\n"
-	.string "type as the one before.$"
+	.string "和前一位宝可梦的表演类别\n"
+	.string "相同时会更吸引人。$"
 
 gText_WorksWellIfDifferentTypeAsBefore::
-	.string "Works well if different in\n"
-	.string "type than the one before.$"
+	.string "和前一位宝可梦的表演类别\n"
+	.string "不同时会更吸引人。$"
 
 gText_AffectedByAppealInFront::
-	.string "Affected by how well the\n"
-	.string "appeal in front goes.$"
+	.string "演出水平受前一位宝可梦\n"
+	.string "表演吸引程度的影响。$"
 
 gText_UpsConditionHelpsPreventNervousness::
-	.string "Ups the user's condition.\n"
-	.string "Helps prevent nervousness.$"
+	.string "提升表演的气势，\n"
+	.string "变得不容易感到紧张。$"
 
 gText_AppealWorksWellIfConditionGood::
-	.string "The appeal works well if the\n"
-	.string "user's condition is good.$"
+	.string "气势良好时表演\n"
+	.string "会非常吸引人。$"
 
 gText_NextAppealMadeEarlier::
-	.string "The next appeal can be\n"
-	.string "made earlier next turn.$"
+	.string "下一次表演时最先出场。$"
 
 gText_NextAppealMadeLater::
-	.string "The next appeal can be\n"
-	.string "made later next turn.$"
+	.string "下一次表演时最后出场。$"
 
 gText_TurnOrderMoreEasilyScrambled::
-	.string "Makes the next turn's order\n"
-	.string "more easily scrambled.$"
+	.string "使下一次表演的顺序\n"
+	.string "容易被打乱。$"
 
 gText_ScrambleOrderOfNextAppeals::
-	.string "Scrambles the order of\n"
-	.string "appeals on the next turn.$"
+	.string "打乱下一次表演的顺序。$"
 
 gText_AppealExcitesAudienceInAnyContest::
-	.string "An appeal that excites the\n"
-	.string "audience in any CONTEST.$"
+	.string "任何类别的华丽大赛中\n"
+	.string "都会让会场兴奋的表演。$"
 
 gText_BadlyStartlesMonsGoodAppeals::
-	.string "Badly startles all POKéMON\n"
-	.string "that made good appeals.$"
+	.string "严重干扰表演具有吸引力的\n"
+	.string "所有宝可梦。$"
 
 gText_AppealBestMoreCrowdExcited::
-	.string "The appeal works best the\n"
-	.string "more the crowd is excited.$"
+	.string "会场越兴奋，\n"
+	.string "表演越吸引人。$"
 
 gText_TemporarilyStopCrowdExcited::
-	.string "Temporarily stops the\n"
-	.string "crowd from growing excited.$"
+	.string "表演后会场暂时不会\n"
+	.string "变得更加兴奋。$"
 
 @ Unused move names
 
@@ -235,19 +231,19 @@ gText_LockOn::
 @ Contest type names
 
 gContestMoveTypeCoolText::
-	.string "COOL$"
+	.string "帅气$"
 
 gContestMoveTypeBeautyText::
-	.string "BEAUTY$"
+	.string "美丽$"
 
 gContestMoveTypeCuteText::
-	.string "CUTE$"
+	.string "可爱$"
 
 gContestMoveTypeSmartText::
-	.string "SMART$"
+	.string "聪明$"
 
 gContestMoveTypeToughText::
-	.string "TOUGH$"
+	.string "强壮$"
 
 gText_AppealNumWhichMoveWillBePlayed::
 	.string "第{STR_VAR_1}回合的表演！\n"
@@ -319,28 +315,28 @@ gText_WorkedLittleBetterThanUsual::
 @ Round result texts
 
 gText_MonFailedToStandOutAtAll::
-	.string "{STR_VAR_1} failed to\n"
-	.string "stand out at all…{PAUSE_UNTIL_PRESS}$"
+	.string "{STR_VAR_1}\n"
+	.string "完全没能获得关注……{PAUSE_UNTIL_PRESS}$"
 
 gText_MonDidntStandOutVeryMuch::
-	.string "{STR_VAR_1} didn't stand\n"
-	.string "out very much…{PAUSE_UNTIL_PRESS}$"
+	.string "{STR_VAR_1}\n"
+	.string "表现平平无奇……{PAUSE_UNTIL_PRESS}$"
 
 gText_MonCaughtALittleAttention::
-	.string "{STR_VAR_1} caught a\n"
-	.string "little attention.{PAUSE_UNTIL_PRESS}$"
+	.string "{STR_VAR_1}\n"
+	.string "稍稍吸引了些许目光。{PAUSE_UNTIL_PRESS}$"
 
 gText_MonAttractedALotOfAttention::
-	.string "{STR_VAR_1} attracted a\n"
-	.string "lot of attention.{PAUSE_UNTIL_PRESS}$"
+	.string "{STR_VAR_1}\n"
+	.string "赢得了热烈的反响！{PAUSE_UNTIL_PRESS}$"
 
 gText_MonCommandedTotalAttention::
-	.string "{STR_VAR_1} commanded\n"
-	.string "total attention.{PAUSE_UNTIL_PRESS}$"
+	.string "{STR_VAR_1}\n"
+	.string "彻底成为了全场焦点！{PAUSE_UNTIL_PRESS}$"
 
 gText_MonHasntMadeItsAppeal::
-	.string "{STR_VAR_1} hasn't made\n"
-	.string "its appeal.{PAUSE_UNTIL_PRESS}$"
+	.string "{STR_VAR_1}\n"
+	.string "没有参加表演……{PAUSE_UNTIL_PRESS}$"
 
 @ Unused
 gText_AnticipationSwelledForMonsAppealNext2::
@@ -734,19 +730,19 @@ gText_Contest_Fear::
 	.string "战战栗栗$"
 
 gText_Contest_Coolness::
-	.string "coolness$"
+	.string "帅气$"
 
 gText_Contest_Beauty::
-	.string "beauty$"
+	.string "美丽$"
 
 gText_Contest_Cuteness::
-	.string "cuteness$"
+	.string "可爱$"
 
 gText_Contest_Smartness::
-	.string "smartness$"
+	.string "聪明$"
 
 gText_Contest_Toughness::
-	.string "toughness$"
+	.string "强壮$"
 
 @ Unused
 gText_Tension::
