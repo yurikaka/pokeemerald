@@ -1210,6 +1210,7 @@ static const u8 *const sFooterTextOptions[NUM_FOOTER_TYPES][4] = {
 };
 
 #include "data/easy_chat/easy_chat_groups.h"
+#include "data/easy_chat/easy_chat_move_names.h"
 #include "data/easy_chat/easy_chat_words_by_letter.h"
 
 static const u8 *const sEasyChatGroupNamePointers[EC_NUM_GROUPS] = {
@@ -5207,7 +5208,7 @@ static const u8 *GetEasyChatWord(u8 groupId, u16 index)
         return gSpeciesNames[index];
     case EC_GROUP_MOVE_1:
     case EC_GROUP_MOVE_2:
-        return gMoveNames[index];
+        return gEasyChatMoveNames[index];
     default:
         return gEasyChatGroups[groupId].wordData.words[index].text;
     }
