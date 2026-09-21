@@ -12,6 +12,7 @@
 #include "menu.h"
 #include "dynamic_placeholder_text_util.h"
 #include "fonts.h"
+#include "chinese_text.h"
 
 static u16 RenderText(struct TextPrinter *);
 static u32 RenderFont(struct TextPrinter *);
@@ -1120,7 +1121,16 @@ static u16 RenderText(struct TextPrinter *textPrinter)
             return RENDER_FINISH;
         }
 
-        switch (subStruct->fontId)
+        if (IsChineseChar(currChar, *textPrinter->printerTemplate.currentChar, subStruct->fontId, textPrinter->japanese))
+        {
+            currChar = (currChar << 8) | *textPrinter->printerTemplate.currentChar++;
+            DecompressGlyph_Chinese(currChar, subStruct->fontId);
+        }
+        else if (IsChinesePunctuation(currChar, subStruct->fontId, textPrinter->japanese))
+        {
+            DecompressGlyph_Chinese(currChar, subStruct->fontId);
+        }
+        else switch (subStruct->fontId)
         {
         case FONT_SMALL:
             DecompressGlyph_Small(currChar, textPrinter->japanese);
@@ -1381,7 +1391,20 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
                 bufferPointer = DynamicPlaceholderTextUtil_GetPlaceholderPtr(*++str);
             while (*bufferPointer != EOS)
             {
-                glyphWidth = func(*bufferPointer++, isJapanese);
+                if (IsChineseChar(bufferPointer[0], bufferPointer[1], fontId, isJapanese))
+                {
+                    glyphWidth = GetChineseGlyphWidth((bufferPointer[0] << 8) | bufferPointer[1], fontId);
+                    bufferPointer += 2;
+                }
+                else if (IsChinesePunctuation(bufferPointer[0], fontId, isJapanese))
+                {
+                    glyphWidth = GetChineseGlyphWidth(bufferPointer[0], fontId);
+                    bufferPointer++;
+                }
+                else
+                {
+                    glyphWidth = func(*bufferPointer++, isJapanese);
+                }
                 if (minGlyphWidth > 0)
                 {
                     if (glyphWidth < minGlyphWidth)
@@ -1474,7 +1497,19 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
         case CHAR_PROMPT_CLEAR:
             break;
         default:
-            glyphWidth = func(*str, isJapanese);
+            if (IsChineseChar(*str, str[1], fontId, isJapanese))
+            {
+                glyphWidth = GetChineseGlyphWidth((*str << 8) | str[1], fontId);
+                ++str;
+            }
+            else if (IsChinesePunctuation(*str, fontId, isJapanese))
+            {
+                glyphWidth = GetChineseGlyphWidth(*str, fontId);
+            }
+            else
+            {
+                glyphWidth = func(*str, isJapanese);
+            }
             if (minGlyphWidth > 0)
             {
                 if (glyphWidth < minGlyphWidth)

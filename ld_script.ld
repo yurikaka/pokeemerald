@@ -63,6 +63,7 @@ SECTIONS {
         src/blit.o(.text);
         src/window.o(.text);
         src/text.o(.text);
+        src/chinese_text.o(.text);
         src/sprite.o(.text);
         src/string_util.o(.text);
         src/link.o(.text);
@@ -449,6 +450,7 @@ SECTIONS {
         src/bg.o(.rodata);
         src/window.o(.rodata);
         src/text.o(.rodata);
+        src/chinese_text.o(.rodata);
         src/sprite.o(.rodata);
         src/io_reg.o(.rodata);
         src/string_util.o(.rodata);
