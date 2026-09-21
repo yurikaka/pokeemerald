@@ -3026,7 +3026,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_TREECKO] =
     {
-        .categoryName = _("WOOD GECKO"),
+        .categoryName = _("林蜥"),
         .height = 5,
         .weight = 50,
         .description = gTreeckoPokedexText,
@@ -3062,7 +3062,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_TORCHIC] =
     {
-        .categoryName = _("CHICK"),
+        .categoryName = _("雏鸡"),
         .height = 4,
         .weight = 25,
         .description = gTorchicPokedexText,
@@ -3098,7 +3098,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_MUDKIP] =
     {
-        .categoryName = _("MUD FISH"),
+        .categoryName = _("沼鱼"),
         .height = 4,
         .weight = 76,
         .description = gMudkipPokedexText,
