@@ -1,0 +1,15 @@
+{
+  "apply": true,
+  "counts": {
+    "c": 127
+  },
+  "file_count": 6,
+  "files": [
+    "src/battle_message.c",
+    "src/berry_blender.c",
+    "src/data/items.h",
+    "src/data/text/trainer_class_names.h",
+    "src/data/trainers.h",
+    "src/strings.c"
+  ]
+}

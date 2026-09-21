@@ -1,0 +1,24 @@
+{
+  "source": "../pokeemerald_expansion_chs",
+  "apply": true,
+  "changed_file_count": 13,
+  "changed_symbol_count": 72,
+  "changed_files": [
+    "src/battle_message.c",
+    "src/data/decoration/description.h",
+    "src/data/easy_chat/easy_chat_group_actions.h",
+    "src/data/easy_chat/easy_chat_group_battle.h",
+    "src/data/easy_chat/easy_chat_group_conditions.h",
+    "src/data/easy_chat/easy_chat_group_greetings.h",
+    "src/data/easy_chat/easy_chat_group_hobbies.h",
+    "src/data/easy_chat/easy_chat_group_lifestyle.h",
+    "src/data/easy_chat/easy_chat_group_people.h",
+    "src/data/easy_chat/easy_chat_group_status.h",
+    "src/data/easy_chat/easy_chat_group_time.h",
+    "src/data/easy_chat/easy_chat_group_trainer.h",
+    "src/strings.c"
+  ],
+  "skipped_ambiguous": [
+    "src/strings.c:gText_PkmnFainted_FldPsn"
+  ]
+}

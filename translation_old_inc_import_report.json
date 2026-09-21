@@ -1,0 +1,15 @@
+{
+  "source": "/home/yurikaka/dev/pokemon/gen3_sources/pokeemerald_expansion_chs",
+  "apply": true,
+  "changed_file_count": 6,
+  "changed_symbol_count": 274,
+  "changed_files": [
+    "data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc",
+    "data/scripts/roulette.inc",
+    "data/text/battle_dome.inc",
+    "data/text/contest_link.inc",
+    "data/text/contest_painting.inc",
+    "data/text/contest_strings.inc"
+  ],
+  "skipped_ambiguous_symbols": []
+}

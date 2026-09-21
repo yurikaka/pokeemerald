@@ -1,316 +1,318 @@
 static const u8 sDummyDesc[] = _(
-    "?????");
+			"无");
 
 // Pokeballs
 static const u8 sMasterBallDesc[] = _(
-    "The best BALL that\n"
-    "catches a POKéMON\n"
-    "without fail.");
+			"必定能捉到野生宝\n"
+			"可梦的，性能最好\n"
+			"的球。");
 
 static const u8 sUltraBallDesc[] = _(
-    "A better BALL with\n"
-    "a higher catch rate\n"
-    "than a GREAT BALL.");
+			"比超级球更容易捉\n"
+			"到宝可梦的，性能\n"
+			"非常不错的球。");
 
 static const u8 sGreatBallDesc[] = _(
-    "A good BALL with a\n"
-    "higher catch rate\n"
-    "than a POKé BALL.");
+			"比精灵球更容易捉\n"
+			"到宝可梦的，性能\n"
+			"还算不错的球。");
 
 static const u8 sPokeBallDesc[] = _(
-    "A tool used for\n"
-    "catching wild\n"
-    "POKéMON.");
+			"用于投向野生宝可\n"
+			"梦并将其捕捉的球\n"
+			"。");
 
 static const u8 sSafariBallDesc[] = _(
-    "A special BALL that\n"
-    "is used only in the\n"
-    "SAFARI ZONE.");
+			"曾在狩猎地带以及\n"
+			"大湿地被使用。是\n"
+			"一种特殊的球。");
 
 static const u8 sNetBallDesc[] = _(
-    "A BALL that works\n"
-    "well on WATER- and\n"
-    "BUG-type POKéMON.");
+			"有点与众不同的球\n"
+			"。能容易地捕捉水\n"
+			"或虫属性宝可梦。");
 
 static const u8 sDiveBallDesc[] = _(
-    "A BALL that works\n"
-    "better on POKéMON\n"
-    "on the ocean floor.");
+			"有点与众不同的球\n"
+			"。容易捕捉生活在\n"
+			"水世界的宝可梦。");
 
 static const u8 sNestBallDesc[] = _(
-    "A BALL that works\n"
-    "better on weaker\n"
-    "POKéMON.");
+			"有点与众不同的球\n"
+			"。野生宝可梦越弱\n"
+			"越容易捕捉。");
 
 static const u8 sRepeatBallDesc[] = _(
-    "A BALL that works\n"
-    "better on POKéMON\n"
-    "caught before.");
+			"有点与众不同的球\n"
+			"。容易捕捉曾捉到\n"
+			"过的宝可梦。");
 
 static const u8 sTimerBallDesc[] = _(
-    "A BALL that gains\n"
-    "power in battles\n"
-    "taking many turns.");
+			"有点与众不同的球\n"
+			"。回合数越多会越\n"
+			"容易捕捉。");
 
 static const u8 sLuxuryBallDesc[] = _(
-    "A cozy BALL that\n"
-    "makes POKéMON\n"
-    "more friendly.");
+			"住着十分惬意的球\n"
+			"。捉到宝可梦变得\n"
+			"容易亲密。");
 
 static const u8 sPremierBallDesc[] = _(
-    "A rare BALL made\n"
-    "in commemoration\n"
-    "of some event.");
+			"有点珍贵的球。特\n"
+			"制出来的某种纪念\n"
+			"品。");
 
 // Medicine
 static const u8 sPotionDesc[] = _(
-    "Restores the HP of\n"
-    "a POKéMON by\n"
-    "20 points.");
+			"喷雾式伤药。能让\n"
+			"宝可梦回复20H\n"
+			"P。");
 
 static const u8 sAntidoteDesc[] = _(
-    "Heals a poisoned\n"
-    "POKéMON.");
+			"喷雾式药水。能治\n"
+			"愈宝可梦的中毒状\n"
+			"态。");
 
 static const u8 sBurnHealDesc[] = _(
-    "Heals POKéMON\n"
-    "of a burn.");
+			"喷雾式药水。能治\n"
+			"愈宝可梦的灼伤状\n"
+			"态。");
 
 static const u8 sIceHealDesc[] = _(
-    "Defrosts a frozen\n"
-    "POKéMON.");
+			"喷雾式药水。能治\n"
+			"愈宝可梦的冰冻状\n"
+			"态。");
 
 static const u8 sAwakeningDesc[] = _(
-    "Awakens a sleeping\n"
-    "POKéMON.");
+			"喷雾式药水。能治\n"
+			"愈宝可梦的睡眠状\n"
+			"态。");
 
 static const u8 sParalyzeHealDesc[] = _(
-    "Heals a paralyzed\n"
-    "POKéMON.");
+			"喷雾式药水。能治\n"
+			"愈宝可梦的麻痹状\n"
+			"态。");
 
 static const u8 sFullRestoreDesc[] = _(
-    "Fully restores the\n"
-    "HP and status of a\n"
-    "POKéMON.");
+			"能回复宝可梦的所\n"
+			"有HP并治愈所有\n"
+			"异常状态。");
 
 static const u8 sMaxPotionDesc[] = _(
-    "Fully restores the\n"
-    "HP of a POKéMON.");
+			"喷雾式伤药。能让\n"
+			"宝可梦回复所有H\n"
+			"P。");
 
 static const u8 sHyperPotionDesc[] = _(
-    "Restores the HP of\n"
-    "a POKéMON by\n"
-    "200 points.");
+			"喷雾式伤药。能让\n"
+			"宝可梦回复120\n"
+			"HP。");
 
 static const u8 sSuperPotionDesc[] = _(
-    "Restores the HP of\n"
-    "a POKéMON by\n"
-    "50 points.");
+			"喷雾式伤药。能让\n"
+			"宝可梦回复60H\n"
+			"P。");
 
 static const u8 sFullHealDesc[] = _(
-    "Heals all the\n"
-    "status problems of\n"
-    "one POKéMON.");
+			"能回复宝可梦的\n"
+			"所有HP并治愈\n"
+			"所有异常状态。");
 
 static const u8 sReviveDesc[] = _(
-    "Revives a fainted\n"
-    "POKéMON with half\n"
-    "its HP.");
+			"能让1只陷入昏厥\n"
+			"的宝可梦复活，并\n"
+			"回复一半HP。");
 
 static const u8 sMaxReviveDesc[] = _(
-    "Revives a fainted\n"
-    "POKéMON with all\n"
-    "its HP.");
+			"能让1只陷入昏厥\n"
+			"的宝可梦重获生\n"
+			"机并回复所有HP。");
 
 static const u8 sFreshWaterDesc[] = _(
-    "A mineral water\n"
-    "that restores HP\n"
-    "by 50 points.");
+			"富含矿物质的水。\n"
+			"能让宝可梦回复3\n"
+			"0HP。");
 
 static const u8 sSodaPopDesc[] = _(
-    "A fizzy soda drink\n"
-    "that restores HP\n"
-    "by 60 points.");
+			"翻腾着气泡的汽水\n"
+			"。能让宝可梦回复\n"
+			"50HP。");
 
 static const u8 sLemonadeDesc[] = _(
-    "A very sweet drink\n"
-    "that restores HP\n"
-    "by 80 points.");
+			"非常香甜的牛奶。\n"
+			"能让宝可梦回复7\n"
+			"0HP。");
 
 static const u8 sMoomooMilkDesc[] = _(
-    "A nutritious milk\n"
-    "that restores HP\n"
-    "by 100 points.");
+			"营养百分百的牛奶\n"
+			"。能让宝可梦回复\n"
+			"100HP。");
 
 static const u8 sEnergyPowderDesc[] = _(
-    "A bitter powder\n"
-    "that restores HP\n"
-    "by 50 points.");
+			"非常苦的药粉。能\n"
+			"让宝可梦回复60\n"
+			"HP。");
 
 static const u8 sEnergyRootDesc[] = _(
-    "A bitter root\n"
-    "that restores HP\n"
-    "by 200 points.");
+			"非常苦的根。能让\n"
+			"宝可梦回复120\n"
+			"HP。");
 
 static const u8 sHealPowderDesc[] = _(
-    "A bitter powder\n"
-    "that heals all\n"
-    "status problems.");
+			"非常苦的药粉。能\n"
+			"治愈宝可梦的所有\n"
+			"异常状态。");
 
 static const u8 sRevivalHerbDesc[] = _(
-    "A very bitter herb\n"
-    "that revives a\n"
-    "fainted POKéMON.");
+			"非常苦的药草。能\n"
+			"让1只昏厥的宝可\n"
+			"梦回复所有HP。");
 
 static const u8 sEtherDesc[] = _(
-    "Restores the PP\n"
-    "of a selected move\n"
-    "by 10.");
+			"能让宝可梦学会的\n"
+			"其中1个招式回复\n"
+			"10PP。");
 
 static const u8 sMaxEtherDesc[] = _(
-    "Fully restores the\n"
-    "PP of a selected\n"
-    "move.");
+			"能让宝可梦学会的\n"
+			"其中1个招式回复\n"
+			"所有PP。");
 
 static const u8 sElixirDesc[] = _(
-    "Restores the PP\n"
-    "of all moves by 10.");
+			"能让宝可梦学会的\n"
+			"4个招式各回复1\n"
+			"0PP。");
 
 static const u8 sMaxElixirDesc[] = _(
-    "Fully restores the\n"
-    "PP of a POKéMON's\n"
-    "moves.");
+			"能让宝可梦学会的\n"
+			"4个招式回复所有\n"
+			"PP。");
 
 static const u8 sLavaCookieDesc[] = _(
-    "A local specialty\n"
-    "that heals all\n"
-    "status problems.");
+			"釜炎特产的仙贝。\n"
+			"能治愈宝可梦的所\n"
+			"有异常状态。");
 
 static const u8 sBlueFluteDesc[] = _(
-    "A glass flute that\n"
-    "awakens sleeping\n"
-    "POKéMON.");
+			"以蓝色玻璃制成的\n"
+			"哨子。可以治愈睡\n"
+			"眠状态。");
 
 static const u8 sYellowFluteDesc[] = _(
-    "A glass flute that\n"
-    "snaps POKéMON\n"
-    "out of confusion.");
+			"以黄色玻璃制成的\n"
+			"哨子。可以治愈混\n"
+			"乱状态。");
 
 static const u8 sRedFluteDesc[] = _(
-    "A glass flute that\n"
-    "snaps POKéMON\n"
-    "out of attraction.");
+			"以红色玻璃制成的\n"
+			"哨子。可以治愈着\n"
+			"迷状态。");
 
 static const u8 sBlackFluteDesc[] = _(
-    "A glass flute that\n"
-    "keeps away wild\n"
-    "POKéMON.");
+			"以黑色玻璃制成的\n"
+			"哨子。更容易遇到\n"
+			"强大的宝可梦。");
 
 static const u8 sWhiteFluteDesc[] = _(
-    "A glass flute that\n"
-    "lures wild POKéMON.");
+			"以白色玻璃制成的\n"
+			"哨子。更容易遇到\n"
+			"弱小的宝可梦。");
 
 static const u8 sBerryJuiceDesc[] = _(
-    "A 100% pure juice\n"
-    "that restores HP\n"
-    "by 20 points.");
+			"100%树果果汁\n"
+			"。能让宝可梦回复\n"
+			"20HP。");
 
 static const u8 sSacredAshDesc[] = _(
-    "Fully revives and\n"
-    "restores all\n"
-    "fainted POKéMON.");
+			"能让陷入昏厥的全\n"
+			"部宝可梦回复所有\n"
+			"HP。");
 
 // Collectibles
 static const u8 sShoalSaltDesc[] = _(
-    "Salt obtained from\n"
-    "deep inside the\n"
-    "SHOAL CAVE.");
+			"在浅滩洞穴这地方\n"
+			"找到的海盐。");
 
 static const u8 sShoalShellDesc[] = _(
-    "A seashell found\n"
-    "deep inside the\n"
-    "SHOAL CAVE.");
+			"在浅滩洞穴这地方\n"
+			"找到的贝壳。");
 
 static const u8 sRedShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+			"好像是以前制作\n"
+			"的某道具的碎片。");
 
 static const u8 sBlueShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+			"好像是以前制作\n"
+			"的某道具的碎片。");
 
 static const u8 sYellowShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+			"好像是以前制作\n"
+			"的某道具的碎片。");
 
 static const u8 sGreenShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+			"好像是以前制作\n"
+			"的某道具的碎片。");
 
 // Vitamins
 static const u8 sHPUpDesc[] = _(
-    "Raises the base HP\n"
-    "of one POKéMON.");
+			"宝可梦的营养饮料\n"
+			"。能提高宝可梦的\n"
+			"HP的基础点数。");
 
 static const u8 sProteinDesc[] = _(
-    "Raises the base\n"
-    "ATTACK stat of one\n"
-    "POKéMON.");
+			"宝可梦的营养饮料\n"
+			"。能提高宝可梦的\n"
+			"攻击的基础点数。");
 
 static const u8 sIronDesc[] = _(
-    "Raises the base\n"
-    "DEFENSE stat of\n"
-    "one POKéMON.");
+			"宝可梦的营养饮料\n"
+			"。能提高宝可梦的\n"
+			"防御的基础点数。");
 
 static const u8 sCarbosDesc[] = _(
-    "Raises the base\n"
-    "SPEED stat of one\n"
-    "POKéMON.");
+			"宝可梦的营养饮料\n"
+			"。能提高宝可梦的\n"
+			"速度的基础点数。");
 
 static const u8 sCalciumDesc[] = _(
-    "Raises the base\n"
-    "SP. ATK stat of one\n"
-    "POKéMON.");
+			"宝可梦的营养饮料\n"
+			"。能提高宝可梦的\n"
+			"特攻的基础点数。");
 
 static const u8 sRareCandyDesc[] = _(
-    "Raises the level\n"
-    "of a POKéMON by\n"
-    "one.");
+			"充满能量的糖果。\n"
+			"给宝可梦后，等级\n"
+			"会提高1。");
 
 static const u8 sPPUpDesc[] = _(
-    "Raises the maximum\n"
-    "PP of a selected\n"
-    "move.");
+			"能让宝可梦学会的\n"
+			"其中1个招式PP\n"
+			"最大值少量提高。");
 
 static const u8 sZincDesc[] = _(
-    "Raises the base\n"
-    "SP. DEF stat of one\n"
-    "POKéMON.");
+			"宝可梦的营养饮料\n"
+			"。能提高宝可梦的\n"
+			"特防的基础点数。");
 
 static const u8 sPPMaxDesc[] = _(
-    "Raises the PP of a\n"
-    "move to its maximum\n"
-    "points.");
+			"能将宝可梦学会的\n"
+			"其中1个招式PP\n"
+			"最大值提至最高。");
 
 // Battle items
 static const u8 sGuardSpecDesc[] = _(
-    "Prevents stat\n"
-    "reduction when\n"
-    "used in battle.");
+			"在战斗中，5回合\n"
+			"内不让我方能力降\n"
+			"低的道具。");
 
 static const u8 sDireHitDesc[] = _(
-    "Raises the\n"
-    "critical-hit ratio\n"
-    "during one battle.");
+			"击中要害的几率会\n"
+			"大幅提高。只能使\n"
+			"用1次。");
 
 static const u8 sXAttackDesc[] = _(
-    "Raises the stat\n"
-    "ATTACK during one\n"
-    "battle.");
+			"大幅提高战斗中宝\n"
+			"可梦攻击的道具。");
 
 static const u8 sXDefendDesc[] = _(
     "Raises the stat\n"
@@ -318,14 +320,12 @@ static const u8 sXDefendDesc[] = _(
     "battle.");
 
 static const u8 sXSpeedDesc[] = _(
-    "Raises the stat\n"
-    "SPEED during one\n"
-    "battle.");
+			"大幅提高战斗中宝\n"
+			"可梦速度的道具。");
 
 static const u8 sXAccuracyDesc[] = _(
-    "Raises accuracy\n"
-    "of attack moves\n"
-    "during one battle.");
+			"大幅提高战斗中宝\n"
+			"可梦命中的道具。");
 
 static const u8 sXSpecialDesc[] = _(
     "Raises the stat\n"
@@ -333,614 +333,604 @@ static const u8 sXSpecialDesc[] = _(
     "battle.");
 
 static const u8 sPokeDollDesc[] = _(
-    "Use to flee from\n"
-    "any battle with\n"
-    "a wild POKéMON.");
+			"能吸引宝可梦注\n"
+			"意。在野生宝可梦\n"
+			"的战斗中能逃走。");
 
 static const u8 sFluffyTailDesc[] = _(
-    "Use to flee from\n"
-    "any battle with\n"
-    "a wild POKéMON.");
+			"能吸引宝可梦注\n"
+			"意。在野生宝可梦\n"
+			"的战斗中能逃走。");
 
 // Field items
 static const u8 sSuperRepelDesc[] = _(
-    "Repels weak wild\n"
-    "POKéMON for 200\n"
-    "steps.");
+			"弱小的野生宝可梦\n"
+			"将不会出现。效果\n"
+			"比除虫喷雾持久。");
 
 static const u8 sMaxRepelDesc[] = _(
-    "Repels weak wild\n"
-    "POKéMON for 250\n"
-    "steps.");
+			"弱小的野生宝可梦\n"
+			"将不会出现。效果\n"
+			"比白银喷雾持久。");
 
 static const u8 sEscapeRopeDesc[] = _(
-    "Use to escape\n"
-    "instantly from a\n"
-    "cave or a dungeon.");
+			"结实的长绳。可从\n"
+			"洞窟或迷宫中脱身\n"
+			"。能够反复使用。");
 
 static const u8 sRepelDesc[] = _(
-    "Repels weak wild\n"
-    "POKéMON for 100\n"
-    "steps.");
+			"使用后一段时间内\n"
+			"，弱小的野生宝可\n"
+			"梦将不会出现。");
 
 // Evolution stones
 static const u8 sSunStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+			"能让某些特定宝\n"
+			"可梦进化的\n"
+			"神奇石头。");
 
 static const u8 sMoonStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+			"能让某些特定宝\n"
+			"可梦进化的\n"
+			"神奇石头。");
 
 static const u8 sFireStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+			"能让某些特定宝\n"
+			"可梦进化的\n"
+			"神奇石头。");
 
 static const u8 sThunderStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+			"能让某些特定宝\n"
+			"可梦进化的\n"
+			"神奇石头。");
 
 static const u8 sWaterStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+			"能让某些特定宝\n"
+			"可梦进化的\n"
+			"神奇石头。");
 
 static const u8 sLeafStoneDesc[] = _(
-    "Makes certain\n"
-    "species of POKéMON\n"
-    "evolve.");
+			"能让某些特定宝\n"
+			"可梦进化的\n"
+			"神奇石头。");
 
 // Valuable items
 static const u8 sTinyMushroomDesc[] = _(
-    "A plain mushroom\n"
-    "that would sell\n"
-    "at a cheap price.");
+			"珍稀的小蘑菇。在\n"
+			"一些爱好者中有着\n"
+			"相当高的人气。");
 
 static const u8 sBigMushroomDesc[] = _(
-    "A rare mushroom\n"
-    "that would sell at a\n"
-    "high price.");
+			"珍稀的大蘑菇。\n"
+			"在一些爱好者\n"
+			"中非常有人气。");
 
 static const u8 sPearlDesc[] = _(
-    "A pretty pearl\n"
-    "that would sell at a\n"
-    "cheap price.");
+			"散发着光泽且有点\n"
+			"小的珍珠。可以在\n"
+			"商店低价出售。");
 
 static const u8 sBigPearlDesc[] = _(
-    "A lovely large pearl\n"
-    "that would sell at a\n"
-    "high price.");
+			"散发着光泽且相当\n"
+			"大颗的珍珠。可以\n"
+			"在商店高价出售。");
 
 static const u8 sStardustDesc[] = _(
-    "Beautiful red sand.\n"
-    "Can be sold at a\n"
-    "high price.");
+			"手感细腻且美丽的\n"
+			"红色沙子。可以在\n"
+			"商店低价出售。");
 
 static const u8 sStarPieceDesc[] = _(
-    "A red gem shard.\n"
-    "It would sell for a\n"
-    "very high price.");
+			"闪红光且十分美丽\n"
+			"的宝石碎片。可以\n"
+			"在商店高价出售。");
 
 static const u8 sNuggetDesc[] = _(
-    "A nugget of pure\n"
-    "gold. Can be sold at\n"
-    "a high price.");
+			"闪着金光，以纯金\n"
+			"制成的珠子。可以\n"
+			"在商店高价出售。");
 
 static const u8 sHeartScaleDesc[] = _(
-    "A lovely scale.\n"
-    "It is coveted by\n"
-    "collectors.");
+			"有着美丽心形外形\n"
+			"的珍稀鳞片。有些\n"
+			"人收到会很高兴。");
 
 // Mail
 static const u8 sOrangeMailDesc[] = _(
-    "A ZIGZAGOON-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+			"印有蛇纹熊的信纸\n"
+			"，可以让宝可梦携\n"
+			"带。");
 
 static const u8 sHarborMailDesc[] = _(
-    "A WINGULL-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+			"印有长翅鸥的信纸\n"
+			"，可以让宝可梦携\n"
+			"带。");
 
 static const u8 sGlitterMailDesc[] = _(
-    "A PIKACHU-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+			"印有皮卡丘的信纸\n"
+			"，可以让宝可梦携\n"
+			"带。");
 
 static const u8 sMechMailDesc[] = _(
-    "A MAGNEMITE-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+			"印有小磁怪的信纸\n"
+			"，可以让宝可梦携\n"
+			"带。");
 
 static const u8 sWoodMailDesc[] = _(
-    "A SLAKOTH-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+			"印有懒人獭的信纸\n"
+			"，可以让宝可梦携\n"
+			"带。");
 
 static const u8 sWaveMailDesc[] = _(
-    "A WAILMER-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+			"印有吼吼鲸的信纸\n"
+			"，可以让宝可梦携\n"
+			"带。");
 
 static const u8 sBeadMailDesc[] = _(
-    "MAIL featuring a\n"
-    "sketch of the\n"
-    "holding POKéMON.");
+			"能显示持有者的\n"
+			"信纸，可以让宝可\n"
+			"梦携带。");
 
 static const u8 sShadowMailDesc[] = _(
-    "A DUSKULL-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+			"印有夜巡灵的信纸\n"
+			"，可以让宝可梦携\n"
+			"带。");
 
 static const u8 sTropicMailDesc[] = _(
-    "A BELLOSSOM-print\n"
-    "MAIL to be held by\n"
-    "a POKéMON.");
+			"印有美丽花的信纸\n"
+			"，可以让宝可梦携\n"
+			"带。");
 
 static const u8 sDreamMailDesc[] = _(
-    "MAIL featuring a\n"
-    "sketch of the\n"
-    "holding POKéMON.");
+			"能显示持有者的\n"
+			"信纸，可以让宝可\n"
+			"梦携带。");
 
 static const u8 sFabMailDesc[] = _(
-    "A gorgeous-print\n"
-    "MAIL to be held\n"
-    "by a POKéMON.");
+			"一张华丽的信纸，\n"
+			"可以让宝可梦携带\n"
+			"。");
 
 static const u8 sRetroMailDesc[] = _(
-    "MAIL featuring the\n"
-    "drawings of three\n"
-    "POKéMON.");
+			"印有三种宝可梦的\n"
+			"信纸，可以让宝可\n"
+			"梦携带。");
 
 // Berries
 static const u8 sCheriBerryDesc[] = _(
-    "A hold item that\n"
-    "heals paralysis\n"
-    "in battle.");
+			"携带后，可以治愈\n"
+			"麻痹。");
 
 static const u8 sChestoBerryDesc[] = _(
-    "A hold item that\n"
-    "awakens POKéMON\n"
-    "in battle.");
+			"携带后，可以治愈\n"
+			"睡眠。");
 
 static const u8 sPechaBerryDesc[] = _(
-    "A hold item that\n"
-    "heals poisoning\n"
-    "in battle.");
+			"携带后，可以治愈\n"
+			"中毒。");
 
 static const u8 sRawstBerryDesc[] = _(
-    "A hold item that\n"
-    "heals a burn in\n"
-    "battle.");
+			"携带后，可以治愈\n"
+			"灼伤。");
 
 static const u8 sAspearBerryDesc[] = _(
-    "A hold item that\n"
-    "defrosts POKéMON\n"
-    "in battle.");
+			"携带后，可以治愈\n"
+			"冰冻。");
 
 static const u8 sLeppaBerryDesc[] = _(
-    "A hold item that\n"
-    "restores 10 PP in\n"
-    "battle.");
+			"携带后，可以回复\n"
+			"10PP。");
 
 static const u8 sOranBerryDesc[] = _(
-    "A hold item that\n"
-    "restores 10 HP in\n"
-    "battle.");
+			"携带后，可以回复\n"
+			"10HP。");
 
 static const u8 sPersimBerryDesc[] = _(
-    "A hold item that\n"
-    "heals confusion\n"
-    "in battle.");
+			"携带后，可以治愈\n"
+			"混乱。");
 
 static const u8 sLumBerryDesc[] = _(
-    "A hold item that\n"
-    "heals any status\n"
-    "problem in battle.");
+			"携带后，可以治愈\n"
+			"所有异常状态。");
 
 static const u8 sSitrusBerryDesc[] = _(
-    "A hold item that\n"
-    "restores 30 HP in\n"
-    "battle.");
+			"携带后，可以回复\n"
+			"少量HP。");
 
 static const u8 sFigyBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
-    "may confuse.");
+			"携带后危机时可以\n"
+			"回复HP。如果\n"
+			"讨厌味道会混乱。");
 
 static const u8 sWikiBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
-    "may confuse.");
+			"携带后危机时可以\n"
+			"回复HP。如果\n"
+			"讨厌味道会混乱。");
 
 static const u8 sMagoBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
-    "may confuse.");
+			"携带后危机时可以\n"
+			"回复HP。如果\n"
+			"讨厌味道会混乱。");
 
 static const u8 sAguavBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
-    "may confuse.");
+			"携带后危机时可以\n"
+			"回复HP。如果\n"
+			"讨厌味道会混乱。");
 
 static const u8 sIapapaBerryDesc[] = _(
-    "A hold item that\n"
-    "restores HP but\n"
-    "may confuse.");
+			"携带后危机时可以\n"
+			"回复HP。如果\n"
+			"讨厌味道会混乱。");
 
 static const u8 sRazzBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow RAZZ.");
+			"可用于制作宝可方\n"
+			"块打磨强壮。黄色\n"
+			"的果实有点酸的。");
 
 static const u8 sBlukBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow BLUK.");
+			"可用于制作宝可方\n"
+			"块打磨美丽。蓝色\n"
+			"的果实有点涩的。");
 
 static const u8 sNanabBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow NANAB.");
+			"捕捉宝可梦时，给\n"
+			"它就能稍微平复一\n"
+			"下情绪。");
 
 static const u8 sWepearBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow WEPEAR.");
+			"可用于制作宝可方\n"
+			"块打磨聪明。绿色\n"
+			"的果实有点苦的。");
 
 static const u8 sPinapBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow PINAP.");
+			"可用于制作宝可方\n"
+			"块打磨强壮。黄色\n"
+			"的果实有点酸的。");
 
 static const u8 sPomegBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base HP.");
+			"给宝可梦后会变得\n"
+			"容易亲密，但HP\n"
+			"基础点数会降低。");
 
 static const u8 sKelpsyBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base ATTACK.");
+			"给宝可梦后会变得\n"
+			"容易亲密，但攻击\n"
+			"基础点数会降低。");
 
 static const u8 sQualotBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base DEFENSE.");
+			"给宝可梦后会变得\n"
+			"容易亲密，但防御\n"
+			"基础点数会降低。");
 
 static const u8 sHondewBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base SP. ATK.");
+			"给宝可梦后会变得\n"
+			"容易亲密，但特攻\n"
+			"基础点数会降低。");
 
 static const u8 sGrepaBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base SP. DEF.");
+			"给宝可梦后会变得\n"
+			"容易亲密，但特防\n"
+			"基础点数会降低。");
 
 static const u8 sTamatoBerryDesc[] = _(
-    "Makes a POKéMON\n"
-    "friendly but lowers\n"
-    "base SPEED.");
+			"给宝可梦后会变得\n"
+			"容易亲密，但速度\n"
+			"基础点数会降低。");
 
 static const u8 sCornnBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow CORNN.");
+			"可用于制作宝可方\n"
+			"块打磨美丽。在其\n"
+			"他地区很少见。");
 
 static const u8 sMagostBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow MAGOST.");
+			"可用于制作宝可方\n"
+			"块打磨可爱。在其\n"
+			"他地区很少见。");
 
 static const u8 sRabutaBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow RABUTA.");
+			"可用于制作宝可方\n"
+			"块打磨聪明。在其\n"
+			"他地区很少见。");
 
 static const u8 sNomelBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow NOMEL.");
+			"可用于制作宝可方\n"
+			"块打磨强壮。在其\n"
+			"他地区很少见。");
 
 static const u8 sSpelonBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow SPELON.");
+			"可用于制作宝可方\n"
+			"块打磨可爱。在其\n"
+			"他地区很少见。");
 
 static const u8 sPamtreBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow PAMTRE.");
+			"可用于制作宝可方\n"
+			"块打磨美丽。在其\n"
+			"他地区很少见。");
 
 static const u8 sWatmelBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow WATMEL.");
+			"可用于制作宝可方\n"
+			"块打磨聪明。在其\n"
+			"他地区很少见。");
 
 static const u8 sDurinBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow DURIN.");
+			"可用于制作宝可方\n"
+			"块打磨聪明。在其\n"
+			"他地区很少见。");
 
 static const u8 sBelueBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow BELUE.");
+			"可用于制作宝可方\n"
+			"块打磨美丽。在其\n"
+			"他地区很少见。");
 
 static const u8 sLiechiBerryDesc[] = _(
-    "A hold item that\n"
-    "raises ATTACK in\n"
-    "a pinch.");
+			"携带后，危机时，\n"
+			"自己的攻击就会提\n"
+			"高。");
 
 static const u8 sGanlonBerryDesc[] = _(
-    "A hold item that\n"
-    "raises DEFENSE in\n"
-    "a pinch.");
+			"携带后，危机时，\n"
+			"自己的防御就会提\n"
+			"高。");
 
 static const u8 sSalacBerryDesc[] = _(
-    "A hold item that\n"
-    "raises SPEED in\n"
-    "a pinch.");
+			"携带后，危机时，\n"
+			"自己的速度就会提\n"
+			"高。");
 
 static const u8 sPetayaBerryDesc[] = _(
-    "A hold item that\n"
-    "raises SP. ATK in\n"
-    "a pinch.");
+			"携带后，危机时，\n"
+			"自己的特攻就会提\n"
+			"高。");
 
 static const u8 sApicotBerryDesc[] = _(
-    "A hold item that\n"
-    "raises SP. DEF in\n"
-    "a pinch.");
+			"携带后，危机时，\n"
+			"自己的特防就会提\n"
+			"高。");
 
 static const u8 sLansatBerryDesc[] = _(
-    "A hold item that\n"
-    "ups the critical-\n"
-    "hit rate in a pinch.");
+			"携带后，危机时，\n"
+			"攻击会变得容易击\n"
+			"中要害。");
 
 static const u8 sStarfBerryDesc[] = _(
-    "A hold item that\n"
-    "sharply boosts a\n"
-    "stat in a pinch.");
+			"携带后，危机时，\n"
+			"某一项能力就会大\n"
+			"幅提高。");
 
 static const u8 sEnigmaBerryDesc[] = _(
-    "{POKEBLOCK} ingredient.\n"
-    "Plant in loamy soil\n"
-    "to grow a mystery.");
+			"受效果绝佳的招式\n"
+			"攻击时，可以回复\n"
+			"HP。");
 
 // Hold items
 static const u8 sBrightPowderDesc[] = _(
-    "A hold item that\n"
-    "casts a glare to\n"
-    "reduce accuracy.");
+			"携带后，使对手招\n"
+			"式变得不易命中的\n"
+			"闪闪发光的粉末。");
 
 static const u8 sWhiteHerbDesc[] = _(
-    "A hold item that\n"
-    "restores any\n"
-    "lowered stat.");
+			"当携带宝可梦能力\n"
+			"降低时，仅能回到\n"
+			"之前的状态1次。");
 
 static const u8 sMachoBraceDesc[] = _(
-    "A hold item that\n"
-    "promotes growth,\n"
-    "but reduces SPEED.");
+			"虽然携带后速度会\n"
+			"降低，但会比平时\n"
+			"更容易成长。");
 
 static const u8 sExpShareDesc[] = _(
-    "A hold item that\n"
-    "gets EXP. points\n"
-    "from battles.");
+			"打开后，能让同行\n"
+			"的所有宝可梦获得\n"
+			"经验值的装置。");
 
 static const u8 sQuickClawDesc[] = _(
-    "A hold item that\n"
-    "occasionally allows\n"
-    "the first strike.");
+			"又轻又尖锐的爪子\n"
+			"。携带后，有时能\n"
+			"先一步行动。");
 
 static const u8 sSootheBellDesc[] = _(
-    "A hold item that\n"
-    "calms spirits and\n"
-    "fosters friendship.");
+			"音色悦耳的铃铛。\n"
+			"携带宝可梦会变得\n"
+			"容易亲密。");
 
 static const u8 sMentalHerbDesc[] = _(
-    "A hold item that\n"
-    "snaps POKéMON out\n"
-    "of infatuation.");
+			"当携带宝可梦无法\n"
+			"自由使出招式时，\n"
+			"仅会回复1次。");
 
 static const u8 sChoiceBandDesc[] = _(
-    "Raises a move's\n"
-    "power, but permits\n"
-    "only that move.");
+			"有点讲究的头带。\n"
+			"携带后攻击提升但\n"
+			"只能用相同招式。");
 
 static const u8 sKingsRockDesc[] = _(
-    "A hold item that\n"
-    "may cause flinching\n"
-    "when the foe is hit.");
+			"携带后进行攻击，\n"
+			"在造成伤害时，有\n"
+			"时会让对手畏缩。");
 
 static const u8 sSilverPowderDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "BUG-type moves.");
+			"散发着银色光辉的\n"
+			"粉末。携带后，虫\n"
+			"招式威力会提高。");
 
 static const u8 sAmuletCoinDesc[] = _(
-    "Doubles money in\n"
-    "battle if the\n"
-    "holder takes part.");
+			"携带它的宝可梦\n"
+			"战斗时出场，就\n"
+			"能获得2倍金钱。");
 
 static const u8 sCleanseTagDesc[] = _(
-    "A hold item that\n"
-    "helps repel wild\n"
-    "POKéMON.");
+			"让最前排的宝可\n"
+			"梦携带，野生宝可\n"
+			"梦就会不易出现。");
 
 static const u8 sSoulDewDesc[] = _(
-    "Hold item: raises\n"
-    "SP. ATK & SP. DEF of\n"
-    "LATIOS & LATIAS.");
+			"让水都携带后，超\n"
+			"能和龙招式威力提\n"
+			"高的神奇珠子。");
 
 static const u8 sDeepSeaToothDesc[] = _(
-    "A hold item that\n"
-    "raises the SP. ATK\n"
-    "of CLAMPERL.");
+			"让珍珠贝携带后，\n"
+			"特攻就会提高的牙\n"
+			"齿。");
 
 static const u8 sDeepSeaScaleDesc[] = _(
-    "A hold item that\n"
-    "raises the SP. DEF\n"
-    "of CLAMPERL.");
+			"让珍珠贝携带后，\n"
+			"特防就会提高的鳞\n"
+			"片。");
 
 static const u8 sSmokeBallDesc[] = _(
-    "A hold item that\n"
-    "assures fleeing\n"
-    "from wild POKéMON.");
+			"携带宝可梦在和野\n"
+			"生宝可梦的战斗中\n"
+			"绝对可以逃走。");
 
 static const u8 sEverstoneDesc[] = _(
-    "A wondrous hold\n"
-    "item that prevents\n"
-    "evolution.");
+			"携带后，宝可梦在\n"
+			"此期间不会进化的\n"
+			"神奇石头。");
 
 static const u8 sFocusBandDesc[] = _(
-    "A hold item that\n"
-    "occasionally\n"
-    "prevents fainting.");
+			"携带后，即便受到\n"
+			"致命招式有时也能\n"
+			"以1HP撑过去。");
 
 static const u8 sLuckyEggDesc[] = _(
-    "A hold item that\n"
-    "boosts EXP. points\n"
-    "earned in battle.");
+			"满载着幸福的蛋。\n"
+			"携带后获得的经验\n"
+			"值会少量增加。");
 
 static const u8 sScopeLensDesc[] = _(
-    "A hold item that\n"
-    "improves the\n"
-    "critical-hit rate.");
+			"能看见弱点的镜片\n"
+			"。携带后会变得容\n"
+			"易击中要害。");
 
 static const u8 sMetalCoatDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "STEEL-type moves.");
+			"特殊的金属膜。携\n"
+			"带后，钢招式威力\n"
+			"会提高。");
 
 static const u8 sLeftoversDesc[] = _(
-    "A hold item that\n"
-    "gradually restores\n"
-    "HP in battle.");
+			"携带后，宝可梦的\n"
+			"HP会在战斗期间\n"
+			"缓缓回复。");
 
 static const u8 sDragonScaleDesc[] = _(
-    "A strange scale\n"
-    "held by DRAGON-\n"
-    "type POKéMON.");
+			"又硬又坚固的鳞片\n"
+			"。龙属性宝可梦有\n"
+			"时会携带它。");
 
 static const u8 sLightBallDesc[] = _(
-    "A hold item that\n"
-    "raises the SP. ATK\n"
-    "of PIKACHU.");
+			"让皮卡丘携带后，\n"
+			"攻击和特攻提高的\n"
+			"神奇之球。");
 
 static const u8 sSoftSandDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "GROUND-type moves.");
+			"手感细腻的沙子。\n"
+			"携带后，地面招式\n"
+			"威力会提高。");
 
 static const u8 sHardStoneDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "ROCK-type moves.");
+			"绝对不会裂开的石\n"
+			"头。岩石招式威力\n"
+			"会提高。");
 
 static const u8 sMiracleSeedDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "GRASS-type moves.");
+			"孕育生命的种子。\n"
+			"携带后，草招式威\n"
+			"力会提高。");
 
 static const u8 sBlackGlassesDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "DARK-type moves.");
+			"看上去很奇怪的眼\n"
+			"镜。携带后，恶招\n"
+			"式威力会提高。");
 
 static const u8 sBlackBeltDesc[] = _(
-    "A hold item that\n"
-    "boosts FIGHTING-\n"
-    "type moves.");
+			"能振作精神的带子\n"
+			"。携带后，格斗招\n"
+			"式威力会提高。");
 
 static const u8 sMagnetDesc[] = _(
-    "A hold item that\n"
-    "boosts ELECTRIC-\n"
-    "type moves.");
+			"强力的磁铁。携带\n"
+			"后，电招式威力会\n"
+			"提高。");
 
 static const u8 sMysticWaterDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "WATER-type moves.");
+			"水滴形状的宝石。\n"
+			"携带后，水招式威\n"
+			"力会提高。");
 
 static const u8 sSharpBeakDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "FLYING-type moves.");
+			"又长又尖的鸟嘴。\n"
+			"携带后，飞行招式\n"
+			"威力会提高。");
 
 static const u8 sPoisonBarbDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "POISON-type moves.");
+			"有毒的小针。携带\n"
+			"后，毒招式威力会\n"
+			"提高。");
 
 static const u8 sNeverMeltIceDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "ICE-type moves.");
+			"能隔绝热量的冰。\n"
+			"携带后，冰招式威\n"
+			"力会提高。");
 
 static const u8 sSpellTagDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "GHOST-type moves.");
+			"古怪可怕的咒符。\n"
+			"携带后，幽灵招式\n"
+			"威力会提高。");
 
 static const u8 sTwistedSpoonDesc[] = _(
-    "A hold item that\n"
-    "boosts PSYCHIC-\n"
-    "type moves.");
+			"注入了念力的汤匙\n"
+			"。携带后，超能力\n"
+			"招式会增强。");
 
 static const u8 sCharcoalDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "FIRE-type moves.");
+			"焚烧用的燃料。携\n"
+			"带后，火招式威力\n"
+			"会提高。");
 
 static const u8 sDragonFangDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "DRAGON-type moves.");
+			"坚硬锐利的牙齿。\n"
+			"携带后，龙招式威\n"
+			"力会提高。");
 
 static const u8 sSilkScarfDesc[] = _(
-    "A hold item that\n"
-    "raises the power of\n"
-    "NORMAL-type moves.");
+			"手感不错的围巾。\n"
+			"携带后，一般招式\n"
+			"威力会提高。");
 
 static const u8 sUpGradeDesc[] = _(
     "A peculiar box made\n"
     "by SILPH CO.");
 
 static const u8 sShellBellDesc[] = _(
-    "A hold item that\n"
-    "restores HP upon\n"
-    "striking the foe.");
+			"当携带后攻击造成\n"
+			"伤害时，能回复少\n"
+			"量HP。");
 
 static const u8 sSeaIncenseDesc[] = _(
-    "A hold item that\n"
-    "slightly boosts\n"
-    "WATER-type moves.");
+			"香气神奇的薰香。\n"
+			"携带后，水属性的\n"
+			"招式会增强。");
 
 static const u8 sLaxIncenseDesc[] = _(
-    "A hold item that\n"
-    "slightly lowers the\n"
-    "foe's accuracy.");
+			"携带后，对手招式\n"
+			"会变得不容易命中\n"
+			"。");
 
 static const u8 sLuckyPunchDesc[] = _(
-    "A hold item that\n"
-    "raises CHANSEY's\n"
-    "critical-hit rate.");
+			"让吉利蛋携带后，\n"
+			"招式会变得容易击\n"
+			"中要害的拳套。");
 
 static const u8 sMetalPowderDesc[] = _(
-    "A hold item that\n"
-    "raises DITTO's\n"
-    "DEFENSE.");
+			"让百变怪携带后，\n"
+			"防御就会提高的神\n"
+			"奇粉末。");
 
 static const u8 sThickClubDesc[] = _(
-    "A hold item that \n"
-    "raises CUBONE or\n"
-    "MAROWAK's ATTACK.");
+			"让卡拉卡拉或嘎啦\n"
+			"嘎啦携带后，攻击\n"
+			"就会提高的骨头。");
 
 static const u8 sStickDesc[] = _(
     "A hold item that\n"
@@ -948,39 +938,40 @@ static const u8 sStickDesc[] = _(
     "critical-hit ratio.");
 
 static const u8 sRedScarfDesc[] = _(
-    "A hold item that\n"
-    "raises COOL in\n"
-    "CONTESTS.");
+			"携带它去参加华丽\n"
+			"大赛的话会比平时\n"
+			"更加帅气。");
 
 static const u8 sBlueScarfDesc[] = _(
-    "A hold item that\n"
-    "raises BEAUTY in\n"
-    "CONTESTS.");
+			"携带它去参加华丽\n"
+			"大赛的话会比平时\n"
+			"更加美丽。");
 
 static const u8 sPinkScarfDesc[] = _(
-    "A hold item that\n"
-    "raises CUTE in\n"
-    "CONTESTS.");
+			"携带它去参加华丽\n"
+			"大赛的话会比平时\n"
+			"更加可爱。");
 
 static const u8 sGreenScarfDesc[] = _(
-    "A hold item that\n"
-    "raises SMART in\n"
-    "CONTESTS.");
+			"携带它去参加华丽\n"
+			"大赛的话会比平时\n"
+			"更加聪明。");
 
 static const u8 sYellowScarfDesc[] = _(
-    "A hold item that\n"
-    "raises TOUGH in\n"
-    "CONTESTS.");
+			"携带它去参加华丽\n"
+			"大赛的话会比平时\n"
+			"更加强壮。");
 
 // Key items
 static const u8 sMachBikeDesc[] = _(
-    "A folding bicycle\n"
-    "that doubles your\n"
-    "speed or better.");
+			"能以2倍以上的速\n"
+			"度移动的折叠式自\n"
+			"行车。");
 
 static const u8 sCoinCaseDesc[] = _(
-    "A case that holds\n"
-    "up to 9,999 COINS.");
+			"可以存放代币的盒\n"
+			"子。最多能放入\n"
+			"50000枚。");
 
 static const u8 sItemfinderDesc[] = _(
     "A device that\n"
@@ -988,34 +979,34 @@ static const u8 sItemfinderDesc[] = _(
     "item by sound.");
 
 static const u8 sOldRodDesc[] = _(
-    "Use by any body of\n"
-    "water to fish for\n"
-    "wild POKéMON.");
+			"又破又旧的钓竿。\n"
+			"在有水的地方可以\n"
+			"钓到宝可梦。");
 
 static const u8 sGoodRodDesc[] = _(
-    "A decent fishing\n"
-    "rod for catching\n"
-    "wild POKéMON.");
+			"不错的新钓竿。在\n"
+			"有水的地方可以钓\n"
+			"到宝可梦。");
 
 static const u8 sSuperRodDesc[] = _(
-    "The best fishing\n"
-    "rod for catching\n"
-    "wild POKéMON.");
+			"最新的厉害钓竿。\n"
+			"在有水的地方可以\n"
+			"钓到宝可梦。");
 
 static const u8 sSSTicketDesc[] = _(
-    "The ticket required\n"
-    "for sailing on a\n"
-    "ferry.");
+			"乘坐渡轮时需要用\n"
+			"到的船票。上面绘\n"
+			"有船只的图案。");
 
 static const u8 sContestPassDesc[] = _(
-    "The pass required\n"
-    "for entering\n"
-    "POKéMON CONTESTS.");
+			"拿着它就可以参加\n"
+			"华丽大赛。上面印\n"
+			"有纪念奖章。");
 
 static const u8 sWailmerPailDesc[] = _(
-    "A tool used for\n"
-    "watering BERRIES\n"
-    "and plants.");
+			"浇水的道具。能让\n"
+			"埋在土壤里的树果\n"
+			"快快长大。");
 
 static const u8 sDevonGoodsDesc[] = _(
     "A package that\n"
@@ -1023,58 +1014,55 @@ static const u8 sDevonGoodsDesc[] = _(
     "machine parts.");
 
 static const u8 sSootSackDesc[] = _(
-    "A sack used to\n"
-    "gather and hold\n"
-    "volcanic ash.");
+			"将堆积起来的火山\n"
+			"灰收集起来的袋子\n"
+			"。");
 
 static const u8 sBasementKeyDesc[] = _(
-    "The key for NEW\n"
-    "MAUVILLE beneath\n"
-    "MAUVILLE CITY.");
+			"用来打开满金地道\n"
+			"大门的钥匙。");
 
 static const u8 sAcroBikeDesc[] = _(
-    "A folding bicycle\n"
-    "capable of jumps\n"
-    "and wheelies.");
+			"能做出跳跃或抬前\n"
+			"轮动作的折叠式自\n"
+			"行车。");
 
 static const u8 sPokeblockCaseDesc[] = _(
-    "A case for holding\n"
-    "{POKEBLOCK}S made with\n"
-    "a BERRY BLENDER.");
+			"可以用来放置用树\n"
+			"果混合器制造的宝\n"
+			"可方块的盒子。");
 
 static const u8 sLetterDesc[] = _(
-    "A letter to STEVEN\n"
-    "from the PRESIDENT\n"
-    "of the DEVON CORP.");
+			"从得文社长那里得\n"
+			"到的信。");
 
 static const u8 sEonTicketDesc[] = _(
-    "The ticket for a\n"
-    "ferry to a distant\n"
-    "southern island.");
+			"前往南方孤岛的船\n"
+			"票。");
 
 static const u8 sRedOrbDesc[] = _(
-    "A red, glowing orb\n"
-    "said to contain an\n"
-    "ancient power.");
+			"散发着红色光辉的\n"
+			"宝珠。据说和丰缘\n"
+			"传说渊源颇深。");
 
 static const u8 sBlueOrbDesc[] = _(
-    "A blue, glowing orb\n"
-    "said to contain an\n"
-    "ancient power.");
+			"散发着蓝色光辉的\n"
+			"宝珠。据说和丰缘\n"
+			"传说渊源颇深。");
 
 static const u8 sScannerDesc[] = _(
-    "A device found\n"
-    "inside the\n"
-    "ABANDONED SHIP.");
+			"在弃船中找到的\n"
+			"道具。");
 
 static const u8 sGoGogglesDesc[] = _(
-    "Nifty goggles that\n"
-    "protect eyes from\n"
-    "desert sandstorms.");
+			"能在沙漠的沙暴中\n"
+			"保护眼睛的出色护\n"
+			"目镜。");
 
 static const u8 sMeteoriteDesc[] = _(
-    "A meteorite found\n"
-    "at METEOR FALLS.");
+			"原本是落入流星瀑\n"
+			"布里的陨石。是在\n"
+			"烟囱山获得的。");
 
 static const u8 sRoom1KeyDesc[] = _(
     "A key that opens a\n"
@@ -1097,316 +1085,312 @@ static const u8 sRoom6KeyDesc[] = _(
     "ABANDONED SHIP.");
 
 static const u8 sStorageKeyDesc[] = _(
-    "The key to the\n"
-    "storage inside the\n"
-    "ABANDONED SHIP.");
+			"进入弃船的仓库时\n"
+			"所需的钥匙。");
 
 static const u8 sRootFossilDesc[] = _(
-    "A fossil of an\n"
-    "ancient, seafloor-\n"
-    "dwelling POKéMON.");
+			"很久以前栖息在\n"
+			"海里的古代宝\n"
+			"可梦的化石。");
 
 static const u8 sClawFossilDesc[] = _(
-    "A fossil of an\n"
-    "ancient, seafloor-\n"
-    "dwelling POKéMON.");
+			"很久以前栖息在\n"
+			"海里的古代宝\n"
+			"可梦的化石。");
 
 static const u8 sDevonScopeDesc[] = _(
-    "A device by DEVON\n"
-    "that signals any\n"
-    "unseeable POKéMON.");
+			"会对看不见的宝可\n"
+			"梦起反应的得文特\n"
+			"制产品。");
 
 // TMs/HMs
 static const u8 sTM01Desc[] = _(
-    "Powerful, but makes\n"
-    "the user flinch if\n"
-    "hit by the foe.");
+			"集中精神出拳。\n"
+			"在招式使出前若受\n"
+			"到攻击则会失败。");
 
 static const u8 sTM02Desc[] = _(
-    "Hooks and slashes\n"
-    "the foe with long,\n"
-    "sharp claws.");
+			"用尖锐的巨爪劈开\n"
+			"对手进行攻击。");
 
 static const u8 sTM03Desc[] = _(
-    "Generates an\n"
-    "ultrasonic wave\n"
-    "that may confuse.");
+			"用水的震动攻击\n"
+			"对手，有时会使\n"
+			"对手混乱。");
 
 static const u8 sTM04Desc[] = _(
-    "Raises SP. ATK and\n"
-    "SP. DEF by focusing\n"
-    "the mind.");
+			"精心凝神，从而\n"
+			"提高自己的\n"
+			"特攻和特防。");
 
 static const u8 sTM05Desc[] = _(
-    "A savage roar that\n"
-    "makes the foe flee \n"
-    "to end the battle.");
+			"强制后备宝可梦\n"
+			"上场。若为野生\n"
+			"宝可梦结束战斗。");
 
 static const u8 sTM06Desc[] = _(
-    "Poisons the foe\n"
-    "with a toxin that\n"
-    "gradually worsens.");
+			"让对手陷入剧毒\n"
+			"状态。中毒伤害\n"
+			"会逐渐增加。");
 
 static const u8 sTM07Desc[] = _(
-    "Creates a hailstorm\n"
-    "that damages all\n"
-    "types except ICE.");
+			"在5回合内降下冰\n"
+			"雹，非冰属性的宝\n"
+			"可梦会受到伤害。");
 
 static const u8 sTM08Desc[] = _(
-    "Bulks up the body\n"
-    "to boost both\n"
-    "ATTACK & DEFENSE.");
+			"使出全身力气绷紧\n"
+			"肌肉，提高自己\n"
+			"的攻击和防御。");
 
 static const u8 sTM09Desc[] = _(
-    "Shoots 2 to 5 seeds\n"
-    "in a row to strike\n"
-    "the foe.");
+			"向对手猛烈地发射\n"
+			"种子攻击。连续\n"
+			"攻击2～5次。");
 
 static const u8 sTM10Desc[] = _(
-    "The attack power\n"
-    "varies among\n"
-    "different POKéMON.");
+			"招式的属性会随着\n"
+			"使用此招式的\n"
+			"宝可梦而改变。");
 
 static const u8 sTM11Desc[] = _(
-    "Raises the power of\n"
-    "FIRE-type moves\n"
-    "for 5 turns.");
+			"在5回合内日照强\n"
+			"烈，提高火属性\n"
+			"招式威力。");
 
 static const u8 sTM12Desc[] = _(
-    "Enrages the foe so\n"
-    "it can only use\n"
-    "attack moves.");
+			"使对手愤怒。在3\n"
+			"回合内让对手只能\n"
+			"用攻击类招式。");
 
 static const u8 sTM13Desc[] = _(
-    "Fires an icy cold\n"
-    "beam that may\n"
-    "freeze the foe.");
+			"向对手发射冰冻光\n"
+			"束攻击。有时会让\n"
+			"对手陷入冰冻。");
 
 static const u8 sTM14Desc[] = _(
-    "A brutal snow-and-\n"
-    "wind attack that\n"
-    "may freeze the foe.");
+			"将猛烈的暴风雪刮\n"
+			"向对手攻击。有时\n"
+			"会让对手冰冻。");
 
 static const u8 sTM15Desc[] = _(
-    "Powerful, but needs\n"
-    "recharging the\n"
-    "next turn.");
+			"使出强力的攻击，\n"
+			"但是下一回合\n"
+			"自己将无法动弹。");
 
 static const u8 sTM16Desc[] = _(
-    "Creates a wall of\n"
-    "light that lowers\n"
-    "SP. ATK damage.");
+			"利用神奇的墙壁，\n"
+			"在5回合内减弱\n"
+			"特殊攻击的伤害。");
 
 static const u8 sTM17Desc[] = _(
-    "Negates all damage,\n"
-    "but may fail if used\n"
-    "in succession.");
+			"完全抵挡对手的\n"
+			"攻击。连续使出\n"
+			"则容易失败。");
 
 static const u8 sTM18Desc[] = _(
-    "Raises the power of\n"
-    "WATER-type moves\n"
-    "for 5 turns.");
+			"在5回合内一直降\n"
+			"雨，提高水属性\n"
+			"招式威力。");
 
 static const u8 sTM19Desc[] = _(
-    "Recovers half the\n"
-    "HP of the damage \n"
-    "this move inflicts.");
+			"吸取对手的养分\n"
+			"攻击。可以回复\n"
+			"伤害的一半HP。");
 
 static const u8 sTM20Desc[] = _(
-    "Prevents status\n"
-    "abnormality with a\n"
-    "mystical power.");
+			"在5回合内被神奇\n"
+			"力量守护，从而不\n"
+			"会陷入异常状态。");
 
 static const u8 sTM21Desc[] = _(
-    "The less the user\n"
-    "likes you, the more\n"
-    "powerful this move.");
+			"为了发泄不满而\n"
+			"全力攻击。亲密度\n"
+			"越低，威力越大。");
 
 static const u8 sTM22Desc[] = _(
-    "Absorbs sunlight in\n"
-    "the 1st turn, then\n"
-    "attacks next turn.");
+			"第1回合收集满满\n"
+			"的日光，第2回合\n"
+			"发射光束攻击。");
 
 static const u8 sTM23Desc[] = _(
-    "Slams the foe with\n"
-    "a hard tail. It may\n"
-    "lower DEFENSE.");
+			"使用坚硬的尾巴摔\n"
+			"打对手攻击。有时\n"
+			"会降低对手防御。");
 
 static const u8 sTM24Desc[] = _(
-    "A powerful electric\n"
-    "attack that may\n"
-    "cause paralysis.");
+			"向对手发出强力电\n"
+			"击攻击。有时会\n"
+			"让对手陷入麻痹。");
 
 static const u8 sTM25Desc[] = _(
-    "Strikes the foe\n"
-    "with a thunderbolt.\n"
-    "It may paralyze.");
+			"向对手劈下暴雷攻\n"
+			"击。有时会让对\n"
+			"手陷入麻痹状态。");
 
 static const u8 sTM26Desc[] = _(
-    "Causes a quake\n"
-    "that has no effect\n"
-    "on flying foes.");
+			"利用地震的冲击，\n"
+			"攻击自己周围\n"
+			"所有的宝可梦。");
 
 static const u8 sTM27Desc[] = _(
-    "The more the user\n"
-    "likes you, the more\n"
-    "powerful this move.");
+			"为了训练家而全力\n"
+			"攻击对手。亲密度\n"
+			"越高威力越大。");
 
 static const u8 sTM28Desc[] = _(
-    "Digs underground\n"
-    "the 1st turn, then\n"
-    "strikes next turn.");
+			"第1回合钻入地底\n"
+			"，第2回合攻击\n"
+			"对手。");
 
 static const u8 sTM29Desc[] = _(
-    "A powerful psychic\n"
-    "attack that may\n"
-    "lower SP. DEF.");
+			"向对手发送强大的\n"
+			"念力攻击。有时会\n"
+			"降低对手的特防。");
 
 static const u8 sTM30Desc[] = _(
-    "Hurls a dark lump\n"
-    "at the foe. It may\n"
-    "lower SP. DEF.");
+			"投掷一团黑影攻\n"
+			"击。有时会降低\n"
+			"对手的特防。");
 
 static const u8 sTM31Desc[] = _(
-    "Destroys barriers\n"
-    "like LIGHT SCREEN\n"
-    "and causes damage.");
+			"将手刀猛烈地挥下\n"
+			"攻击对手。还可以\n"
+			"破坏场上墙壁。");
 
 static const u8 sTM32Desc[] = _(
-    "Creates illusory\n"
-    "copies to enhance\n"
-    "elusiveness.");
+			"通过快速移动来制\n"
+			"造分身，扰乱对手\n"
+			"从而提高闪避率。");
 
 static const u8 sTM33Desc[] = _(
-    "Creates a wall of\n"
-    "light that weakens\n"
-    "physical attacks.");
+			"利用神奇的墙壁，\n"
+			"在5回合内减弱\n"
+			"物理攻击的伤害。");
 
 static const u8 sTM34Desc[] = _(
-    "Zaps the foe with a\n"
-    "jolt of electricity\n"
-    "that never misses.");
+			"向对手快速发出\n"
+			"电击。攻击必定会\n"
+			"命中。");
 
 static const u8 sTM35Desc[] = _(
-    "Looses a stream of\n"
-    "fire that may burn\n"
-    "the foe.");
+			"向对手发射烈焰\n"
+			"攻击。有时会让\n"
+			"对手陷入灼伤。");
 
 static const u8 sTM36Desc[] = _(
-    "Hurls sludge at the\n"
-    "foe. It may poison\n"
-    "the foe.");
+			"用污泥投掷对手\n"
+			"攻击。有时会让\n"
+			"对手陷入中毒。");
 
 static const u8 sTM37Desc[] = _(
-    "Causes a sandstorm\n"
-    "that hits the foe\n"
-    "over several turns.");
+			"在5回合内扬起沙\n"
+			"暴，岩石地面钢外\n"
+			"宝可梦都会受伤。");
 
 static const u8 sTM38Desc[] = _(
-    "A powerful fire\n"
-    "attack that may\n"
-    "burn the foe.");
+			"用大字形状的火焰\n"
+			"烧尽对手。有时会\n"
+			"让对手陷入灼伤。");
 
 static const u8 sTM39Desc[] = _(
-    "Stops the foe from\n"
-    "moving with rocks.\n"
-    "May lower SPEED.");
+			"投掷岩石攻击。\n"
+			"封住对手的行动，\n"
+			"从而降低速度。");
 
 static const u8 sTM40Desc[] = _(
-    "An extremely fast\n"
-    "attack that can't\n"
-    "be avoided.");
+			"以敏捷动作戏弄\n"
+			"对手后切斩。\n"
+			"攻击必定会命中。");
 
 static const u8 sTM41Desc[] = _(
-    "Prevents the foe\n"
-    "from using the same\n"
-    "move in a row.");
+			"向对手无理取闹，\n"
+			"令其不能连续2次\n"
+			"使出相同招式。");
 
 static const u8 sTM42Desc[] = _(
-    "Raises ATTACK when\n"
-    "poisoned, burned,\n"
-    "or paralyzed.");
+			"当处于中毒、麻痹\n"
+			"或灼伤时，招式威\n"
+			"力会变成2倍。");
 
 static const u8 sTM43Desc[] = _(
-    "Adds an effect to\n"
-    "attack depending\n"
-    "on the location.");
+			"使用时场所不同，\n"
+			"招式的追加效果\n"
+			"也会改变。");
 
 static const u8 sTM44Desc[] = _(
-    "The user sleeps for\n"
-    "2 turns to restore\n"
-    "health and status.");
+			"连续睡上2回合。\n"
+			"回复全部HP以及\n"
+			"治愈所有异常。");
 
 static const u8 sTM45Desc[] = _(
-    "Makes it tough to\n"
-    "attack a foe of the\n"
-    "opposite gender.");
+			"诱惑异性，让对\n"
+			"手着迷。对手将\n"
+			"很难使出招式。");
 
 static const u8 sTM46Desc[] = _(
-    "While attacking,\n"
-    "it may steal the\n"
-    "foe's held item.");
+			"攻击时盗取道具。\n"
+			"当自己携带道具\n"
+			"时，不会去盗取。");
 
 static const u8 sTM47Desc[] = _(
-    "Spreads hard-\n"
-    "edged wings and\n"
-    "slams into the foe.");
+			"用坚硬的翅膀敲打\n"
+			"对手攻击。有时会\n"
+			"提高自己的防御。");
 
 static const u8 sTM48Desc[] = _(
-    "Switches abilities\n"
-    "with the foe on the\n"
-    "turn this is used.");
+			"利用超能力互换\n"
+			"自己和对手的\n"
+			"特性。");
 
 static const u8 sTM49Desc[] = _(
-    "Steals the effects\n"
-    "of the move the foe\n"
-    "is trying to use.");
+			"将对手要使用的回\n"
+			"复招式或能力变化\n"
+			"招式夺为己用。");
 
 static const u8 sTM50Desc[] = _(
-    "Enables full-power\n"
-    "attack, but sharply\n"
-    "lowers SP. ATK.");
+			"使出全部力量攻击\n"
+			"对手。之后自己的\n"
+			"特攻大幅降低。");
 
 
 static const u8 sHM01Desc[] = _(
-    "Attacks the foe\n"
-    "with sharp blades\n"
-    "or claws.");
+			"用镰刀或爪子等\n"
+			"切斩对手攻击。");
 
 static const u8 sHM02Desc[] = _(
-    "Flies up on the\n"
-    "first turn, then\n"
-    "attacks next turn.");
+			"第1回合飞上天空\n"
+			"，第2回合攻击\n"
+			"对手。");
 
 static const u8 sHM03Desc[] = _(
-    "Creates a huge\n"
-    "wave, then crashes\n"
-    "it down on the foe.");
+			"利用大浪攻击自己\n"
+			"周围所有的\n"
+			"宝可梦。");
 
 static const u8 sHM04Desc[] = _(
-    "Builds enormous\n"
-    "power, then slams\n"
-    "the foe.");
+			"使出浑身力气殴打\n"
+			"对手攻击。");
 
 static const u8 sHM05Desc[] = _(
-    "Looses a powerful\n"
-    "blast of light that\n"
-    "reduces accuracy.");
+			"使出光芒降低对手\n"
+			"的命中率。也可在\n"
+			"暗窟里照亮四周。");
 
 static const u8 sHM06Desc[] = _(
-    "A rock-crushingly\n"
-    "tough attack that\n"
-    "may lower DEFENSE.");
+			"用拳头攻击。\n"
+			"有时会降低\n"
+			"对手的防御。");
 
 static const u8 sHM07Desc[] = _(
-    "Attacks the foe\n"
-    "with enough power\n"
-    "to climb waterfalls.");
+			"以惊人的气势\n"
+			"扑向对手。有时会\n"
+			"使对手畏缩。");
 
 static const u8 sHM08Desc[] = _(
-    "Dives underwater\n"
-    "the 1st turn, then\n"
-    "attacks next turn.");
+			"第1回合潜入水中\n"
+			"，第2回合浮上来\n"
+			"攻击。");
 
 // FireRed/LeafGreen key items
 static const u8 sOaksParcelDesc[] = _(
@@ -1415,137 +1399,133 @@ static const u8 sOaksParcelDesc[] = _(
     "MART's clerk.");
 
 static const u8 sPokeFluteDesc[] = _(
-    "A sweet-sounding\n"
-    "flute that awakens\n"
-    "POKéMON.");
+			"能吹出让睡着的宝\n"
+			"可梦都会醒来的美\n"
+			"妙音色的笛子。");
 
 static const u8 sSecretKeyDesc[] = _(
-    "The key to the\n"
-    "CINNABAR ISLAND\n"
-    "GYM's entrance.");
+			"能打开红莲岛上那\n"
+			"座宝可梦道馆的钥\n"
+			"匙。");
 
 static const u8 sBikeVoucherDesc[] = _(
-    "A voucher for\n"
-    "obtaining a bicycle\n"
-    "from the BIKE SHOP.");
+			"给华蓝市的奇迹自\n"
+			"行车店就能交换得\n"
+			"到自行车。");
 
 static const u8 sGoldTeethDesc[] = _(
-    "Gold dentures lost\n"
-    "by the SAFARI\n"
-    "ZONE's WARDEN.");
+			"狩猎地带的园长遗\n"
+			"失的金假牙。");
 
 static const u8 sOldAmberDesc[] = _(
-    "A stone containing\n"
-    "the genes of an\n"
-    "ancient POKéMON.");
+			"封存着古代宝可梦\n"
+			"遗传基因的琥珀，\n"
+			"透着点红色。");
 
 static const u8 sCardKeyDesc[] = _(
-    "A card-type door\n"
-    "key used in SILPH\n"
-    "CO's office.");
+			"用来打开的西尔佛\n"
+			"公司总部大厦门锁\n"
+			"的卡片式钥匙。");
 
 static const u8 sLiftKeyDesc[] = _(
-    "An elevator key\n"
-    "used in TEAM\n"
-    "ROCKET's HIDEOUT.");
+			"能启动位于火箭队\n"
+			"基地的电梯。");
 
 static const u8 sHelixFossilDesc[] = _(
-    "A piece of an\n"
-    "ancient marine\n"
-    "POKéMON's seashell.");
+			"很久以前的古代宝\n"
+			"可梦的化石。好像\n"
+			"是贝壳的一部分。");
 
 static const u8 sDomeFossilDesc[] = _(
-    "A piece of an\n"
-    "ancient marine\n"
-    "POKéMON's shell.");
+			"很久以前的古代宝\n"
+			"可梦的化石。好像\n"
+			"是甲壳的一部分。");
 
 static const u8 sSilphScopeDesc[] = _(
-    "SILPH CO's scope\n"
-    "makes unseeable\n"
-    "POKéMON visible.");
+			"可以看见人眼无法\n"
+			"看见的东西。");
 
 static const u8 sBicycleDesc[] = _(
-    "A folding bicycle\n"
-    "that is faster than\n"
-    "the RUNNING SHOES.");
+			"能比跑步鞋跑得还\n"
+			"快的折叠式自行车\n"
+			"。");
 
 static const u8 sTownMapDesc[] = _(
-    "Can be viewed\n"
-    "anytime. Shows your\n"
-    "present location.");
+			"可以随时轻松查看\n"
+			"的便利地图。也能\n"
+			"清楚自己的位置。");
 
 static const u8 sVSSeekerDesc[] = _(
-    "A rechargeable unit\n"
-    "that flags battle-\n"
-    "ready TRAINERS.");
+			"会告诉你想对战的\n"
+			"训练家在哪的机器\n"
+			"。走路就能充电。");
 
 static const u8 sFameCheckerDesc[] = _(
-    "Stores information\n"
-    "on famous people\n"
-    "for instant recall.");
+			"可以重复查看打听\n"
+			"到的有名人物的东\n"
+			"西。");
 
 static const u8 sTMCaseDesc[] = _(
-    "A convenient case \n"
-    "that holds TMs and\n"
-    "HMs.");
+			"用来存放招式学习\n"
+			"器的盒子，放在重\n"
+			"要物品口袋里。");
 
 static const u8 sBerryPouchDesc[] = _(
-    "A convenient\n"
-    "container that\n"
-    "holds BERRIES.");
+			"将树果收集起来的\n"
+			"袋子，放在包包的\n"
+			"重要物品口袋里。");
 
 static const u8 sTeachyTVDesc[] = _(
-    "A TV set tuned to\n"
-    "an advice program\n"
-    "for TRAINERS.");
+			"可以收看对新手训\n"
+			"练家有帮助的节目\n"
+			"的电视。");
 
 static const u8 sTriPassDesc[] = _(
-    "A pass for ferries\n"
-    "between ONE, TWO,\n"
-    "and THREE ISLAND.");
+			"能够在第1、2、\n"
+			"3岛之间用渡轮移\n"
+			"动的通行证。");
 
 static const u8 sRainbowPassDesc[] = _(
-    "For ferries serving\n"
-    "VERMILION and the\n"
-    "SEVII ISLANDS.");
+			"能够在枯叶市和七\n"
+			"之岛之间用渡轮移\n"
+			"动的通行证。");
 
 static const u8 sTeaDesc[] = _(
-    "A thirst-quenching\n"
-    "tea prepared by an\n"
-    "old lady.");
+			"有一点点苦，却又\n"
+			"芬芳宜人的香茶。");
 
 static const u8 sMysticTicketDesc[] = _(
-    "A ticket required\n"
-    "to board the ship\n"
-    "to NAVEL ROCK.");
+			"前往肚脐岩时必要\n"
+			"的船票。神秘地发\n"
+			"着光。");
 
 static const u8 sAuroraTicketDesc[] = _(
-    "A ticket required\n"
-    "to board the ship\n"
-    "to BIRTH ISLAND.");
+			"前往诞生之岛时必\n"
+			"要的船票。美丽地\n"
+			"散发着光芒。");
 
 static const u8 sPowderJarDesc[] = _(
-    "Stores BERRY\n"
-    "POWDER made using\n"
-    "a BERRY CRUSHER.");
+			"能收纳树果碾碎器\n"
+			"制作出的树果粉末\n"
+			"的保存用瓶子。");
 
 static const u8 sRubyDesc[] = _(
-    "An exquisite, red-\n"
-    "glowing gem that\n"
-    "symbolizes passion.");
+			"散发着红色光辉的\n"
+			"非常漂亮的宝石。\n"
+			"热情的象征。");
 
 static const u8 sSapphireDesc[] = _(
-    "A brilliant blue gem\n"
-    "that symbolizes\n"
-    "honesty.");
+			"散发着蓝色光辉的\n"
+			"非常漂亮的宝石。\n"
+			"真诚的象征。");
 
 // Emerald-specific key items
 static const u8 sMagmaEmblemDesc[] = _(
-    "A medal-like item in\n"
-    "the same shape as\n"
-    "TEAM MAGMA's mark.");
+			"与熔岩队的标志形\n"
+			"状相同的徽章模样\n"
+			"的东西。");
 
 static const u8 sOldSeaMapDesc[] = _(
-    "A faded sea chart\n"
-    "that shows the way\n"
-    "to a certain island.");
+			"记录着前往某座岛\n"
+			"屿的路线的一张古\n"
+			"老的航海图。");

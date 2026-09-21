@@ -268,9 +268,9 @@ static const u8 sText_WasMade[] = _("制作完成了！");
 static const u8 sText_Mister[] = _("MISTER");
 static const u8 sText_Laddie[] = _("LADDIE");
 static const u8 sText_Lassie[] = _("LASSIE");
-static const u8 sText_Master[] = _("MASTER");
-static const u8 sText_Dude[] = _("DUDE");
-static const u8 sText_Miss[] = _("MISS");
+static const u8 sText_Master[] = _("大师");
+static const u8 sText_Dude[] = _("男");
+static const u8 sText_Miss[] = _("想");
 
 static const u8 *const sBlenderOpponentsNames[] =
 {
@@ -292,7 +292,7 @@ static const u8 sText_HasNoBerriesToPut[] = _("没有能够继续放入\n树果�
 static const u8 sText_ApostropheSPokeblockCaseIsFull[] = _("的宝可方块盒满了。\p");
 static const u8 sText_BlendingResults[] = _("混合结果");
 static const u8 sText_BerryUsed[] = _("BERRY USED");
-static const u8 sText_SpaceBerry[] = _(" BERRY");
+static const u8 sText_SpaceBerry[] = _("果");
 static const u8 sText_Time[] = _("时间：");
 static const u8 sText_Min[] = _("分");
 static const u8 sText_Sec[] = _("秒");

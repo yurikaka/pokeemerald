@@ -70,6 +70,9 @@ def main() -> None:
             string_matches = list(STRING_LINE_RE.finditer(block))
             if not string_matches:
                 continue
+            current_strings = "".join(item.group(0) for item in string_matches)
+            if CJK_RE.search(current_strings):
+                continue
             start_in_block = string_matches[0].start()
             end_in_block = string_matches[-1].end()
             edits.append((match.start() + start_in_block,

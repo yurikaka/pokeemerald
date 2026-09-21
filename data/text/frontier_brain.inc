@@ -54,7 +54,7 @@ gText_LucyWonGold::
 	.string "Hah!$"
 
 gText_LucyDefeatGold::
-	.string "Darn!$"
+	.string "见鬼！$"
 
 @ Battle Arena
 gText_GretaWonSilver::

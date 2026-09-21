@@ -438,124 +438,94 @@ BattleFrontier_ExchangeServiceCorner_Text_PleaseChoosePrize:
     .string "请选择一个奖品。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmKissPoster:
-	.string "You've chosen the KISS POSTER.\n"
-	.string "Is that correct?$"
+    .string "您选择了飞吻海报。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmKissCushion:
-	.string "You've chosen the KISS CUSHION.\n"
-	.string "Is that correct?$"
+    .string "您选择了亲吻垫子。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmSmoochumDoll:
-	.string "You've chosen the SMOOCHUM DOLL.\n"
-	.string "Is that correct?$"
+    .string "您选择了迷唇娃玩偶。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmTogepiDoll:
-	.string "You've chosen the TOGEPI DOLL.\n"
-	.string "Is that correct?$"
+    .string "您选择了波克比玩偶。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmMeowthDoll:
-	.string "You've chosen the MEOWTH DOLL.\n"
-	.string "Is that correct?$"
+    .string "您选择了喵喵玩偶。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmClefairyDoll:
-	.string "You've chosen the CLEFAIRY DOLL.\n"
-	.string "Is that correct?$"
+    .string "您选择了皮皮玩偶。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmDittoDoll:
-	.string "You've chosen the DITTO DOLL.\n"
-	.string "Is that correct?$"
+    .string "您选择了百变怪玩偶。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCyndaquilDoll:
-	.string "You've chosen the CYNDAQUIL DOLL.\n"
-	.string "Is that correct?$"
+    .string "您选择了火球鼠玩偶。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmChikoritaDoll:
-	.string "You've chosen the CHIKORITA DOLL.\n"
-	.string "Is that correct?$"
+    .string "您选择了菊草叶玩偶。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmTotodileDoll:
-	.string "You've chosen the TOTODILE DOLL.\n"
-	.string "Is that correct?$"
+    .string "您选择了小锯鳄玩偶。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmLaprasDoll:
-	.string "You've chosen the LAPRAS DOLL.\n"
-	.string "Is that correct?$"
+    .string "您选择了拉普拉斯玩偶。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmSnorlaxDoll:
-	.string "You've chosen the SNORLAX DOLL.\n"
-	.string "Is that correct?$"
+    .string "您选择了卡比兽玩偶。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmVenusaurDoll:
-	.string "You've chosen the VENUSAUR DOLL.\n"
-	.string "Is that correct?$"
+    .string "您选择了妙蛙花玩偶。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCharizardDoll:
-	.string "You've chosen the CHARIZARD DOLL.\n"
-	.string "Is that correct?$"
+    .string "您选择了喷火龙玩偶。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmBlastoiseDoll:
-	.string "You've chosen the BLASTOISE DOLL.\n"
-	.string "Is that correct?$"
+    .string "您选择了水箭龟玩偶。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmProtein:
-	.string "You've chosen the PROTEIN.\n"
-	.string "Is that correct?$"
+    .string "您选择了攻击增强剂。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCalcium:
-	.string "You've chosen the CALCIUM.\n"
-	.string "Is that correct?$"
+    .string "您选择了特攻增强剂。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmIron:
-	.string "You've chosen the IRON.\n"
-	.string "Is that correct?$"
+    .string "您选择了防御增强剂。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmZinc:
-	.string "You've chosen the ZINC.\n"
-	.string "Is that correct?$"
+    .string "您选择了特防增强剂。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCarbos:
-	.string "You've chosen the CARBOS.\n"
-	.string "Is that correct?$"
+    .string "您选择了速度增强剂。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmHPUp:
-	.string "You've chosen the HP UP.\n"
-	.string "Is that correct?$"
+    .string "您选择了HP增强剂。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmBrightpowder:
-	.string "You've chosen the BRIGHTPOWDER.\n"
-	.string "Is that correct?$"
+    .string "您选择了光粉。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmWhiteHerb:
-	.string "You've chosen the WHITE HERB.\n"
-	.string "Is that correct?$"
+    .string "您选择了白色香草。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmQuickClaw:
-	.string "You've chosen the QUICK CLAW.\n"
-	.string "Is that correct?$"
+    .string "您选择了先制之爪。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmMentalHerb:
-	.string "You've chosen the MENTAL HERB.\n"
-	.string "Is that correct?$"
+    .string "您选择了心灵香草。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmChoiceBand:
-	.string "You've chosen the CHOICE BAND.\n"
-	.string "Is that correct?$"
+    .string "您选择了讲究头巾。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmKingsRock:
-	.string "You've chosen the KING'S ROCK.\n"
-	.string "Is that correct?$"
+    .string "您选择了王者之证。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmFocusBand:
-	.string "You've chosen the FOCUS BAND.\n"
-	.string "Is that correct?$"
+    .string "您选择了气势头带。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmScopeLens:
-	.string "You've chosen the SCOPE LENS.\n"
-	.string "Is that correct?$"
+    .string "您选择了焦点镜。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmLeftovers:
-	.string "You've chosen the LEFTOVERS.\n"
-	.string "Is that correct?$"
+    .string "您选择了吃剩的东西。\n可以吗？$"
 
 BattleFrontier_ExchangeServiceCorner_Text_WellSendItToPC:
     .string "谢谢！\n我们会把它送到您家的电脑上的。$"

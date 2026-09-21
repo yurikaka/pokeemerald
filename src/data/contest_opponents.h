@@ -148,8 +148,8 @@ const struct ContestWinner gDefaultContestWinners[] =
         .trainerId = CONTEST_AI_TRAINER_ID,
         .species = SPECIES_ELECTRIKE,
         .contestCategory = CONTEST_CATEGORY_CUTE,
-        .monName = _("ELECTER"),
-        .trainerName = _("EZRA"),
+        .monName = _("小杰"),
+        .trainerName = _("俊彦"),
         .contestRank = CONTEST_RANK_NORMAL
     },
     [CONTEST_WINNER_HALL_2 - 1] = {
@@ -157,8 +157,8 @@ const struct ContestWinner gDefaultContestWinners[] =
         .trainerId = CONTEST_AI_TRAINER_ID,
         .species = SPECIES_TROPIUS,
         .contestCategory = CONTEST_CATEGORY_COOL,
-        .monName = _("TROPO"),
-        .trainerName = _("ALLAN"),
+        .monName = _("瑞克"),
+        .trainerName = _("阿岚"),
         .contestRank = CONTEST_RANK_HYPER
     },
     [CONTEST_WINNER_HALL_3 - 1] = {
@@ -166,8 +166,8 @@ const struct ContestWinner gDefaultContestWinners[] =
         .trainerId = CONTEST_AI_TRAINER_ID,
         .species = SPECIES_XATU,
         .contestCategory = CONTEST_CATEGORY_BEAUTY,
-        .monName = _("TUXA"),
-        .trainerName = _("JULIET"),
+        .monName = _("提奥"),
+        .trainerName = _("美优"),
         .contestRank = CONTEST_RANK_NORMAL
     },
     [CONTEST_WINNER_HALL_4 - 1] = {
@@ -175,8 +175,8 @@ const struct ContestWinner gDefaultContestWinners[] =
         .trainerId = CONTEST_AI_TRAINER_ID,
         .species = SPECIES_PLUSLE,
         .contestCategory = CONTEST_CATEGORY_TOUGH,
-        .monName = _("PULSE"),
-        .trainerName = _("BAILY"),
+        .monName = _("奈奈"),
+        .trainerName = _("义则"),
         .contestRank = CONTEST_RANK_MASTER
     },
     [CONTEST_WINNER_HALL_5 - 1] = {
@@ -184,8 +184,8 @@ const struct ContestWinner gDefaultContestWinners[] =
         .trainerId = CONTEST_AI_TRAINER_ID,
         .species = SPECIES_SHUPPET,
         .contestCategory = CONTEST_CATEGORY_SMART,
-        .monName = _("SHUPUP"),
-        .trainerName = _("MELANY"),
+        .monName = _("小炭"),
+        .trainerName = _("阿荣"),
         .contestRank = CONTEST_RANK_SUPER
     },
     [CONTEST_WINNER_HALL_6 - 1] = {
@@ -193,8 +193,8 @@ const struct ContestWinner gDefaultContestWinners[] =
         .trainerId = CONTEST_AI_TRAINER_ID,
         .species = SPECIES_ZANGOOSE,
         .contestCategory = CONTEST_CATEGORY_COOL,
-        .monName = _("GOOZAN"),
-        .trainerName = _("HANA"),
+        .monName = _("劈斩"),
+        .trainerName = _("阳菜野"),
         .contestRank = CONTEST_RANK_HYPER
     },
     [CONTEST_WINNER_HALL_UNUSED_1 - 1] = {
@@ -202,8 +202,8 @@ const struct ContestWinner gDefaultContestWinners[] =
         .trainerId = CONTEST_AI_TRAINER_ID,
         .species = SPECIES_LOUDRED,
         .contestCategory = CONTEST_CATEGORY_BEAUTY,
-        .monName = _("LOUDED"),
-        .trainerName = _("BRYANT"),
+        .monName = _("爆吼"),
+        .trainerName = _("布莱恩"),
         .contestRank = CONTEST_RANK_HYPER
     },
     [CONTEST_WINNER_HALL_UNUSED_2 - 1] = {
@@ -211,7 +211,7 @@ const struct ContestWinner gDefaultContestWinners[] =
         .trainerId = CONTEST_AI_TRAINER_ID,
         .species = SPECIES_DELCATTY,
         .contestCategory = CONTEST_CATEGORY_CUTE,
-        .monName = _("KITSY"),
+        .monName = _("绮丝蒂"),
         .trainerName = _("OMAR"),
         .contestRank = CONTEST_RANK_MASTER
     }

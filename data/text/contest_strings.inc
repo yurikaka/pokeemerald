@@ -250,24 +250,23 @@ gContestMoveTypeToughText::
 	.string "TOUGH$"
 
 gText_AppealNumWhichMoveWillBePlayed::
-	.string "Appeal no. {STR_VAR_1}!\n"
-	.string "Which move will be played?$"
+	.string "第{STR_VAR_1}回合的表演！\n"
+	.string "要使用哪个招式呢？$"
 
 gText_AppealNumButItCantParticipate::
-	.string "Appeal no. {STR_VAR_1}!\n"
-	.string "But it can't participate!$"
+	.string "第{STR_VAR_1}回合的表演！\n"
+	.string "但是无法参加！$"
 
 gText_MonAppealedWithMove::
-	.string "{STR_VAR_1} appealed with\n"
-	.string "{STR_VAR_2}!$"
+	.string "{STR_VAR_1}使用了\n"
+	.string "{STR_VAR_2}进行表演！$"
 
 gText_MonWasWatchingOthers::
-	.string "{STR_VAR_1} was watching\n"
-	.string "the others.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{STR_VAR_1}在观察\n"
+	.string "其他的宝可梦！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_AllOutOfAppealTime::
-	.string "We're all out of\n"
-	.string "Appeal Time!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "表演时间结束！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 @ Unused appeal result texts
 
@@ -429,7 +428,7 @@ gText_StoodOutAsMuchAsSpecialAppeals::
 
 gText_StoodOutAsMuchAsMon::
 	.string "It stood out as much as\n"
-	.string "{STR_VAR_1}.$"
+	.string "{STR_VAR_1}老师。$"
 
 gText_JammedAppealsMadeEvenLessNoticeable::
 	.string "Jammed appeals were made\n"
@@ -442,297 +441,297 @@ gText_EveryonesAppealsMadeSame::
 @ Appeal result texts
 
 gText_BecameMoreConsciousOfOtherMons::
-	.string "It became more conscious\n"
-	.string "of the other POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它变得比平时\n"
+    .string "更加担心其他宝可梦了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonCantMakeAnAppealAfterThis::
-	.string "{STR_VAR_1} can't make an\n"
-	.string "appeal after this.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}此后\n"
+    .string "都无法再次进行表演了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_SettledDownJustLittleBit::
-	.string "It settled down just a\n"
-	.string "little bit.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它稍微有些\n"
+    .string "冷静下来了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_BecameObliviousToOtherMons::
-	.string "It became oblivious to\n"
-	.string "the other POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它变得完全\n"
+    .string "不关注其他宝可梦了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_BecameLessAwareOfOtherMons::
-	.string "It became less aware of\n"
-	.string "the other POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它变得不那么\n"
+    .string "关注其他宝可梦了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_StoppedCaringAboutOtherMons::
-	.string "It stopped caring about\n"
-	.string "other POKéMON much.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它不再那么\n"
+    .string "留意其他宝可梦了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TriedToStartleOtherMons::
-	.string "It tried to startle the\n"
-	.string "other POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "它试图惊吓\n"
+	.string "其他宝可梦！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TriedToDazzleOthers::
-	.string "It tried to dazzle the\n"
-	.string "others.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它试图让\n"
+    .string "其他宝可梦眼花缭乱！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_JudgeLookedAwayFromMon::
-	.string "The JUDGE looked away\n"
-	.string "from {STR_VAR_1}.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "评委的目光\n"
+    .string "从{STR_VAR_1}身上移开了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TriedToUnnerveNextMon::
-	.string "It tried to unnerve the\n"
-	.string "next POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它试图让下一只\n"
+    .string "表演的宝可梦紧张！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonBecameNervous::
-	.string "{STR_VAR_1} became\n"
-	.string "nervous.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}\n"
+    .string "紧张了起来！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_AppealTriedToUnnerveWaitingMons::
-	.string "The appeal tried to\n"
-	.string "unnerve waiting POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它试图让所有\n"
+    .string "之后表演的宝可梦紧张！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TauntedMonsDoingWell::
-	.string "It taunted POKéMON\n"
-	.string "doing well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它嘲笑了\n"
+    .string "气势良好的宝可梦！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonRegainedItsForm::
-	.string "{STR_VAR_1} regained its\n"
-	.string "form.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的气势\n"
+    .string "回到了本来的样子！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TriedToJamMonDoingWell::
-	.string "It tried to jam POKéMON\n"
-	.string "doing well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它试图干扰那些\n"
+    .string "表演引人注目的宝可梦！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_StandoutMonHustledEvenMore::
-	.string "The standout {STR_VAR_1}\n"
-	.string "hustled even more.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "本来就引人注目的\n"
+	.string "{STR_VAR_1}更加鼓足干劲了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_LargelyUnnoticedMonWorkedHard::
-	.string "The largely unnoticed\n"
-	.string "{STR_VAR_1} worked hard.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "原本不太引人注目的\n"
+    .string "{STR_VAR_1}加油努力了起来！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_WorkedAsMuchAsMonBefore::
-	.string "It worked as much as\n"
-	.string "POKéMON before it.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它鼓足了不会输给\n"
+    .string "前面所有宝可梦程度的干劲！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealDidNotGoWell::
-	.string "{STR_VAR_1}'s appeal did\n"
-	.string "not go well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的表演\n"
+    .string "没能成功奏效！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_WorkedAsMuchAsPrecedingMon::
-	.string "It worked as much as the\n"
-	.string "preceding POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "和前面的宝可梦\n"
+    .string "一样地鼓足了干劲！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealDidNotGoWell2::
-	.string "{STR_VAR_1}'s appeal did\n"
-	.string "not go well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的表演\n"
+    .string "没能成功奏效！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealDidNotGoWell3::
-	.string "{STR_VAR_1}'s appeal did\n"
-	.string "not go well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的表演\n"
+    .string "没能成功奏效！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentSlightlyWell::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went slightly well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的表演\n"
+    .string "做得还算可以！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentPrettyWell::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went pretty well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的表演\n"
+    .string "做得不错！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentExcellently::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went excellently.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的表演\n"
+    .string "做得非常出色！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWasDud::
-	.string "{STR_VAR_1}'s appeal was\n"
-	.string "a dud.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的表演\n"
+    .string "完全失败了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealDidNotWorkVeryWell::
-	.string "{STR_VAR_1}'s appeal did\n"
-	.string "not work very well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的表演\n"
+    .string "做得不怎么好！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentSlightlyWell2::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went slightly well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的表演\n"
+    .string "做得还算可以！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentPrettyWell2::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went pretty well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的表演\n"
+    .string "做得不错！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentVeryWell::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went very well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的表演\n"
+    .string "做得很好！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentExcellently2::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went excellently.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的表演\n"
+    .string "做得非常出色！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_SameTypeAsOneBeforeGood::
-	.string "It's the same type as the\n"
-	.string "POKéMON before--good!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "因为和前面的宝可梦\n"
+    .string "类别一致而受到喜欢！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_NotSameTypeAsOneBeforeGood::
-	.string "It's not the same type as\n"
-	.string "the one before--good!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "因为和前面的宝可梦\n"
+    .string "类别不同而受到喜欢！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_StoodOutMuchMoreThanMonBefore::
-	.string "It stood out much more\n"
-	.string "than the POKéMON before.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "比起前面的宝可梦\n"
+    .string "要出彩得多！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_DidntDoAsWellAsMonBefore::
-	.string "It didn't do as well as the\n"
-	.string "POKéMON before.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "比起前面的宝可梦\n"
+    .string "完成得不算太好！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsConditionRoseAboveUsual::
-	.string "{STR_VAR_1}'s condition\n"
-	.string "rose above usual.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}的气势\n"
+    .string "比平时有所提升！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsHotStatusMadeGreatAppeal::
-	.string "{STR_VAR_1}'s hot status\n"
-	.string "made it a great appeal!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}气势不错，\n"
+    .string "表演变得棒极了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MovedUpInLineForNextAppeal::
-	.string "It moved up in line for\n"
-	.string "the next appeal.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "它想要在下回合的表演里\n"
+	.string "更早出场而走到了前面！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MovedBackInLineForNextAppeal::
-	.string "It moved back in line once\n"
-	.string "for the next appeal.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "它想要在下回合的表演里\n"
+	.string "更晚出场而后退了一步！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_ScrambledUpOrderForNextTurn::
-	.string "It scrambled up the\n"
-	.string "order for the next turn.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "下个回合的表演顺序\n"
+	.string "变得奇怪了起来！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_JudgeLookedAtMonExpectantly::
-	.string "The JUDGE looked at\n"
-	.string "{STR_VAR_1} expectantly.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "评委满怀期待地\n"
+	.string "看着{STR_VAR_1}！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_AppealComboWentOverWell::
-	.string "The appeal combo went\n"
-	.string "over well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "前后演出的招式组合\n"
+	.string "得到了大家的喜爱！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_AppealComboWentOverVeryWell::
-	.string "The appeal combo went\n"
-	.string "over very well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "前后演出的招式组合\n"
+	.string "很受大家喜欢！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_AppealComboWentOverExcellently::
-	.string "The appeal combo went\n"
-	.string "over excellently.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "前后演出的招式组合\n"
+	.string "特别受大家喜欢！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonManagedToAvertGaze::
-	.string "{STR_VAR_1} managed to\n"
-	.string "avert its gaze.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}成功地\n"
+    .string "移开了视线！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonManagedToAvoidSeeingIt::
-	.string "{STR_VAR_1} managed to\n"
-	.string "avoid seeing it.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}成功地\n"
+    .string "避开了视线！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonIsntFazedByThatSortOfThing::
-	.string "{STR_VAR_1} isn't fazed\n"
-	.string "by that sort of thing.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}没有受\n"
+    .string "这种程度的事情影响！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonBecameALittleDistracted::
-	.string "{STR_VAR_1} became a\n"
-	.string "little distracted.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}变得\n"
+    .string "稍稍有点分心了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TriedToStartleOtherPokemon::
-	.string "It tried to startle the\n"
-	.string "other POKéMON.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "它试图惊吓\n"
+	.string "其他宝可梦！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonLookedDownOutOfDistraction::
-	.string "{STR_VAR_1} looked down\n"
-	.string "out of distraction.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{STR_VAR_1}因为分心\n"
+	.string "低下了头！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonTurnedBackOutOfDistraction::
-	.string "{STR_VAR_1} turned back\n"
-	.string "out of distraction.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{STR_VAR_1}因为分心\n"
+	.string "转过了身！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonCouldntHelpUtteringCry::
-	.string "{STR_VAR_1} couldn't help\n"
-	.string "uttering a cry.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{STR_VAR_1}忍不住地\n"
+	.string "叫出了声！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonCouldntHelpLeapingUp::
-	.string "{STR_VAR_1} couldn't help\n"
-	.string "leaping up.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{STR_VAR_1}忍不住地\n"
+	.string "跳了起来！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonTrippedOutOfDistraction::
-	.string "{STR_VAR_1} tripped over\n"
-	.string "out of distraction.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{STR_VAR_1}因为分心\n"
+	.string "摔在了地上四脚朝天！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonWasTooNervousToMove::
-	.string "{STR_VAR_1} was too\n"
-	.string "nervous to move.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{STR_VAR_1}因为紧张\n"
+	.string "无法使用招式表演了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_ButItMessedUp2::
-	.string "But it messed up.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "但它搞砸了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_ButItFailedToMakeTargetNervous::
-	.string "But it failed to make\n"
-	.string "the target nervous.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "但是它没能让\n"
+	.string "目标宝可梦紧张！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_ButItFailedToMakeAnyoneNervous::
-	.string "But it failed to make\n"
-	.string "anyone nervous.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "但是它没能让\n"
+	.string "任何宝可梦紧张！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_ButItWasIgnored::
-	.string "But it was ignored…{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "但它被无视了……{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_CouldntImproveItsCondition::
-	.string "But it couldn't improve\n"
-	.string "its condition…{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "但是它并没能\n"
+    .string "提升自己的气势……{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_BadConditionResultedInWeakAppeal::
-	.string "Its bad condition\n"
-	.string "resulted in a weak appeal.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "它因为气势不行\n"
+    .string "表演得一点也不好……{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonWasUnaffected::
-	.string "{STR_VAR_1} was\n"
-	.string "unaffected.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{STR_VAR_1}\n"
+    .string "完全不为所动！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_RepeatedAppeal::
-	.string "{STR_VAR_1} disappointed\n"
-	.string "by repeating an appeal.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "{STR_VAR_1}因为\n"
+    .string "重复表演，让大家失望了。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsXWentOverGreat::
-	.string "{STR_VAR_1}'s {STR_VAR_3}\n"
-	.string "went over great.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{STR_VAR_1}的{STR_VAR_3}表演\n"
+	.string "受到了大家的热烈欢迎！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsXDidntGoOverWell::
-	.string "{STR_VAR_1}'s {STR_VAR_3}\n"
-	.string "didn't go over well here…{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{STR_VAR_1}的{STR_VAR_3}表演\n"
+	.string "在这里不受欢迎……{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsXGotTheCrowdGoing::
-	.string "{STR_VAR_1}'s {STR_VAR_3}\n"
-	.string "got the crowd going.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{STR_VAR_1}的{STR_VAR_3}表演\n"
+	.string "让整个会场沸腾了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonCantAppealNextTurn::
-	.string "{STR_VAR_1} can't appeal\n"
-	.string "next turn…{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{STR_VAR_1}无法参加\n"
+    .string "下一次的表演了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_AttractedCrowdsAttention::
-	.string "It attracted the crowd's\n"
-	.string "attention.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "吸引了\n"
+    .string "观众们的注意！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_CrowdContinuesToWatchMon::
-	.string "The crowd continues to\n"
-	.string "watch {STR_VAR_3}.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "观众们一直\n"
+    .string "持续关注着{STR_VAR_3}！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsMoveIsIgnored::
-	.string "{STR_VAR_1}'s\n"
-	.string "{STR_VAR_2} is ignored.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{STR_VAR_1}的{STR_VAR_2}\n"
+    .string "被完全无视了……{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_Contest_Shyness::
-	.string "shyness$"
+    .string "扑通扑通$"
 
 gText_Contest_Anxiety::
-	.string "anxiety$"
+    .string "慌慌张张$"
 
 gText_Contest_Laziness::
-	.string "laziness$"
+    .string "懒懒洋洋$"
 
 gText_Contest_Hesitancy::
-	.string "hesitancy$"
+    .string "犹犹豫豫$"
 
 gText_Contest_Fear::
-	.string "fear$"
+	.string "战战栗栗$"
 
 gText_Contest_Coolness::
 	.string "coolness$"

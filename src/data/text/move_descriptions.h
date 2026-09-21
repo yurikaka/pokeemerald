@@ -2,1420 +2,1417 @@ static const u8 sNullDescription[] = _(
     "");
 
 static const u8 sPoundDescription[] = _(
-    "Pounds the foe with\n"
-    "forelegs or tail.");
+			"使用长长的尾巴或手等\n"
+			"拍打对手攻击。");
 
 static const u8 sKarateChopDescription[] = _(
-    "A chopping attack with a\n"
-    "high critical-hit ratio.");
+			"用锋利的手刀劈向对手攻击。\n"
+			"容易击中要害。");
 
 static const u8 sDoubleSlapDescription[] = _(
-    "Repeatedly slaps the foe\n"
-    "2 to 5 times.");
+			"用连环巴掌拍打对手攻击。\n"
+			"连续攻击2～5次。");
 
 static const u8 sCometPunchDescription[] = _(
-    "Repeatedly punches the foe\n"
-    "2 to 5 times.");
+			"用拳头怒涛般的殴打对手攻击。\n"
+			"连续攻击2～5次。");
 
 static const u8 sMegaPunchDescription[] = _(
-    "A strong punch thrown with\n"
-    "incredible power.");
+			"用充满力量的拳头攻击对手。");
 
 static const u8 sPayDayDescription[] = _(
-    "Throws coins at the foe.\n"
-    "Money is recovered after.");
+			"向对手投掷小金币攻击。\n"
+			"战斗后可以拿到钱。");
 
 static const u8 sFirePunchDescription[] = _(
-    "A fiery punch that may burn\n"
-    "the foe.");
+			"用充满火焰的拳头攻击对手。\n"
+			"有时会让对手陷入灼伤状态。");
 
 static const u8 sIcePunchDescription[] = _(
-    "An icy punch that may\n"
-    "freeze the foe.");
+			"用充满寒气的拳头攻击对手。\n"
+			"有时会让对手陷入冰冻状态。");
 
 static const u8 sThunderPunchDescription[] = _(
-    "An electrified punch that\n"
-    "may paralyze the foe.");
+			"用充满电流的拳头攻击对手。\n"
+			"有时会让对手陷入麻痹状态。");
 
 static const u8 sScratchDescription[] = _(
-    "Scratches the foe with\n"
-    "sharp claws.");
+			"用坚硬且无比锋利的爪\n"
+			"子抓对手攻击。");
 
 static const u8 sViceGripDescription[] = _(
     "Grips the foe with large and\n"
     "powerful pincers.");
 
 static const u8 sGuillotineDescription[] = _(
-    "A powerful pincer attack\n"
-    "that may cause fainting.");
+			"用钳子或剪刀夹断对手攻击。\n"
+			"只要命中就会一击昏厥。");
 
 static const u8 sRazorWindDescription[] = _(
-    "A 2-turn move that strikes\n"
-    "the foe on the 2nd turn.");
+			"制造风之刃，于第2回合攻击\n"
+			"对手。容易击中要害。");
 
 static const u8 sSwordsDanceDescription[] = _(
-    "A fighting dance that\n"
-    "sharply raises ATTACK.");
+			"激烈地跳起战舞提高气势。\n"
+			"大幅提高自己的攻击。");
 
 static const u8 sCutDescription[] = _(
-    "Cuts the foe with sharp\n"
-    "scythes, claws, etc.");
+			"用镰刀或爪子等切斩\n"
+			"对手攻击。");
 
 static const u8 sGustDescription[] = _(
-    "Strikes the foe with a gust\n"
-    "of wind whipped up by wings.");
+			"用翅膀将刮起的狂风\n"
+			"袭向对手进行攻击。");
 
 static const u8 sWingAttackDescription[] = _(
-    "Strikes the foe with wings\n"
-    "spread wide.");
+			"大大地展开美丽的翅膀，\n"
+			"将其撞向对手攻击。");
 
 static const u8 sWhirlwindDescription[] = _(
-    "Blows away the foe with\n"
-    "wind and ends the battle.");
+			"吹飞对手使后备宝可梦上场。\n"
+			"若是野生宝可梦将结束战斗。");
 
 static const u8 sFlyDescription[] = _(
-    "Flies up on the first turn,\n"
-    "then strikes the next turn.");
+			"第1回合飞上天空，\n"
+			"第2回合攻击对手。");
 
 static const u8 sBindDescription[] = _(
-    "Binds and squeezes the foe\n"
-    "for 2 to 5 turns.");
+			"使用长长的身体或藤蔓等，\n"
+			"在4～5回合内绑紧对手攻击。");
 
 static const u8 sSlamDescription[] = _(
-    "Slams the foe with a long\n"
-    "tail, vine, etc.");
+			"使用长长的尾巴或藤蔓\n"
+			"等摔打对手攻击。");
 
 static const u8 sVineWhipDescription[] = _(
-    "Strikes the foe with\n"
-    "slender, whiplike vines.");
+			"用如同鞭子般弯曲细长\n"
+			"的藤蔓摔打对手攻击。");
 
 static const u8 sStompDescription[] = _(
-    "Stomps the enemy with a big\n"
-    "foot. May cause flinching.");
+			"用大脚踩踏对手攻击。\n"
+			"有时会使对手畏缩。");
 
 static const u8 sDoubleKickDescription[] = _(
-    "A double-kicking attack\n"
-    "that strikes the foe twice.");
+			"用2只脚踢飞对手攻击。\n"
+			"连续2次给予伤害。");
 
 static const u8 sMegaKickDescription[] = _(
-    "An extremely powerful kick\n"
-    "with intense force.");
+			"使出力大无穷的重踢\n"
+			"踢飞对手攻击。");
 
 static const u8 sJumpKickDescription[] = _(
-    "A strong jumping kick. May\n"
-    "miss and hurt the kicker.");
+			"使出高高的腾空踢攻击对手。\n"
+			"如果踢偏则自己会受到伤害。");
 
 static const u8 sRollingKickDescription[] = _(
-    "A fast kick delivered from\n"
-    "a rapid spin.");
+			"边快速旋转，边踢飞对手\n"
+			"攻击。有时会使对手畏缩。");
 
 static const u8 sSandAttackDescription[] = _(
-    "Reduces the foe's accuracy\n"
-    "by hurling sand in its face.");
+			"向对手脸上泼沙子，\n"
+			"从而降低命中率。");
 
 static const u8 sHeadbuttDescription[] = _(
-    "A ramming attack that may\n"
-    "cause flinching.");
+			"将头伸出，笔直地扑向对手\n"
+			"攻击。有时会使对手畏缩。");
 
 static const u8 sHornAttackDescription[] = _(
-    "Jabs the foe with sharp\n"
-    "horns.");
+			"用尖锐的角攻击对手。");
 
 static const u8 sFuryAttackDescription[] = _(
-    "Jabs the foe 2 to 5 times\n"
-    "with sharp horns, etc.");
+			"用角或喙刺向对手攻击。\n"
+			"连续攻击2～5次。");
 
 static const u8 sHornDrillDescription[] = _(
-    "A one-hit KO attack that\n"
-    "uses a horn like a drill.");
+			"用旋转的角刺入对手攻击。\n"
+			"只要命中就会一击昏厥。");
 
 static const u8 sTackleDescription[] = _(
-    "Charges the foe with a full-\n"
-    "body tackle.");
+			"用整个身体撞向对手进\n"
+			"行攻击。");
 
 static const u8 sBodySlamDescription[] = _(
-    "A full-body slam that may\n"
-    "cause paralysis.");
+			"用整个身体压住对手攻击。\n"
+			"有时会让对手陷入麻痹状态。");
 
 static const u8 sWrapDescription[] = _(
-    "Wraps and squeezes the foe\n"
-    "2 to 5 times with vines, etc.");
+			"使用长长的身体或藤蔓等，\n"
+			"在4～5回合内紧束对手攻击。");
 
 static const u8 sTakeDownDescription[] = _(
-    "A reckless charge attack\n"
-    "that also hurts the user.");
+			"以惊人的气势撞向对手攻击。\n"
+			"自己也会受到少许伤害。");
 
 static const u8 sThrashDescription[] = _(
-    "A rampage of 2 to 3 turns\n"
-    "that confuses the user.");
+			"在2～3回合内乱打攻击对手。\n"
+			"大闹一番后会陷入混乱。");
 
 static const u8 sDoubleEdgeDescription[] = _(
-    "A life-risking tackle that\n"
-    "also hurts the user.");
+			"拼命地猛撞向对手攻击。\n"
+			"自己也会受到不小的伤害。");
 
 static const u8 sTailWhipDescription[] = _(
-    "Wags the tail to lower the\n"
-    "foe's DEFENSE.");
+			"可爱地左右摇尾巴，使对手\n"
+			"大意。会降低对手的防御。");
 
 static const u8 sPoisonStingDescription[] = _(
-    "A toxic attack with barbs,\n"
-    "etc., that may poison.");
+			"将有毒的针刺入对手攻击。\n"
+			"有时会让对手陷入中毒状态。");
 
 static const u8 sTwineedleDescription[] = _(
-    "Stingers on the forelegs\n"
-    "jab the foe twice.");
+			"将2根针刺入对手，连续2次\n"
+			"攻击。有时使对手中毒。");
 
 static const u8 sPinMissileDescription[] = _(
-    "Sharp pins are fired to\n"
-    "strike 2 to 5 times.");
+			"向对手发射锐针攻击。\n"
+			"连续攻击2～5次。");
 
 static const u8 sLeerDescription[] = _(
-    "Frightens the foe with a\n"
-    "leer to lower DEFENSE.");
+			"用犀利的眼神使其害怕，\n"
+			"从而降低对手的防御。");
 
 static const u8 sBiteDescription[] = _(
-    "Bites with vicious fangs.\n"
-    "May cause flinching.");
+			"用尖锐的牙咬住对手攻击。\n"
+			"有时会使对手畏缩。");
 
 static const u8 sGrowlDescription[] = _(
-    "Growls cutely to reduce the\n"
-    "foe's ATTACK.");
+			"让对手听可爱的叫声，\n"
+			"使其疏忽，降低攻击。");
 
 static const u8 sRoarDescription[] = _(
-    "Makes the foe flee to end\n"
-    "the battle.");
+			"强制后备宝可梦上场。\n"
+			"若为野生宝可梦结束战斗。");
 
 static const u8 sSingDescription[] = _(
-    "A soothing song lulls the\n"
-    "foe into a deep slumber.");
+			"让对手听舒适、美妙的歌声，\n"
+			"从而陷入睡眠状态。");
 
 static const u8 sSupersonicDescription[] = _(
-    "Emits bizarre sound waves\n"
-    "that may confuse the foe.");
+			"从身体发出特殊的音波，\n"
+			"从而使对手混乱。");
 
 static const u8 sSonicBoomDescription[] = _(
-    "Launches shock waves that\n"
-    "always inflict 20 HP damage.");
+			"将冲击波撞向对手攻击。\n"
+			"必定会给予20的伤害。");
 
 static const u8 sDisableDescription[] = _(
-    "Psychically disables one of\n"
-    "the foe's moves.");
+			"阻碍对手行动，之前的招式\n"
+			"将在4回合内无法使用。");
 
 static const u8 sAcidDescription[] = _(
-    "Sprays a hide-melting acid.\n"
-    "May lower DEFENSE.");
+			"将强酸泼向对手攻击。\n"
+			"有时会降低对手的特防。");
 
 static const u8 sEmberDescription[] = _(
-    "A weak fire attack that may\n"
-    "inflict a burn.");
+			"向对手发射小型火焰攻击。\n"
+			"有时会让对手陷入灼伤状态。");
 
 static const u8 sFlamethrowerDescription[] = _(
-    "A powerful fire attack that\n"
-    "may inflict a burn.");
+			"向对手发射烈焰攻击。\n"
+			"有时会让对手陷入灼伤状态。");
 
 static const u8 sMistDescription[] = _(
-    "Creates a mist that stops\n"
-    "reduction of abilities.");
+			"用白雾覆盖身体。在5回合内\n"
+			"不会让对手降低自己的能力。");
 
 static const u8 sWaterGunDescription[] = _(
-    "Squirts water to attack\n"
-    "the foe.");
+			"向对手猛烈地喷射水流\n"
+			"攻击。");
 
 static const u8 sHydroPumpDescription[] = _(
-    "Blasts water at high power\n"
-    "to strike the foe.");
+			"向对手猛烈地喷射大量\n"
+			"水流攻击。");
 
 static const u8 sSurfDescription[] = _(
-    "Creates a huge wave, then\n"
-    "crashes it down on the foe.");
+			"利用大浪攻击自己周围\n"
+			"所有的宝可梦。");
 
 static const u8 sIceBeamDescription[] = _(
-    "Blasts the foe with an icy\n"
-    "beam that may freeze it.");
+			"向对手发射冰冻光束攻击。\n"
+			"有时会让对手陷入冰冻状态。");
 
 static const u8 sBlizzardDescription[] = _(
-    "Hits the foe with an icy\n"
-    "storm that may freeze it.");
+			"将猛烈的暴风雪刮向对手攻击。\n"
+			"有时会让对手陷入冰冻状态。");
 
 static const u8 sPsybeamDescription[] = _(
-    "Fires a peculiar ray that\n"
-    "may confuse the foe.");
+			"向对手发射神奇的光线攻击。\n"
+			"有时会使对手混乱。");
 
 static const u8 sBubbleBeamDescription[] = _(
-    "Forcefully sprays bubbles\n"
-    "that may lower SPEED.");
+			"向对手猛烈地喷射泡沫攻击。\n"
+			"有时会降低对手的速度。");
 
 static const u8 sAuroraBeamDescription[] = _(
-    "Fires a rainbow-colored\n"
-    "beam that may lower ATTACK.");
+			"向对手发射虹色光束攻击。\n"
+			"有时会降低对手的攻击。");
 
 static const u8 sHyperBeamDescription[] = _(
-    "Powerful, but leaves the\n"
-    "user immobile the next turn.");
+			"使出强力的攻击，但是\n"
+			"下一回合自己将无法动弹。");
 
 static const u8 sPeckDescription[] = _(
-    "Attacks the foe with a\n"
-    "jabbing beak, etc.");
+			"用尖锐的喙或角刺向对\n"
+			"手攻击。");
 
 static const u8 sDrillPeckDescription[] = _(
-    "A corkscrewing attack with\n"
-    "the beak acting as a drill.");
+			"边旋转边将尖喙，\n"
+			"刺入对手攻击。");
 
 static const u8 sSubmissionDescription[] = _(
-    "A reckless body slam that\n"
-    "also hurts the user.");
+			"将对手同自己一起摔向地面。\n"
+			"自己也会受到少许伤害。");
 
 static const u8 sLowKickDescription[] = _(
-    "A kick that inflicts more\n"
-    "damage on heavier foes.");
+			"用力踢对手的脚，使其摔倒\n"
+			"攻击。对手越重，威力越大。");
 
 static const u8 sCounterDescription[] = _(
-    "Retaliates any physical hit\n"
-    "with double the power.");
+			"从对手那里受到物理攻击\n"
+			"的伤害将以2倍返还。");
 
 static const u8 sSeismicTossDescription[] = _(
-    "Inflicts damage identical\n"
-    "to the user's level.");
+			"利用引力将对手甩飞出去。\n"
+			"造成和自己等级相同的伤害。");
 
 static const u8 sStrengthDescription[] = _(
-    "Builds enormous power,\n"
-    "then slams the foe.");
+			"使出浑身力气殴打对手\n"
+			"攻击。");
 
 static const u8 sAbsorbDescription[] = _(
-    "An attack that absorbs\n"
-    "half the damage inflicted.");
+			"吸取对手的养分攻击。\n"
+			"可以回复伤害的一半HP。");
 
 static const u8 sMegaDrainDescription[] = _(
-    "An attack that absorbs\n"
-    "half the damage inflicted.");
+			"可以回复给予对手\n"
+			"伤害的一半HP。");
 
 static const u8 sLeechSeedDescription[] = _(
-    "Plants a seed on the foe to\n"
-    "steal HP on every turn.");
+			"在每回合一点点吸取\n"
+			"对手的HP，来回复HP。");
 
 static const u8 sGrowthDescription[] = _(
-    "Forces the body to grow\n"
-    "and heightens SP. ATK.");
+			"让身体一下子长大，\n"
+			"从而提高攻击和特攻。");
 
 static const u8 sRazorLeafDescription[] = _(
-    "Cuts the enemy with leaves.\n"
-    "High critical-hit ratio.");
+			"飞出叶片，切斩对手进行\n"
+			"攻击。容易击中要害。");
 
 static const u8 sSolarBeamDescription[] = _(
-    "Absorbs light in one turn,\n"
-    "then attacks next turn.");
+			"第1回合收集满满的日光，\n"
+			"第2回合发射光束攻击。");
 
 static const u8 sPoisonPowderDescription[] = _(
-    "Scatters a toxic powder\n"
-    "that may poison the foe.");
+			"撒出毒粉，\n"
+			"从而让对手陷入中毒状态。");
 
 static const u8 sStunSporeDescription[] = _(
-    "Scatters a powder that may\n"
-    "paralyze the foe.");
+			"撒出麻痹粉，\n"
+			"从而让对手陷入麻痹状态。");
 
 static const u8 sSleepPowderDescription[] = _(
-    "Scatters a powder that may\n"
-    "cause the foe to sleep.");
+			"撒出催眠粉，\n"
+			"从而让对手陷入睡眠状态。");
 
 static const u8 sPetalDanceDescription[] = _(
-    "A rampage of 2 to 3 turns\n"
-    "that confuses the user.");
+			"在2～3回合内散落花瓣攻击\n"
+			"对手。之后自己会陷入混乱。");
 
 static const u8 sStringShotDescription[] = _(
-    "Binds the foe with string\n"
-    "to reduce its SPEED.");
+			"用口中吐出的丝缠绕对手，\n"
+			"从而大幅降低对手的速度。");
 
 static const u8 sDragonRageDescription[] = _(
-    "Launches shock waves that\n"
-    "always inflict 40 HP damage.");
+			"将愤怒冲击波撞向对手攻击。\n"
+			"必定会给予40的伤害。");
 
 static const u8 sFireSpinDescription[] = _(
-    "Traps the foe in a ring of\n"
-    "fire for 2 to 5 turns.");
+			"将对手困在火焰旋涡中，\n"
+			"在4～5回合内攻击。");
 
 static const u8 sThunderShockDescription[] = _(
-    "An electrical attack that\n"
-    "may paralyze the foe.");
+			"发出电流刺激对手攻击。\n"
+			"有时会让对手陷入麻痹状态。");
 
 static const u8 sThunderboltDescription[] = _(
-    "A strong electrical attack\n"
-    "that may paralyze the foe.");
+			"向对手发出强力电击攻击。\n"
+			"有时会让对手陷入麻痹状态。");
 
 static const u8 sThunderWaveDescription[] = _(
-    "A weak jolt of electricity\n"
-    "that paralyzes the foe.");
+			"向对手发出微弱的电击，\n"
+			"从而让对手陷入麻痹状态。");
 
 static const u8 sThunderDescription[] = _(
-    "A lightning attack that may\n"
-    "cause paralysis.");
+			"向对手劈下暴雷攻击。\n"
+			"有时会让对手陷入麻痹状态。");
 
 static const u8 sRockThrowDescription[] = _(
-    "Throws small rocks to\n"
-    "strike the foe.");
+			"拿起小岩石，\n"
+			"投掷对手攻击。");
 
 static const u8 sEarthquakeDescription[] = _(
-    "A powerful quake, but has\n"
-    "no effect on flying foes.");
+			"利用地震的冲击，\n"
+			"攻击自己周围所有的宝可梦。");
 
 static const u8 sFissureDescription[] = _(
-    "A one-hit KO move that\n"
-    "drops the foe in a fissure.");
+			"让对手掉落于地裂的裂缝中。\n"
+			"只要命中就会一击昏厥。");
 
 static const u8 sDigDescription[] = _(
-    "Digs underground the first\n"
-    "turn and strikes next turn.");
+			"第1回合钻入地底，\n"
+			"第2回合攻击对手。");
 
 static const u8 sToxicDescription[] = _(
-    "Poisons the foe with an\n"
-    "intensifying toxin.");
+			"让对手陷入剧毒状态。\n"
+			"中毒伤害会逐渐增加。");
 
 static const u8 sConfusionDescription[] = _(
-    "A psychic attack that may\n"
-    "cause confusion.");
+			"向对手发送微弱的念力攻击。\n"
+			"有时会使对手混乱。");
 
 static const u8 sPsychicDescription[] = _(
-    "A powerful psychic attack\n"
-    "that may lower SP. DEF.");
+			"向对手发送强大的念力攻击。\n"
+			"有时会降低对手的特防。");
 
 static const u8 sHypnosisDescription[] = _(
-    "A hypnotizing move that\n"
-    "may induce sleep.");
+			"施以诱导睡意的暗示，\n"
+			"让对手陷入睡眠状态。");
 
 static const u8 sMeditateDescription[] = _(
-    "Meditates in a peaceful\n"
-    "fashion to raise ATTACK.");
+			"唤醒身体深处沉睡的力量，\n"
+			"从而提高自己的攻击。");
 
 static const u8 sAgilityDescription[] = _(
-    "Relaxes the body to sharply\n"
-    "boost SPEED.");
+			"让身体放松变轻，以高速\n"
+			"移动。大幅提高自己的速度。");
 
 static const u8 sQuickAttackDescription[] = _(
-    "An extremely fast attack\n"
-    "that always strikes first.");
+			"以迅雷不及掩耳之势扑向\n"
+			"对手。必定能够先制攻击。");
 
 static const u8 sRageDescription[] = _(
-    "Raises the user's ATTACK\n"
-    "every time it is hit.");
+			"如果在使出招式后受到攻击，\n"
+			"会因愤怒的力量而提高攻击。");
 
 static const u8 sTeleportDescription[] = _(
-    "A psychic move for fleeing\n"
-    "from battle instantly.");
+			"有后备宝可梦时进行替换。\n"
+			"若是野生宝可梦则会逃走。");
 
 static const u8 sNightShadeDescription[] = _(
-    "Inflicts damage identical\n"
-    "to the user's level.");
+			"显示恐怖幻影，\n"
+			"给予自己等级相同的伤害。");
 
 static const u8 sMimicDescription[] = _(
-    "Copies a move used by the\n"
-    "foe during one battle.");
+			"可以将对手最后使用的招式，\n"
+			"在战斗内变成自己的招式。");
 
 static const u8 sScreechDescription[] = _(
-    "Emits a screech to sharply\n"
-    "reduce the foe's DEFENSE.");
+			"发出令人捂起耳朵的刺耳声，\n"
+			"从而大幅降低对手的防御。");
 
 static const u8 sDoubleTeamDescription[] = _(
-    "Creates illusory copies to\n"
-    "raise evasiveness.");
+			"通过快速移动来制造分身，\n"
+			"扰乱对手从而提高闪避率。");
 
 static const u8 sRecoverDescription[] = _(
-    "Recovers up to half the\n"
-    "user's maximum HP.");
+			"让细胞再生，\n"
+			"从而回复自己最大HP的一半。");
 
 static const u8 sHardenDescription[] = _(
-    "Stiffens the body's \n"
-    "muscles to raise DEFENSE.");
+			"全身使劲，让身体变硬，\n"
+			"从而提高自己的防御。");
 
 static const u8 sMinimizeDescription[] = _(
-    "Minimizes the user's size\n"
-    "to raise evasiveness.");
+			"蜷缩身体显得很小，\n"
+			"从而大幅提高自己的闪避率。");
 
 static const u8 sSmokescreenDescription[] = _(
-    "Lowers the foe's accuracy\n"
-    "using smoke, ink, etc.");
+			"向对手喷出烟或墨汁等，\n"
+			"从而降低对手的命中率。");
 
 static const u8 sConfuseRayDescription[] = _(
-    "A sinister ray that\n"
-    "confuses the foe.");
+			"显示奇怪的光，扰乱对手。\n"
+			"使对手混乱。");
 
 static const u8 sWithdrawDescription[] = _(
-    "Withdraws the body into its\n"
-    "hard shell to raise DEFENSE.");
+			"缩入壳里保护身体，\n"
+			"从而提高自己的防御。");
 
 static const u8 sDefenseCurlDescription[] = _(
-    "Curls up to conceal weak\n"
-    "spots and raise DEFENSE.");
+			"将身体蜷曲变圆，\n"
+			"从而提高自己的防御。");
 
 static const u8 sBarrierDescription[] = _(
-    "Creates a barrier that\n"
-    "sharply raises DEFENSE.");
+			"制造坚固的壁障，\n"
+			"从而大幅提高自己的防御。");
 
 static const u8 sLightScreenDescription[] = _(
-    "Creates a wall of light that\n"
-    "lowers SP. ATK damage.");
+			"利用神奇的墙壁，在5回合\n"
+			"内减弱特殊攻击的伤害。");
 
 static const u8 sHazeDescription[] = _(
-    "Creates a black haze that\n"
-    "eliminates all stat changes.");
+			"升起黑雾，\n"
+			"将全体宝可梦能力变回原点。");
 
 static const u8 sReflectDescription[] = _(
-    "Creates a wall of light that\n"
-    "weakens physical attacks.");
+			"利用神奇的墙壁，在5回合\n"
+			"内减弱物理攻击的伤害。");
 
 static const u8 sFocusEnergyDescription[] = _(
-    "Focuses power to raise the\n"
-    "critical-hit ratio.");
+			"深深地吸口气，集中精神。\n"
+			"攻击会变得容易击中要害。");
 
 static const u8 sBideDescription[] = _(
-    "Endures attack for 2\n"
-    "turns to retaliate double.");
+			"在2回合内忍受攻击，受到的\n"
+			"伤害会2倍返还给对手。");
 
 static const u8 sMetronomeDescription[] = _(
-    "Waggles a finger to use any\n"
-    "POKéMON move at random.");
+			"挥动手指刺激自己的大脑，\n"
+			"从许多招式中随机使出1个。");
 
 static const u8 sMirrorMoveDescription[] = _(
-    "Counters the foe's attack\n"
-    "with the same move.");
+			"模仿对手使用的招式，\n"
+			"自己也使用相同招式。");
 
 static const u8 sSelfDestructDescription[] = _(
-    "Inflicts severe damage but\n"
-    "makes the user faint.");
+			"引发爆炸，攻击周围所有的\n"
+			"宝可梦。使用后陷入昏厥。");
 
 static const u8 sEggBombDescription[] = _(
-    "An egg is forcibly hurled at\n"
-    "the foe.");
+			"向对手用力投掷大大的\n"
+			"蛋攻击。");
 
 static const u8 sLickDescription[] = _(
-    "Licks with a long tongue to\n"
-    "injure. May also paralyze.");
+			"用长舌头舔遍对手攻击。\n"
+			"有时会让对手陷入麻痹状态。");
 
 static const u8 sSmogDescription[] = _(
-    "An exhaust-gas attack\n"
-    "that may also poison.");
+			"将肮脏的浓雾吹向对手攻击。\n"
+			"有时会让对手陷入中毒状态。");
 
 static const u8 sSludgeDescription[] = _(
-    "Sludge is hurled to inflict\n"
-    "damage. May also poison.");
+			"用污泥投掷对手攻击。\n"
+			"有时会让对手陷入中毒状态。");
 
 static const u8 sBoneClubDescription[] = _(
-    "Clubs the foe with a bone.\n"
-    "May cause flinching.");
+			"用手中的骨头殴打对手攻击。\n"
+			"有时会使对手畏缩。");
 
 static const u8 sFireBlastDescription[] = _(
-    "Incinerates everything it\n"
-    "strikes. May cause a burn.");
+			"用大字形状的火焰烧尽对手。\n"
+			"有时会让对手陷入灼伤状态。");
 
 static const u8 sWaterfallDescription[] = _(
-    "Charges the foe with speed\n"
-    "to climb waterfalls.");
+			"以惊人的气势扑向对手。\n"
+			"有时会使对手畏缩。");
 
 static const u8 sClampDescription[] = _(
-    "Traps and squeezes the\n"
-    "foe for 2 to 5 turns.");
+			"用非常坚固且厚实的贝壳，\n"
+			"在4～5回合内夹住对手攻击。");
 
 static const u8 sSwiftDescription[] = _(
-    "Sprays star-shaped rays\n"
-    "that never miss.");
+			"发射星形的光攻击对手。\n"
+			"攻击必定会命中。");
 
 static const u8 sSkullBashDescription[] = _(
-    "Tucks in the head, then\n"
-    "attacks on the next turn.");
+			"第1回合把头缩进去，提高\n"
+			"防御。第2回合攻击对手。");
 
 static const u8 sSpikeCannonDescription[] = _(
-    "Launches sharp spikes that\n"
-    "strike 2 to 5 times.");
+			"向对手发射锐针攻击。\n"
+			"连续攻击2～5次。");
 
 static const u8 sConstrictDescription[] = _(
-    "Constricts to inflict pain.\n"
-    "May lower SPEED.");
+			"用触手或青藤等缠绕攻击。\n"
+			"有时会降低对手的速度。");
 
 static const u8 sAmnesiaDescription[] = _(
-    "Forgets about something\n"
-    "and sharply raises SP. DEF.");
+			"将头脑清空，瞬间忘记某事，\n"
+			"从而大幅提高自己的特防。");
 
 static const u8 sKinesisDescription[] = _(
-    "Distracts the foe.\n"
-    "May lower accuracy.");
+			"折弯汤匙引开注意，\n"
+			"从而降低对手的命中率。");
 
 static const u8 sSoftBoiledDescription[] = _(
-    "Recovers up to half the\n"
-    "user's maximum HP.");
+			"回复自己最大HP的一半。");
 
 static const u8 sHiJumpKickDescription[] = _(
     "A jumping knee kick. If it\n"
     "misses, the user is hurt.");
 
 static const u8 sGlareDescription[] = _(
-    "Intimidates and frightens\n"
-    "the foe into paralysis.");
+			"用腹部的花纹使对手害怕，\n"
+			"从而让其陷入麻痹状态。");
 
 static const u8 sDreamEaterDescription[] = _(
-    "Takes one half the damage\n"
-    "inflicted on a sleeping foe.");
+			"吃掉正在睡觉的对手的梦。\n"
+			"回复造成伤害的一半HP。");
 
 static const u8 sPoisonGasDescription[] = _(
-    "Envelops the foe in a toxic\n"
-    "gas that may poison.");
+			"将毒瓦斯吹到对手的脸上，\n"
+			"从而让对手陷入中毒状态。");
 
 static const u8 sBarrageDescription[] = _(
-    "Hurls round objects at the\n"
-    "foe 2 to 5 times.");
+			"向对手投掷圆形物体攻击。\n"
+			"连续攻击2～5次。");
 
 static const u8 sLeechLifeDescription[] = _(
-    "An attack that steals half\n"
-    "the damage inflicted.");
+			"吸取血液攻击对手。\n"
+			"可以回复给予伤害的一半HP。");
 
 static const u8 sLovelyKissDescription[] = _(
-    "Demands a kiss with a scary\n"
-    "face that induces sleep.");
+			"用恐怖的脸强吻对手。\n"
+			"让对手陷入睡眠状态。");
 
 static const u8 sSkyAttackDescription[] = _(
-    "Searches out weak spots,\n"
-    "then strikes the next turn.");
+			"第2回合攻击对手。偶尔使对\n"
+			"手畏缩。也容易击中要害。");
 
 static const u8 sTransformDescription[] = _(
-    "Alters the user's cells to\n"
-    "become a copy of the foe.");
+			"变身成对手宝可梦的样子，\n"
+			"能够使用和对手相同的招式。");
 
 static const u8 sBubbleDescription[] = _(
-    "An attack using bubbles.\n"
-    "May lower the foe's SPEED.");
+			"向对手吹起无数泡泡攻击。\n"
+			"有时会降低对手的速度。");
 
 static const u8 sDizzyPunchDescription[] = _(
-    "A rhythmic punch that may\n"
-    "confuse the foe.");
+			"有节奏地出拳攻击对手。\n"
+			"有时会使对手混乱。");
 
 static const u8 sSporeDescription[] = _(
-    "Scatters a cloud of spores\n"
-    "that always induce sleep.");
+			"撒满具有催眠效果的孢子，\n"
+			"从而让对手陷入睡眠状态。");
 
 static const u8 sFlashDescription[] = _(
-    "Looses a powerful blast of\n"
-    "light that cuts accuracy.");
+			"使出光芒降低对手的命中率。\n"
+			"也可在暗窟里照亮四周。");
 
 static const u8 sPsywaveDescription[] = _(
-    "Attacks with a psychic\n"
-    "wave of varying intensity.");
+			"向对手发射神奇的念波攻击。\n"
+			"每次使用，伤害都会改变。");
 
 static const u8 sSplashDescription[] = _(
-    "It's just a splash...\n"
-    "Has no effect whatsoever.");
+			"也不攻击只是一蹦一蹦\n"
+			"地跳，什么都不会发生\n"
+			"……");
 
 static const u8 sAcidArmorDescription[] = _(
-    "Liquifies the user's body\n"
-    "to sharply raise DEFENSE.");
+			"通过细胞的变化进行液化，\n"
+			"从而大幅提高自己的防御。");
 
 static const u8 sCrabhammerDescription[] = _(
-    "Hammers with a pincer. Has a\n"
-    "high critical-hit ratio.");
+			"用大钳子敲打对手攻击。\n"
+			"容易击中要害。");
 
 static const u8 sExplosionDescription[] = _(
-    "Inflicts severe damage but\n"
-    "makes the user faint.");
+			"引发大爆炸攻击周围所有的\n"
+			"宝可梦。使用后会陷入昏厥。");
 
 static const u8 sFurySwipesDescription[] = _(
-    "Rakes the foe with sharp\n"
-    "claws, etc., 2 to 5 times.");
+			"用爪子或镰刀等抓对手攻击。\n"
+			"连续攻击2～5次。");
 
 static const u8 sBonemerangDescription[] = _(
-    "Throws a bone boomerang\n"
-    "that strikes twice.");
+			"用手中的骨头投掷对手，\n"
+			"来回连续2次给予伤害。");
 
 static const u8 sRestDescription[] = _(
-    "The user sleeps for 2 turns,\n"
-    "restoring HP and status.");
+			"连续睡上2回合。回复全部\n"
+			"HP以及治愈所有异常状态。");
 
 static const u8 sRockSlideDescription[] = _(
-    "Large boulders are hurled.\n"
-    "May cause flinching.");
+			"将岩石猛烈地撞向对手攻击。\n"
+			"有时会使对手畏缩。");
 
 static const u8 sHyperFangDescription[] = _(
-    "Attacks with sharp fangs.\n"
-    "May cause flinching.");
+			"用锋利门牙牢牢地咬住对手。\n"
+			"有时会使对手畏缩。");
 
 static const u8 sSharpenDescription[] = _(
-    "Reduces the polygon count\n"
-    "and raises ATTACK.");
+			"增加身体变得棱棱角角，\n"
+			"从而提高自己的攻击。");
 
 static const u8 sConversionDescription[] = _(
-    "Changes the user's type\n"
-    "into a known move's type.");
+			"将自己的属性转换成和\n"
+			"第一个招式相同的属性。");
 
 static const u8 sTriAttackDescription[] = _(
-    "Fires three types of beams\n"
-    "at the same time.");
+            "用3种光线攻击。有时会让\n"
+			"对手陷入麻痹、灼伤或冰冻。");
 
 static const u8 sSuperFangDescription[] = _(
-    "Attacks with sharp fangs\n"
-    "and cuts half the foe's HP.");
+			"用锋利门牙猛烈地咬住对手。\n"
+			"对手的HP减半。");
 
 static const u8 sSlashDescription[] = _(
-    "Slashes with claws, etc. Has\n"
-    "a high critical-hit ratio.");
+			"用爪子或镰刀劈开对手攻击。\n"
+			"容易击中要害。");
 
 static const u8 sSubstituteDescription[] = _(
-    "Creates a decoy using 1/4\n"
-    "of the user's maximum HP.");
+			"削减自己的HP制造分身。\n"
+			"分身将成为自己的替身。");
 
 static const u8 sStruggleDescription[] = _(
-    "Used only if all PP are gone.\n"
-    "Also hurts the user a little.");
+			"当PP耗尽时，努力挣扎攻击\n"
+			"对手。自己也会受到伤害。");
 
 static const u8 sSketchDescription[] = _(
-    "Copies the foe's last move\n"
-    "permanently.");
+			"将对手招式变成自己的招式。\n"
+			"使用1次后写生消失。");
 
 static const u8 sTripleKickDescription[] = _(
-    "Kicks the foe 3 times in a\n"
-    "row with rising intensity.");
+			"连续3次踢对手攻击。每\n"
+			"踢中一次，威力就会提高。");
 
 static const u8 sThiefDescription[] = _(
-    "While attacking, it may\n"
-    "steal the foe's held item.");
+			"攻击时盗取道具。当自己\n"
+			"携带道具时，不会去盗取。");
 
 static const u8 sSpiderWebDescription[] = _(
-    "Ensnares the foe to stop it\n"
-    "from fleeing or switching.");
+			"将黏糊糊细丝层层缠住对手，\n"
+			"使其不能从战斗中逃走。");
 
 static const u8 sMindReaderDescription[] = _(
-    "Senses the foe's action to\n"
-    "ensure the next move's hit.");
+			"用心感受对手的行动，\n"
+			"下次攻击必定会击中对手。");
 
 static const u8 sNightmareDescription[] = _(
-    "Inflicts 1/4 damage on a\n"
-    "sleeping foe every turn.");
+			"让在睡眠状态的对手做恶梦，\n"
+			"每回合会缓缓减少HP。");
 
 static const u8 sFlameWheelDescription[] = _(
-    "A fiery charge attack that\n"
-    "may inflict a burn.");
+			"让火焰覆盖全身，猛撞向对手。\n"
+			"有时会让对手陷入灼伤状态。");
 
 static const u8 sSnoreDescription[] = _(
-    "A loud attack that can be\n"
-    "used only while asleep.");
+			"在自己睡觉时，发出噪音\n"
+			"攻击。有时会使对手畏缩。");
 
 static const u8 sCurseDescription[] = _(
-    "A move that functions\n"
-    "differently for GHOSTS.");
+			"自身属性是幽灵属性\n"
+			"或其他属性时效果会不同。");
 
 static const u8 sFlailDescription[] = _(
-    "Inflicts more damage when\n"
-    "the user's HP is down.");
+			"抓狂般乱打攻击。自己\n"
+			"HP越少，招式的威力越大。");
 
 static const u8 sConversion2Description[] = _(
-    "Makes the user resistant\n"
-    "to the last attack's type.");
+			"为抵抗对手最后使用的招式，\n"
+			"从而使自己的属性发生变化。");
 
 static const u8 sAeroblastDescription[] = _(
-    "Launches a vacuumed blast.\n"
-    "High critical-hit ratio.");
+			"发射空气旋涡攻击。\n"
+			"容易击中要害。");
 
 static const u8 sCottonSporeDescription[] = _(
-    "Spores cling to the foe,\n"
-    "sharply reducing SPEED.");
+			"将棉花般柔软孢子紧贴对手，\n"
+			"从而大幅降低对手的速度。");
 
 static const u8 sReversalDescription[] = _(
-    "Inflicts more damage when\n"
-    "the user's HP is down.");
+			"竭尽全力攻击。自己的\n"
+			"HP越少，招式的威力越大。");
 
 static const u8 sSpiteDescription[] = _(
-    "Spitefully cuts the PP\n"
-    "of the foe's last move.");
+			"怨恨对手最后用的招式，\n"
+			"减少4PP该招式。");
 
 static const u8 sPowderSnowDescription[] = _(
-    "Blasts the foe with a snowy\n"
-    "gust. May cause freezing.");
+			"将冰冷的细雪吹向对手攻击。\n"
+			"有时会让对手陷入冰冻状态。");
 
 static const u8 sProtectDescription[] = _(
-    "Evades attack, but may fail\n"
-    "if used in succession.");
+			"完全抵挡对手的攻击。\n"
+			"连续使出则容易失败。");
 
 static const u8 sMachPunchDescription[] = _(
-    "A punch is thrown at wicked\n"
-    "speed to strike first.");
+			"以迅雷不及掩耳之势出拳。\n"
+			"必定能够先制攻击。");
 
 static const u8 sScaryFaceDescription[] = _(
-    "Frightens with a scary face\n"
-    "to sharply reduce SPEED.");
+			"用恐怖表情瞪着对手使其\n"
+			"害怕，大幅降低对手的速度。");
 
 static const u8 sFaintAttackDescription[] = _(
     "Draws the foe close, then\n"
     "strikes without fail.");
 
 static const u8 sSweetKissDescription[] = _(
-    "Demands a kiss with a cute\n"
-    "look. May cause confusion.");
+			"像天使般可爱地亲吻对手，\n"
+			"从而使对手混乱。");
 
 static const u8 sBellyDrumDescription[] = _(
-    "Maximizes ATTACK while\n"
-    "sacrificing HP.");
+			"削减自己HP至最大HP一半，\n"
+			"从而最大限度提高自身攻击。");
 
 static const u8 sSludgeBombDescription[] = _(
-    "Sludge is hurled to inflict\n"
-    "damage. May also poison.");
+			"用污泥投掷对手攻击。\n"
+			"有时会让对手陷入中毒状态。");
 
 static const u8 sMudSlapDescription[] = _(
-    "Hurls mud in the foe's face\n"
-    "to reduce its accuracy.");
+			"向对手的脸等投掷泥块攻击。\n"
+			"会降低对手的命中率。");
 
 static const u8 sOctazookaDescription[] = _(
-    "Fires a lump of ink to\n"
-    "damage and cut accuracy.");
+			"向对手的脸等喷出墨汁攻击。\n"
+			"有时会降低对手的命中率。");
 
 static const u8 sSpikesDescription[] = _(
-    "Sets spikes that hurt a \n"
-    "foe switching in.");
+			"在对手的脚下扔撒菱。\n"
+			"对替换的宝可梦给予伤害。");
 
 static const u8 sZapCannonDescription[] = _(
-    "Powerful and sure to cause\n"
-    "paralysis, but inaccurate.");
+			"发射大炮一样的电流攻击。\n"
+			"让对手陷入麻痹状态。");
 
 static const u8 sForesightDescription[] = _(
-    "Negates the foe's efforts\n"
-    "to heighten evasiveness.");
+			"对幽灵宝可梦无效的招式及\n"
+			"高闪避率对手，变得能够打中。");
 
 static const u8 sDestinyBondDescription[] = _(
-    "If the user faints, the foe\n"
-    "is also made to faint.");
+			"当陷入昏厥时，对手也会\n"
+			"一同昏厥。连续使出会失败。");
 
 static const u8 sPerishSongDescription[] = _(
-    "Any POKéMON hearing this\n"
-    "song faints in 3 turns.");
+			"倾听歌声的宝可梦经过3回合\n"
+			"陷入昏厥。替换后效果消失。");
 
 static const u8 sIcyWindDescription[] = _(
-    "A chilling attack that\n"
-    "lowers the foe's SPEED.");
+			"将结冰的冷气吹向对手攻击。\n"
+			"会降低对手的速度。");
 
 static const u8 sDetectDescription[] = _(
-    "Evades attack, but may fail\n"
-    "if used in succession.");
+			"完全抵挡对手的攻击。\n"
+			"连续使出则容易失败。");
 
 static const u8 sBoneRushDescription[] = _(
-    "Strikes the foe with a bone\n"
-    "in hand 2 to 5 times.");
+			"用坚硬的骨头殴打对手攻击。\n"
+			"连续攻击2～5次。");
 
 static const u8 sLockOnDescription[] = _(
-    "Locks on to the foe to\n"
-    "ensure the next move hits.");
+			"紧紧瞄准对手，\n"
+			"下次攻击必定会打中。");
 
 static const u8 sOutrageDescription[] = _(
-    "A rampage of 2 to 3 turns\n"
-    "that confuses the user.");
+			"在2～3回合内，乱打一气地\n"
+			"攻击。大闹一番后陷入混乱。");
 
 static const u8 sSandstormDescription[] = _(
-    "Causes a sandstorm that\n"
-    "rages for several turns.");
+			"在5回合内扬起沙暴，除岩石\n"
+			"地面钢以外宝可梦都会受伤。");
 
 static const u8 sGigaDrainDescription[] = _(
-    "An attack that steals half\n"
-    "the damage inflicted.");
+			"吸取对手的养分攻击。\n"
+			"可以回复给予伤害的一半HP。");
 
 static const u8 sEndureDescription[] = _(
-    "Endures any attack for\n"
-    "1 turn, leaving at least 1HP.");
+			"即使受到攻击也至会留下\n"
+			"1HP。连续使出则容易失败。");
 
 static const u8 sCharmDescription[] = _(
-    "Charms the foe and sharply\n"
-    "reduces its ATTACK.");
+			"可爱地凝视，诱使对手大意，\n"
+			"从而大幅降低对手的攻击。");
 
 static const u8 sRolloutDescription[] = _(
-    "An attack lasting 5 turns\n"
-    "with rising intensity.");
+			"在5回合内连续滚动攻击。\n"
+			"招式每次击中，威力会提高。");
 
 static const u8 sFalseSwipeDescription[] = _(
-    "An attack that leaves the\n"
-    "foe with at least 1 HP.");
+			"对手至少会留下1HP，\n"
+			"如此般手下留情地攻击。");
 
 static const u8 sSwaggerDescription[] = _(
-    "Confuses the foe, but also\n"
-    "sharply raises ATTACK.");
+			"激怒对手使其混乱。因愤怒，\n"
+			"对手的攻击会大幅提高。");
 
 static const u8 sMilkDrinkDescription[] = _(
-    "Recovers up to half the\n"
-    "user's maximum HP.");
+			"回复自己最大HP的一半。");
 
 static const u8 sSparkDescription[] = _(
-    "An electrified tackle that\n"
-    "may paralyze the foe.");
+			"让电流覆盖全身猛撞对手。\n"
+			"有时会让对手陷入麻痹状态。");
 
 static const u8 sFuryCutterDescription[] = _(
-    "An attack that intensifies\n"
-    "on each successive hit.");
+			"用镰刀或爪子切斩对手攻击。\n"
+			"连续击中，威力就会提高。");
 
 static const u8 sSteelWingDescription[] = _(
-    "Strikes the foe with hard\n"
-    "wings spread wide.");
+			"用坚硬的翅膀敲打对手攻击。\n"
+			"有时会提高自己的防御。");
 
 static const u8 sMeanLookDescription[] = _(
-    "Fixes the foe with a mean\n"
-    "look that prevents escape.");
+			"以黑色目光持续地凝视对手，\n"
+			"使其不能从战斗中逃走。");
 
 static const u8 sAttractDescription[] = _(
-    "Makes the opposite gender\n"
-    "less likely to attack.");
+			"诱惑异性，让对手着迷。\n"
+			"对手将很难使出招式。");
 
 static const u8 sSleepTalkDescription[] = _(
-    "Uses an available move\n"
-    "randomly while asleep.");
+			"从招式中任意使出1个。\n"
+			"只能在自己睡觉时使用。");
 
 static const u8 sHealBellDescription[] = _(
-    "Chimes soothingly to heal\n"
-    "all status abnormalities.");
+			"让同伴听舒适的铃音，\n"
+			"治愈我方全员的异常状态。");
 
 static const u8 sReturnDescription[] = _(
-    "An attack that increases\n"
-    "in power with friendship.");
+			"为了训练家而全力攻击对手。\n"
+			"亲密度越高，威力越大。");
 
 static const u8 sPresentDescription[] = _(
-    "A gift in the form of a\n"
-    "bomb. May restore HP.");
+			"递给对手设圈套的盒子攻击。\n"
+			"也有可能回复对手HP。");
 
 static const u8 sFrustrationDescription[] = _(
-    "An attack that is stronger\n"
-    "if the TRAINER is disliked.");
+			"为了发泄不满而全力攻击。\n"
+			"亲密度越低，威力越大。");
 
 static const u8 sSafeguardDescription[] = _(
-    "A mystical force prevents\n"
-    "all status problems.");
+			"在5回合内被神奇力量守护，\n"
+			"从而不会陷入异常状态。");
 
 static const u8 sPainSplitDescription[] = _(
-    "Adds the user and foe's HP,\n"
-    "then shares them equally.");
+			"将自己的HP和对手的HP相加，\n"
+			"然后自己和对手友好地平分。");
 
 static const u8 sSacredFireDescription[] = _(
-    "A mystical fire attack that\n"
-    "may inflict a burn.");
+			"用神秘的火焰烧尽对手攻击。\n"
+			"有时会让对手陷入灼伤状态。");
 
 static const u8 sMagnitudeDescription[] = _(
-    "A ground-shaking attack\n"
-    "of random intensity.");
+			"晃动地面，攻击所有宝可梦。\n"
+			"招式的威力会有变化。");
 
 static const u8 sDynamicPunchDescription[] = _(
-    "Powerful and sure to cause\n"
-    "confusion, but inaccurate.");
+			"使出浑身力气出拳攻击。\n"
+			"必定会使对手混乱。");
 
 static const u8 sMegahornDescription[] = _(
-    "A brutal ramming attack\n"
-    "using out-thrust horns.");
+			"用坚硬且华丽的角狠狠\n"
+			"地刺入对手攻击。");
 
 static const u8 sDragonBreathDescription[] = _(
-    "Strikes the foe with an\n"
-    "incredible blast of breath.");
+			"将强烈的气息吹向对手攻击。\n"
+			"有时会让对手陷入麻痹状态。");
 
 static const u8 sBatonPassDescription[] = _(
-    "Switches out the user while\n"
-    "keeping effects in play.");
+			"和后备宝可梦替换。换上的\n"
+			"宝可梦能继承能力的变化。");
 
 static const u8 sEncoreDescription[] = _(
-    "Makes the foe repeat its\n"
-    "last move over 2 to 6 turns.");
+			"让对手接受再来一次，\n"
+			"连续3次使出最后用的招式。");
 
 static const u8 sPursuitDescription[] = _(
-    "Inflicts bad damage if used\n"
-    "on a foe switching out.");
+			"当对手替换宝可梦上场时，\n"
+			"能够以2倍的威力攻击。");
 
 static const u8 sRapidSpinDescription[] = _(
-    "Spins the body at high\n"
-    "speed to strike the foe.");
+			"通过旋转攻击。可摆脱绑紧\n"
+			"紧束等招式并提高速度。");
 
 static const u8 sSweetScentDescription[] = _(
-    "Allures the foe to reduce\n"
-    "evasiveness.");
+			"用香气大幅降低对手的\n"
+			"闪避率。");
 
 static const u8 sIronTailDescription[] = _(
-    "Attacks with a rock-hard\n"
-    "tail. May lower DEFENSE.");
+			"使用坚硬的尾巴摔打对手攻击。\n"
+			"有时会降低对手的防御。");
 
 static const u8 sMetalClawDescription[] = _(
-    "A claw attack that may\n"
-    "raise the user's ATTACK.");
+			"用钢铁之爪劈开对手攻击。\n"
+			"有时会提高自己的攻击。");
 
 static const u8 sVitalThrowDescription[] = _(
-    "Makes the user's move last,\n"
-    "but it never misses.");
+			"会在对手之后攻击。\n"
+			"但是自己的攻击必定会命中。");
 
 static const u8 sMorningSunDescription[] = _(
-    "Restores HP. The amount\n"
-    "varies with the weather.");
+			"回复自己的HP。根据天气不\n"
+			"同，回复量也会有所变化。");
 
 static const u8 sSynthesisDescription[] = _(
-    "Restores HP. The amount\n"
-    "varies with the weather.");
+			"回复自己的HP。根据天气不\n"
+			"同，回复量也会有所变化。");
 
 static const u8 sMoonlightDescription[] = _(
-    "Restores HP. The amount\n"
-    "varies with the weather.");
+			"回复自己的HP。根据天气不\n"
+			"同，回复量也会有所变化。");
 
 static const u8 sHiddenPowerDescription[] = _(
-    "The effectiveness varies\n"
-    "with the user.");
+			"招式的属性会随着使用\n"
+			"此招式的宝可梦而改变。");
 
 static const u8 sCrossChopDescription[] = _(
-    "A double-chopping attack.\n"
-    "High critical-hit ratio.");
+			"用两手呈十字劈打对手攻击。\n"
+			"容易击中要害。");
 
 static const u8 sTwisterDescription[] = _(
-    "Whips up a vicious twister\n"
-    "to tear at the foe.");
+			"兴起龙卷风，将对手卷入\n"
+			"攻击。有时会使对手畏缩。");
 
 static const u8 sRainDanceDescription[] = _(
-    "Boosts the power of WATER-\n"
-    "type moves for 5 turns.");
+			"在5回合内一直降雨，提高水\n"
+			"招式威力。降低火招式威力。");
 
 static const u8 sSunnyDayDescription[] = _(
-    "Boosts the power of FIRE-\n"
-    "type moves for 5 turns.");
+			"在5回合内日照强烈，提高火\n"
+			"招式威力。降低水招式威力。");
 
 static const u8 sCrunchDescription[] = _(
-    "Crunches with sharp fangs.\n"
-    "May lower SP. DEF.");
+			"用利牙咬碎对手攻击。\n"
+			"有时会降低对手的防御。");
 
 static const u8 sMirrorCoatDescription[] = _(
-    "Counters the foe's special\n"
-    "attack at double the power.");
+			"从对手那里受到特殊攻击的\n"
+			"伤害将以2倍返还对手。");
 
 static const u8 sPsychUpDescription[] = _(
-    "Copies the foe's effect(s)\n"
-    "and gives to the user.");
+			"向自己施以自我暗示，\n"
+			"将能力变化变得和对手一样。");
 
 static const u8 sExtremeSpeedDescription[] = _(
-    "An extremely fast and\n"
-    "powerful attack.");
+			"以迅雷不及掩耳之势猛撞向\n"
+			"对手。必定能够先制攻击。");
 
 static const u8 sAncientPowerDescription[] = _(
-    "An attack that may raise\n"
-    "all stats.");
+			"用原始之力攻击。\n"
+			"有时会提高自己所有的能力。");
 
 static const u8 sShadowBallDescription[] = _(
-    "Hurls a black blob that may\n"
-    "lower the foe's SP. DEF.");
+			"投掷一团黑影攻击。\n"
+			"有时会降低对手的特防。");
 
 static const u8 sFutureSightDescription[] = _(
-    "Heightens inner power to\n"
-    "strike 2 turns later.");
+			"在使用招式2回合后，\n"
+			"向对手发送一团念力攻击。");
 
 static const u8 sRockSmashDescription[] = _(
-    "A rock-crushing attack\n"
-    "that may lower DEFENSE.");
+			"用拳头攻击。\n"
+			"有时会降低对手的防御。");
 
 static const u8 sWhirlpoolDescription[] = _(
-    "Traps and hurts the foe in\n"
-    "a whirlpool for 2 to 5 turns.");
+			"将对手困在激烈水流旋涡中，\n"
+			"在4～5回合内攻击。");
 
 static const u8 sBeatUpDescription[] = _(
-    "Summons party POKéMON to\n"
-    "join in the attack.");
+			"我方全员攻击。同行宝可梦\n"
+			"越多，攻击次数越多。");
 
 static const u8 sFakeOutDescription[] = _(
-    "A 1st-turn, 1st-strike move\n"
-    "that causes flinching.");
+			"进行先制攻击，使对手畏缩。\n"
+			"仅出场后立刻使出才能成功。");
 
 static const u8 sUproarDescription[] = _(
-    "Causes an uproar for 2 to 5\n"
-    "turns and prevents sleep.");
+			"在3回合内大吵大闹攻击。\n"
+			"在此期间谁都不能入眠。");
 
 static const u8 sStockpileDescription[] = _(
-    "Charges up power for up to\n"
-    "3 turns.");
+			"积蓄力量，提高自己的防御\n"
+			"和特防。最多积蓄3次。");
 
 static const u8 sSpitUpDescription[] = _(
-    "Releases stockpiled power\n"
-    "(the more the better).");
+			"将积蓄的力量撞向对手攻击。\n"
+			"积蓄得越多，威力越大。");
 
 static const u8 sSwallowDescription[] = _(
-    "Absorbs stockpiled power\n"
-    "and restores HP.");
+			"将积蓄的力量吞下从而回复\n"
+			"HP。积蓄得越多，回复越多。");
 
 static const u8 sHeatWaveDescription[] = _(
-    "Exhales a hot breath on the\n"
-    "foe. May inflict a burn.");
+			"将炎热的气息吹向对手攻击。\n"
+			"有时会让对手陷入灼伤状态。");
 
 static const u8 sHailDescription[] = _(
-    "Summons a hailstorm that\n"
-    "strikes every turn.");
+			"在5回合内降下冰雹，冰属\n"
+			"性以外的宝可梦会受到伤害。");
 
 static const u8 sTormentDescription[] = _(
-    "Torments the foe and stops\n"
-    "successive use of a move.");
+			"向对手无理取闹，\n"
+			"令其不能连续2次使出相同招式。");
 
 static const u8 sFlatterDescription[] = _(
-    "Confuses the foe, but\n"
-    "raises its SP. ATK.");
+			"吹捧对手，使其混乱。同时\n"
+			"还会提高对手的特攻。");
 
 static const u8 sWillOWispDescription[] = _(
-    "Inflicts a burn on the foe\n"
-    "with intense fire.");
+			"放出怪异的火焰，\n"
+			"从而让对手陷入灼伤状态。");
 
 static const u8 sMementoDescription[] = _(
-    "The user faints and lowers\n"
-    "the foe's abilities.");
+			"使自己陷入昏厥，但能\n"
+			"大幅降低对手攻击和特攻。");
 
 static const u8 sFacadeDescription[] = _(
-    "Boosts ATTACK when burned,\n"
-    "paralyzed, or poisoned.");
+			"当处于中毒、麻痹、灼伤时，\n"
+			"招式威力会变成2倍。");
 
 static const u8 sFocusPunchDescription[] = _(
-    "A powerful loyalty attack.\n"
-    "The user flinches if hit.");
+			"集中精神出拳。在招式使出前\n"
+			"若受到攻击则会失败。");
 
 static const u8 sSmellingSaltDescription[] = _(
     "Powerful against paralyzed\n"
     "foes, but also heals them.");
 
 static const u8 sFollowMeDescription[] = _(
-    "Draws attention to make\n"
-    "foes attack only the user.");
+			"引起对手的注意，\n"
+			"将对手攻击转移到自身上。");
 
 static const u8 sNaturePowerDescription[] = _(
-    "The type of attack varies\n"
-    "depending on the location.");
+			"用自然之力攻击。根据\n"
+			"场所不同，招式也会有所变化。");
 
 static const u8 sChargeDescription[] = _(
-    "Charges power to boost the\n"
-    "electric move used next.");
+			"变为充电状态，提高下次的\n"
+			"电招式威力并提高自身特防。");
 
 static const u8 sTauntDescription[] = _(
-    "Taunts the foe into only\n"
-    "using attack moves.");
+			"使对手愤怒。在3回合内让\n"
+			"对手只能用给予伤害的招式。");
 
 static const u8 sHelpingHandDescription[] = _(
-    "Boosts the power of the\n"
-    "recipient's moves.");
+			"帮助伙伴。被帮助的宝可梦，\n"
+			"其招式威力变得比平时大。");
 
 static const u8 sTrickDescription[] = _(
-    "Tricks the foe into trading\n"
-    "held items.");
+			"抓住对手的空隙，\n"
+			"交换自己和对手的持有物。");
 
 static const u8 sRolePlayDescription[] = _(
-    "Mimics the target and\n"
-    "copies its special ability.");
+			"扮演对手，让自己的特性\n"
+			"变得和对手相同。");
 
 static const u8 sWishDescription[] = _(
-    "A wish that restores HP.\n"
-    "It takes time to work.");
+			"下回合回复自己或换上\n"
+			"的宝可梦最大HP的一半。");
 
 static const u8 sAssistDescription[] = _(
-    "Attacks randomly with one\n"
-    "of the partner's moves.");
+			"向同伴紧急求助，从我方\n"
+			"宝可梦招式中随机使用1个。");
 
 static const u8 sIngrainDescription[] = _(
-    "Lays roots that restore HP.\n"
-    "The user can't switch out.");
+			"在地上扎根，每回合回复\n"
+			"HP。但不能替换宝可梦。");
 
 static const u8 sSuperpowerDescription[] = _(
-    "Boosts strength sharply,\n"
-    "but lowers abilities.");
+			"发挥惊人的力量攻击对手。\n"
+			"自己的攻击和防御会降低。");
 
 static const u8 sMagicCoatDescription[] = _(
-    "Reflects special effects\n"
-    "back to the attacker.");
+			"当对手使出会变化类招式时，\n"
+			"会将对手的招式反射回去。");
 
 static const u8 sRecycleDescription[] = _(
-    "Recycles a used item for\n"
-    "one more use.");
+			"使战斗中已经消耗的持有\n"
+			"物再生，并可以再次使用。");
 
 static const u8 sRevengeDescription[] = _(
-    "An attack that gains power\n"
-    "if injured by the foe.");
+			"如果受到对手的招式攻击，\n"
+			"就能给予对手2倍的伤害。");
 
 static const u8 sBrickBreakDescription[] = _(
-    "Destroys barriers such as\n"
-    "REFLECT and causes damage.");
+			"将手刀猛烈地挥下攻击对手。\n"
+			"还可以破坏光墙和反射壁等。");
 
 static const u8 sYawnDescription[] = _(
-    "Lulls the foe into yawning,\n"
-    "then sleeping next turn.");
+			"打个大哈欠引起睡意。\n"
+			"在下回合让对手睡眠。");
 
 static const u8 sKnockOffDescription[] = _(
-    "Knocks down the foe's held\n"
-    "item to prevent its use.");
+			"拍落持有物，使其不能使用。\n"
+			"对手携带道具时会增加伤害。");
 
 static const u8 sEndeavorDescription[] = _(
-    "Gains power if the user's HP\n"
-    "is lower than the foe's HP.");
+			"给予伤害，使对手的HP\n"
+			"变得和自己的HP一样。");
 
 static const u8 sEruptionDescription[] = _(
-    "The higher the user's HP,\n"
-    "the more damage caused.");
+			"爆发怒火攻击对手。自己HP\n"
+			"越少，招式的威力越小。");
 
 static const u8 sSkillSwapDescription[] = _(
-    "The user swaps special\n"
-    "abilities with the target.");
+			"利用超能力互换自己和\n"
+			"对手的特性。");
 
 static const u8 sImprisonDescription[] = _(
-    "Prevents foes from using\n"
-    "moves known by the user.");
+			"如果对手有和自己相同招式，\n"
+			"那么对手将无法使用该招式。");
 
 static const u8 sRefreshDescription[] = _(
-    "Heals poisoning, paralysis,\n"
-    "or a burn.");
+			"让身体休息，\n"
+			"治愈自己的异常状态。");
 
 static const u8 sGrudgeDescription[] = _(
-    "If the user faints, deletes\n"
-    "all PP of foe's last move.");
+			"陷入昏厥时给对手施加怨念，\n"
+			"让该招式的PP变成0。");
 
 static const u8 sSnatchDescription[] = _(
-    "Steals the effects of the\n"
-    "move the target uses next.");
+			"将对手要使用的回复招式或\n"
+			"能力变化招式夺为己用。");
 
 static const u8 sSecretPowerDescription[] = _(
-    "An attack with effects\n"
-    "that vary by location.");
+			"根据使用场所不同，\n"
+			"招式的追加效果也会改变。");
 
 static const u8 sDiveDescription[] = _(
-    "Dives underwater the first\n"
-    "turn and strikes next turn.");
+			"第1回合潜入水中，\n"
+			"第2回合浮上来攻击。");
 
 static const u8 sArmThrustDescription[] = _(
-    "Straight-arm punches that\n"
-    "strike the foe 2 to 5 times.");
+			"张开双手猛推对手攻击。\n"
+			"连续攻击2～5次。");
 
 static const u8 sCamouflageDescription[] = _(
-    "Alters the POKéMON's type\n"
-    "depending on the location.");
+			"根据所在场所不同，\n"
+			"可以改变自己的属性。");
 
 static const u8 sTailGlowDescription[] = _(
-    "Flashes a light that sharply\n"
-    "raises SP. ATK.");
+			"凝视闪烁的光芒，集中自身\n"
+			"精神，从而巨幅提高特攻。");
 
 static const u8 sLusterPurgeDescription[] = _(
-    "Attacks with a burst of\n"
-    "light. May lower SP. DEF.");
+			"释放耀眼的光芒攻击。\n"
+			"有时会降低对手的特防。");
 
 static const u8 sMistBallDescription[] = _(
-    "Attacks with a flurry of\n"
-    "down. May lower SP. ATK.");
+			"用围绕着雾状羽毛的球攻击。\n"
+			"有时会降低对手的特攻。");
 
 static const u8 sFeatherDanceDescription[] = _(
-    "Envelops the foe with down\n"
-    "to sharply reduce ATTACK.");
+			"撒出羽毛笼罩在对手周围。\n"
+			"大幅降低对手的攻击。");
 
 static const u8 sTeeterDanceDescription[] = _(
-    "Confuses all POKéMON on\n"
-    "the scene.");
+			"摇摇晃晃地跳起舞蹈，\n"
+			"让周围的宝可梦陷入混乱。");
 
 static const u8 sBlazeKickDescription[] = _(
-    "A kick with a high critical-\n"
-    "hit ratio. May cause a burn.");
+			"攻击对手后，有时会使其\n"
+			"灼伤。也容易击中要害。");
 
 static const u8 sMudSportDescription[] = _(
-    "Covers the user in mud to\n"
-    "raise electrical resistance.");
+			"弄得周围到处是泥。\n"
+			"在5回合内减弱电属性的招式。");
 
 static const u8 sIceBallDescription[] = _(
-    "A 5-turn attack that gains\n"
-    "power on successive hits.");
+			"在5回合内攻击对手。招式每\n"
+			"次击中，威力就会提高。");
 
 static const u8 sNeedleArmDescription[] = _(
-    "Attacks with thorny arms.\n"
-    "May cause flinching.");
+			"用带刺的手臂猛烈挥舞攻击。\n"
+			"有时会使对手畏缩。");
 
 static const u8 sSlackOffDescription[] = _(
-    "Slacks off and restores\n"
-    "half the maximum HP.");
+			"偷懒休息。\n"
+			"回复自己最大HP的一半。");
 
 static const u8 sHyperVoiceDescription[] = _(
-    "A loud attack that uses\n"
-    "sound waves to injure.");
+			"给予对手又吵又响的巨大\n"
+			"震动攻击。");
 
 static const u8 sPoisonFangDescription[] = _(
-    "A sharp-fanged attack.\n"
-    "May badly poison the foe.");
+			"用有毒的牙齿咬住对手攻击。\n"
+			"有时会使对手中剧毒。");
 
 static const u8 sCrushClawDescription[] = _(
-    "Tears at the foe with sharp\n"
-    "claws. May lower DEFENSE.");
+			"用坚硬的锐爪劈开对手攻击。\n"
+			"有时会降低对手的防御。");
 
 static const u8 sBlastBurnDescription[] = _(
-    "Powerful, but leaves the\n"
-    "user immobile the next turn.");
+			"用爆炸的火焰烧尽对手攻击。\n"
+			"下一回合自己将无法动弹。");
 
 static const u8 sHydroCannonDescription[] = _(
-    "Powerful, but leaves the\n"
-    "user immobile the next turn.");
+			"向对手喷射水炮攻击。\n"
+			"下一回合自己将无法动弹。");
 
 static const u8 sMeteorMashDescription[] = _(
-    "Fires a meteor-like punch.\n"
-    "May raise ATTACK.");
+			"使出彗星般的拳头攻击对手。\n"
+			"有时会提高自己的攻击。");
 
 static const u8 sAstonishDescription[] = _(
-    "An attack that may shock\n"
-    "the foe into flinching.");
+			"用尖叫声突然惊吓对手攻击。\n"
+			"有时会使对手畏缩。");
 
 static const u8 sWeatherBallDescription[] = _(
-    "The move's type and power\n"
-    "change with the weather.");
+			"根据使用时的天气，\n"
+			"招式属性和威力会改变。");
 
 static const u8 sAromatherapyDescription[] = _(
-    "Heals all status problems\n"
-    "with a soothing scent.");
+			"让同伴闻沁人心脾的香气，\n"
+			"治愈我方全员的异常状态。");
 
 static const u8 sFakeTearsDescription[] = _(
-    "Feigns crying to sharply\n"
-    "lower the foe's SP. DEF.");
+			"装哭流泪。使对手不知所措，\n"
+			"从而大幅降低对手的特防。");
 
 static const u8 sAirCutterDescription[] = _(
-    "Hacks with razorlike wind.\n"
-    "High critical-hit ratio.");
+			"用锐利的风切斩对手攻击。\n"
+			"容易击中要害。");
 
 static const u8 sOverheatDescription[] = _(
-    "Allows a full-power attack,\n"
-    "but sharply lowers SP. ATK.");
+			"使出全部力量攻击对手。\n"
+			"之后自己的特攻大幅降低。");
 
 static const u8 sOdorSleuthDescription[] = _(
-    "Negates the foe's efforts\n"
-    "to heighten evasiveness.");
+			"对幽灵宝可梦以及闪避率高\n"
+			"对手，变得能够打中。");
 
 static const u8 sRockTombDescription[] = _(
-    "Stops the foe from moving\n"
-    "with rocks and cuts SPEED.");
+			"投掷岩石攻击。封住对手\n"
+			"的行动，从而降低速度。");
 
 static const u8 sSilverWindDescription[] = _(
-    "A powdery attack that may\n"
-    "raise abilities.");
+			"在风中掺入鳞粉攻击对手。\n"
+			"有时会提高自己的全部能力。");
 
 static const u8 sMetalSoundDescription[] = _(
-    "Emits a horrible screech\n"
-    "that sharply lowers SP. DEF.");
+			"发出摩擦金属般讨厌的声音。\n"
+			"大幅降低对手的特防。");
 
 static const u8 sGrassWhistleDescription[] = _(
-    "Lulls the foe into sleep\n"
-    "with a pleasant melody.");
+			"让对手听舒适的笛声，\n"
+			"从而陷入睡眠状态。");
 
 static const u8 sTickleDescription[] = _(
-    "Makes the foe laugh to\n"
-    "lower ATTACK and DEFENSE.");
+			"给对手挠痒，使其发笑，\n"
+			"降低对手的攻击和防御。");
 
 static const u8 sCosmicPowerDescription[] = _(
-    "Raises DEFENSE and SP. DEF\n"
-    "with a mystic power.");
+			"汲取宇宙中神秘的力量，\n"
+			"从而提高自己的防御和特防。");
 
 static const u8 sWaterSpoutDescription[] = _(
-    "Inflicts more damage if the\n"
-    "user's HP is high.");
+			"掀起潮水攻击。自己HP\n"
+			"越少，招式的威力越小。");
 
 static const u8 sSignalBeamDescription[] = _(
-    "A strange beam attack that\n"
-    "may confuse the foe.");
+			"发射神奇的光线攻击。\n"
+			"有时会使对手混乱。");
 
 static const u8 sShadowPunchDescription[] = _(
-    "An unavoidable punch that\n"
-    "is thrown from shadows.");
+			"使出混影之拳。\n"
+			"攻击必定会命中。");
 
 static const u8 sExtrasensoryDescription[] = _(
-    "Attacks with a peculiar\n"
-    "power. May cause flinching.");
+			"发出看不见的神奇力量攻击。\n"
+			"有时会使对手畏缩。");
 
 static const u8 sSkyUppercutDescription[] = _(
-    "An uppercut thrown as if\n"
-    "leaping into the sky.");
+			"用冲向天空般高高的上\n"
+			"勾拳顶起对手攻击。");
 
 static const u8 sSandTombDescription[] = _(
-    "Traps and hurts the foe in\n"
-    "quicksand for 2 to 5 turns.");
+			"将对手困在铺天盖地的沙中，\n"
+			"在4～5回合内攻击。");
 
 static const u8 sSheerColdDescription[] = _(
-    "A chilling attack that\n"
-    "causes fainting if it hits.");
+			"给对手一击昏厥。若冰属性\n"
+			"以外宝可梦使用会难以打中。");
 
 static const u8 sMuddyWaterDescription[] = _(
-    "Attacks with muddy water.\n"
-    "May lower accuracy.");
+			"向对手喷射浑浊的水攻击。\n"
+			"有时会降低对手的命中率。");
 
 static const u8 sBulletSeedDescription[] = _(
-    "Shoots 2 to 5 seeds in a row\n"
-    "to strike the foe.");
+			"向对手猛烈地发射种子攻击。\n"
+			"连续攻击2～5次。");
 
 static const u8 sAerialAceDescription[] = _(
-    "An extremely speedy and\n"
-    "unavoidable attack.");
+			"以敏捷动作戏弄对手后切斩。\n"
+			"攻击必定会命中。");
 
 static const u8 sIcicleSpearDescription[] = _(
-    "Attacks the foe by firing\n"
-    "2 to 5 icicles in a row.");
+			"向对手发射锋利的冰柱攻击。\n"
+			"连续攻击2～5次。");
 
 static const u8 sIronDefenseDescription[] = _(
-    "Hardens the body's surface\n"
-    "to sharply raise DEFENSE.");
+			"将皮肤变得坚硬如铁，\n"
+			"从而大幅提高自己的防御。");
 
 static const u8 sBlockDescription[] = _(
-    "Blocks the foe's way to\n"
-    "prevent escape.");
+			"张开双手阻挡，封住对手\n"
+			"的退路，使其不能逃走。");
 
 static const u8 sHowlDescription[] = _(
-    "Howls to raise the spirit\n"
-    "and boosts ATTACK.");
+			"大声吼叫提高气势，\n"
+			"从而提高自己和同伴的攻击。");
 
 static const u8 sDragonClawDescription[] = _(
-    "Slashes the foe with sharp\n"
-    "claws.");
+			"用尖锐的巨爪劈开对手\n"
+			"攻击。");
 
 static const u8 sFrenzyPlantDescription[] = _(
-    "Powerful, but leaves the\n"
-    "user immobile the next turn.");
+			"用大树摔打对手攻击。\n"
+			"下一回合自己将无法动弹。");
 
 static const u8 sBulkUpDescription[] = _(
-    "Bulks up the body to boost\n"
-    "both ATTACK and DEFENSE.");
+			"使出全身力气绷紧肌肉，\n"
+			"从而提高自己的攻击和防御。");
 
 static const u8 sBounceDescription[] = _(
-    "Bounces up, then down the\n"
-    "next turn. May paralyze.");
+			"弹跳到高高的空中，第2回合\n"
+			"攻击，有时会让对手陷入麻痹。");
 
 static const u8 sMudShotDescription[] = _(
-    "Hurls mud at the foe and\n"
-    "reduces SPEED.");
+			"向对手投掷泥块攻击。\n"
+			"同时降低对手的速度。");
 
 static const u8 sPoisonTailDescription[] = _(
-    "Has a high critical-hit\n"
-    "ratio. May also poison.");
+			"用尾巴拍打。有时会让对手\n"
+			"中毒，也容易击中要害。");
 
 static const u8 sCovetDescription[] = _(
-    "Cutely begs to obtain an\n"
-    "item held by the foe.");
+			"边撒娇边靠近对手攻击，\n"
+			"还能夺取对手携带的道具。");
 
 static const u8 sVoltTackleDescription[] = _(
-    "A life-risking tackle that\n"
-    "slightly hurts the user.");
+			"让电流覆盖全身猛撞。自己也\n"
+			"会受伤。有时会让对手麻痹。");
 
 static const u8 sMagicalLeafDescription[] = _(
-    "Attacks with a strange leaf\n"
-    "that cannot be evaded.");
+			"散落能追踪对手的神奇叶片。\n"
+			"攻击必定会命中。");
 
 static const u8 sWaterSportDescription[] = _(
-    "The user becomes soaked to\n"
-    "raise resistance to fire.");
+			"用水湿透周围。\n"
+			"在5回合内减弱火属性招式。");
 
 static const u8 sCalmMindDescription[] = _(
-    "Raises SP. ATK and SP. DEF\n"
-    "by focusing the mind.");
+			"静心凝神，\n"
+			"从而提高自己的特攻和特防。");
 
 static const u8 sLeafBladeDescription[] = _(
-    "Slashes with a sharp leaf.\n"
-    "High critical-hit ratio.");
+			"像用剑般操纵叶片切斩对手。\n"
+			"容易击中要害。");
 
 static const u8 sDragonDanceDescription[] = _(
-    "A mystical dance that ups\n"
-    "ATTACK and SPEED.");
+			"激烈地跳起神秘有力的舞蹈。\n"
+			"从而提高自己的攻击和速度。");
 
 static const u8 sRockBlastDescription[] = _(
-    "Hurls boulders at the foe\n"
-    "2 to 5 times in a row.");
+			"向对手发射坚硬的岩石攻击。\n"
+			"连续攻击2～5次。");
 
 static const u8 sShockWaveDescription[] = _(
-    "A fast and unavoidable\n"
-    "electric attack.");
+			"向对手快速发出电击。\n"
+			"攻击必定会命中。");
 
 static const u8 sWaterPulseDescription[] = _(
-    "Attacks with ultrasonic\n"
-    "waves. May confuse the foe.");
+			"用水的震动攻击对手。\n"
+			"有时会使对手混乱。");
 
 static const u8 sDoomDesireDescription[] = _(
-    "Summons strong sunlight to\n"
-    "attack 2 turns later.");
+			"使用招式2回合后，\n"
+			"会用无数道光束攻击对手。");
 
 static const u8 sPsychoBoostDescription[] = _(
-    "Allows a full-power attack,\n"
-    "but sharply lowers SP. ATK.");
+			"使出全部力量攻击对手。\n"
+			"之后自己的特攻大幅降低。");
 
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =

@@ -776,7 +776,7 @@ gTVPokemonNewsBattleFrontierText15::
 
 gTVPokemonNewsBattleFrontierText16::
 	.string "And to the four POKéMON: {STR_VAR_1}!\p"
-	.string "{STR_VAR_2}!\p"
+	.string "{STR_VAR_2}英寸！\p"
 	.string "{STR_VAR_3}!$"
 
 gTVPokemonNewsBattleFrontierText17::
