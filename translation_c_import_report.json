@@ -1,0 +1,14 @@
+{
+  "source": "../pokeemerald_expansion_chs_current",
+  "apply": true,
+  "changed_file_count": 3,
+  "changed_symbol_count": 147,
+  "changed_files": [
+    "src/battle_message.c",
+    "src/berry_blender.c",
+    "src/data/trade.h"
+  ],
+  "skipped_ambiguous": [
+    "src/strings.c:gText_PkmnFainted_FldPsn"
+  ]
+}

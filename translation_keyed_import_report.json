@@ -1,0 +1,13 @@
+{
+  "source": "../pokeemerald_expansion_chs_current",
+  "apply": true,
+  "changed_file_count": 5,
+  "changed_entry_count": 711,
+  "changed_files": [
+    "src/data/battle_frontier/battle_frontier_trainers.h",
+    "src/data/battle_frontier/battle_tent.h",
+    "src/data/contest_opponents.h",
+    "src/data/decoration/header.h",
+    "src/data/trade.h"
+  ]
+}

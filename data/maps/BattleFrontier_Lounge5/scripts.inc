@@ -41,14 +41,10 @@ BattleFrontier_Lounge5_EventScript_LittleBoy::
 	end
 
 BattleFrontier_Lounge5_Text_NatureGirlGreeting::
-	.string "Ehehe!\n"
-	.string "I can tell what POKéMON are thinking!\p"
-	.string "Please!\n"
-	.string "Can I see your POKéMON?$"
+	.string "呵呵！\n我能看出宝可梦在想什么哦！\p来吧！\n让我看看你的宝可梦！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlNoneShown::
-	.string "Boo!\n"
-	.string "Cheapie!$"
+    .string "砰！\n咔嚓！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlHardy::
 	.string "Hmhm…\p"
@@ -183,20 +179,14 @@ BattleFrontier_Lounge5_Text_NatureGirlCareful::
 	.string "it will turn sneaky!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlEgg::
-	.string "That's silly! An EGG is asleep!\n"
-	.string "I can't talk to it!$"
+    .string "你在说什么傻话！蛋可在沉睡啊！\n我怎么跟它交谈呢！$"
 
 BattleFrontier_Lounge5_Text_LadyClaimsSheUnderstandsPokemon::
-	.string "How charming!\n"
-	.string "That little lady claims she can\l"
-	.string "understand POKéMON!$"
+    .string "好像魔法一样啊！\n那边那位小女孩说她能\l懂得宝可梦在说什么！$"
 
 BattleFrontier_Lounge5_Text_GirlSayingSomethingProfound::
-	.string "I have this feeling that the little girl\n"
-	.string "is saying something profound.$"
+    .string "我感觉那个小女孩好像在\n说什么很晦涩难懂的话。$"
 
 BattleFrontier_Lounge5_Text_GirlPlaysAtRedHouseALot::
-	.string "I know something!\p"
-	.string "That little girl plays at the red house\n"
-	.string "a lot!$"
+    .string "我知道我知道！\p那个小女孩经常在\n红色的房子里玩！$"
 

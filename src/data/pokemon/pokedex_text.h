@@ -149,10 +149,7 @@ const u8 gArbokPokedexText[] = _(
     "around its foe, escaping is impossible.");
 
 const u8 gPikachuPokedexText[] = _(
-    "It stores electricity in the electric sacs\n"
-    "on its cheeks. When it releases pent-up\n"
-    "energy in a burst, the electric power is\n"
-    "equal to a lightning bolt.");
+    "据说当好几只聚在一起时，\n那里就会凝聚强烈的电力，\n还可能会落下闪电。");
 
 const u8 gRaichuPokedexText[] = _(
     "If it stores too much electricity, its\n"
@@ -797,10 +794,7 @@ const u8 gDittoPokedexText[] = _(
     "details wrong.");
 
 const u8 gEeveePokedexText[] = _(
-    "An EEVEE has an unstable genetic makeup\n"
-    "that suddenly mutates due to its\n"
-    "environment. Radiation from various\n"
-    "STONES causes this POKéMON to evolve.");
+    "拥有不规则的基因。\n石头散发出的射线\n会让它的身体发生突变。");
 
 const u8 gVaporeonPokedexText[] = _(
     "VAPOREON underwent a spontaneous\n"
@@ -1031,10 +1025,7 @@ const u8 gLanturnPokedexText[] = _(
     "the inky darkness of deep seas.");
 
 const u8 gPichuPokedexText[] = _(
-    "It is still inept at retaining electricity.\n"
-    "When it is startled, it discharges power\n"
-    "accidentally. It gets better at holding\n"
-    "power as it grows older.");
+    "不擅长存储电力。\n只要受到什么惊吓，\n就会立马放电。");
 
 const u8 gCleffaPokedexText[] = _(
     "On nights with many shooting stars,\n"
@@ -1205,10 +1196,7 @@ const u8 gMisdreavusPokedexText[] = _(
     "as its nutrition.");
 
 const u8 gUnownPokedexText[] = _(
-    "This POKéMON is shaped like ancient text\n"
-    "characters. Although research is ongoing,\n"
-    "it is a mystery as to which came first,\n"
-    "the ancient writings or the various UNOWN.");
+    "身体很薄，\n会一直贴在墙上。\n它的外形好像有着某种含义。");
 
 const u8 gWobbuffetPokedexText[] = _(
     "Usually docile, a WOBBUFFET strikes back\n"
