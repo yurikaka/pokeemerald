@@ -47,136 +47,70 @@ BattleFrontier_Lounge5_Text_NatureGirlNoneShown::
     .string "砰！\n咔嚓！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlHardy::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "It will battle even if it has a lot\l"
-	.string "of ouchies!$"
+    .string "嗯嗯……\p它说它想去战斗！\n它说无论会受什么伤，\l它都想去战斗！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlLonely::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will hit back!$"
+	.string "嗯嗯……\p它说它会小心躲开战斗的！\n但如果它受伤太重，\l它还是会报复！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlBrave::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will worry about itself!$"
+    .string "嗯嗯……\p它说它想去战斗！\n但如果它受伤太重，\l它会更多照顾自己的！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlAdamant::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "It will battle even if it has a lot\l"
-	.string "of ouchies!$"
+    .string "嗯嗯……\p它说它想去战斗！\n它说无论会受什么伤，\l它都想去战斗！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlNaughty::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will hit back!$"
+    .string "嗯嗯……\p它说它会照顾自己更多一些！\n但如果它受伤太重，\l它还是会报复！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlBold::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will worry about itself!$"
+	.string "嗯嗯……\p它说它会小心躲开战斗的！\n但如果它受伤太重，\l它会更多照顾自己！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlDocileNaiveQuietQuirky::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "It will battle even if it has a lot\l"
-	.string "of ouchies!$"
+    .string "嗯嗯……\p它说它想去战斗！\n它说无论会受什么伤，\l它都想去战斗！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlRelaxed::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will hit back!$"
+	.string "嗯嗯……\p它说它会小心躲开战斗的！\n但如果它受伤太重，\l它还是会报复！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlImpish::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will worry about itself!$"
+    .string "嗯嗯……\p它说它想去战斗！\n但如果它受伤太重，\l它会更多照顾自己的！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlLax::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "It says it likes to be sneaky even\l"
-	.string "if it has a lot of ouchies!$"
+	.string "嗯嗯……\p它说它会小心躲开战斗的！\n它说就算受伤很重，\l它还是想避开战斗！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlTimid::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will turn sneaky!$"
+    .string "嗯嗯……\p它说它想去战斗！\n但如果它受伤太重，\l它会避开战斗的！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlHasty::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "It will battle even if it has a lot\l"
-	.string "of ouchies!$"
+    .string "嗯嗯……\p它说它想去战斗！\n它说无论会受什么伤，\l它都想去战斗！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlSerious::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "It says it likes to be sneaky even\l"
-	.string "if it has a lot of ouchies!$"
+	.string "嗯嗯……\p它说它会小心躲开战斗的！\n它说就算受伤很重，\l它还是想避开战斗！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlJolly::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will worry about itself!$"
+	.string "嗯嗯……\p它说它会小心躲开战斗的！\n但如果它受伤太重，\l它会更多照顾自己！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlModest::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "It says it worries about itself whether\l"
-	.string "or not it has a lot of ouchies!$"
+	.string "嗯嗯……\p它说它会照顾自己更多一些！\n它说就算受伤很重，\l它还是会更多照顾自己！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlMild::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will turn sneaky!$"
+	.string "嗯嗯……\p它说它会照顾自己更多一些！\n但如果它受伤太重，\l它会避开战斗的！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlBashful::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "It says it worries about itself even\l"
-	.string "if it has a lot of ouchies!$"
+	.string "嗯嗯……\p它说它会照顾自己更多一些！\n它说就算受伤很重，\l它还是会更多照顾自己！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlRash::
-	.string "Hmhm…\p"
-	.string "This one says it likes to be sneaky!\n"
-	.string "It says it likes to be sneaky even\l"
-	.string "if it has a lot of ouchies!$"
+	.string "嗯嗯……\p它说它会小心躲开战斗的！\n它说就算受伤很重，\l它还是想避开战斗！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlCalm::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "It says it worries about itself even\l"
-	.string "if it has a lot of ouchies!$"
+	.string "嗯嗯……\p它说它会照顾自己更多一些！\n它说就算受伤很重，\l它还是会更多照顾自己！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlGentle::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will hit back!$"
+    .string "嗯嗯……\p它说它会照顾自己更多一些！\n但如果它受伤太重，\l它还是会报复！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlSassy::
-	.string "Hmhm…\p"
-	.string "This one says it likes to battle!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will turn sneaky!$"
+    .string "嗯嗯……\p它说它想去战斗！\n但如果它受伤太重，\l它会避开战斗的！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlCareful::
-	.string "Hmhm…\p"
-	.string "This one says it looks after itself!\n"
-	.string "But if it gets enough ouchies,\l"
-	.string "it will turn sneaky!$"
+	.string "嗯嗯……\p它说它会照顾自己更多一些！\n但如果它受伤太重，\l它会避开战斗的！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlEgg::
     .string "你在说什么傻话！蛋可在沉睡啊！\n我怎么跟它交谈呢！$"

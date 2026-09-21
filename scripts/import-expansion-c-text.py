@@ -143,14 +143,20 @@ def main() -> None:
     for name in sorted(set(target_by_name) & set(source_by_name)):
         if name in PRESERVE_ENGLISH:
             continue
-        if len(target_by_name[name]) != 1 or len(source_by_name[name]) != 1:
+        if len(target_by_name[name]) != 1:
             continue
         old = target_by_name[name][0]
         if (old.path, old.start, old.end) in already_selected:
             continue
         if CJK_RE.search(old.expression):
             continue
-        translated = target_expression(source_by_name[name][0].expression)
+        source_expressions = {
+            target_expression(entry.expression) for entry in source_by_name[name]
+            if CJK_RE.search(entry.expression)
+        }
+        if len(source_expressions) != 1:
+            continue
+        translated = source_expressions.pop()
         if CJK_RE.search(translated) and old.expression != translated:
             edits_by_path[old.path].append((old.start, old.end, translated, old.name))
 

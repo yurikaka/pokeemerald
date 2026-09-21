@@ -9,7 +9,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 CJK = re.compile(r"[\u3400-\u9fff]")
-DESIGNATOR = re.compile(r"(?m)^\s*\[(?P<key>[A-Z][A-Z0-9_]*)(?:\s*-\s*1)?\]\s*=")
+DESIGNATOR = re.compile(r"(?m)^\s*\[(?P<key>[A-Z][A-Z0-9_]*)(?:\s*-\s*(?:1|[A-Z][A-Z0-9_]*))?\]\s*=")
 MACROS = ("COMPOUND_STRING", "ITEM_NAME", "_")
 
 
@@ -86,6 +86,12 @@ def value(block: str) -> tuple[int, int, str] | None:
     return macro_at(block, match.end(), len(block)) if match else None
 
 
+def first_macro(block: str) -> tuple[int, int, str] | None:
+    """Return the first translation macro in an entry, including tuple entries."""
+    starts = [pos for name in MACROS if (pos := block.find(name + "(")) >= 0]
+    return macro_at(block, min(starts), len(block)) if starts else None
+
+
 def normalized(expression: str) -> str:
     opening = expression.find("(")
     expression = "_(" + expression[opening + 1:]
@@ -159,6 +165,32 @@ def replace_pointed_descriptions(data_path: Path, pointer_path: Path,
     return len(edits)
 
 
+def replace_pointed_field(data_path: Path, pointer_path: Path,
+                          translations: dict[tuple[str, str], str], field_name: str) -> int:
+    data = data_path.read_text(encoding="utf-8")
+    edits = []
+    for key, (_start, _end, block) in blocks(pointer_path).items():
+        pointer = re.search(r"\." + re.escape(field_name) + r"\s*=\s*(\w+)", block)
+        translated = translations.get((key, field_name))
+        item = declaration_expr(data, pointer.group(1)) if pointer else None
+        if translated and item and not CJK.search(item[2]):
+            edits.append((item[0], item[1], translated))
+    for start, end, replacement in sorted(set(edits), reverse=True):
+        data = data[:start] + replacement + data[end:]
+    if edits:
+        data_path.write_text(data, encoding="utf-8")
+    return len(set(edits))
+
+
+def tuple_values(path: Path, prefix: str) -> dict[tuple[str, str], str]:
+    result = {}
+    for key, (_start, _end, block) in blocks(path).items():
+        item = first_macro(block)
+        if key.startswith(prefix) and item and CJK.search(item[2]):
+            result[(key, "$value")] = normalized(item[2])
+    return result
+
+
 def replace_pointer_table(data_path: Path, pointer_path: Path,
                           translations: dict[tuple[str, str], str], prefix: str) -> int:
     """Replace declarations referenced by an enum-indexed pointer table."""
@@ -201,6 +233,23 @@ def main() -> None:
 
     moves = source_table([source / "src/data/moves_info.h"], ("name", "description"))
     items = source_table([source / "src/data/items.h"], ("name", "description"))
+    item_aliases = {
+        "ITEM_X_DEFEND": "ITEM_GUARD_SPEC",
+        "ITEM_X_SPECIAL": "ITEM_X_SP_ATK",
+        "ITEM_UP_GRADE": "ITEM_UPGRADE",
+        "ITEM_STICK": "ITEM_LEEK",
+        "ITEM_ITEMFINDER": "ITEM_DOWSING_MACHINE",
+        "ITEM_DEVON_GOODS": "ITEM_DEVON_PARTS",
+        "ITEM_ROOM_1_KEY": "ITEM_KEY_TO_ROOM_1",
+        "ITEM_ROOM_2_KEY": "ITEM_KEY_TO_ROOM_2",
+        "ITEM_ROOM_4_KEY": "ITEM_KEY_TO_ROOM_4",
+        "ITEM_ROOM_6_KEY": "ITEM_KEY_TO_ROOM_6",
+        "ITEM_OAKS_PARCEL": "ITEM_PARCEL",
+    }
+    for target_key, source_key in item_aliases.items():
+        for field_name in ("name", "description"):
+            if (source_key, field_name) in items:
+                items[(target_key, field_name)] = items[(source_key, field_name)]
     abilities = source_table([source / "src/data/abilities.h"], ("name", "description"))
     species_files = list((source / "src/data/pokemon/species_info").glob("gen_*_families.h"))
     species = source_table(species_files, ("categoryName", "description"))
@@ -213,6 +262,8 @@ def main() -> None:
             battle[(key, "$value")] = normalized(item[2])
     natures = source_table([source / "src/pokemon.c"], ("name",))
     trainers = party_trainer_names(source / "src/data/trainers.party")
+    berries = source_table([source / "src/berry.c"], ("name", "description1", "description2"))
+    trainer_classes = tuple_values(source / "src/battle_main.c", "TRAINER_CLASS_")
 
     counts = {}
     counts["move_names"] = replace_direct(root / "src/data/text/move_names.h", moves, "$value", "MOVE_", "name")
@@ -233,14 +284,23 @@ def main() -> None:
     counts["pokedex_descriptions"] = replace_pointed_descriptions(
         root / "src/data/pokemon/pokedex_text.h", root / "src/data/pokemon/pokedex_entries.h",
         national, "NATIONAL_DEX_")
-    counts["battle_messages"] = replace_pointer_table(
-        root / "src/battle_message.c", root / "src/battle_message.c", battle, "STRINGID_")
+    # Battle strings require placeholder remapping; use
+    # import-expansion-battle-text.py instead of direct replacement.
     counts["nature_names"] = replace_pointer_table(
         root / "src/data/text/nature_names.h", root / "src/data/text/nature_names.h",
         {(key, "$value"): value for (key, field), value in natures.items() if field == "name"},
         "NATURE_")
     counts["trainer_names"] = replace_direct(
         root / "src/data/trainers.h", trainers, "trainerName", "TRAINER_", "trainerName")
+    counts["berry_names"] = replace_direct(
+        root / "src/berry.c", berries, "name", "ITEM_", "name")
+    counts["berry_description1"] = replace_pointed_field(
+        root / "src/berry.c", root / "src/berry.c", berries, "description1")
+    counts["berry_description2"] = replace_pointed_field(
+        root / "src/berry.c", root / "src/berry.c", berries, "description2")
+    counts["trainer_classes"] = replace_direct(
+        root / "src/data/text/trainer_class_names.h", trainer_classes,
+        "$value", "TRAINER_CLASS_", "$value")
     print("\n".join(f"{key}: {value}" for key, value in counts.items()))
 
 

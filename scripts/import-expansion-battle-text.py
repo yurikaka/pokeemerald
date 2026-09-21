@@ -53,6 +53,10 @@ def main():
         target_tokens = TOKEN.findall(base_item[2])
         if len(source_tokens) != len(target_tokens):
             skipped.append(key)
+            # A manually adapted Chinese string may intentionally retain the
+            # vanilla placeholder set. Do not overwrite it on later imports.
+            if re.search(r"[\u3400-\u9fff]", current_item[2]):
+                continue
             replacement = base_item[2]
         else:
             mapping = {}
@@ -66,6 +70,8 @@ def main():
                 replacement = TOKEN.sub(lambda m: "{" + mapping.get(m.group(1), m.group(1)) + "}", replacement)
             else:
                 skipped.append(key)
+                if re.search(r"[\u3400-\u9fff]", current_item[2]):
+                    continue
                 replacement = base_item[2]
         edits.append((current_item[0], current_item[1], replacement))
 
@@ -73,6 +79,8 @@ def main():
         current = current[:start] + replacement + current[end:]
     current_path.write_text(current, encoding="utf-8")
     print(f"imported={len(edits) - len(skipped)} restored={len(skipped)}")
+    if skipped:
+        print("placeholder-mismatch: " + ", ".join(skipped))
 
 
 if __name__ == "__main__":

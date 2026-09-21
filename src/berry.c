@@ -26,97 +26,97 @@ static u16 GetStageDurationByBerryType(u8);
 
 //.rodata
 static const u8 sBerryDescriptionPart1_Cheri[] = _("鲜红色的果实非常辛辣，稍带些刺激");
-static const u8 sBerryDescriptionPart2_Cheri[] = _("The bright red BERRY is very spicy.");
-static const u8 sBerryDescriptionPart1_Chesto[] = _("The BERRY's thick skin and fruit are");
+static const u8 sBerryDescriptionPart2_Cheri[] = _("的味道。绽开的花朵十分惹人喜爱。");
+static const u8 sBerryDescriptionPart1_Chesto[] = _("零余果的外皮和果肉都又硬又涩。");
 static const u8 sBerryDescriptionPart2_Chesto[] = _("不过，全都可以食用。");
 static const u8 sBerryDescriptionPart1_Pecha[] = _("树果的内部有空洞，因此可食用的");
 static const u8 sBerryDescriptionPart2_Pecha[] = _("部分很少，不过非常香甜可口。");
 static const u8 sBerryDescriptionPart1_Rawst[] = _("在同种树果之中，树叶较长且卷曲");
-static const u8 sBerryDescriptionPart2_Rawst[] = _("the BERRY seems to grow very bitter.");
-static const u8 sBerryDescriptionPart1_Aspear[] = _("The hard BERRY is dense with a rich");
+static const u8 sBerryDescriptionPart2_Rawst[] = _("会有比较重的苦味。");
+static const u8 sBerryDescriptionPart1_Aspear[] = _("外皮坚硬，果肉多汁。带劲的酸味");
 static const u8 sBerryDescriptionPart2_Aspear[] = _("是其特色。");
-static const u8 sBerryDescriptionPart1_Leppa[] = _("Grows slower than CHERI and others.");
-static const u8 sBerryDescriptionPart2_Leppa[] = _("The smaller the BERRY, the tastier.");
-static const u8 sBerryDescriptionPart1_Oran[] = _("A peculiar BERRY with a mix of flavors.");
-static const u8 sBerryDescriptionPart2_Oran[] = _("BERRIES grow in half a day.");
-static const u8 sBerryDescriptionPart1_Persim[] = _("Loves sunlight. The BERRY's color");
+static const u8 sBerryDescriptionPart1_Leppa[] = _("跟樱子果之类的树果相比，生长速度");
+static const u8 sBerryDescriptionPart2_Leppa[] = _("较为缓慢。越小的果实口味越佳。");
+static const u8 sBerryDescriptionPart1_Oran[] = _("将大自然的恩惠融为一体，在口中");
+static const u8 sBerryDescriptionPart2_Oran[] = _("迸发出各种奇妙的好滋味。");
+static const u8 sBerryDescriptionPart1_Persim[] = _("这种树果吸收越多来自太阳的能量，");
 static const u8 sBerryDescriptionPart2_Persim[] = _("会成长得越为鲜艳。");
 static const u8 sBerryDescriptionPart1_Lum[] = _("这种树果会在内部储存对宝可梦有益");
-static const u8 sBerryDescriptionPart2_Lum[] = _("care, it may grow two BERRIES.");
-static const u8 sBerryDescriptionPart1_Sitrus[] = _("Closely related to ORAN. The large");
-static const u8 sBerryDescriptionPart2_Sitrus[] = _("BERRY has a well-rounded flavor.");
-static const u8 sBerryDescriptionPart1_Figy[] = _("The BERRY, which looks chewed up,");
+static const u8 sBerryDescriptionPart2_Lum[] = _("的成分，因此需要长时间成熟。");
+static const u8 sBerryDescriptionPart1_Sitrus[] = _("原本跟橙橙果属于同类，之后才被区");
+static const u8 sBerryDescriptionPart2_Sitrus[] = _("分出来。比橙橙果大，味道也更柔和。");
+static const u8 sBerryDescriptionPart1_Figy[] = _("外观如同被咬过的圆形果实，");
 static const u8 sBerryDescriptionPart2_Figy[] = _("内部富含辛辣的成分。");
-static const u8 sBerryDescriptionPart1_Wiki[] = _("The BERRY is said to have grown lumpy");
-static const u8 sBerryDescriptionPart2_Wiki[] = _("to help POKéMON grip it.");
-static const u8 sBerryDescriptionPart1_Mago[] = _("The BERRY turns curvy as it grows.");
+static const u8 sBerryDescriptionPart1_Wiki[] = _("据说外层有凸起的颗粒，是为了方便");
+static const u8 sBerryDescriptionPart2_Wiki[] = _("宝可梦携带，以此来扩展繁殖范围。");
+static const u8 sBerryDescriptionPart1_Mago[] = _("这种树果的形状会随着生长越来越");
 static const u8 sBerryDescriptionPart2_Mago[] = _("卷曲。越卷曲的果实味道越甜。");
 static const u8 sBerryDescriptionPart1_Aguav[] = _("这种树果花朵娇小，不太吸收阳光。");
 static const u8 sBerryDescriptionPart2_Aguav[] = _("靠近果蒂的部分含有苦味。");
-static const u8 sBerryDescriptionPart1_Iapapa[] = _("The BERRY is very big and sour.");
+static const u8 sBerryDescriptionPart1_Iapapa[] = _("这种树果又大又酸。果肉富含的");
 static const u8 sBerryDescriptionPart2_Iapapa[] = _("水分更加突出了它的酸味。");
-static const u8 sBerryDescriptionPart1_Razz[] = _("The red BERRY tastes slightly spicy.");
+static const u8 sBerryDescriptionPart1_Razz[] = _("外层的红色颗粒含有一点辣味，");
 static const u8 sBerryDescriptionPart2_Razz[] = _("中间的部分则有涩味。");
-static const u8 sBerryDescriptionPart1_Bluk[] = _("The BERRY is blue on the outside, but");
+static const u8 sBerryDescriptionPart1_Bluk[] = _("一旦咬下被柔软外皮包裹着的蓝色");
 static const u8 sBerryDescriptionPart2_Bluk[] = _("小颗粒，嘴巴内部将被染成黑色。");
-static const u8 sBerryDescriptionPart1_Nanab[] = _("This BERRY was the seventh");
+static const u8 sBerryDescriptionPart1_Nanab[] = _("这种果实甜中带苦，是世界上被");
 static const u8 sBerryDescriptionPart2_Nanab[] = _("发现的第7种树果。");
 static const u8 sBerryDescriptionPart1_Wepear[] = _("这种果实又苦又酸，似乎有助于肠胃");
 static const u8 sBerryDescriptionPart2_Wepear[] = _("消化。会开出美丽的白色花朵。");
 static const u8 sBerryDescriptionPart1_Pinap[] = _("剥下带着酸味的皮后，将里边有辣味");
 static const u8 sBerryDescriptionPart2_Pinap[] = _("的果肉磨成泥，据说也可以做成药材。");
 static const u8 sBerryDescriptionPart1_Pomeg[] = _("剥开厚厚的皮，就有大量的果肉迸出。");
-static const u8 sBerryDescriptionPart2_Pomeg[] = _("it only grows up to six BERRIES.");
+static const u8 sBerryDescriptionPart2_Pomeg[] = _("稍微的甜辣滋味，是属于大人的味道。");
 static const u8 sBerryDescriptionPart1_Kelpsy[] = _("这种树果可以直接食用。但如果用水");
 static const u8 sBerryDescriptionPart2_Kelpsy[] = _("煮干，其精华可为料理增添一味。");
 static const u8 sBerryDescriptionPart1_Qualot[] = _("即使是在长期下雨且湿气很重的");
 static const u8 sBerryDescriptionPart2_Qualot[] = _("土地上，这种树果也能茁壮成长。");
-static const u8 sBerryDescriptionPart1_Hondew[] = _("A BERRY that is very valuable and");
+static const u8 sBerryDescriptionPart1_Hondew[] = _("这种树果较为稀有，且带有高级感，");
 static const u8 sBerryDescriptionPart2_Hondew[] = _("作为赠礼会让对方高兴。");
 static const u8 sBerryDescriptionPart1_Grepa[] = _("果肉相当柔软，大口咬下，酸味和");
-static const u8 sBerryDescriptionPart2_Grepa[] = _("shape, the BERRY is unimaginably sour.");
-static const u8 sBerryDescriptionPart1_Tamato[] = _("The BERRY is lip-bendingly spicy.");
+static const u8 sBerryDescriptionPart2_Grepa[] = _("甜味立刻扩散至整个口中。");
+static const u8 sBerryDescriptionPart1_Tamato[] = _("果实硕大且辛辣，在寒冷的季节");
 static const u8 sBerryDescriptionPart2_Tamato[] = _("食用，可以让身体暖和起来。");
-static const u8 sBerryDescriptionPart1_Cornn[] = _("A BERRY from an ancient era. May not");
+static const u8 sBerryDescriptionPart1_Cornn[] = _("涩味相当强烈，只吃一两个的");
 static const u8 sBerryDescriptionPart2_Cornn[] = _("话，无法品尝出其中美味。");
-static const u8 sBerryDescriptionPart1_Magost[] = _("A BERRY that is widely said to have");
+static const u8 sBerryDescriptionPart1_Magost[] = _("令人沉醉的甜味中，依稀尝得出大人");
 static const u8 sBerryDescriptionPart2_Magost[] = _("才懂的成熟苦味。也深受宝可梦欢迎。");
 static const u8 sBerryDescriptionPart1_Rabuta[] = _("虽然味道较苦，但生长在表皮的毛能");
 static const u8 sBerryDescriptionPart2_Rabuta[] = _("清洁肠胃，建议宝可梦连皮吃下。");
 static const u8 sBerryDescriptionPart1_Nomel[] = _("整颗果实都非常酸，其中酸味特别");
 static const u8 sBerryDescriptionPart2_Nomel[] = _("集中于尖端的部位。");
-static const u8 sBerryDescriptionPart1_Spelon[] = _("The vividly red BERRY is very spicy.");
+static const u8 sBerryDescriptionPart1_Spelon[] = _("果实味道极辣，即使不是火属性的");
 static const u8 sBerryDescriptionPart2_Spelon[] = _("宝可梦吃上一口也会想喷出火焰。");
 static const u8 sBerryDescriptionPart1_Pamtre[] = _("原本是从遥远的大海漂流而来，不过");
 static const u8 sBerryDescriptionPart2_Pamtre[] = _("在丰缘地区也已经能够栽培这种树果。");
-static const u8 sBerryDescriptionPart1_Watmel[] = _("A huge BERRY, with some over 20");
+static const u8 sBerryDescriptionPart1_Watmel[] = _("口味极致甘甜，犹如大自然的恩惠。");
 static const u8 sBerryDescriptionPart2_Watmel[] = _("非常巨大，曾被发现超过50CM的果实。");
 static const u8 sBerryDescriptionPart1_Durin[] = _("这种树果味道极苦，稍微咬上一口，");
 static const u8 sBerryDescriptionPart2_Durin[] = _("抑制不住的打嗝也会瞬间停下。");
 static const u8 sBerryDescriptionPart1_Belue[] = _("虽然从色彩光泽来看，它似乎显得很");
 static const u8 sBerryDescriptionPart2_Belue[] = _("美味，但吃一口才发现其实很酸。");
-static const u8 sBerryDescriptionPart1_Liechi[] = _("A mysterious BERRY. It is rumored to");
+static const u8 sBerryDescriptionPart1_Liechi[] = _("枝荔果是一种神秘的树果。有传言");
 static const u8 sBerryDescriptionPart2_Liechi[] = _("说，它蕴藏着大海的力量。");
-static const u8 sBerryDescriptionPart1_Ganlon[] = _("A mysterious BERRY. It is rumored to");
+static const u8 sBerryDescriptionPart1_Ganlon[] = _("龙睛果是一种神秘的树果。有传言");
 static const u8 sBerryDescriptionPart2_Ganlon[] = _("说，它蕴藏着大地的力量。");
-static const u8 sBerryDescriptionPart1_Salac[] = _("A mysterious BERRY. It is rumored to");
+static const u8 sBerryDescriptionPart1_Salac[] = _("沙鳞果是一种神秘的树果。有传言");
 static const u8 sBerryDescriptionPart2_Salac[] = _("说，它蕴藏着天空的力量。");
-static const u8 sBerryDescriptionPart1_Petaya[] = _("A mysterious BERRY. It is rumored to");
+static const u8 sBerryDescriptionPart1_Petaya[] = _("龙火果是一种神秘的树果。有传言");
 static const u8 sBerryDescriptionPart2_Petaya[] = _("说，它蕴藏着所有生物的力量。");
-static const u8 sBerryDescriptionPart1_Apicot[] = _("A very mystifying BERRY. No telling");
+static const u8 sBerryDescriptionPart1_Apicot[] = _("非常不可思议的树果。关于它能够做");
 static const u8 sBerryDescriptionPart2_Apicot[] = _("什么，又会引发什么事，没有人知道。");
-static const u8 sBerryDescriptionPart1_Lansat[] = _("Said to be a legendary BERRY.");
+static const u8 sBerryDescriptionPart1_Lansat[] = _("被世人称为“传说中的树果”。如果");
 static const u8 sBerryDescriptionPart2_Lansat[] = _("能拥有它，似乎会变得非常幸福。");
 static const u8 sBerryDescriptionPart1_Starf[] = _("由于力量过于强大，而被丢弃在");
 static const u8 sBerryDescriptionPart2_Starf[] = _("世界尽头的幻之树果。");
-static const u8 sBerryDescriptionPart1_Enigma[] = _("A completely enigmatic BERRY.");
+static const u8 sBerryDescriptionPart1_Enigma[] = _("这种树果的真实外观不明。似乎");
 static const u8 sBerryDescriptionPart2_Enigma[] = _("拥有着夜空中的星星的力量。");
 
 const struct Berry gBerries[] =
 {
     [ITEM_CHERI_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("CHERI"),
+        .name = _("樱子果"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 20,
         .maxYield = 3,
@@ -134,7 +134,7 @@ const struct Berry gBerries[] =
 
     [ITEM_CHESTO_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("CHESTO"),
+        .name = _("零余果"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 80,
         .maxYield = 3,
@@ -152,7 +152,7 @@ const struct Berry gBerries[] =
 
     [ITEM_PECHA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("PECHA"),
+        .name = _("桃桃果"),
         .firmness = BERRY_FIRMNESS_VERY_SOFT,
         .size = 40,
         .maxYield = 3,
@@ -170,7 +170,7 @@ const struct Berry gBerries[] =
 
     [ITEM_RAWST_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("RAWST"),
+        .name = _("莓莓果"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 32,
         .maxYield = 3,
@@ -188,7 +188,7 @@ const struct Berry gBerries[] =
 
     [ITEM_ASPEAR_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("ASPEAR"),
+        .name = _("利木果"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 50,
         .maxYield = 3,
@@ -206,7 +206,7 @@ const struct Berry gBerries[] =
 
     [ITEM_LEPPA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("LEPPA"),
+        .name = _("苹野果"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 28,
         .maxYield = 3,
@@ -224,7 +224,7 @@ const struct Berry gBerries[] =
 
     [ITEM_ORAN_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("ORAN"),
+        .name = _("橙橙果"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 35,
         .maxYield = 3,
@@ -242,7 +242,7 @@ const struct Berry gBerries[] =
 
     [ITEM_PERSIM_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("PERSIM"),
+        .name = _("柿仔果"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 47,
         .maxYield = 3,
@@ -260,7 +260,7 @@ const struct Berry gBerries[] =
 
     [ITEM_LUM_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("LUM"),
+        .name = _("木子果"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 34,
         .maxYield = 2,
@@ -278,7 +278,7 @@ const struct Berry gBerries[] =
 
     [ITEM_SITRUS_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("SITRUS"),
+        .name = _("文柚果"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 95,
         .maxYield = 3,
@@ -296,7 +296,7 @@ const struct Berry gBerries[] =
 
     [ITEM_FIGY_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("FIGY"),
+        .name = _("勿花果"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 100,
         .maxYield = 3,
@@ -314,7 +314,7 @@ const struct Berry gBerries[] =
 
     [ITEM_WIKI_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("WIKI"),
+        .name = _("异奇果"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 115,
         .maxYield = 3,
@@ -332,7 +332,7 @@ const struct Berry gBerries[] =
 
     [ITEM_MAGO_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("MAGO"),
+        .name = _("芒芒果"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 126,
         .maxYield = 3,
@@ -350,7 +350,7 @@ const struct Berry gBerries[] =
 
     [ITEM_AGUAV_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("AGUAV"),
+        .name = _("乐芭果"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 64,
         .maxYield = 3,
@@ -368,7 +368,7 @@ const struct Berry gBerries[] =
 
     [ITEM_IAPAPA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("IAPAPA"),
+        .name = _("芭亚果"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 223,
         .maxYield = 3,
@@ -386,7 +386,7 @@ const struct Berry gBerries[] =
 
     [ITEM_RAZZ_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("RAZZ"),
+        .name = _("蔓莓果"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 120,
         .maxYield = 6,
@@ -404,7 +404,7 @@ const struct Berry gBerries[] =
 
     [ITEM_BLUK_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("BLUK"),
+        .name = _("墨莓果"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 108,
         .maxYield = 6,
@@ -422,7 +422,7 @@ const struct Berry gBerries[] =
 
     [ITEM_NANAB_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("NANAB"),
+        .name = _("蕉香果"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 77,
         .maxYield = 6,
@@ -440,7 +440,7 @@ const struct Berry gBerries[] =
 
     [ITEM_WEPEAR_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("WEPEAR"),
+        .name = _("西梨果"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 74,
         .maxYield = 6,
@@ -458,7 +458,7 @@ const struct Berry gBerries[] =
 
     [ITEM_PINAP_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("PINAP"),
+        .name = _("凰梨果"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 80,
         .maxYield = 6,
@@ -476,7 +476,7 @@ const struct Berry gBerries[] =
 
     [ITEM_POMEG_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("POMEG"),
+        .name = _("榴石果"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 135,
         .maxYield = 6,
@@ -494,7 +494,7 @@ const struct Berry gBerries[] =
 
     [ITEM_KELPSY_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("KELPSY"),
+        .name = _("藻根果"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 150,
         .maxYield = 6,
@@ -512,7 +512,7 @@ const struct Berry gBerries[] =
 
     [ITEM_QUALOT_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("QUALOT"),
+        .name = _("比巴果"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 110,
         .maxYield = 6,
@@ -530,7 +530,7 @@ const struct Berry gBerries[] =
 
     [ITEM_HONDEW_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("HONDEW"),
+        .name = _("哈密果"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 162,
         .maxYield = 6,
@@ -548,7 +548,7 @@ const struct Berry gBerries[] =
 
     [ITEM_GREPA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("GREPA"),
+        .name = _("萄葡果"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 149,
         .maxYield = 6,
@@ -566,7 +566,7 @@ const struct Berry gBerries[] =
 
     [ITEM_TAMATO_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("TAMATO"),
+        .name = _("茄番果"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 200,
         .maxYield = 4,
@@ -584,7 +584,7 @@ const struct Berry gBerries[] =
 
     [ITEM_CORNN_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("CORNN"),
+        .name = _("玉黍果"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 75,
         .maxYield = 4,
@@ -602,7 +602,7 @@ const struct Berry gBerries[] =
 
     [ITEM_MAGOST_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("MAGOST"),
+        .name = _("岳竹果"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 140,
         .maxYield = 4,
@@ -620,7 +620,7 @@ const struct Berry gBerries[] =
 
     [ITEM_RABUTA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("RABUTA"),
+        .name = _("茸丹果"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 226,
         .maxYield = 4,
@@ -638,7 +638,7 @@ const struct Berry gBerries[] =
 
     [ITEM_NOMEL_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("NOMEL"),
+        .name = _("檬柠果"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 285,
         .maxYield = 4,
@@ -656,7 +656,7 @@ const struct Berry gBerries[] =
 
     [ITEM_SPELON_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("SPELON"),
+        .name = _("刺角果"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 133,
         .maxYield = 2,
@@ -674,7 +674,7 @@ const struct Berry gBerries[] =
 
     [ITEM_PAMTRE_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("PAMTRE"),
+        .name = _("椰木果"),
         .firmness = BERRY_FIRMNESS_VERY_SOFT,
         .size = 244,
         .maxYield = 2,
@@ -692,7 +692,7 @@ const struct Berry gBerries[] =
 
     [ITEM_WATMEL_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("WATMEL"),
+        .name = _("瓜西果"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 250,
         .maxYield = 2,
@@ -710,7 +710,7 @@ const struct Berry gBerries[] =
 
     [ITEM_DURIN_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("DURIN"),
+        .name = _("金枕果"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 280,
         .maxYield = 2,
@@ -728,7 +728,7 @@ const struct Berry gBerries[] =
 
     [ITEM_BELUE_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("BELUE"),
+        .name = _("靛莓果"),
         .firmness = BERRY_FIRMNESS_VERY_SOFT,
         .size = 300,
         .maxYield = 2,
@@ -746,7 +746,7 @@ const struct Berry gBerries[] =
 
     [ITEM_LIECHI_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("LIECHI"),
+        .name = _("枝荔果"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 111,
         .maxYield = 2,
@@ -764,7 +764,7 @@ const struct Berry gBerries[] =
 
     [ITEM_GANLON_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("GANLON"),
+        .name = _("龙睛果"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 33,
         .maxYield = 2,
@@ -782,7 +782,7 @@ const struct Berry gBerries[] =
 
     [ITEM_SALAC_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("SALAC"),
+        .name = _("沙鳞果"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 95,
         .maxYield = 2,
@@ -800,7 +800,7 @@ const struct Berry gBerries[] =
 
     [ITEM_PETAYA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("PETAYA"),
+        .name = _("龙火果"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 237,
         .maxYield = 2,
@@ -818,7 +818,7 @@ const struct Berry gBerries[] =
 
     [ITEM_APICOT_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("APICOT"),
+        .name = _("杏仔果"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 75,
         .maxYield = 2,
@@ -836,7 +836,7 @@ const struct Berry gBerries[] =
 
     [ITEM_LANSAT_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("LANSAT"),
+        .name = _("兰萨果"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 97,
         .maxYield = 2,
@@ -854,7 +854,7 @@ const struct Berry gBerries[] =
 
     [ITEM_STARF_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("STARF"),
+        .name = _("星桃果"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 153,
         .maxYield = 2,
@@ -872,7 +872,7 @@ const struct Berry gBerries[] =
 
     [ITEM_ENIGMA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("ENIGMA"),
+        .name = _("谜芝果"),
         .firmness = BERRY_FIRMNESS_UNKNOWN,
         .size = 0,
         .maxYield = 2,

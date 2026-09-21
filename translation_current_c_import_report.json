@@ -1,0 +1,12 @@
+{
+  "source": "../pokeemerald_expansion_chs_current",
+  "apply": true,
+  "changed_file_count": 1,
+  "changed_symbol_count": 1,
+  "changed_files": [
+    "src/strings.c"
+  ],
+  "skipped_ambiguous": [
+    "src/strings.c:gText_PkmnFainted_FldPsn"
+  ]
+}

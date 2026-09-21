@@ -315,9 +315,9 @@ static const u8 sXAttackDesc[] = _(
 			"可梦攻击的道具。");
 
 static const u8 sXDefendDesc[] = _(
-    "Raises the stat\n"
-    "DEFENSE during one\n"
-    "battle.");
+			"在战斗中，5回合\n"
+			"内不让我方能力降\n"
+			"低的道具。");
 
 static const u8 sXSpeedDesc[] = _(
 			"大幅提高战斗中宝\n"
@@ -328,9 +328,8 @@ static const u8 sXAccuracyDesc[] = _(
 			"可梦命中的道具。");
 
 static const u8 sXSpecialDesc[] = _(
-    "Raises the stat\n"
-    "SP. ATK during one\n"
-    "battle.");
+			"大幅提高战斗中宝\n"
+			"可梦特攻的道具。");
 
 static const u8 sPokeDollDesc[] = _(
 			"能吸引宝可梦注\n"
@@ -899,8 +898,9 @@ static const u8 sSilkScarfDesc[] = _(
 			"威力会提高。");
 
 static const u8 sUpGradeDesc[] = _(
-    "A peculiar box made\n"
-    "by SILPH CO.");
+			"内部储存了各种信\n"
+			"息的透明机器。西\n"
+			"尔佛公司制造。");
 
 static const u8 sShellBellDesc[] = _(
 			"当携带后攻击造成\n"
@@ -933,9 +933,9 @@ static const u8 sThickClubDesc[] = _(
 			"就会提高的骨头。");
 
 static const u8 sStickDesc[] = _(
-    "A hold item that\n"
-    "raises FARFETCH'D's\n"
-    "critical-hit ratio.");
+			"让大葱鸭携带后，\n"
+			"招式会变得容易击\n"
+			"中要害的大葱。");
 
 static const u8 sRedScarfDesc[] = _(
 			"携带它去参加华丽\n"
@@ -974,9 +974,9 @@ static const u8 sCoinCaseDesc[] = _(
 			"50000枚。");
 
 static const u8 sItemfinderDesc[] = _(
-    "A device that\n"
-    "signals an invisible\n"
-    "item by sound.");
+			"会对看不见的道具\n"
+			"起反应的最尖端机\n"
+			"器。");
 
 static const u8 sOldRodDesc[] = _(
 			"又破又旧的钓竿。\n"
@@ -1009,9 +1009,9 @@ static const u8 sWailmerPailDesc[] = _(
 			"快快长大。");
 
 static const u8 sDevonGoodsDesc[] = _(
-    "A package that\n"
-    "contains DEVON's\n"
-    "machine parts.");
+			"此物品里面放着的\n"
+			"是得文制造的某种\n"
+			"零件。");
 
 static const u8 sSootSackDesc[] = _(
 			"将堆积起来的火山\n"
@@ -1394,9 +1394,9 @@ static const u8 sHM08Desc[] = _(
 
 // FireRed/LeafGreen key items
 static const u8 sOaksParcelDesc[] = _(
-    "A parcel for PROF.\n"
-    "OAK from a POKéMON\n"
-    "MART's clerk.");
+			"常青市的友好商店\n"
+			"托付的包裹。需要\n"
+			"交给大木博士。");
 
 static const u8 sPokeFluteDesc[] = _(
 			"能吹出让睡着的宝\n"
