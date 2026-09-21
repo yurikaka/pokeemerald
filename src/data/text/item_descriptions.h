@@ -1065,24 +1065,20 @@ static const u8 sMeteoriteDesc[] = _(
 			"烟囱山获得的。");
 
 static const u8 sRoom1KeyDesc[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
+			"进入弃船的房间时\n"
+			"所需的钥匙。");
 
 static const u8 sRoom2KeyDesc[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
+			"进入弃船的房间时\n"
+			"所需的钥匙。");
 
 static const u8 sRoom4KeyDesc[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
+			"进入弃船的房间时\n"
+			"所需的钥匙。");
 
 static const u8 sRoom6KeyDesc[] = _(
-    "A key that opens a\n"
-    "door inside the\n"
-    "ABANDONED SHIP.");
+			"进入弃船的房间时\n"
+			"所需的钥匙。");
 
 static const u8 sStorageKeyDesc[] = _(
 			"进入弃船的仓库时\n"
