@@ -212,7 +212,7 @@ const struct ContestWinner gDefaultContestWinners[] =
         .species = SPECIES_DELCATTY,
         .contestCategory = CONTEST_CATEGORY_CUTE,
         .monName = _("绮丝蒂"),
-        .trainerName = _("OMAR"),
+        .trainerName = _("奥马尔"),
         .contestRank = CONTEST_RANK_MASTER
     }
 };

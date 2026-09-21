@@ -775,9 +775,7 @@ gTVPokemonNewsBattleFrontierText15::
     .string "还有这2只宝可梦，\n{STR_VAR_1}和{STR_VAR_2}！\p恭喜你们创造了\n破纪录的精彩表现！$"
 
 gTVPokemonNewsBattleFrontierText16::
-	.string "And to the four POKéMON: {STR_VAR_1}!\p"
-	.string "{STR_VAR_2}英寸！\p"
-	.string "{STR_VAR_3}!$"
+	.string "{STR_VAR_1}！\p{STR_VAR_2}！\p{STR_VAR_3}！$"
 
 gTVPokemonNewsBattleFrontierText17::
     .string "{STR_VAR_1}！\p恭喜你创造了\n破纪录的精彩表现！$"

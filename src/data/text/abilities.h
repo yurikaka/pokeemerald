@@ -74,7 +74,7 @@ static const u8 sVitalSpiritDescription[] = _("不会变为睡眠状态");
 static const u8 sWhiteSmokeDescription[] = _("不会被对手降低能力");
 static const u8 sPurePowerDescription[] = _("物理攻击的威力会变为2倍");
 static const u8 sShellArmorDescription[] = _("对手的攻击不会击中要害");
-static const u8 sCacophonyDescription[] = _("Avoids sound-based moves.");
+static const u8 sCacophonyDescription[] = _("不受到声音招式的影响");
 static const u8 sAirLockDescription[] = _("所有天气的影响都会消失");
 
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =

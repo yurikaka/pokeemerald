@@ -2414,7 +2414,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_UNOWN] =
     {
-        .categoryName = _("SYMBOL"),
+        .categoryName = _("象征"),
         .height = 5,
         .weight = 50,
         .description = gUnownPokedexText,
@@ -4214,7 +4214,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_CASTFORM] =
     {
-        .categoryName = _("WEATHER"),
+        .categoryName = _("天气"),
         .height = 3,
         .weight = 8,
         .description = gCastformPokedexText,

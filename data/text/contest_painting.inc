@@ -39,8 +39,8 @@ gContestPaintingCool1::
     .string "挡不住的帅气——\n无可估量的{STR_VAR_1}$"
 
 gContestPaintingCool2::
-	.string "喂，朋友！\n"
-	.string "The good-looking POKéMON {STR_VAR_1}$"
+	.string "嗨那边的！\n"
+	.string "好漂亮的宝可梦啊{STR_VAR_1}$"
 
 gContestPaintingCool3::
     .string "这真是让人惊奇的\n{STR_VAR_1}居然那么神奇$"

@@ -84,7 +84,7 @@ static const u8 sText_PkmnFellAsleep[] = _("{B_EFF_NAME_WITH_PREFIX}睡着了！
 static const u8 sText_PkmnMadeSleep[] = _("因{B_SCR_ACTIVE_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_ABILITY}，\n{B_EFF_NAME_WITH_PREFIX}睡着了！");
 static const u8 sText_PkmnAlreadyAsleep[] = _("{B_DEF_NAME_WITH_PREFIX}\n已经睡着了！");
 static const u8 sText_PkmnAlreadyAsleep2[] = _("{B_ATK_NAME_WITH_PREFIX}\n已经睡着了！");
-static const u8 sText_PkmnWasntAffected[] = _("{B_DEF_NAME_WITH_PREFIX}\nwasn't affected!");
+static const u8 sText_PkmnWasntAffected[] = _("对于{B_DEF_NAME_WITH_PREFIX}，\n完全没有效果！");
 static const u8 sText_PkmnWasPoisoned[] = _("{B_EFF_NAME_WITH_PREFIX}中毒了！");
 static const u8 sText_PkmnPoisonedBy[] = _("因{B_EFF_NAME_WITH_PREFIX}的{B_SCR_ACTIVE_NAME_WITH_PREFIX}，\n{B_SCR_ACTIVE_ABILITY}中毒了！");
 static const u8 sText_PkmnHurtByPoison[] = _("{B_ATK_NAME_WITH_PREFIX}\n受到了毒的伤害！");
@@ -424,10 +424,10 @@ static const u8 sText_ExclamationMark4[] = _("!");
 static const u8 sText_ExclamationMark5[] = _("!");
 static const u8 sText_HP2[] = _("HP");
 static const u8 sText_Attack2[] = _("攻击");
-static const u8 sText_Defense2[] = _("DEFENSE");
+static const u8 sText_Defense2[] = _("防御");
 static const u8 sText_Speed[] = _("速度");
-static const u8 sText_SpAtk2[] = _("SP. ATK");
-static const u8 sText_SpDef2[] = _("SP. DEF");
+static const u8 sText_SpAtk2[] = _("特攻");
+static const u8 sText_SpDef2[] = _("特防");
 static const u8 sText_Accuracy[] = _("命中率");
 static const u8 sText_Evasiveness[] = _("闪避率");
 
@@ -1289,8 +1289,8 @@ const u8 gText_BattleSwitchWhich5[] = _("-");
 static const u8 sText_HP[] = _("HP");
 static const u8 sText_Attack[] = _("攻击");
 static const u8 sText_Defense[] = _("防御");
-static const u8 sText_SpAtk[] = _("SP. ATK");
-static const u8 sText_SpDef[] = _("SP. DEF");
+static const u8 sText_SpAtk[] = _("特攻");
+static const u8 sText_SpDef[] = _("特防");
 
 // Unused
 static const u8 *const sStatNamesTable2[] =
@@ -1393,18 +1393,18 @@ const u16 gBattlePalaceFlavorTextTable[] =
     [B_MSG_EAGER_FOR_MORE] = STRINGID_PKMNEAGERFORMORE,
 };
 
-static const u8 sText_RefIfNothingIsDecided[] = _("REFEREE: If nothing is decided in\n3 turns, we will go to judging!");
-static const u8 sText_RefThatsIt[] = _("REFEREE: That's it! We will now go to\njudging to determine the winner!");
-static const u8 sText_RefJudgeMind[] = _("REFEREE: Judging category 1, Mind!\nThe POKéMON showing the most guts!\p");
-static const u8 sText_RefJudgeSkill[] = _("REFEREE: Judging category 2, Skill!\nThe POKéMON using moves the best!\p");
-static const u8 sText_RefJudgeBody[] = _("REFEREE: Judging category 3, Body!\nThe POKéMON with the most vitality!\p");
-static const u8 sText_RefPlayerWon[] = _("REFEREE: Judgment: {B_BUFF1} to {B_BUFF2}!\nThe winner is {B_PLAYER_NAME}'s {B_PLAYER_MON1_NAME}!\p");
-static const u8 sText_RefOpponentWon[] = _("REFEREE: Judgment: {B_BUFF1} to {B_BUFF2}!\nThe winner is {B_TRAINER1_NAME}'s {B_OPPONENT_MON1_NAME}!\p");
-static const u8 sText_RefDraw[] = _("REFEREE: Judgment: 3 to 3!\nWe have a draw!\p");
+static const u8 sText_RefIfNothingIsDecided[] = _("裁判：如果3回合无法决出胜负，\n将由我们来裁定结果！");
+static const u8 sText_RefThatsIt[] = _("裁判：到此为止！现在将由\n我们来裁定哪一方获胜！");
+static const u8 sText_RefJudgeMind[] = _("裁判：判定准则其一，心！\n是否展现出斗志与勇气！\p");
+static const u8 sText_RefJudgeSkill[] = _("裁判：判定准则其二，技！\n是否准确地使用了招式！\p");
+static const u8 sText_RefJudgeBody[] = _("裁判：判定准则其三，体！\n是否保留了足够的体力！\p");
+static const u8 sText_RefPlayerWon[] = _("裁判：判定结果：{B_BUFF1}比{B_BUFF2}！\n胜者是{B_PLAYER_NAME}的{B_PLAYER_MON1_NAME}！\p");
+static const u8 sText_RefOpponentWon[] = _("裁判：判定结果：{B_BUFF1}比{B_BUFF2}！\n胜者是{B_TRAINER1_NAME}的{B_OPPONENT_MON1_NAME}！\p");
+static const u8 sText_RefDraw[] = _("裁判：判定结果：3比3！\n双方打成了平手！\p");
 static const u8 sText_DefeatedOpponentByReferee[] = _("根据判定的准则，\n{B_PLAYER_MON1_NAME}\l战胜了{B_OPPONENT_MON1_NAME}！");
 static const u8 sText_LostToOpponentByReferee[] = _("根据判定的准则，\n{B_PLAYER_MON1_NAME}\l败给了{B_OPPONENT_MON1_NAME}！");
 static const u8 sText_TiedOpponentByReferee[] = _("根据判定的准则，\n{B_PLAYER_MON1_NAME}\l和{B_OPPONENT_MON1_NAME}打成了平局！");
-static const u8 sText_RefCommenceBattle[] = _("REFEREE: {B_PLAYER_MON1_NAME} VS {B_OPPONENT_MON1_NAME}!\nCommence battling!");
+static const u8 sText_RefCommenceBattle[] = _("裁判：{B_PLAYER_MON1_NAME} VS {B_OPPONENT_MON1_NAME}！\n战斗开始！");
 
 const u8 *const gRefereeStringsTable[] =
 {
