@@ -1572,8 +1572,7 @@ bool8 ScrCmd_bufferpartymonnick(struct ScriptContext *ctx)
     u8 stringVarIndex = ScriptReadByte(ctx);
     u16 partyIndex = VarGet(ScriptReadHalfword(ctx));
 
-    GetMonData(&gPlayerParty[partyIndex], MON_DATA_NICKNAME, sScriptStringVars[stringVarIndex]);
-    StringGet_Nickname(sScriptStringVars[stringVarIndex]);
+    GetMonNicknameForDisplay(&gPlayerParty[partyIndex], sScriptStringVars[stringVarIndex]);
     return FALSE;
 }
 

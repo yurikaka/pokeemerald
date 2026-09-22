@@ -10060,12 +10060,12 @@ static void Cmd_givecaughtmon(void)
         {
             gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_SENT_SOMEONES_PC;
             StringCopy(gStringVar1, GetBoxNamePtr(VarGet(VAR_PC_BOX_TO_SEND_MON)));
-            GetMonData(&gEnemyParty[gBattlerPartyIndexes[BATTLE_OPPOSITE(gBattlerAttacker)]], MON_DATA_NICKNAME, gStringVar2);
+            GetMonNicknameForDisplay(&gEnemyParty[gBattlerPartyIndexes[BATTLE_OPPOSITE(gBattlerAttacker)]], gStringVar2);
         }
         else
         {
             StringCopy(gStringVar1, GetBoxNamePtr(VarGet(VAR_PC_BOX_TO_SEND_MON))); // box the mon was sent to
-            GetMonData(&gEnemyParty[gBattlerPartyIndexes[BATTLE_OPPOSITE(gBattlerAttacker)]], MON_DATA_NICKNAME, gStringVar2);
+            GetMonNicknameForDisplay(&gEnemyParty[gBattlerPartyIndexes[BATTLE_OPPOSITE(gBattlerAttacker)]], gStringVar2);
             StringCopy(gStringVar3, GetBoxNamePtr(GetPCBoxToSendMon())); //box the mon was going to be sent to
             gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_SOMEONES_BOX_FULL;
         }

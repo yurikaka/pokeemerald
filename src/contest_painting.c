@@ -296,13 +296,13 @@ static void PrintContestPaintingCaption(u8 contestType, bool8 isForArtist)
         StringAppend(gStringVar1, sContestRankNames[gContestPaintingWinner->contestRank]);
         StringCopy(gStringVar2, gContestPaintingWinner->trainerName);
         ConvertInternationalContestantName(gStringVar2);
-        StringCopy(gStringVar3, gContestPaintingWinner->monName);
+        CopyMonNicknameForDisplay(gStringVar3, gContestPaintingWinner->monName, gContestPaintingWinner->species);
         StringExpandPlaceholders(gStringVar4, gContestHallPaintingCaption);
     }
     else
     {
         // Museum caption
-        StringCopy(gStringVar1, gContestPaintingWinner->monName);
+        CopyMonNicknameForDisplay(gStringVar1, gContestPaintingWinner->monName, gContestPaintingWinner->species);
         StringExpandPlaceholders(gStringVar4, sMuseumCaptions[category]);
     }
 
@@ -597,4 +597,3 @@ static void CreateContestPaintingPicture(u8 contestWinnerId, bool8 isForArtist)
     InitPaintingMonOamData(contestWinnerId);
     LoadContestPaintingFrame(contestWinnerId, isForArtist);
 }
-

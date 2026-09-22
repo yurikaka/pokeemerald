@@ -503,7 +503,7 @@ static void LoadContestMonName(u8 monIndex)
     if (monIndex == gContestPlayerMonIndex)
         str = StringCopy(gDisplayedStringBattle, gText_ColorDarkGray);
 
-    StringCopy(str, mon->nickname);
+    CopyMonNicknameForDisplay(str, mon->nickname, mon->species);
     AddContestTextPrinter(monIndex, gDisplayedStringBattle, 0);
     StringCopy(str, gText_Slash);
     StringAppend(str, mon->trainerName);
@@ -860,7 +860,7 @@ static void Task_AnnounceWinner(u8 taskId)
             GET_CONTEST_WINNER_ID(i);
             StringCopy(gStringVar1, gContestMons[i].trainerName);
             ConvertInternationalContestantName(gStringVar1);
-            StringCopy(gStringVar2, gContestMons[i].nickname);
+            CopyMonNicknameForDisplay(gStringVar2, gContestMons[i].nickname, gContestMons[i].species);
             StringExpandPlaceholders(winnerTextBuffer, gText_ContestantsMonWon);
             x = DrawResultsTextWindow(winnerTextBuffer, sContestResults->data->slidingTextBoxSpriteId);
             StartTextBoxSlideIn(x, TEXT_BOX_Y, -1, 1088);
@@ -2070,7 +2070,7 @@ void BufferContestantTrainerName(void)
 
 void BufferContestantMonNickname(void)
 {
-    StringCopy(gStringVar3, gContestMons[gSpecialVar_0x8006].nickname);
+    CopyMonNicknameForDisplay(gStringVar3, gContestMons[gSpecialVar_0x8006].nickname, gContestMons[gSpecialVar_0x8006].species);
 }
 
 // Unused script special
@@ -2111,7 +2111,7 @@ void BufferContestWinnerMonName(void)
 {
     u8 i;
     GET_CONTEST_WINNER_ID(i);
-    StringCopy(gStringVar1, gContestMons[i].nickname);
+    CopyMonNicknameForDisplay(gStringVar1, gContestMons[i].nickname, gContestMons[i].species);
 }
 
 void CB2_SetStartContestCallback(void)
@@ -2457,7 +2457,7 @@ void GetContestantNamesAtRank(void)
     }
 
     // Use contestant id to get names
-    StringCopy(gStringVar1, gContestMons[i].nickname);
+    CopyMonNicknameForDisplay(gStringVar1, gContestMons[i].nickname, gContestMons[i].species);
     StringCopy(gStringVar2, gContestMons[i].trainerName);
     ConvertInternationalContestantName(gStringVar2);
 

@@ -1810,7 +1810,7 @@ static void Task_DoAppeals(u8 taskId)
         else
         {
             ContestClearGeneralTextWindow();
-            StringCopy(gStringVar1, gContestMons[contestant].nickname);
+            CopyMonNicknameForDisplay(gStringVar1, gContestMons[contestant].nickname, gContestMons[contestant].species);
             if (eContestantStatus[contestant].currMove < MOVES_COUNT)
                 StringCopy(gStringVar2, gMoveNames[eContestantStatus[contestant].currMove]);
             else
@@ -2076,7 +2076,7 @@ static void Task_DoAppeals(u8 taskId)
                 || eContestantStatus[contestant].turnSkipped)
             {
                 ContestClearGeneralTextWindow();
-                StringCopy(gStringVar1, gContestMons[contestant].nickname);
+                CopyMonNicknameForDisplay(gStringVar1, gContestMons[contestant].nickname, gContestMons[contestant].species);
                 StringExpandPlaceholders(gStringVar4, gText_MonCantAppealNextTurn);
                 Contest_StartTextPrinter(gStringVar4, TRUE);
             }
@@ -2118,7 +2118,7 @@ static void Task_DoAppeals(u8 taskId)
         {
             // Started combo
             ContestClearGeneralTextWindow();
-            StringCopy(gStringVar1, gContestMons[contestant].nickname);
+            CopyMonNicknameForDisplay(gStringVar1, gContestMons[contestant].nickname, gContestMons[contestant].species);
             StringExpandPlaceholders(gStringVar4, gText_JudgeLookedAtMonExpectantly);
             Contest_StartTextPrinter(gStringVar4, TRUE);
             DoJudgeSpeechBubble(JUDGE_SYMBOL_ONE_EXCLAMATION);
@@ -2162,7 +2162,7 @@ static void Task_DoAppeals(u8 taskId)
         if (eContestantStatus[contestant].repeatedMove)
         {
             ContestClearGeneralTextWindow();
-            StringCopy(gStringVar1, gContestMons[contestant].nickname);
+            CopyMonNicknameForDisplay(gStringVar1, gContestMons[contestant].nickname, gContestMons[contestant].species);
             StringExpandPlaceholders(gStringVar4, gText_RepeatedAppeal);
             Contest_StartTextPrinter(gStringVar4, TRUE);
             gTasks[taskId].tCounter = 0;
@@ -2217,7 +2217,7 @@ static void Task_DoAppeals(u8 taskId)
                 r3 = 0;
 
             ContestClearGeneralTextWindow();
-            StringCopy(gStringVar1, gContestMons[contestant].nickname);
+            CopyMonNicknameForDisplay(gStringVar1, gContestMons[contestant].nickname, gContestMons[contestant].species);
             eContest.applauseLevel += r3;
             if (eContest.applauseLevel < 0)
                 eContest.applauseLevel = 0;
@@ -2339,8 +2339,8 @@ static void Task_DoAppeals(u8 taskId)
         return;
     case APPEALSTATE_PRINT_CROWD_WATCHES_MSG:
         ContestClearGeneralTextWindow();
-        StringCopy(gStringVar3, gContestMons[eContestExcitement.freezer].nickname);
-        StringCopy(gStringVar1, gContestMons[contestant].nickname);
+        CopyMonNicknameForDisplay(gStringVar3, gContestMons[eContestExcitement.freezer].nickname, gContestMons[eContestExcitement.freezer].species);
+        CopyMonNicknameForDisplay(gStringVar1, gContestMons[contestant].nickname, gContestMons[contestant].species);
         StringCopy(gStringVar2, gMoveNames[eContestantStatus[contestant].currMove]);
         StringExpandPlaceholders(gStringVar4, gText_CrowdContinuesToWatchMon);
         Contest_StartTextPrinter(gStringVar4, TRUE);
@@ -2366,7 +2366,7 @@ static void Task_DoAppeals(u8 taskId)
         if (eContestantStatus[contestant].hasJudgesAttention)
             eContestantStatus[contestant].hasJudgesAttention = FALSE;
         StartStopFlashJudgeAttentionEye(contestant);
-        StringCopy(gStringVar1, gContestMons[contestant].nickname);
+        CopyMonNicknameForDisplay(gStringVar1, gContestMons[contestant].nickname, gContestMons[contestant].species);
         StringCopy(gStringVar2, gMoveNames[eContestantStatus[contestant].currMove]);
         StringExpandPlaceholders(gStringVar4, gText_MonWasTooNervousToMove);
         Contest_StartTextPrinter(gStringVar4, TRUE);
@@ -2411,7 +2411,7 @@ static void Task_DoAppeals(u8 taskId)
         return;
     case APPEALSTATE_PRINT_SKIP_TURN_MSG:
         ContestClearGeneralTextWindow();
-        StringCopy(gStringVar1, gContestMons[contestant].nickname);
+        CopyMonNicknameForDisplay(gStringVar1, gContestMons[contestant].nickname, gContestMons[contestant].species);
         StringExpandPlaceholders(gStringVar4, gText_MonWasWatchingOthers);
         Contest_StartTextPrinter(gStringVar4, TRUE);
         gTasks[taskId].tState = APPEALSTATE_WAIT_SKIP_TURN_MSG;
@@ -2583,7 +2583,7 @@ static void Task_PrintRoundResultText(u8 taskId)
         u8 attention = eContestantStatus[gContestPlayerMonIndex].attentionLevel;
 
         ContestClearGeneralTextWindow();
-        StringCopy(gStringVar1, gContestMons[gContestPlayerMonIndex].nickname);
+        CopyMonNicknameForDisplay(gStringVar1, gContestMons[gContestPlayerMonIndex].nickname, gContestMons[gContestPlayerMonIndex].species);
         StringExpandPlaceholders(gStringVar4, sRoundResultTexts[attention]);
         Contest_StartTextPrinter(gStringVar4, TRUE);
         gTasks[taskId].data[0]++;
@@ -3044,7 +3044,8 @@ static void PrintContestantMonName(u8 contestant)
 
 static void PrintContestantMonNameWithColor(u8 contestant, u8 color)
 {
-    Contest_CopyStringWithColor(gContestMons[contestant].nickname, color);
+    CopyMonNicknameForDisplay(gStringVar4, gContestMons[contestant].nickname, gContestMons[contestant].species);
+    Contest_CopyStringWithColor(gStringVar4, color);
     Contest_PrintTextToBg0WindowAt(gContestantTurnOrder[contestant], gDisplayedStringBattle, 5, 1, FONT_NARROW);
 }
 
@@ -4566,7 +4567,7 @@ void SetStartledString(u8 contestant, u8 jam)
 
 static void PrintAppealMoveResultText(u8 contestant, u8 stringId)
 {
-    StringCopy(gStringVar1, gContestMons[contestant].nickname);
+    CopyMonNicknameForDisplay(gStringVar1, gContestMons[contestant].nickname, gContestMons[contestant].species);
     StringCopy(gStringVar2, gMoveNames[eContestantStatus[contestant].currMove]);
     if      (gContestMoves[eContestantStatus[eContestAppealResults.contestant].currMove].contestCategory == CONTEST_CATEGORY_COOL)
         StringCopy(gStringVar3, gText_Contest_Shyness);
@@ -6122,4 +6123,3 @@ void StripPlayerAndMonNamesForLinkContest(struct ContestPokemon *mon, s32 langua
         name[PLAYER_NAME_LENGTH] = EOS;
     }
 }
-

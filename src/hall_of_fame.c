@@ -1147,8 +1147,7 @@ static void HallOfFame_PrintMonInfo(struct HallofFameMon *currMon, u8 unused1, u
     }
 
     // nickname, species names, gender and level
-    memcpy(text, currMon->nickname, POKEMON_NAME_LENGTH);
-    text[POKEMON_NAME_LENGTH] = EOS;
+    CopyMonNicknameForDisplay(text, currMon->nickname, currMon->species);
     if (currMon->species == SPECIES_EGG)
     {
         width = GetStringCenterAlignXOffset(FONT_NORMAL, text, 0xD0);

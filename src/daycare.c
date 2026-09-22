@@ -93,16 +93,12 @@ static const u8 sJapaneseEggNickname[] = _("タマゴ"); // "tamago" ("egg" in J
 
 u8 *GetMonNickname2(struct Pokemon *mon, u8 *dest)
 {
-    u8 nickname[POKEMON_NAME_BUFFER_SIZE];
-    GetMonData(mon, MON_DATA_NICKNAME, nickname);
-    return StringCopy_Nickname(dest, nickname);
+    return GetMonNicknameForDisplay(mon, dest);
 }
 
 u8 *GetBoxMonNickname(struct BoxPokemon *mon, u8 *dest)
 {
-    u8 nickname[POKEMON_NAME_BUFFER_SIZE];
-    GetBoxMonData(mon, MON_DATA_NICKNAME, nickname);
-    return StringCopy_Nickname(dest, nickname);
+    return GetBoxMonNicknameForDisplay(mon, dest);
 }
 
 u8 CountPokemonInDaycare(struct DayCare *daycare)
@@ -164,7 +160,7 @@ static void StorePokemonInDaycare(struct Pokemon *mon, struct DaycareMon *daycar
         u8 mailId;
 
         StringCopy(daycareMon->mail.otName, gSaveBlock2Ptr->playerName);
-        GetMonNickname2(mon, daycareMon->mail.monName);
+        GetMonData(mon, MON_DATA_NICKNAME, daycareMon->mail.monName);
         StripExtCtrlCodes(daycareMon->mail.monName);
         daycareMon->mail.gameLanguage = GAME_LANGUAGE;
         daycareMon->mail.monLanguage = GetMonData(mon, MON_DATA_LANGUAGE);

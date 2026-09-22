@@ -412,7 +412,8 @@ typedef union // size = 0x24
         /*0x04*/ u8 nickname[POKEMON_NAME_LENGTH + 1];
         /*0x0F*/ u8 language;
         /*0x10*/ u8 pokemonNameLanguage;
-        /*0x11*/ u8 filler_12[2];
+        /*0x11*/ u8 speciesLo;
+        /*0x12*/ u8 speciesHi;
         /*0x13*/ u8 playerName[PLAYER_NAME_LENGTH + 1];
     } cuties;
 

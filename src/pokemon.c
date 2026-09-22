@@ -2247,7 +2247,7 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
     checksum = CalculateBoxMonChecksum(boxMon);
     SetBoxMonData(boxMon, MON_DATA_CHECKSUM, &checksum);
     EncryptBoxMon(boxMon);
-    GetSpeciesName(speciesName, species);
+    GetSpeciesNameEnglish(speciesName, species);
     SetBoxMonData(boxMon, MON_DATA_NICKNAME, speciesName);
     SetBoxMonData(boxMon, MON_DATA_LANGUAGE, &gGameLanguage);
     SetBoxMonData(boxMon, MON_DATA_OT_NAME, gSaveBlock2Ptr->playerName);
@@ -4635,7 +4635,7 @@ void GetSpeciesName(u8 *name, u16 species)
 
     for (i = 0; i <= POKEMON_NAME_LENGTH; i++)
     {
-        if (species > NUM_SPECIES)
+        if (species >= NUM_SPECIES)
             name[i] = gSpeciesNames[SPECIES_NONE][i];
         else
             name[i] = gSpeciesNames[species][i];
@@ -4645,6 +4645,58 @@ void GetSpeciesName(u8 *name, u16 species)
     }
 
     name[i] = EOS;
+}
+
+void GetSpeciesNameEnglish(u8 *name, u16 species)
+{
+    s32 i;
+
+    for (i = 0; i <= POKEMON_NAME_LENGTH; i++)
+    {
+        if (species >= NUM_SPECIES)
+            name[i] = gSpeciesNamesEnglish[SPECIES_NONE][i];
+        else
+            name[i] = gSpeciesNamesEnglish[species][i];
+
+        if (name[i] == EOS)
+            break;
+    }
+
+    name[i] = EOS;
+}
+
+u8 *CopyMonNicknameForDisplay(u8 *dest, const u8 *nickname, u16 species)
+{
+    u8 normalizedNickname[POKEMON_NAME_BUFFER_SIZE];
+    u8 length;
+
+    StringCopy_Nickname(normalizedNickname, nickname);
+    length = StringLength(normalizedNickname);
+    while (length != 0 && normalizedNickname[length - 1] == CHAR_SPACE)
+        normalizedNickname[--length] = EOS;
+
+    if (species < NUM_SPECIES && StringCompare(normalizedNickname, gSpeciesNamesEnglish[species]) == 0)
+        return StringCopy(dest, gSpeciesNames[species]);
+
+    return StringCopy(dest, normalizedNickname);
+}
+
+u8 *GetMonNicknameForDisplay(struct Pokemon *mon, u8 *dest)
+{
+    u8 nickname[POKEMON_NAME_BUFFER_SIZE];
+    u16 species = GetMonData(mon, MON_DATA_SPECIES);
+
+    GetMonData(mon, MON_DATA_NICKNAME, nickname);
+    return CopyMonNicknameForDisplay(dest, nickname, species);
+}
+
+u8 *GetBoxMonNicknameForDisplay(struct BoxPokemon *boxMon, u8 *dest)
+{
+    u8 nickname[POKEMON_NAME_BUFFER_SIZE];
+    u16 species = GetBoxMonData(boxMon, MON_DATA_SPECIES);
+
+    GetBoxMonData(boxMon, MON_DATA_NICKNAME, nickname);
+    return CopyMonNicknameForDisplay(dest, nickname, species);
 }
 
 u8 CalculatePPWithBonus(u16 move, u8 ppBonuses, u8 moveIndex)
@@ -5813,11 +5865,14 @@ void DrawSpindaSpots(u16 species, u32 personality, u8 *dest, bool8 isFrontPic)
 
 void EvolutionRenameMon(struct Pokemon *mon, u16 oldSpecies, u16 newSpecies)
 {
+    u8 nickname[POKEMON_NAME_BUFFER_SIZE];
     u8 language;
-    GetMonData(mon, MON_DATA_NICKNAME, gStringVar1);
+
+    GetMonData(mon, MON_DATA_NICKNAME, nickname);
+    StringCopy_Nickname(gStringVar1, nickname);
     language = GetMonData(mon, MON_DATA_LANGUAGE, &language);
-    if (language == GAME_LANGUAGE && !StringCompare(gSpeciesNames[oldSpecies], gStringVar1))
-        SetMonData(mon, MON_DATA_NICKNAME, gSpeciesNames[newSpecies]);
+    if (language == GAME_LANGUAGE && !StringCompare(gSpeciesNamesEnglish[oldSpecies], gStringVar1))
+        SetMonData(mon, MON_DATA_NICKNAME, gSpeciesNamesEnglish[newSpecies]);
 }
 
 // The below two functions determine which side of a multi battle the trainer battles on

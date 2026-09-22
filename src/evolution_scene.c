@@ -208,7 +208,6 @@ void BeginEvolutionScene(struct Pokemon *mon, u16 postEvoSpecies, bool8 canStopE
 
 void EvolutionScene(struct Pokemon *mon, u16 postEvoSpecies, bool8 canStopEvo, u8 partyId)
 {
-    u8 name[POKEMON_NAME_BUFFER_SIZE];
     u16 currSpecies;
     u32 trainerId, personality;
     const struct CompressedSpritePalette *pokePal;
@@ -251,8 +250,7 @@ void EvolutionScene(struct Pokemon *mon, u16 postEvoSpecies, bool8 canStopEvo, u
     sEvoStructPtr = AllocZeroed(sizeof(struct EvoInfo));
     AllocateMonSpritesGfx();
 
-    GetMonData(mon, MON_DATA_NICKNAME, name);
-    StringCopy_Nickname(gStringVar1, name);
+    GetMonNicknameForDisplay(mon, gStringVar1);
     StringCopy(gStringVar2, gSpeciesNames[postEvoSpecies]);
 
     // preEvo sprite
@@ -467,14 +465,12 @@ static void CB2_TradeEvolutionSceneLoadGraphics(void)
 
 void TradeEvolutionScene(struct Pokemon *mon, u16 postEvoSpecies, u8 preEvoSpriteId, u8 partyId)
 {
-    u8 name[POKEMON_NAME_BUFFER_SIZE];
     u16 currSpecies;
     u32 trainerId, personality;
     const struct CompressedSpritePalette *pokePal;
     u8 id;
 
-    GetMonData(mon, MON_DATA_NICKNAME, name);
-    StringCopy_Nickname(gStringVar1, name);
+    GetMonNicknameForDisplay(mon, gStringVar1);
     StringCopy(gStringVar2, gSpeciesNames[postEvoSpecies]);
 
     gAffineAnimsDisabled = TRUE;
@@ -555,7 +551,7 @@ static void CreateShedinja(u16 preEvoSpecies, struct Pokemon *mon)
 
         CopyMon(&gPlayerParty[gPlayerPartyCount], mon, sizeof(struct Pokemon));
         SetMonData(&gPlayerParty[gPlayerPartyCount], MON_DATA_SPECIES, &gEvolutionTable[preEvoSpecies][1].targetSpecies);
-        SetMonData(&gPlayerParty[gPlayerPartyCount], MON_DATA_NICKNAME, gSpeciesNames[gEvolutionTable[preEvoSpecies][1].targetSpecies]);
+        SetMonData(&gPlayerParty[gPlayerPartyCount], MON_DATA_NICKNAME, gSpeciesNamesEnglish[gEvolutionTable[preEvoSpecies][1].targetSpecies]);
         SetMonData(&gPlayerParty[gPlayerPartyCount], MON_DATA_HELD_ITEM, &data);
         SetMonData(&gPlayerParty[gPlayerPartyCount], MON_DATA_MARKINGS, &data);
         SetMonData(&gPlayerParty[gPlayerPartyCount], MON_DATA_ENCRYPT_SEPARATOR, &data);
@@ -775,7 +771,6 @@ static void Task_EvolutionScene(u8 taskId)
             var = MonTryLearningNewMove(mon, gTasks[taskId].tLearnsFirstMove);
             if (var != MOVE_NONE && !gTasks[taskId].tEvoWasStopped)
             {
-                u8 nickname[POKEMON_NAME_BUFFER_SIZE];
                 if (!(gTasks[taskId].tBits & TASK_BIT_LEARN_MOVE))
                 {
                     StopMapMusic();
@@ -785,8 +780,7 @@ static void Task_EvolutionScene(u8 taskId)
                 gTasks[taskId].tBits |= TASK_BIT_LEARN_MOVE;
                 gTasks[taskId].tLearnsFirstMove = FALSE;
                 gTasks[taskId].tLearnMoveState = MVSTATE_INTRO_MSG_1;
-                GetMonData(mon, MON_DATA_NICKNAME, nickname);
-                StringCopy_Nickname(gBattleTextBuff1, nickname);
+                GetMonNicknameForDisplay(mon, gBattleTextBuff1);
 
                 if (var == MON_HAS_MAX_MOVES)
                     gTasks[taskId].tState = EVOSTATE_REPLACE_MOVE;
@@ -1194,12 +1188,10 @@ static void Task_TradeEvolutionScene(u8 taskId)
             var = MonTryLearningNewMove(mon, gTasks[taskId].tLearnsFirstMove);
             if (var != MOVE_NONE && !gTasks[taskId].tEvoWasStopped)
             {
-                u8 nickname[POKEMON_NAME_BUFFER_SIZE];
                 gTasks[taskId].tBits |= TASK_BIT_LEARN_MOVE;
                 gTasks[taskId].tLearnsFirstMove = FALSE;
                 gTasks[taskId].tLearnMoveState = 0;
-                GetMonData(mon, MON_DATA_NICKNAME, nickname);
-                StringCopy_Nickname(gBattleTextBuff1, nickname);
+                GetMonNicknameForDisplay(mon, gBattleTextBuff1);
 
                 if (var == MON_HAS_MAX_MOVES)
                     gTasks[taskId].tState = T_EVOSTATE_REPLACE_MOVE;

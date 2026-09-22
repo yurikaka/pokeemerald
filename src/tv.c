@@ -1122,7 +1122,7 @@ void TryPutPokemonTodayOnAir(void)
     else
     {
         InitWorldOfMastersShowAttempt();
-        if (!rbernoulli(1, 1) && StringCompare(gSpeciesNames[gBattleResults.caughtMonSpecies], gBattleResults.caughtMonNick))
+        if (!rbernoulli(1, 1) && StringCompare(gSpeciesNamesEnglish[gBattleResults.caughtMonSpecies], gBattleResults.caughtMonNick))
         {
             sCurTVShowSlot = FindFirstEmptyRecordMixTVShowSlot(gSaveBlock1Ptr->tvShows);
             if (sCurTVShowSlot != -1 && IsRecordMixShowAlreadySpawned(TVSHOW_POKEMON_TODAY_CAUGHT, FALSE) != TRUE)
@@ -2263,6 +2263,8 @@ void TryPutSpotTheCutiesOnAir(struct Pokemon *pokemon, u8 ribbonMonDataIdx)
         StringCopy(show->cuties.playerName, gSaveBlock2Ptr->playerName);
         GetMonData(pokemon, MON_DATA_NICKNAME, show->cuties.nickname);
         StripExtCtrlCodes(show->cuties.nickname);
+        show->cuties.speciesLo = GetMonData(pokemon, MON_DATA_SPECIES) & 0xFF;
+        show->cuties.speciesHi = GetMonData(pokemon, MON_DATA_SPECIES) >> 8;
         show->cuties.nRibbons = GetRibbonCount(pokemon);
         show->cuties.selectedRibbon = MonDataIdxToRibbon(ribbonMonDataIdx);
         StorePlayerIdInRecordMixShow(show);
@@ -2956,8 +2958,7 @@ static void InterviewBefore_PkmnFanClubOpinions(void)
     if (!gSpecialVar_Result)
     {
         StringCopy(gStringVar1, gSpeciesNames[GetMonData(&gPlayerParty[GetLeadMonIndex()], MON_DATA_SPECIES, NULL)]);
-        GetMonData(&gPlayerParty[GetLeadMonIndex()], MON_DATA_NICKNAME, gStringVar2);
-        StringGet_Nickname(gStringVar2);
+        GetMonNicknameForDisplay(&gPlayerParty[GetLeadMonIndex()], gStringVar2);
         InitializeEasyChatWordArray(gSaveBlock1Ptr->tvShows[sCurTVShowSlot].fanclubOpinions.words,
                         ARRAY_COUNT(gSaveBlock1Ptr->tvShows[sCurTVShowSlot].fanclubOpinions.words));
     }
@@ -3015,7 +3016,7 @@ static bool8 IsPartyMonNicknamedOrNotEnglish(u8 monIdx)
     pokemon = &gPlayerParty[monIdx];
     GetMonData(pokemon, MON_DATA_NICKNAME, gStringVar1);
     language = GetMonData(pokemon, MON_DATA_LANGUAGE, &language);
-    if (language == GAME_LANGUAGE && !StringCompare(gSpeciesNames[GetMonData(pokemon, MON_DATA_SPECIES, NULL)], gStringVar1))
+    if (language == GAME_LANGUAGE && !StringCompare(gSpeciesNamesEnglish[GetMonData(pokemon, MON_DATA_SPECIES, NULL)], gStringVar1))
         return FALSE;
 
     return TRUE;
@@ -3322,8 +3323,7 @@ static void ChangeBoxPokemonNickname_CB(void)
 
 void BufferMonNickname(void)
 {
-    GetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_NICKNAME, gStringVar1);
-    StringGet_Nickname(gStringVar1);
+    GetMonNicknameForDisplay(&gPlayerParty[gSpecialVar_0x8004], gStringVar1);
 }
 
 void IsMonOTIDNotPlayers(void)
@@ -4315,7 +4315,7 @@ static void DoTVShowBravoTrainerPokemonProfile(void)
         TVShowConvertInternationalString(gStringVar1, show->bravoTrainer.playerName, show->bravoTrainer.language);
         CopyContestCategoryToStringVar(1, show->bravoTrainer.contestCategory);
         CopyContestRankToStringVar(2, show->bravoTrainer.contestRank);
-        if (!StringCompare(gSpeciesNames[show->bravoTrainer.species], show->bravoTrainer.pokemonNickname))
+        if (!StringCompare(gSpeciesNamesEnglish[show->bravoTrainer.species], show->bravoTrainer.pokemonNickname))
             sTVShowState = 8;
         else
             sTVShowState = 1;
@@ -4323,6 +4323,7 @@ static void DoTVShowBravoTrainerPokemonProfile(void)
     case 1:
         StringCopy(gStringVar1, gSpeciesNames[show->bravoTrainer.species]);
         TVShowConvertInternationalString(gStringVar2, show->bravoTrainer.pokemonNickname, show->bravoTrainer.pokemonNameLanguage);
+        CopyMonNicknameForDisplay(gStringVar2, gStringVar2, show->bravoTrainer.species);
         CopyContestCategoryToStringVar(2, show->bravoTrainer.contestCategory);
         sTVShowState = 2;
         break;
@@ -4667,6 +4668,7 @@ static void DoTVShowPokemonTodaySuccessfulCapture(void)
         TVShowConvertInternationalString(gStringVar1, show->pokemonToday.playerName, show->pokemonToday.language);
         StringCopy(gStringVar2, gSpeciesNames[show->pokemonToday.species]);
         TVShowConvertInternationalString(gStringVar3, show->pokemonToday.nickname, show->pokemonToday.language2);
+        CopyMonNicknameForDisplay(gStringVar3, gStringVar3, show->pokemonToday.species);
         if (show->pokemonToday.ball == ITEM_MASTER_BALL)
             sTVShowState = 5;
         else
@@ -4687,6 +4689,7 @@ static void DoTVShowPokemonTodaySuccessfulCapture(void)
         TVShowConvertInternationalString(gStringVar1, show->pokemonToday.playerName, show->pokemonToday.language);
         StringCopy(gStringVar2, gSpeciesNames[show->pokemonToday.species]);
         TVShowConvertInternationalString(gStringVar3, show->pokemonToday.nickname, show->pokemonToday.language2);
+        CopyMonNicknameForDisplay(gStringVar3, gStringVar3, show->pokemonToday.species);
         sTVShowState = 6;
         break;
     case 4:
@@ -4701,12 +4704,14 @@ static void DoTVShowPokemonTodaySuccessfulCapture(void)
         TVShowConvertInternationalString(gStringVar1, show->pokemonToday.playerName, show->pokemonToday.language);
         StringCopy(gStringVar2, gSpeciesNames[show->pokemonToday.species]);
         TVShowConvertInternationalString(gStringVar3, show->pokemonToday.nickname, show->pokemonToday.language2);
+        CopyMonNicknameForDisplay(gStringVar3, gStringVar3, show->pokemonToday.species);
         sTVShowState += 1 + (Random() % 4);
         break;
     case 7:
     case 8:
         StringCopy(gStringVar1, gSpeciesNames[show->pokemonToday.species]);
         TVShowConvertInternationalString(gStringVar2, show->pokemonToday.nickname, show->pokemonToday.language2);
+        CopyMonNicknameForDisplay(gStringVar2, gStringVar2, show->pokemonToday.species);
         GetRandomDifferentSpeciesAndNameSeenByPlayer(2, show->pokemonToday.species);
         sTVShowState = 11;
         break;
@@ -4714,6 +4719,7 @@ static void DoTVShowPokemonTodaySuccessfulCapture(void)
     case 10:
         StringCopy(gStringVar1, gSpeciesNames[show->pokemonToday.species]);
         TVShowConvertInternationalString(gStringVar2, show->pokemonToday.nickname, show->pokemonToday.language2);
+        CopyMonNicknameForDisplay(gStringVar2, gStringVar2, show->pokemonToday.species);
         sTVShowState = 11;
         break;
     case 11:
@@ -4871,6 +4877,7 @@ static void DoTVShowPokemonFanClubOpinions(void)
         TVShowConvertInternationalString(gStringVar1, show->fanclubOpinions.playerName, show->fanclubOpinions.language);
         StringCopy(gStringVar2, gSpeciesNames[show->fanclubOpinions.species]);
         TVShowConvertInternationalString(gStringVar3, show->fanclubOpinions.nickname, show->fanclubOpinions.pokemonNameLanguage);
+        CopyMonNicknameForDisplay(gStringVar3, gStringVar3, show->fanclubOpinions.species);
         sTVShowState = show->fanclubOpinions.questionAsked + 1;
         break;
     case 1:
@@ -6243,6 +6250,7 @@ static void DoTVShowSpotTheCuties(void)
     case SPOTCUTIES_STATE_INTRO:
         TVShowConvertInternationalString(gStringVar1, show->cuties.playerName, show->cuties.language);
         TVShowConvertInternationalString(gStringVar2, show->cuties.nickname, show->cuties.pokemonNameLanguage);
+        CopyMonNicknameForDisplay(gStringVar2, gStringVar2, (show->cuties.speciesHi << 8) | show->cuties.speciesLo);
 
         // Comments following the intro depend on how many ribbons the Pokémon has
         if (show->cuties.nRibbons < 10)
@@ -6257,11 +6265,13 @@ static void DoTVShowSpotTheCuties(void)
     case SPOTCUTIES_STATE_RIBBONS_HIGH:
         TVShowConvertInternationalString(gStringVar1, show->cuties.playerName, show->cuties.language);
         TVShowConvertInternationalString(gStringVar2, show->cuties.nickname, show->cuties.pokemonNameLanguage);
+        CopyMonNicknameForDisplay(gStringVar2, gStringVar2, (show->cuties.speciesHi << 8) | show->cuties.speciesLo);
         ConvertIntToDecimalString(2, show->cuties.nRibbons);
         sTVShowState = SPOTCUTIES_STATE_RIBBON_INTRO;
         break;
     case SPOTCUTIES_STATE_RIBBON_INTRO:
         TVShowConvertInternationalString(gStringVar2, show->cuties.nickname, show->cuties.pokemonNameLanguage);
+        CopyMonNicknameForDisplay(gStringVar2, gStringVar2, (show->cuties.speciesHi << 8) | show->cuties.speciesLo);
         switch (show->cuties.selectedRibbon)
         {
         case CHAMPION_RIBBON:
@@ -6325,6 +6335,7 @@ static void DoTVShowSpotTheCuties(void)
     case SPOTCUTIES_STATE_RIBBON_ARTIST:
     case SPOTCUTIES_STATE_RIBBON_EFFORT:
         TVShowConvertInternationalString(gStringVar2, show->cuties.nickname, show->cuties.pokemonNameLanguage);
+        CopyMonNicknameForDisplay(gStringVar2, gStringVar2, (show->cuties.speciesHi << 8) | show->cuties.speciesLo);
         sTVShowState = SPOTCUTIES_STATE_OUTRO;
         break;
     case SPOTCUTIES_STATE_OUTRO:

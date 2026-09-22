@@ -369,7 +369,7 @@ static void AddHatchedMonToParty(u8 id)
     SetMonData(mon, MON_DATA_IS_EGG, &isEgg);
 
     species = GetMonData(mon, MON_DATA_SPECIES);
-    GetSpeciesName(name, species);
+    GetSpeciesNameEnglish(name, species);
     SetMonData(mon, MON_DATA_NICKNAME, name);
 
     species = SpeciesToNationalPokedexNum(species);
@@ -402,12 +402,12 @@ static bool8 _CheckDaycareMonReceivedMail(struct DayCare *daycare, u8 daycareId)
     u8 nickname[max(32, POKEMON_NAME_BUFFER_SIZE)];
     struct DaycareMon *daycareMon = &daycare->mons[daycareId];
 
-    GetBoxMonNickname(&daycareMon->mon, nickname);
+    GetBoxMonData(&daycareMon->mon, MON_DATA_NICKNAME, nickname);
     if (daycareMon->mail.message.itemId != ITEM_NONE
         && (StringCompareWithoutExtCtrlCodes(nickname, daycareMon->mail.monName) != 0
          || StringCompareWithoutExtCtrlCodes(gSaveBlock2Ptr->playerName, daycareMon->mail.otName) != 0))
     {
-        StringCopy(gStringVar1, nickname);
+        GetBoxMonNicknameForDisplay(&daycareMon->mon, gStringVar1);
         TVShowConvertInternationalString(gStringVar2, daycareMon->mail.otName, daycareMon->mail.gameLanguage);
         TVShowConvertInternationalString(gStringVar3, daycareMon->mail.monName, daycareMon->mail.monLanguage);
         return TRUE;

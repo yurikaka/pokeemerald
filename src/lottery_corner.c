@@ -108,14 +108,13 @@ void PickLotteryCornerTicket(void)
         if (box == TOTAL_BOXES_COUNT)
         {
             gSpecialVar_0x8006 = 0;
-            GetMonData(&gPlayerParty[slot], MON_DATA_NICKNAME, gStringVar1);
+            GetMonNicknameForDisplay(&gPlayerParty[slot], gStringVar1);
         }
         else
         {
             gSpecialVar_0x8006 = 1;
-            GetBoxMonData(&gPokemonStoragePtr->boxes[box][slot], MON_DATA_NICKNAME, gStringVar1);
+            GetBoxMonNicknameForDisplay(&gPokemonStoragePtr->boxes[box][slot], gStringVar1);
         }
-        StringGet_Nickname(gStringVar1);
     }
 }
 

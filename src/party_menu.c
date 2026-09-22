@@ -1030,11 +1030,11 @@ static void DisplayPartyPokemonDataForMultiBattle(u8 slot)
     {
         menuBox->infoRects->blitFunc(menuBox->windowId, 0, 0, 0, 0, FALSE);
         StringCopy(gStringVar1, gMultiPartnerParty[actualSlot].nickname);
-        StringGet_Nickname(gStringVar1);
         ConvertInternationalPlayerName(gStringVar1);
+        CopyMonNicknameForDisplay(gStringVar1, gStringVar1, gMultiPartnerParty[actualSlot].species);
         DisplayPartyPokemonBarDetail(menuBox->windowId, gStringVar1, 0, menuBox->infoRects->dimensions);
         DisplayPartyPokemonLevel(gMultiPartnerParty[actualSlot].level, menuBox);
-        DisplayPartyPokemonGender(gMultiPartnerParty[actualSlot].gender, gMultiPartnerParty[actualSlot].species, gMultiPartnerParty[actualSlot].nickname, menuBox);
+        DisplayPartyPokemonGender(gMultiPartnerParty[actualSlot].gender, gMultiPartnerParty[actualSlot].species, gStringVar1, menuBox);
         DisplayPartyPokemonHP(gMultiPartnerParty[actualSlot].hp, menuBox);
         DisplayPartyPokemonMaxHP(gMultiPartnerParty[actualSlot].maxhp, menuBox);
         DisplayPartyPokemonHPBar(gMultiPartnerParty[actualSlot].hp, gMultiPartnerParty[actualSlot].maxhp, menuBox);
@@ -1697,8 +1697,7 @@ static s8 GetNewSlotDoubleLayout(s8 slotId, s8 movementDir)
 
 u8 *GetMonNickname(struct Pokemon *mon, u8 *dest)
 {
-    GetMonData(mon, MON_DATA_NICKNAME, dest);
-    return StringGet_Nickname(dest);
+    return GetMonNicknameForDisplay(mon, dest);
 }
 
 #define tKeepOpen  data[0]

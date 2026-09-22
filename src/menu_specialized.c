@@ -886,14 +886,24 @@ s32 GetBoxOrPartyMonData(u16 boxId, u16 monId, s32 request, u8 *dst)
 
     if (boxId == TOTAL_BOXES_COUNT) // Party mon.
     {
-        if (request == MON_DATA_NICKNAME || request == MON_DATA_OT_NAME)
+        if (request == MON_DATA_NICKNAME)
+        {
+            GetMonNicknameForDisplay(&gPlayerParty[monId], dst);
+            ret = StringLength(dst);
+        }
+        else if (request == MON_DATA_OT_NAME)
             ret = GetMonData(&gPlayerParty[monId], request, dst);
         else
             ret = GetMonData(&gPlayerParty[monId], request);
     }
     else
     {
-        if (request == MON_DATA_NICKNAME || request == MON_DATA_OT_NAME)
+        if (request == MON_DATA_NICKNAME)
+        {
+            GetBoxMonNicknameForDisplay(GetBoxedMonPtr(boxId, monId), dst);
+            ret = StringLength(dst);
+        }
+        else if (request == MON_DATA_OT_NAME)
             ret = GetAndCopyBoxMonDataAt(boxId, monId, request, dst);
         else
             ret = GetBoxMonDataAt(boxId, monId, request);

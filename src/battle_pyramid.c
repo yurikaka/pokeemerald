@@ -1360,7 +1360,7 @@ void GenerateBattlePyramidWildMon(void)
 
     id = GetMonData(&gEnemyParty[0], MON_DATA_SPECIES, NULL) - 1;
     SetMonData(&gEnemyParty[0], MON_DATA_SPECIES, &wildMons[id].species);
-    GetSpeciesName(name, wildMons[id].species);
+    GetSpeciesNameEnglish(name, wildMons[id].species);
     SetMonData(&gEnemyParty[0], MON_DATA_NICKNAME, &name);
     if (lvl != FRONTIER_LVL_50)
     {

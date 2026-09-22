@@ -4704,7 +4704,7 @@ static int DoPokedexSearch(u8 dexMode, u8 order, u8 abcGroup, u8 bodyColor, u8 t
             u8 firstLetter;
 
             species = NationalPokedexNumToSpecies(sPokedexView->pokedexList[i].dexNum);
-            firstLetter = gSpeciesNames[species][0];
+            firstLetter = gSpeciesNamesEnglish[species][0];
             if (LETTER_IN_RANGE_UPPER(firstLetter, abcGroup) || LETTER_IN_RANGE_LOWER(firstLetter, abcGroup))
             {
                 sPokedexView->pokedexList[resultsCount] = sPokedexView->pokedexList[i];

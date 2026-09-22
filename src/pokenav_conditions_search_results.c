@@ -711,7 +711,7 @@ static void BufferSearchMonListItem(struct PokenavMonListItem *item, u8 *dest)
         struct Pokemon *mon = &gPlayerParty[item->monId];
         gender = GetMonGender(mon);
         level = GetLevelFromMonExp(mon);
-        GetMonData(mon, MON_DATA_NICKNAME, gStringVar3);
+        GetMonNicknameForDisplay(mon, gStringVar3);
     }
     // Mon is in PC
     else
@@ -719,7 +719,7 @@ static void BufferSearchMonListItem(struct PokenavMonListItem *item, u8 *dest)
         struct BoxPokemon *mon = GetBoxedMonPtr(item->boxId, item->monId);
         gender = GetBoxMonGender(mon);
         level = GetLevelFromBoxMonExp(mon);
-        GetBoxMonData(mon, MON_DATA_NICKNAME, gStringVar3);
+        GetBoxMonNicknameForDisplay(mon, gStringVar3);
     }
 
     StringGet_Nickname(gStringVar3);

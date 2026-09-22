@@ -898,7 +898,6 @@ static void RemoveScrollArrows(void)
 static void CreateLearnableMovesList(void)
 {
     s32 i;
-    u8 nickname[POKEMON_NAME_LENGTH + 1];
 
     sMoveRelearnerStruct->numMenuChoices = GetMoveRelearnerMoves(&gPlayerParty[sMoveRelearnerStruct->partyMon], sMoveRelearnerStruct->movesToLearn);
 
@@ -908,8 +907,7 @@ static void CreateLearnableMovesList(void)
         sMoveRelearnerStruct->menuItems[i].id = sMoveRelearnerStruct->movesToLearn[i];
     }
 
-    GetMonData(&gPlayerParty[sMoveRelearnerStruct->partyMon], MON_DATA_NICKNAME, nickname);
-    StringCopy_Nickname(gStringVar1, nickname);
+    GetMonNicknameForDisplay(&gPlayerParty[sMoveRelearnerStruct->partyMon], gStringVar1);
     sMoveRelearnerStruct->menuItems[sMoveRelearnerStruct->numMenuChoices].name = gText_Cancel;
     sMoveRelearnerStruct->menuItems[sMoveRelearnerStruct->numMenuChoices].id = LIST_CANCEL;
     sMoveRelearnerStruct->numMenuChoices++;
