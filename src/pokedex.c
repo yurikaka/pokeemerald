@@ -1,6 +1,7 @@
 #include "global.h"
 #include "battle_main.h"
 #include "bg.h"
+#include "chinese_text.h"
 #include "data.h"
 #include "decompress.h"
 #include "event_data.h"
@@ -273,6 +274,7 @@ static void Task_HandleCaughtMonPageInput(u8);
 static void Task_ExitCaughtMonPage(u8);
 static void SpriteCB_SlideCaughtMonToCenter(struct Sprite *sprite);
 static void PrintMonInfo(u32 num, u32, u32 owned, u32 newEntry);
+static void WrapPokedexDescription(u8 *dest, const u8 *src);
 static void PrintMonHeight(u16 height, u8 left, u8 top);
 static void PrintMonWeight(u16 weight, u8 left, u8 top);
 static void ResetOtherVideoRegisters(u16);
@@ -4099,10 +4101,44 @@ static void SpriteCB_SlideCaughtMonToCenter(struct Sprite *sprite)
 #undef tPersonalityHi
 
 // u32 value is re-used, but passed as a bool that's TRUE if national dex is enabled
+#define POKEDEX_DESCRIPTION_LINE_LENGTH 18
+
+static void WrapPokedexDescription(u8 *dest, const u8 *src)
+{
+    u8 lineLength = 0;
+    u8 lineCount = 1;
+
+    while (*src != EOS)
+    {
+        bool8 isChinese = IsChineseChar(src[0], src[1], FONT_NORMAL, FALSE);
+        bool8 isPunctuation = IsChinesePunctuation(src[0], FONT_NORMAL, FALSE);
+
+        if (*src == CHAR_NEWLINE)
+        {
+            src++;
+            continue;
+        }
+
+        if (lineLength >= POKEDEX_DESCRIPTION_LINE_LENGTH && !isPunctuation && lineCount < 3)
+        {
+            *dest++ = CHAR_NEWLINE;
+            lineLength = 0;
+            lineCount++;
+        }
+
+        *dest++ = *src++;
+        if (isChinese)
+            *dest++ = *src++;
+        lineLength++;
+    }
+    *dest = EOS;
+}
+
 static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
 {
     u8 str[16];
     u8 str2[32];
+    u8 wrappedDescription[128];
     u16 natNum;
     const u8 *name;
     const u8 *category;
@@ -4148,6 +4184,8 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
         description = gPokedexEntries[num].description;
     else
         description = sExpandedPlaceholder_PokedexDescription;
+    WrapPokedexDescription(wrappedDescription, description);
+    description = wrappedDescription;
     PrintInfoScreenText(description, GetStringCenterAlignXOffset(FONT_NORMAL, description, DISPLAY_WIDTH), 95);
 }
 
