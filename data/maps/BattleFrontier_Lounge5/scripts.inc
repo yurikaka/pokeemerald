@@ -44,7 +44,7 @@ BattleFrontier_Lounge5_Text_NatureGirlGreeting::
 	.string "呵呵！\n我能看出宝可梦在想什么哦！\p来吧！\n让我看看你的宝可梦！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlNoneShown::
-    .string "砰！\n咔嚓！$"
+    .string "嘘！\n真小气！$"
 
 BattleFrontier_Lounge5_Text_NatureGirlHardy::
     .string "嗯嗯……\p它说它想去战斗！\n它说无论会受什么伤，\l它都想去战斗！$"
@@ -123,4 +123,3 @@ BattleFrontier_Lounge5_Text_GirlSayingSomethingProfound::
 
 BattleFrontier_Lounge5_Text_GirlPlaysAtRedHouseALot::
     .string "我知道我知道！\p那个小女孩经常在\n红色的房子里玩！$"
-

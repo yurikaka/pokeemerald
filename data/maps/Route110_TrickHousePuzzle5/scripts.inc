@@ -882,7 +882,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz3:
     .string "机械娃娃3问答。\p买1个除虫喷雾和1个劲爽汽水\n花的钱比1个厉害伤药多吗？$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Intro:
-    .string "咔嗒、噼啪……\n机械娃娃4就是我！\p我的问答是关于人的。$"
+    .string "咔嗒、噼啪……\n机械娃娃 4 号就是我！\p我的问答关乎美丽！$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz1:
     .string "机械娃娃4问答。\p大海之家里，\n男人多还是女人多？$"

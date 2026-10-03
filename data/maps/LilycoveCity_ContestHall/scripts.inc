@@ -349,7 +349,7 @@ LilycoveCity_ContestHall_Text_GanderAtAllThosePrettyPokemon:
     .string "啊哈哈哈哈！\p看看这些漂亮的宝可梦！\n我最喜欢这种华丽！$"
 
 LilycoveCity_ContestHall_Text_CantWinOnBeautyAlone:
-    .string "只有美丽不可能\n长久获胜下去，\p还得经常为宝可梦梳洗，\n让它像我一样光彩照人。$"
+    .string "只有美丽不可能\n长久获胜下去。\p还得经常为宝可梦梳洗，\n让它像我的宝可梦一样光彩照人。$"
 
 LilycoveCity_ContestHall_Text_InTheMiddleOfContest:
     .string "主持人：呃，啊，你好！\n现在华丽大赛正在进行之中！\p请先去接待处登记\n再来参加比赛。$"
@@ -358,7 +358,7 @@ LilycoveCity_ContestHall_Text_SuchCharmingCuteAppeals:
     .string "评委：啊，如此迷人，\n如此可爱！\p哎，天啊！那水之游\n多么完美，多么可爱！$"
 
 LilycoveCity_ContestHall_Text_MyAzurillWasDistracted:
-    .string "哦，不……我的小露力丽\n被忽视了。$"
+    .string "哦，不……我的小露力丽\n被其他宝可梦分散注意力了！$"
 
 LilycoveCity_ContestHall_Text_NeverWonBattleButContest:
     .string "我的宝可梦对战从未赢过，\n但看看它在华丽大赛的表现吧！$"
@@ -389,4 +389,3 @@ LilycoveCity_ContestHall_Text_CuteContestStage:
 
 LilycoveCity_ContestHall_Text_SmartContestStage:
     .string "聪明部门会场\n聪明的宝可梦，深刻的印象！$"
-

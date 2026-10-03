@@ -523,7 +523,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Reject::
     .string "啊，你不想吗？\n{PLAYER}，我们肯定能搭档得很好的。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Intro::
-    .string "你好！\n这里真是个强者云集的地方。\p我是{STR_VAR_3}，\n{STR_VAR_1}的第{STR_VAR_2}个徒弟。$"
+    .string "你好！\n真让人紧张啊。\p我是{STR_VAR_3}，\n{STR_VAR_1}的第{STR_VAR_2}个徒弟。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Mon1::
     .string "{STR_VAR_3}说这样的队伍不错——\n会{STR_VAR_1}的{STR_VAR_2}和$"
@@ -1301,4 +1301,3 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMAccept::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMReject::
     .string "如果我们再见面，你会和我组队的，\n你一定会的，对吧？$"
-

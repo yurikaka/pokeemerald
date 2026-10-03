@@ -617,7 +617,7 @@ Route111_Text_ThatWasShockingSandRainedDown:
     .string "哇……\n太惊人了，\p沙子突然哗啦啦地\n都散落下来。\p里面怎么了？\n有沙鬼什么的吗？$"
 
 Route111_Text_MirageTowerHasntBeenSeenSince:
-    .string "我跟你说话的时候，\n那座沙塔已经不见了。\p也许那真的是座\n幻想的塔……$"
+    .string "自那以后，\n就再也没见过那座沙塔。\p它果然是幻影之塔吗……$"
 
 Route111_Text_ClawFossilDisappeared:
     .string "爪子化石沉进了\n沙里……$"
@@ -630,4 +630,3 @@ Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
 
 Route111_Text_TrainerHillSign:
     .string "{RIGHT_ARROW}训练家之丘入口\p“努力向上攀登吧，\n充满热血的训练家！”$"
-

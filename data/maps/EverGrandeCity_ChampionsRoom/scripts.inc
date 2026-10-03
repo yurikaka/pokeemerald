@@ -242,5 +242,4 @@ EverGrandeCity_ChampionsRoom_Text_MayCongratulations:
     .string "小遥：哎……\p…… …… …… ……\n…… …… …… ……\p我开玩笑啦！没关系！\n毕竟是规定嘛！\p{PLAYER}{KUN}！\n真的恭喜你！$"
 
 EverGrandeCity_ChampionsRoom_Text_BrendanCongratulations:
-    .string "小悠：什么？！…… …… ……\n…… …… …… ……\p既然是规定，那也没办法。\p{PLAYER}，去吧！\n恭喜你！$"
-
+    .string "小悠：什么？！…… …… ……\n…… …… …… ……\p既然是规定，那也没办法。\p{PLAYER}，干得漂亮！\n恭喜你！$"

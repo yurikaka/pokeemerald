@@ -438,7 +438,7 @@ MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterStory::
 	.string "爱心的人了！$"
 
 MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeTitle::
-	.string "宝可梦保姆$"
+	.string "恋家的训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeAction::
 	.string "在家照顾宝可梦$"
@@ -528,12 +528,7 @@ MauvilleCity_PokemonCenter_1F_Text_UsedStruggleAction::
 	.string "采取绝境反击战术$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedStruggleStory::
-	.string "关于{STR_VAR_3}是这样流传\n"
-	.string "的。\p"
-	.string "他依靠绝境反击获胜\n"
-	.string "{STR_VAR_1}次！\p"
-	.string "{STR_VAR_3}在绝境中总能表现出\n"
-	.string "惊人的实力！$"
+	.string "关于{STR_VAR_3}是这样流传\n的。\p这位训练家被迫使用了\n{STR_VAR_1}次绝境反击！\p{STR_VAR_3}是不向逆境低头的\n顽强训练家！$"
 
 MauvilleCity_PokemonCenter_1F_Text_SlotJackpotsTitle::
 	.string "赌神$"
@@ -720,7 +715,7 @@ MauvilleCity_PokemonCenter_1F_Text_CheckedClockTitle::
 	.string "时间魔术师$"
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedClockAction::
-	.string "调表$"
+	.string "看了看时间$"
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedClockStory::
 	.string "关于{STR_VAR_3}是这样流传\n"

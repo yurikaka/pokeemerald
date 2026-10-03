@@ -448,10 +448,10 @@ BattleFrontier_BattleDomeLobby_Text_SelectThreeMons:
     .string "请挑选参加的\n3只宝可梦。$"
 
 BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLvOpen:
-    .string "很抱歉！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只不同种类的\n宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}！$"
+    .string "很抱歉！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只不同种类的\n宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，下列宝可梦不能参加：\n蛋{STR_VAR_1}。\p准备好后，\n请再来吧。$"
 
 BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLv50:
-    .string "很抱歉！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只等级50以内的\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}！$"
+    .string "很抱歉！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只等级50以内的\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，下列宝可梦不能参加：\n蛋{STR_VAR_1}。\p准备好后，\n请再来吧。$"
 
 BattleFrontier_BattleDomeLobby_Text_ShowYouToBattleDome:
     .string "现在我将带您前往\n对战巨蛋。$"

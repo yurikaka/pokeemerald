@@ -77,7 +77,7 @@ BravoTrainerBattleTower_Text_NewRecord::
     .string "在{STR_VAR_1}的比赛中，这对组合\n创造了{STR_VAR_2}连胜的新纪录！\lBravo，训练家！$"
 
 BravoTrainerBattleTower_Text_Lost::
-    .string "这对组合最终还是败在\n{STR_VAR_1}手上了。\l虽败犹荣，训练家！\p不过，在挑战赛中这么早\n就遇上{STR_VAR_1}还真是运气不太好。\p我们采访了训练家\n和{STR_VAR_1}之间的比赛的感受。$"
+    .string "这对组合最终在第{STR_VAR_2}场\n败给了{STR_VAR_1}。\l虽败犹荣，训练家！\p不过，在挑战赛中这么早\n就遇上{STR_VAR_1}还真是运气不太好。\p我们采访了训练家\n和{STR_VAR_1}之间的比赛的感受。$"
 
 BravoTrainerBattleTower_Text_Won::
     .string "这对组合彻底地击败了{STR_VAR_1}的\n{STR_VAR_2}赢得胜利。\lBravo，训练家！\p居然连{STR_VAR_1}都打败了……\n难以置信！令人震惊！\p我们采访了训练家\n对荣耀时刻的感想。$"
@@ -125,7 +125,7 @@ SlateportCity_PokemonFanClub_Text_DescribeFeelingsFirstMetMon:
     .string "第一次遇到{STR_VAR_1}时，\n你是什么感觉？\p当时的心情该\n怎么形容呢？$"
 
 SlateportCity_PokemonFanClub_Text_LikenMonToSomethingYouLike:
-    .string "你的{STR_VAR_1}\n被照顾得很好呢。\p如果要把它比作你喜欢的东西，\n会是什么给出的评分呢？$"
+    .string "你的{STR_VAR_1}\n被照顾得很好呢。\p如果要把它比作你喜欢的东西，\n会是什么呢？$"
 
 SlateportCity_PokemonFanClub_Text_WhatAttractedYouAboutMon:
     .string "这个问题也是关于\n你心爱的{STR_VAR_1}。\p{STR_VAR_1}最吸引你的\n是哪一点呢？$"
@@ -859,7 +859,7 @@ TVSecretBaseSecrets_Text_UsedSilverShield::
 	.string "访客正在观察\n一个银盾！\p访客睁大了眼睛！$"
 
 TVSecretBaseSecrets_Text_UsedGlassOrnament::
-	.string "访客正在观察\n一个玻璃工艺品！\p哦，不！\p访客在摸它！\p上面都是指纹了……\p"
+	.string "访客正在观察\n一个玻璃工艺品！\p哦，不！\p访客在摸它！\p上面都是指纹了……$"
 
 TVSecretBaseSecrets_Text_UsedTV::
 	.string "访客正在看电视！\p看来是个电视迷呢！$"

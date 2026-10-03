@@ -55,7 +55,7 @@ Route110_TrickHousePuzzle1_Text_EddieDefeat:
     .string "我输了……$"
 
 Route110_TrickHousePuzzle1_Text_EddiePostBattle:
-    .string "我迷路了，我输了对战，\n现在我越来越伤心……\l我出不去了……$"
+    .string "我迷路了，也输掉了对战，\n现在更迷路了……\l我出不去了……$"
 
 Route110_TrickHousePuzzle1_Text_RobinIntro:
     .string "戏法大王究竟是谁？$"
@@ -65,4 +65,3 @@ Route110_TrickHousePuzzle1_Text_RobinDefeat:
 
 Route110_TrickHousePuzzle1_Text_RobinPostBattle:
     .string "你真强！\n你究竟是谁？$"
-

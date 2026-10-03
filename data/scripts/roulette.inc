@@ -23,8 +23,7 @@ Roulette_EventScript_Play::
 	end
 
 Roulette_Text_PlayMinimumWagerIsX::
-	.string "这里是倍率为{STR_VAR_1}倍的轮盘台。\n"
-	.string "要在这里玩轮盘吗？$"
+	.string "这个轮盘台的最低下注额为\n{STR_VAR_1}。要玩吗？$"
 
 Roulette_Text_NotEnoughCoins::
 	.string "代币不足……$"

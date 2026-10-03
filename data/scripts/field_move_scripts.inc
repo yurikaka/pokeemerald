@@ -202,9 +202,7 @@ EventScript_EndWaterfall::
 	end
 
 Text_CantWaterfall:
-	.string "伴随着巨大的轰响，\n"
-	.string "大量的水从上方倾泻而下！\n"
-	.string "或许可以用秘传招式攀上去？$"
+	.string "伴随着巨大的轰响，\n大量的水从上方倾泻而下！$"
 
 Text_WantToWaterfall:
 	.string "好大的瀑布啊！\n"

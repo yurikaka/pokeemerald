@@ -114,11 +114,10 @@ Route112_Text_NotEasyToGetBackToLavaridge:
     .string "呃，我想去紫堇市，\n但如果我从这些岩脊上走下去，\l再回到釜炎镇就没那么容易了。$"
 
 Route112_Text_MtChimneyCableCarSign:
-    .string "烟囱山缆车\n“登山的捷径！”$"
+    .string "烟囱山缆车乘车处\n{UP_ARROW} 前方不远处！$"
 
 Route112_Text_MtChimneySign:
     .string "烟囱山\p“去釜炎镇或山顶，\n请乘坐缆车。”$"
 
 Route112_Text_RouteSignLavaridge:
     .string "112号道路\n{LEFT_ARROW}釜炎镇$"
-

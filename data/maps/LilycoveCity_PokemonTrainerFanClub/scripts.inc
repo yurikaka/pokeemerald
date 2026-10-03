@@ -658,7 +658,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_YouImpressive:
     .string "你……\p不敢相信！$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_OnlyIRecognizeYourTrueWorth:
-    .string "要是我早认识到\n你的能力多好。\p我怀疑其他人\n无法理解那内在的潜能。$"
+    .string "你的真正实力，\n只需我一人知道便好。\p其他人恐怕无法理解\n那隐藏的力量……$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HaventRealizedPotential:
     .string "是的，我在你眼中\n看到了力量，\p但是……\p你还未发掘出\n自己的潜力。$"

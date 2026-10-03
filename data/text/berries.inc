@@ -98,7 +98,7 @@ Route104_PrettyPetalFlowerShop_Text_WailmerPailExplanation:
     .string "树果渐渐长大的时候，\n就用吼吼鲸喷壶给它们浇水吧。\p啊，\n对了，\p如果一段时间里你没摘下树果，\n它们会掉进土里，\l不过很快它们又会发芽的。\p挺不错的吧？\n就好像它们自己也盼望着成长一样。$"
 
 Route104_PrettyPetalFlowerShop_Text_ImGrowingFlowers:
-    .string "我正在向姐姐们学习种花，\n总有一天，我也会像她们那样优秀！\p给！这个送你！$"
+    .string "我正努力向姐姐们学习，\n也在努力种花！\p给！\n这个送给你！$"
 
 Route104_PrettyPetalFlowerShop_Text_MachineMixesBerries:
     .string "你可以把树果种到土里让它长大，\n也可以让宝可梦携带它，\p现在还有另一种选择，用一种特别的\n机器混合树果为宝可梦制作糖果。\p我也想要些糖果啊。$"
@@ -113,7 +113,7 @@ SootopolisCity_Text_WhatKindOfWishInYourName:
     .string "你的名字里\n会包含了什么样的期望呢？$"
 
 SootopolisCity_Text_LikeSeasonBornIn:
-    .string "春，夏，秋，冬……\p春天出生的人喜欢春天\n冬天出生的人喜欢冬天吗？$"
+    .string "春，夏，秋，冬……\p春天出生的人喜欢春天\n夏天出生的人喜欢夏天吗？$"
 
 SootopolisCity_Text_ThenILoveAutumn:
     .string "那么，小桐是秋天出生的，\n所以一定喜欢秋天！\p你喜欢什么季节？$"

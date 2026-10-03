@@ -615,7 +615,7 @@ BattleFrontier_ExchangeServiceCorner_Text_LeftoversDesc::
     .string "一件能在对战中逐渐\n回复体力的道具。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_WhiteHerbDesc::
-    .string "一件能回复所有能力\n的道具。$"
+    .string "携带后能恢复\n下降的能力的道具。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_QuickClawDesc::
     .string "一件有概率能先制\n攻击的道具。$"
@@ -630,7 +630,7 @@ BattleFrontier_ExchangeServiceCorner_Text_ChoiceBandDesc::
     .string "提升物理招式的威力，但无法\n使用其他招式。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_KingsRockDesc::
-    .string "一件在接触攻击时能使对手\n畏缩的道具。$"
+    .string "携带后攻击命中时，\n有时能使对手畏缩的道具。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_FocusBandDesc::
     .string "一件能偶尔防止昏厥\n的道具。$"

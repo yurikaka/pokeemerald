@@ -284,7 +284,7 @@ MatchCall_PersonalizedText24::
     .string "你好，我是{STR_VAR_1}。\n听起来你还不错，{PLAYER}{KUN}。\p虽然周游了世界，\n但我特别喜欢这个地区。\p我打算多待一阵子。\n也许我们应该再见一见？\p我还记得你精彩的对战技巧。\p我真的希望能再切磋一次。$"
 
 MatchCall_PersonalizedText25::
-    .string "呜咽……我是……{STR_VAR_1}……\n……吸……\p今天在课上被杜娟训了。\p但是我并讨厌她。\p杜娟直接指出了我的错误，\n这样我能吃一堑长一智。\p明天我绝对还要去\n训练师学校！\p回头见！$"
+    .string "呜咽……我是……{STR_VAR_1}……\n……吸……\p今天在课上被杜娟训了。\p但是我并不讨厌她。\p杜娟直接指出了我的错误，\n这样我能吃一堑长一智。\p明天我绝对还要去\n训练师学校！\p回头见！$"
 
 MatchCall_PersonalizedText26::
     .string "我是{STR_VAR_1}！\p昨天，杜娟答应和我对战了。\p结果吗……\n不用问也知道很惨。\p但能挑战她我就超开心！\p我现在更崇拜她了！\p我会加倍努力的！\n先走啦！$"
@@ -458,16 +458,16 @@ MatchCall_BattleFrontierRecordStreakText4::
     .string "喂，{PLAYER}{KUN}。\n是我{STR_VAR_1}，最近怎样？\p有传言说你在{STR_VAR_2}\n取得了{STR_VAR_3}连胜。\p我也要加油啊。\n再见！$"
 
 MatchCall_BattleFrontierRecordStreakText5::
-    .string "喂，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\p你在{STR_VAR_2}\n取得{STR_VAR_3}连胜？\l真厉害啊！\p我也要多加训练宝可梦了。\n回见！$"
+    .string "喂，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\p你在{STR_VAR_2}\n取得{STR_VAR_3}连胜？\l真厉害啊！\p我嘛，还算过得去吧。\n回见！$"
 
 MatchCall_BattleFrontierRecordStreakText6::
-    .string "喂，{PLAYER}{KUN}。\n是我{STR_VAR_1}。你好吗？\p对了，我听说你在{STR_VAR_2}\n完成了{STR_VAR_3}场连胜的壮举。\p这激励我要更\n专注于培养队伍了。$"
+    .string "喂，{PLAYER}{KUN}。\n是我{STR_VAR_1}。你好吗？\p对了，我听说你在{STR_VAR_2}\n完成了{STR_VAR_3}场连胜的壮举。\p我自己也得更加努力了！\n回见！$"
 
 MatchCall_BattleFrontierRecordStreakText7::
     .string "……呃，{PLAYER}{KUN}？\n是我{STR_VAR_1}……\p哦对了，你之前在\n{STR_VAR_2}，对吧？\p并且还取得了{STR_VAR_3}连胜。\p哎呀，这里有只稀有的宝可梦！\n我要走了！$"
 
 MatchCall_BattleFrontierRecordStreakText8::
-    .string "喂，{PLAYER}{KUN}，你好吗？\n我是{STR_VAR_1}。\l希望你一切顺利。\p不过你好像的确很顺利。\n我听说你在{STR_VAR_2}\l取得了{STR_VAR_3}连胜。\p真是让人震惊！\n祝你继续保持成功。$"
+    .string "喂，{PLAYER}{KUN}，你好吗？\n我是{STR_VAR_1}。\l希望你一切顺利。\p不过你好像的确很顺利。\n我听说你在{STR_VAR_2}\l取得了{STR_VAR_3}连胜。\p真是让人震惊！\n我也得努力培养宝可梦了！$"
 
 MatchCall_BattleFrontierRecordStreakText9::
     .string "哦，{PLAYER}{KUN}，你好啊！\n我是{STR_VAR_1}！\p我听说了！你在{STR_VAR_2}取得了\n{STR_VAR_3}连胜！\p太酷了！\n我也要加油！$"
@@ -494,16 +494,16 @@ MatchCall_BattleDomeText2::
     .string "你好，我是{STR_VAR_1}！\n我听说了你的事！\p他们说你在{STR_VAR_2}\n取得了{STR_VAR_3}连冠。\p真厉害！我在想自己\n能不能也成为冠军呢？$"
 
 MatchCall_BattleDomeText3::
-    .string "嘿，你好，{PLAYER}！\n是我啊，{STR_VAR_1}。\l最近怎么样？\p我听说你在{STR_VAR_2}\n取得了{STR_VAR_2}连冠！\p再接再厉啊！\n回头见！$"
+    .string "嘿，你好，{PLAYER}！\n是我啊，{STR_VAR_1}。\l最近怎么样？\p我听说你在{STR_VAR_2}\n取得了{STR_VAR_3}连冠！\p再接再厉啊！\n回头见！$"
 
 MatchCall_BattleDomeText4::
     .string "嘿，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\p听说你在{STR_VAR_2}\n获得了{STR_VAR_3}连冠？\p看来你很努力啊。\n我也得跟上你的步伐！$"
 
 MatchCall_BattleDomeText5::
-    .string "喂，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\p我听说你在{STR_VAR_2}\n取得了{STR_VAR_2}连冠！\p我也要加油啊！\n再见啦！$"
+    .string "喂，{PLAYER}{KUN}！\n我是{STR_VAR_1}。\p我听说你在{STR_VAR_2}\n取得了{STR_VAR_3}连冠！\p我也要加油啊！\n再见啦！$"
 
 MatchCall_BattleDomeText6::
-    .string "嘿，{PLAYER}{KUN}？\n我是{STR_VAR_1}。你还好吗？\p对了，听说你在{STR_VAR_2}\n获得了{STR_VAR_2}连冠。\p我得赶紧训练我的宝可梦，\n不然你要甩开我啦。$"
+    .string "嘿，{PLAYER}{KUN}？\n我是{STR_VAR_1}。你还好吗？\p对了，听说你在{STR_VAR_2}\n获得了{STR_VAR_3}连冠。\p我得赶紧训练我的宝可梦，\n不然你要甩开我啦。$"
 
 MatchCall_BattleDomeText7::
     .string "{PLAYER}{KUN}？\n我是{STR_VAR_1}。\p你在{STR_VAR_2}取得了\n{STR_VAR_3}连冠？\p真不得了啊。对了，\n你有捕捉到稀有的宝可梦吗？\p哦，这样啊。\n好，再见。$"
@@ -524,7 +524,7 @@ MatchCall_BattleDomeText12::
     .string "你好，{PLAYER}{KUN}。\n是我，{STR_VAR_1}。\l最近还好吗？\p你在{STR_VAR_2}取得了\n{STR_VAR_3}连冠？\p真是传奇啊。\n再见！$"
 
 MatchCall_BattleDomeText13::
-    .string "喂，你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\l希望你一切都好。\p据说你在{STR_VAR_2}\n取得了{STR_VAR_3}连冠？\p真是精彩的故事！\n再见！$"
+    .string "喂，你好，{PLAYER}{KUN}！\n我是{STR_VAR_1}！\l希望你一切都好。\p据说你在{STR_VAR_2}\n取得了{STR_VAR_3}连冠？\p真佩服你的干劲！\n再见！$"
 
 MatchCall_BattleDomeText14::
     .string "喂，你好，{PLAYER}{KUN}。\n我是{STR_VAR_1}。\l我听说你的事了！\p你不是在{STR_VAR_2}\n取得了{STR_VAR_3}连冠吗？\p真了不起啊！\n再见！$"
@@ -803,13 +803,13 @@ MatchCall_Text_Brendan10::
     .string "小悠：嗨，{PLAYER}！\n看新闻了吗？\p听说楠木馆长在水下勘探中\n发现了海底洞窟。$"
 
 MatchCall_Text_Brendan11::
-    .string "小悠：你好，{PLAYER}！\n不觉得这很棒吗？\p即使没有船，\n你也能利用宝可梦招式\l来渡过大海。\p有种宝可梦招式甚至还能\n让你潜入海底呢。\p宝可真是梦无所不能啊！$"
+    .string "小悠：你好，{PLAYER}！\n不觉得这很棒吗？\p即使没有船，\n你也能利用宝可梦招式\l来渡过大海。\p有种宝可梦招式甚至还能\n让你潜入海底呢。\p宝可梦真是无所不能啊！$"
 
 MatchCall_Text_Brendan12::
     .string "小悠：嗨，{PLAYER}！\n最近还好吗？\p在海上有遇到过被挡住\n去路的情况吗？\p试试看潜到水下深处，\n沿着海底的沟壑前进。\p到达另一边后，\n再浮上水面。简单吧！$"
 
 MatchCall_Text_Brendan13::
-    .string "小悠：你好啊，{PLAYER}！\p最近怎么样？\n还在完成宝可梦图鉴吗？\p我听说有关于超古代、n宝可梦的传闻。\l而且不止1只——是3只！\p我好想捕获哪怕1只……$"
+    .string "小悠：你好啊，{PLAYER}！\p最近怎么样？\n还在完成宝可梦图鉴吗？\p我听说有关于超古代\n宝可梦的传闻。\l而且不止1只——是3只！\p我好想捕获哪怕1只……$"
 
 MatchCall_Text_Brendan14::
     .string "小悠：{PLAYER}！\n我听说了！\p你打倒了琉璃市道馆的\n馆主？真厉害！\p只有一步之遥了！$"

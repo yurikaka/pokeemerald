@@ -179,7 +179,7 @@ gText_ApprenticeLevelModeThanks10::
 	.string "好的，所以{STR_VAR_1}更好！\n那我就去另一个级别！\p开玩笑的！\n我会听从你的教导，师父！\p谢谢师父！\p希望你继续教导我！$"
 
 gText_ApprenticePleaseTeach11::
-	.string "A——H——O——Y！\n拼出来就是“Ahoy”，意思是“嗨”！\p我就是那个说唱水手！\n现在轮到你了，\l说说你自己吧，试试看！\p嗯哼，嗯哼！\n你叫{PLAYER}{KUN}，\l宝可梦是你的拿手好戏！\p而且你正处在一个微妙的年纪，\n整个世界都是你的舞台！\p总之，我只想说，\n你是我今天交谈过的\l第10位训练家。\p让我们庆祝一下！\p为了纪念，成为我的导师吧！$"
+	.string "A——H——O——Y！\n拼出来就是“Ahoy”，意思是“嗨”！\p我是{STR_VAR_1}，说唱水手！\n现在轮到你了，\l说说你自己吧，试试看！\p嗯哼，嗯哼！\n你叫{PLAYER}{KUN}，\l宝可梦是你的拿手好戏！\p而且你正处在一个微妙的年纪，\n整个世界都是你的舞台！\p总之，我只想说，\n你是我今天交谈过的\l第10位训练家。\p让我们庆祝一下！\p为了纪念，成为我的导师吧！$"
 
 gText_ApprenticeRejectTeaching11::
 	.string "但是！\n你必须配合我！\p别这么逗我了！\n请当我的导师吧！$"
@@ -752,19 +752,19 @@ gText_ApprenticeWhichMove13::
 	.string "咳！咳！哦，{PLAYER}{KUN}……\p我得了重感冒……\p我想为我的宝可梦\n想个招式。\p但是现在我的鼻子\n流个不停……\p所以，事已至此，\n我需要你替我决定，{PLAYER}{KUN}。\p{STR_VAR_2}和{STR_VAR_3}之间\n为我的{STR_VAR_1}做出选择，你会选哪个？$"
 
 gText_ApprenticeMoveThanks13::
-	.string "{STR_VAR_1}\p…… …… ……这不错。\p不，太震撼了！\l它让我热泪盈眶！\p但尽管我流泪流鼻涕，\n我会用那句台词的！\p我已经没有问题了，\n{PLAYER}{KUN}。\p从现在起，我们是劲敌了！\p感谢你所做的一切！$"
+	.string "嗯，{STR_VAR_1}，好吧。咳咳！\n等我好一点就去教它。\p希望以后还能这样\n继续请你帮忙。$"
 
 gText_ApprenticeWhichMove14::
 	.string "呃……嗯……\n{PLAYER}{KUN}……？\p拜托，别那样看着我。\p我很紧张……\p我……我再次需要你的建议。\p虽然这是我最后一次……\p真的很不好意思问，\p对我的{STR_VAR_1}而言，\n{STR_VAR_2}和{STR_VAR_3}哪个更好？$"
 
 gText_ApprenticeMoveThanks14::
-	.string "{STR_VAR_1}\p哦……好的！\p我会试着说那个！\p我可能会紧张得说不出来……\p谢谢你，{PLAYER}{KUN}。\p我现在得说再见了。\p{PLAYER}{KUN}，\n我会遵守你所有的教导，\l尽我所能做到最好。$"
+	.string "哦……好的！\n我会试试{STR_VAR_1}。\p希望我能教会它这个招式……\n真让人紧张啊……\p谢谢你，{PLAYER}{KUN}。\n如果再见面，还请你\l像这样帮助我。$"
 
 gText_ApprenticeWhichMove15::
 	.string "嗯？你似乎是{PLAYER}{KUN}……\n真的是本人吗？\p或许只是个出名的\n{PLAYER}模仿者？\p哦，不不，\n别生气嘛！\p如果你是本人，\n请原谅我的无礼。\p顺便问一下，\n我想听听你的建议。\p是关于我的{STR_VAR_1}的。\p对它来说，使用哪个招式会更好呢？\n是{STR_VAR_2}还是{STR_VAR_3}？$"
 
 gText_ApprenticeMoveThanks15::
-	.string "{STR_VAR_1}\p…… …… …… …… …… ……\p当我赢了比赛时……\p{STR_VAR_1}\p……你是认真的吗？\p明白了。如果你是认真的，那好吧。\p谢谢你的时间。\p我确实希望即使我也能\n好好利用那句台词。\p我似乎已经没什么建议需要了。\p我相信是时候告别你，\n独自出发了。\p谢谢你，我的导师！\p我为我的怀疑道歉！$"
+	.string "{STR_VAR_1}？\n真的没有问题吗？\p明白了。如果是这样就好。\n感谢你抽空帮忙。\p真希望我的宝可梦\n也能学会这个招式。\p下次再见吧！$"
 
 gText_ApprenticePickWinSpeech0::
 	.string "哦… {PLAYER}？\n是{PLAYER}啊！\l哦！抽泣……呜咽… 请听我说！\p我… 在对战时，我会紧张得不得了，\n就算赢了也忍不住哭出来……\p我真希望赢的时候\n能说点帅气的话……\p求求你，{PLAYER}！\n能不能教我一句赢了之后说的\l酷酷的话，这样我就不会哭了？$"

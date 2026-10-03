@@ -144,7 +144,7 @@ BattleFrontier_Lounge2_Text_DomeAceSilverMons::
     .string "你跟巨蛋超级巨星交过手了吗？\p他没认真起来的时候，\n通常都会用这些宝可梦：\p龙和飞行属性的龙宝可梦，\n水和地面属性的沼鱼宝可梦，\l还有火和飞行属性的火焰宝可梦。$"
 
 BattleFrontier_Lounge2_Text_DomeAceGoldMons::
-    .string "你跟认真起来的巨蛋超级巨星\n交过手了吗？\p当他把自己的策略完全展示的时候，\n通常都会用这些宝可梦：\p龙和飞行属性的无限宝可梦，\n水和地面属性的沼鱼宝可梦，\l还有钢和超能力属性的铁足\l宝可梦。$"
+    .string "你跟认真起来的巨蛋超级巨星\n交过手了吗？\p当他把自己的策略完全展示的时候，\n通常都会用这些宝可梦：\p龙和超能力属性的无限宝可梦，\n水和地面属性的沼鱼宝可梦，\l还有钢和超能力属性的铁足\l宝可梦。$"
 
 BattleFrontier_Lounge2_Text_FactoryHeadIsThere::
     .string "告诉你个秘密！\p被亚希达称作开拓之脑\n的顶级训练家之一现在就在那里。\p那里就是由那个名叫工厂头目的\n奇怪的训练家所掌管的。$"
@@ -217,4 +217,3 @@ BattleFrontier_Lounge2_Text_AmazingPowerOfPersuasion::
 
 BattleFrontier_Lounge2_Text_ThisPlaceIsScaringMe::
     .string "……这里是哪儿？\n好可怕……$"
-

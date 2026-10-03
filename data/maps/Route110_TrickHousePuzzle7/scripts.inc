@@ -350,14 +350,13 @@ Route110_TrickHousePuzzle7_Text_AlvaroDefeat:
     .string "我没有预见到这样的结果……$"
 
 Route110_TrickHousePuzzle7_Text_AlvaroPostBattle:
-    .string "啊，不管怎样，\n我们在命运之地相识了。\p虽然对对方来说我们都是怪人，\n我们也都要努力啊！$"
+    .string "啊，不管怎样，\n我们在这种奇怪的地方相识了。\p同为怪人，\n我们都要努力啊！$"
 
 Route110_TrickHousePuzzle7_Text_EverettIntro:
-    .string "被困在这儿真讨厌……$"
+    .string "这里真是太挤了……$"
 
 Route110_TrickHousePuzzle7_Text_EverettDefeat:
     .string "啊，你真强。$"
 
 Route110_TrickHousePuzzle7_Text_EverettPostBattle:
     .string "我本来打算打败你之后\n和你交换位置，结果……$"
-

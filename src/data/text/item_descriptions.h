@@ -22,10 +22,7 @@ static const u8 sPokeBallDesc[] = _(
 			"梦并将其捕捉的球\n"
 			"。");
 
-static const u8 sSafariBallDesc[] = _(
-			"曾在狩猎地带以及\n"
-			"大湿地被使用。是\n"
-			"一种特殊的球。");
+static const u8 sSafariBallDesc[] = _("在狩猎地带专用的\n特殊的球。");
 
 static const u8 sNetBallDesc[] = _(
 			"有点与众不同的球\n"
@@ -103,20 +100,11 @@ static const u8 sMaxPotionDesc[] = _(
 			"宝可梦回复所有H\n"
 			"P。");
 
-static const u8 sHyperPotionDesc[] = _(
-			"喷雾式伤药。能让\n"
-			"宝可梦回复120\n"
-			"HP。");
+static const u8 sHyperPotionDesc[] = _("喷雾式伤药。能让\n宝可梦回复200\nHP。");
 
-static const u8 sSuperPotionDesc[] = _(
-			"喷雾式伤药。能让\n"
-			"宝可梦回复60H\n"
-			"P。");
+static const u8 sSuperPotionDesc[] = _("喷雾式伤药。能让\n宝可梦回复50HP。");
 
-static const u8 sFullHealDesc[] = _(
-			"能回复宝可梦的\n"
-			"所有HP并治愈\n"
-			"所有异常状态。");
+static const u8 sFullHealDesc[] = _("喷雾式药水。能治\n愈所有异常状态。");
 
 static const u8 sReviveDesc[] = _(
 			"能让1只陷入昏厥\n"
@@ -128,35 +116,20 @@ static const u8 sMaxReviveDesc[] = _(
 			"的宝可梦重获生\n"
 			"机并回复所有HP。");
 
-static const u8 sFreshWaterDesc[] = _(
-			"富含矿物质的水。\n"
-			"能让宝可梦回复3\n"
-			"0HP。");
+static const u8 sFreshWaterDesc[] = _("富含矿物质的水。\n能让宝可梦回复\n50HP。");
 
-static const u8 sSodaPopDesc[] = _(
-			"翻腾着气泡的汽水\n"
-			"。能让宝可梦回复\n"
-			"50HP。");
+static const u8 sSodaPopDesc[] = _("翻腾着气泡的汽水\n。能让宝可梦回复\n60HP。");
 
-static const u8 sLemonadeDesc[] = _(
-			"非常香甜的牛奶。\n"
-			"能让宝可梦回复7\n"
-			"0HP。");
+static const u8 sLemonadeDesc[] = _("非常香甜的果汁。\n能让宝可梦回复\n80HP。");
 
 static const u8 sMoomooMilkDesc[] = _(
 			"营养百分百的牛奶\n"
 			"。能让宝可梦回复\n"
 			"100HP。");
 
-static const u8 sEnergyPowderDesc[] = _(
-			"非常苦的药粉。能\n"
-			"让宝可梦回复60\n"
-			"HP。");
+static const u8 sEnergyPowderDesc[] = _("非常苦的药粉。能\n让宝可梦回复50\nHP。");
 
-static const u8 sEnergyRootDesc[] = _(
-			"非常苦的根。能让\n"
-			"宝可梦回复120\n"
-			"HP。");
+static const u8 sEnergyRootDesc[] = _("非常苦的根。能让\n宝可梦回复200\nHP。");
 
 static const u8 sHealPowderDesc[] = _(
 			"非常苦的药粉。能\n"
@@ -208,15 +181,9 @@ static const u8 sRedFluteDesc[] = _(
 			"哨子。可以治愈着\n"
 			"迷状态。");
 
-static const u8 sBlackFluteDesc[] = _(
-			"以黑色玻璃制成的\n"
-			"哨子。更容易遇到\n"
-			"强大的宝可梦。");
+static const u8 sBlackFluteDesc[] = _("黑色玻璃制成的哨\n子。野生宝可梦会\n变得不易出现。");
 
-static const u8 sWhiteFluteDesc[] = _(
-			"以白色玻璃制成的\n"
-			"哨子。更容易遇到\n"
-			"弱小的宝可梦。");
+static const u8 sWhiteFluteDesc[] = _("白色玻璃制成的哨\n子。野生宝可梦会\n变得更容易出现。");
 
 static const u8 sBerryJuiceDesc[] = _(
 			"100%树果果汁\n"
@@ -311,25 +278,22 @@ static const u8 sDireHitDesc[] = _(
 			"用1次。");
 
 static const u8 sXAttackDesc[] = _(
-			"大幅提高战斗中宝\n"
-			"可梦攻击的道具。");
+			"提高战斗中宝可梦\n"
+			"攻击的道具。");
 
-static const u8 sXDefendDesc[] = _(
-			"在战斗中，5回合\n"
-			"内不让我方能力降\n"
-			"低的道具。");
+static const u8 sXDefendDesc[] = _("在战斗中提高防御\n的道具。离场后效\n果消失。");
 
 static const u8 sXSpeedDesc[] = _(
-			"大幅提高战斗中宝\n"
-			"可梦速度的道具。");
+			"提高战斗中宝可梦\n"
+			"速度的道具。");
 
 static const u8 sXAccuracyDesc[] = _(
-			"大幅提高战斗中宝\n"
-			"可梦命中的道具。");
+			"提高战斗中宝可梦\n"
+			"命中的道具。");
 
 static const u8 sXSpecialDesc[] = _(
-			"大幅提高战斗中宝\n"
-			"可梦特攻的道具。");
+			"提高战斗中宝可梦\n"
+			"特攻的道具。");
 
 static const u8 sPokeDollDesc[] = _(
 			"能吸引宝可梦注\n"
@@ -352,10 +316,7 @@ static const u8 sMaxRepelDesc[] = _(
 			"将不会出现。效果\n"
 			"比白银喷雾持久。");
 
-static const u8 sEscapeRopeDesc[] = _(
-			"结实的长绳。可从\n"
-			"洞窟或迷宫中脱身\n"
-			"。能够反复使用。");
+static const u8 sEscapeRopeDesc[] = _("结实的长绳。可从\n洞窟或迷宫中脱身。");
 
 static const u8 sRepelDesc[] = _(
 			"使用后一段时间内\n"
@@ -394,10 +355,7 @@ static const u8 sLeafStoneDesc[] = _(
 			"神奇石头。");
 
 // Valuable items
-static const u8 sTinyMushroomDesc[] = _(
-			"珍稀的小蘑菇。在\n"
-			"一些爱好者中有着\n"
-			"相当高的人气。");
+static const u8 sTinyMushroomDesc[] = _("珍稀的小蘑菇。可\n以在商店低价出售。");
 
 static const u8 sBigMushroomDesc[] = _(
 			"珍稀的大蘑菇。\n"
@@ -414,10 +372,7 @@ static const u8 sBigPearlDesc[] = _(
 			"大颗的珍珠。可以\n"
 			"在商店高价出售。");
 
-static const u8 sStardustDesc[] = _(
-			"手感细腻且美丽的\n"
-			"红色沙子。可以在\n"
-			"商店低价出售。");
+static const u8 sStardustDesc[] = _("美丽的红色沙子。\n可以在商店高价出\n售。");
 
 static const u8 sStarPieceDesc[] = _(
 			"闪红光且十分美丽\n"
@@ -696,10 +651,7 @@ static const u8 sStarfBerryDesc[] = _(
 			"某一项能力就会大\n"
 			"幅提高。");
 
-static const u8 sEnigmaBerryDesc[] = _(
-			"受效果绝佳的招式\n"
-			"攻击时，可以回复\n"
-			"HP。");
+static const u8 sEnigmaBerryDesc[] = _("一种非常稀奇的树\n果。不能作为宝可\n方块的原料。");
 
 // Hold items
 static const u8 sBrightPowderDesc[] = _(
@@ -717,10 +669,7 @@ static const u8 sMachoBraceDesc[] = _(
 			"降低，但会比平时\n"
 			"更容易成长。");
 
-static const u8 sExpShareDesc[] = _(
-			"打开后，能让同行\n"
-			"的所有宝可梦获得\n"
-			"经验值的装置。");
+static const u8 sExpShareDesc[] = _("携带后，即使没有\n参加战斗也能获得\n经验值。");
 
 static const u8 sQuickClawDesc[] = _(
 			"又轻又尖锐的爪子\n"
@@ -732,10 +681,7 @@ static const u8 sSootheBellDesc[] = _(
 			"携带宝可梦会变得\n"
 			"容易亲密。");
 
-static const u8 sMentalHerbDesc[] = _(
-			"当携带宝可梦无法\n"
-			"自由使出招式时，\n"
-			"仅会回复1次。");
+static const u8 sMentalHerbDesc[] = _("携带后，会解除着\n迷状态。只能使用\n1次。");
 
 static const u8 sChoiceBandDesc[] = _(
 			"有点讲究的头带。\n"
@@ -763,9 +709,9 @@ static const u8 sCleanseTagDesc[] = _(
 			"梦就会不易出现。");
 
 static const u8 sSoulDewDesc[] = _(
-			"让水都携带后，超\n"
-			"能和龙招式威力提\n"
-			"高的神奇珠子。");
+			"让拉帝欧斯或拉帝\n"
+			"亚斯携带后，特攻\n"
+			"和特防会提高。");
 
 static const u8 sDeepSeaToothDesc[] = _(
 			"让珍珠贝携带后，\n"
@@ -819,7 +765,7 @@ static const u8 sDragonScaleDesc[] = _(
 
 static const u8 sLightBallDesc[] = _(
 			"让皮卡丘携带后，\n"
-			"攻击和特攻提高的\n"
+			"特攻会提高的\n"
 			"神奇之球。");
 
 static const u8 sSoftSandDesc[] = _(
@@ -968,10 +914,7 @@ static const u8 sMachBikeDesc[] = _(
 			"度移动的折叠式自\n"
 			"行车。");
 
-static const u8 sCoinCaseDesc[] = _(
-			"可以存放代币的盒\n"
-			"子。最多能放入\n"
-			"50000枚。");
+static const u8 sCoinCaseDesc[] = _("可以存放代币的盒\n子。最多能放入\n9999枚。");
 
 static const u8 sItemfinderDesc[] = _(
 			"会对看不见的道具\n"
@@ -1018,9 +961,7 @@ static const u8 sSootSackDesc[] = _(
 			"灰收集起来的袋子\n"
 			"。");
 
-static const u8 sBasementKeyDesc[] = _(
-			"用来打开满金地道\n"
-			"大门的钥匙。");
+static const u8 sBasementKeyDesc[] = _("用来打开新紫堇\n大门的钥匙。");
 
 static const u8 sAcroBikeDesc[] = _(
 			"能做出跳跃或抬前\n"
@@ -1144,20 +1085,14 @@ static const u8 sTM09Desc[] = _(
 			"种子攻击。连续\n"
 			"攻击2～5次。");
 
-static const u8 sTM10Desc[] = _(
-			"招式的属性会随着\n"
-			"使用此招式的\n"
-			"宝可梦而改变。");
+static const u8 sTM10Desc[] = _("招式的威力和属性\n会随着使用它的\n宝可梦而改变。");
 
 static const u8 sTM11Desc[] = _(
 			"在5回合内日照强\n"
 			"烈，提高火属性\n"
 			"招式威力。");
 
-static const u8 sTM12Desc[] = _(
-			"使对手愤怒。在3\n"
-			"回合内让对手只能\n"
-			"用攻击类招式。");
+static const u8 sTM12Desc[] = _("使对手愤怒。在2\n回合内让对手只能\n用攻击类招式。");
 
 static const u8 sTM13Desc[] = _(
 			"向对手发射冰冻光\n"

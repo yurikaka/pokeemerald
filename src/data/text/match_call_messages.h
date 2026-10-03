@@ -25,7 +25,7 @@ const u8 gText_MatchCallTuber_Ricky_Intro2[] = _("是喜欢待在泳圈里。");
 
 const u8 gText_MatchCallSisAndBro_LilaAndRoy_Strategy[] = _("我们俩各有分工。");
 const u8 gText_MatchCallSisAndBro_LilaAndRoy_Pokemon[] = _("喜欢友好的宝可梦。");
-const u8 gText_MatchCallSisAndBro_LilaAndRoy_Intro1[] = _("我们和宝可梦的感情与");
+const u8 gText_MatchCallSisAndBro_LilaAndRoy_Intro1[] = _("我们一起享受宝可梦");
 const u8 gText_MatchCallSisAndBro_LilaAndRoy_Intro2[] = _("我们姐弟间感情一样。");
 
 const u8 gText_MatchCallCooltrainer_Cristin_Strategy[] = _("用强力的招式来终结。");
@@ -61,7 +61,7 @@ const u8 gText_MatchCallBeauty_Thalia_Intro2[] = _("去环游世界。");
 const u8 gText_MatchCallBeauty_Jessica_Strategy[] = _("我会让你被迷住的。");
 const u8 gText_MatchCallBeauty_Jessica_Pokemon[] = _("当然是可爱的。");
 const u8 gText_MatchCallBeauty_Jessica_Intro1[] = _("我喜欢狩猎地带，");
-const u8 gText_MatchCallBeauty_Jessica_Intro2[] = _("可能会在那待一辈子。");
+const u8 gText_MatchCallBeauty_Jessica_Intro2[] = _("我好像总会去那里。");
 
 const u8 gText_MatchCallRichBoy_Winston_Strategy[] = _("战术？谁需要这个？");
 const u8 gText_MatchCallRichBoy_Winston_Pokemon[] = _("我给它花了很多钱的！");
@@ -131,7 +131,7 @@ const u8 gText_MatchCallPsychic_Jacki_Intro2[] = _("感应和你说话的。");
 const u8 gText_MatchCallGentleman_Walter_Strategy[] = _("冷静分析收集情报。");
 const u8 gText_MatchCallGentleman_Walter_Pokemon[] = _("优秀的宝可梦。");
 const u8 gText_MatchCallGentleman_Walter_Intro1[] = _("我们每天都享用茶水，");
-const u8 gText_MatchCallGentleman_Walter_Intro2[] = _("这对我们很重要。");
+const u8 gText_MatchCallGentleman_Walter_Intro2[] = _("这是进口的。");
 
 const u8 gText_MatchCallSchoolKid_Karen_Strategy[] = _("用头脑作战。");
 const u8 gText_MatchCallSchoolKid_Karen_Pokemon[] = _("任何宝可梦都喜欢！");

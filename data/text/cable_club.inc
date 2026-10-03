@@ -187,7 +187,7 @@ MossdeepCity_GameCorner_1F_Text_DescribeWhichGame:
     .string "需要的话，\n我可以向您解说对战规则。\p需要解说哪一项？$"
 
 MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo:
-    .string "“宝可梦跳绳”\p用A键让您的宝可梦\n跳过藤鞭。\p只有60厘米以下的小型\n宝可梦可以参加，\p而且，只会游泳、挖掘、飞行的\n宝可梦并不擅长跳跃，\p因此，这些宝可梦\n也无法参加。\p如果大家都及时跳起，\n会有好事情发生。$"
+    .string "“宝可梦跳绳”\p用 A 键让您的宝可梦\n跳过藤鞭。\p只有 70 厘米左右以下的小型\n宝可梦可以参加。\p而且，只会游泳、挖掘、飞行的\n宝可梦并不擅长跳跃，\p因此，这些宝可梦\n也无法参加。\p如果大家都及时跳起，\n会有好事情发生。$"
 
 MossdeepCity_GameCorner_1F_Text_DodrioBerryPickingInfo:
     .string "“嘟嘟利摘树果”\p指挥嘟嘟利的3个头\n接住落下的树果。\p按十字方向键的\n左、右、上键移动这些头。\p要玩此游戏，\n您必须拥有嘟嘟利。$"
@@ -221,7 +221,7 @@ MossdeepCity_GameCorner_1F_Text_ExplainRequiredMon:
     .string "看来您并没有可以\n参加的宝可梦……\p需要我为您解释一下\n什么样的宝可梦可以参加吗？$"
 
 MossdeepCity_GameCorner_1F_Text_ShortJumpingPokemonAllowed:
-    .string "参加“宝可梦跳绳”的宝可梦\n必须在60厘米以下，\p此外，不会跳跃的\n宝可梦也无法参加，\p比如说，只会游泳、挖掘、\n飞行的宝可梦。\p知道这些就够了。$"
+    .string "参加“宝可梦跳绳”的宝可梦\n必须在70厘米以下，\p此外，不会跳跃的\n宝可梦也无法参加，\p比如说，只会游泳、挖掘、\n飞行的宝可梦。\p知道这些就够了。$"
 
 MossdeepCity_GameCorner_1F_Text_OnlyDodrioAllowed:
     .string "只有嘟嘟利可以参加\n嘟嘟利摘树果。$"

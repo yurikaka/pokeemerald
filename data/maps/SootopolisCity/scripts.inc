@@ -1358,7 +1358,7 @@ SootopolisCity_Text_CitySign:
     .string "这里是琉璃市。\n“历史沉睡的神秘城市。”$"
 
 SootopolisCity_Text_DoorIsClosed:
-    .string "这扇门上着锁。$"
+    .string "门关着。$"
 
 SootopolisCity_Text_PhysicallyFitLivingHere:
     .string "在大海中潜水，上上下下\n不停地爬楼梯……\p如果你住在这个城镇，\n你一定能保持健康的。$"
@@ -1445,7 +1445,7 @@ SootopolisCity_Text_NightSkyFavoriteScenery:
     .string "火山口框出了一块\n圆圆的夜空……\p星星仿佛具有生命一般，\n在其中闪烁明灭……\l这是我最喜欢的景色。$"
 
 SootopolisCity_Text_WeatherWentWild:
-    .string "今天早上天空十分晴朗，\n但是……\p突然间，乌云群聚，\n暴雨倾盆而下，\l还伴着电闪雷鸣。\p原先晴朗的明日\n转瞬之间就变成了暴风雨！\p这一切都是因为那两只\n宝可梦吗？$"
+    .string "今天早上天空十分晴朗，\n但是……\p突然间，乌云群聚，\n暴雨倾盆而下，\l还伴着电闪雷鸣。\p天气一下子\n完全乱套了！\p这一切都是因为那两只\n宝可梦吗？$"
 
 SootopolisCity_Text_YouBroughtFlyingMon:
     .string "哦？\p是你把天空中\n的那只宝可梦召来的？\p哇，你好厉害耶！$"

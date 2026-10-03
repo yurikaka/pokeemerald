@@ -26,7 +26,7 @@ BerryBlender_Text_BlendMasterPokeblockCaseFull:
     .string "嗯！\p你的宝可方块盒好像满了！\p我会在这里待一整天！\n先用掉些宝可方块再回来吧！$"
 
 BerryBlender_Text_WhoaAwesome:
-    .string "哇！\n太厉害了！"
+    .string "哇！\n太厉害了！$"
 
 BerryBlender_Text_WickedlyFast:
     .string "真是快得惊人！$"

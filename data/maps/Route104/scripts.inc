@@ -1054,7 +1054,7 @@ Route104_Text_BrendanWeShouldRegister:
     .string "小悠：嘿，{PLAYER}！\p得文给你的宝可导航\n装了对战寻呼系统吧？\p我们互相登记一下信息吧，\n这样我们就能随时联系了。$"
 
 Route104_Text_RegisteredBrendan:
-    .string "把小悠\n登记到宝可导航里了。$"
+    .string "{PLAYER}把小悠\n登记到宝可导航里了。$"
 
 Route104_Text_BrendanHowsYourPokedex:
     .string "小悠：{PLAYER}，你的宝可梦图鉴进展如何？\n有几页了吗？$"

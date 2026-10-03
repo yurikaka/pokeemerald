@@ -289,7 +289,7 @@ LavaridgeTown_Gym_1F_Text_FlanneryPreRematch:
     .string "亚莎：打输一次不会\n让我泄气。\p我爱宝可梦，\n我爱对战，\l而且……我爱这间道馆！\p让我们用炙热的招式\n开战吧！$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat:
-    .string "哇！\n火山喷发也不过如此吧！$"
+    .string "呼！\n快要爆发了！$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPostRematch:
     .string "亚莎：我输了，\n但是我很满足。\p像这样激烈的对战\n可不是每天都有的。\p有空的话\n再来一场吧！$"

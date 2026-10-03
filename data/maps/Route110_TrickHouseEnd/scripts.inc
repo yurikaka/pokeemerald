@@ -252,7 +252,7 @@ Route110_TrickHouseEnd_Text_AllNightToShoveBoulders:
     .string "我用了整整一个晚上把那些\n大石头推到合适的地方……\p你几乎与我一样伟大，不过你还差\n一、二、三个档次！$"
 
 Route110_TrickHouseEnd_Text_AllNightToMakeMechadolls:
-    .string "我用了整整一个晚上制造\n机械娃娃，设计问题……\p你几乎与我一样伟大，不过你还差\n一、二个档次！$"
+    .string "我用了一整夜制作机械娃娃，\n又用了一整夜想谜题……\p你几乎和我一样伟大，\n不过还差一、两个档次！$"
 
 Route110_TrickHouseEnd_Text_AllNightToInstallDoors:
     .string "我用了整整一个晚上\n装好那些门……\p你几乎与我一样伟大！$"
@@ -286,4 +286,3 @@ Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou:
 
 Route110_TrickHouseEnd_Text_YoureIgnoringMe:
     .string "喂喂，你无视我？\n啊，我的心碎了！$"
-

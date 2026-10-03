@@ -333,5 +333,4 @@ Route113_GlassWorkshop_Text_HaventGotYourSootSack:
     .string "哎？你没带你的集灰袋啊，\n呼呼。\p要收集火山灰就一定\n要带上它，呼呼。$"
 
 Route113_GlassWorkshop_Text_FunToBlowGlassFlute:
-    .string "在老板说话的时候\n吹玻璃真好玩，\p呼呼！呼呼！$"
-
+    .string "在老板说话的时候\n吹玻璃哨真好玩，\p呼呼！呼呼！$"

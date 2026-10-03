@@ -58,7 +58,7 @@ MtPyre_2F_Text_MarkPostBattle:
     .string "这儿很少有人来，\n所以我想应该有珍稀宝可梦。$"
 
 MtPyre_2F_Text_LukeIntro:
-    .string "辉：我们来这儿试胆子。\p呵呵，如果她看到我有多棒，\n一定会迷恋上我的！\p没错！我会让她知道\n我有多厉害！$"
+    .string "辉：我们来这儿试胆子。\p呵呵，如果她看到我有多棒，\n一定会迷恋上我的！\p没错！我要打败你，\n让她看看我有多厉害！$"
 
 MtPyre_2F_Text_LukeDefeat:
     .string "辉：哎哟！$"
@@ -98,4 +98,3 @@ MtPyre_2F_Text_ZanderDefeat:
 
 MtPyre_2F_Text_ZanderPostBattle:
     .string "每次看到什么东西活动\n我就会被吓一跳……\p我真不该来这里训练……$"
-

@@ -509,7 +509,7 @@ LilycoveCity_Text_SeaRemainsForeverYoung:
     .string "时间在我们的脸上刻下了皱纹，\n而大海却还是一如既往地年轻，\l充满了生命的活力……\p呼呵呵呵呵……$"
 
 LilycoveCity_Text_SixtyYearsAgoHusbandProposed:
-    .string "老伴提议到这儿来居住\n已经是六十年前的事了，\l而大海却依旧那样年轻美丽。\p呼呵呵呵呵……$"
+    .string "60 年前，老伴在这里向我\n求婚。\l这片大海至今仍然如此美丽。\p呼呵呵呵呵……$"
 
 LilycoveCity_Text_TeamAquaRenovatedCavern:
     .string "你知道这个海湾那里\n奇怪的山洞吗？\p那里原来是个天然洞窟，\n后来海洋队来到这里，\l整修了那个山洞。\p他们自称\n“热爱自然的海洋队”！\p但他们说的跟做的\n完全背道而驰！$"
@@ -560,11 +560,10 @@ LilycoveCity_Text_HeardTowerCalledSkyPillar:
     .string "据说水路某处\n有座塔，\p叫做天空之柱。$"
 
 LilycoveCity_Text_SawTallTowerOnRoute131:
-    .string "我在130号水路的附近\n看到过一座高高的塔，\p那会不会是……？$"
+    .string "我在 131 号水路的附近\n看到过一座高高的塔，\p那会不会是……？$"
 
 LilycoveCity_Text_JustArrivedAndSawRarePokemon:
     .string "我们刚刚来这里\n蜜月旅行，\p却偶然看到一只龙属性\n宝可梦从天空飞过。\p丰缘有生活着\n那么厉害的宝可梦吗？$"
 
 LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
     .string "我们曾许愿要在蜜月中\n看到很多很多稀有宝可梦，\p并且我们一到这儿\n就看到了稀有宝可梦。\p我是说，我真的很高兴！$"
-

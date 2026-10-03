@@ -109,7 +109,7 @@ SootopolisCity_Gym_B1F_Text_TiffanyIntro:
     .string "优雅地滑过冰面，\n道路却没有交叉……\p能做到这一点的训练家\n才拥有最高雅的美丽！$"
 
 SootopolisCity_Gym_B1F_Text_TiffanyDefeat:
-    .string "啊，打扰了。$"
+    .string "喂，搞什么？！$"
 
 SootopolisCity_Gym_B1F_Text_TiffanyPostBattle:
     .string "很明显，\n一个训练家有多强\l与年龄并无关系。$"
@@ -140,4 +140,3 @@ SootopolisCity_Gym_B1F_Text_BriannaDefeat:
 
 SootopolisCity_Gym_B1F_Text_BriannaPostBattle:
     .string "你根本碰不到亚当分毫，\n嘻嘻，我肯定……$"
-

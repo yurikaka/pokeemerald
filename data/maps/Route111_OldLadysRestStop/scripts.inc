@@ -38,5 +38,4 @@ Route111_OldLadysRestStop_Text_StillTiredTakeAnotherRest:
     .string "喔，亲爱的。\n你的宝可梦还很累？\p那么在这里再休息下吧。\n这是个好主意！你应该那么做。$"
 
 Route111_OldLadysRestStop_Text_DontNeedToBeShy:
-    .string "足够了？\n不要害羞哟。$"
-
+    .string "这样啊……\n真的没问题吗？\l不用客气也没关系哦。$"

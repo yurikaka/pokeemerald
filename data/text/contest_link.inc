@@ -31,4 +31,4 @@ gText_SetEventNumX2::
     .string "自定赛：No.{STR_VAR_1}{0xFC 9}$"
 
 gText_LinkTVProgramWillNotBeMadeTrainerLost::
-    .string "无法制作连接电视节目，\n因为训练家已断开连接。{0xFC 9}$"
+    .string "因为没有获得优胜，\n无法制作连接电视节目。{PAUSE_UNTIL_PRESS}$"

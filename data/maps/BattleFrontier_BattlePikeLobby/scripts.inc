@@ -279,10 +279,10 @@ BattleFrontier_BattlePikeLobby_Text_WhichChallengeMode:
     .string "您有2个选择，\nLv. 50级和自由等级。\l要挑战哪个？$"
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLv50:
-    .string "冒昧打扰，但……\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只等级50以内的\n不同种类的宝可梦，\p并且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}！$"
+    .string "冒昧打扰，但……\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只等级50以内的\n不同种类的宝可梦，\p并且让它们分别携带不同道具\n才可参加对战。\p此外，下列宝可梦不能参加：\n蛋{STR_VAR_1}。\p准备好后，\n请再来吧。$"
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLvOpen:
-    .string "冒昧打扰，但……\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p并且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}！$"
+    .string "冒昧打扰，但……\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p并且让它们分别携带不同道具\n才可参加对战。\p此外，下列宝可梦不能参加：\n蛋{STR_VAR_1}。\p准备好后，\n请再来吧。$"
 
 BattleFrontier_BattlePikeLobby_Text_PleaseChooseThreeMons:
     .string "请选择要参加挑战的\n3只宝可梦……$"
@@ -346,4 +346,3 @@ BattleFrontier_BattlePikeLobby_Text_ExplainHeldItemRules:
 
 BattleFrontier_BattlePikeLobby_Text_ExplainMonOrderRules:
     .string "在一次选择式对战的挑战中，\n宝可梦的顺序不能改变。\p顺序需要在您挑战之前\n就确定好。$"
-

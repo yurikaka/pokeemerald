@@ -1633,8 +1633,7 @@ LilycoveCity_ContestLobby_Text_EnterWhichContest3:
 	.string "您想要参加哪种华丽大赛呢？$"
 
 LilycoveCity_ContestLobby_Text_MonInNoCondition2:
-	.string "您的宝可梦尚未取得参加\n"
-	.string "这个级别的华丽大赛的资格……$"
+	.string "您的宝可梦当前状态不佳，\n无法参加这个级别的华丽大赛……$"
 
 LilycoveCity_ContestLobby_Text_EggCannotTakePart2:
 	.string "非常抱歉，宝可梦蛋是\n"

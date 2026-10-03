@@ -2,7 +2,7 @@ const struct Item gItems[] =
 {
     [ITEM_NONE] =
     {
-        .name = _("不眠"),
+        .name = _("无"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -681,7 +681,7 @@ const struct Item gItems[] =
 
     [ITEM_034] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -692,7 +692,7 @@ const struct Item gItems[] =
 
     [ITEM_035] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -703,7 +703,7 @@ const struct Item gItems[] =
 
     [ITEM_036] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -714,7 +714,7 @@ const struct Item gItems[] =
 
     [ITEM_037] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -725,7 +725,7 @@ const struct Item gItems[] =
 
     [ITEM_038] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -736,7 +736,7 @@ const struct Item gItems[] =
 
     [ITEM_039] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -747,7 +747,7 @@ const struct Item gItems[] =
 
     [ITEM_03A] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -758,7 +758,7 @@ const struct Item gItems[] =
 
     [ITEM_03B] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -769,7 +769,7 @@ const struct Item gItems[] =
 
     [ITEM_03C] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -780,7 +780,7 @@ const struct Item gItems[] =
 
     [ITEM_03D] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -791,7 +791,7 @@ const struct Item gItems[] =
 
     [ITEM_03E] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -903,7 +903,7 @@ const struct Item gItems[] =
 
     [ITEM_048] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -955,7 +955,7 @@ const struct Item gItems[] =
 
     [ITEM_X_DEFEND] =
     {
-        .name = _("能力防守"),
+        .name = _("防御强化"),
         .itemId = ITEM_X_DEFEND,
         .price = 550,
         .description = sXDefendDesc,
@@ -1033,7 +1033,7 @@ const struct Item gItems[] =
 
     [ITEM_052] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -1093,7 +1093,7 @@ const struct Item gItems[] =
 
     [ITEM_057] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -1104,7 +1104,7 @@ const struct Item gItems[] =
 
     [ITEM_058] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -1115,7 +1115,7 @@ const struct Item gItems[] =
 
     [ITEM_059] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -1126,7 +1126,7 @@ const struct Item gItems[] =
 
     [ITEM_05A] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -1137,7 +1137,7 @@ const struct Item gItems[] =
 
     [ITEM_05B] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -1148,7 +1148,7 @@ const struct Item gItems[] =
 
     [ITEM_05C] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -1227,7 +1227,7 @@ const struct Item gItems[] =
 
     [ITEM_063] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -1238,7 +1238,7 @@ const struct Item gItems[] =
 
     [ITEM_064] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -1249,7 +1249,7 @@ const struct Item gItems[] =
 
     [ITEM_065] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -1260,7 +1260,7 @@ const struct Item gItems[] =
 
     [ITEM_066] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -1295,7 +1295,7 @@ const struct Item gItems[] =
 
     [ITEM_069] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -1372,7 +1372,7 @@ const struct Item gItems[] =
 
     [ITEM_070] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -1383,7 +1383,7 @@ const struct Item gItems[] =
 
     [ITEM_071] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -1394,7 +1394,7 @@ const struct Item gItems[] =
 
     [ITEM_072] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -1405,7 +1405,7 @@ const struct Item gItems[] =
 
     [ITEM_073] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -1416,7 +1416,7 @@ const struct Item gItems[] =
 
     [ITEM_074] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -1427,7 +1427,7 @@ const struct Item gItems[] =
 
     [ITEM_075] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -1438,7 +1438,7 @@ const struct Item gItems[] =
 
     [ITEM_076] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -1449,7 +1449,7 @@ const struct Item gItems[] =
 
     [ITEM_077] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -1460,7 +1460,7 @@ const struct Item gItems[] =
 
     [ITEM_078] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2150,7 +2150,7 @@ const struct Item gItems[] =
 
     [ITEM_UNUSED_BERRY_1] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2161,7 +2161,7 @@ const struct Item gItems[] =
 
     [ITEM_UNUSED_BERRY_2] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2172,7 +2172,7 @@ const struct Item gItems[] =
 
     [ITEM_UNUSED_BERRY_3] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2776,7 +2776,7 @@ const struct Item gItems[] =
 
     [ITEM_0E2] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2787,7 +2787,7 @@ const struct Item gItems[] =
 
     [ITEM_0E3] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2798,7 +2798,7 @@ const struct Item gItems[] =
 
     [ITEM_0E4] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2809,7 +2809,7 @@ const struct Item gItems[] =
 
     [ITEM_0E5] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2820,7 +2820,7 @@ const struct Item gItems[] =
 
     [ITEM_0E6] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2831,7 +2831,7 @@ const struct Item gItems[] =
 
     [ITEM_0E7] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2842,7 +2842,7 @@ const struct Item gItems[] =
 
     [ITEM_0E8] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2853,7 +2853,7 @@ const struct Item gItems[] =
 
     [ITEM_0E9] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2864,7 +2864,7 @@ const struct Item gItems[] =
 
     [ITEM_0EA] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2875,7 +2875,7 @@ const struct Item gItems[] =
 
     [ITEM_0EB] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2886,7 +2886,7 @@ const struct Item gItems[] =
 
     [ITEM_0EC] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2897,7 +2897,7 @@ const struct Item gItems[] =
 
     [ITEM_0ED] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2908,7 +2908,7 @@ const struct Item gItems[] =
 
     [ITEM_0EE] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2919,7 +2919,7 @@ const struct Item gItems[] =
 
     [ITEM_0EF] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2930,7 +2930,7 @@ const struct Item gItems[] =
 
     [ITEM_0F0] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2941,7 +2941,7 @@ const struct Item gItems[] =
 
     [ITEM_0F1] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2952,7 +2952,7 @@ const struct Item gItems[] =
 
     [ITEM_0F2] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2963,7 +2963,7 @@ const struct Item gItems[] =
 
     [ITEM_0F3] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2974,7 +2974,7 @@ const struct Item gItems[] =
 
     [ITEM_0F4] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2985,7 +2985,7 @@ const struct Item gItems[] =
 
     [ITEM_0F5] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -2996,7 +2996,7 @@ const struct Item gItems[] =
 
     [ITEM_0F6] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -3007,7 +3007,7 @@ const struct Item gItems[] =
 
     [ITEM_0F7] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -3018,7 +3018,7 @@ const struct Item gItems[] =
 
     [ITEM_0F8] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -3029,7 +3029,7 @@ const struct Item gItems[] =
 
     [ITEM_0F9] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -3040,7 +3040,7 @@ const struct Item gItems[] =
 
     [ITEM_0FA] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -3051,7 +3051,7 @@ const struct Item gItems[] =
 
     [ITEM_0FB] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -3062,7 +3062,7 @@ const struct Item gItems[] =
 
     [ITEM_0FC] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -3073,7 +3073,7 @@ const struct Item gItems[] =
 
     [ITEM_0FD] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -3246,7 +3246,7 @@ const struct Item gItems[] =
 
     [ITEM_10B] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -4161,7 +4161,7 @@ const struct Item gItems[] =
 
     [ITEM_15B] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -4172,7 +4172,7 @@ const struct Item gItems[] =
 
     [ITEM_15C] =
     {
-        .name = _("不眠"),
+        .name = _("？？？"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,

@@ -110,7 +110,7 @@ Route103_Text_LivRematchNotEnoughPokemon:
     .string "留美：如果你想和我们对战\n那你必须有2只宝可梦！\l否则就不公平！$"
 
 Route103_Text_AndrewIntro:
-    .string "嘎！我的钓鱼线乱成一团！\n我什么都没钓到，知道后果吗！\l没错！来对战吧！$"
+    .string "嘎！我的钓鱼线缠成一团，真让人心烦！\n可恶！来对战吧！$"
 
 Route103_Text_AndrewDefeated:
     .string "嘎！输了！\n我更生气了啊！$"
@@ -791,7 +791,7 @@ Route110_Text_JasmineDefeated:
     .string "我很担心肌肉抽筋……$"
 
 Route110_Text_JasminePostBattle:
-    .string "哦，你有做道馆徽章？\n难怪你很强！$"
+    .string "哦，你有道馆徽章？\n难怪你这么强！$"
 
 Route110_Text_EdwardIntro:
     .string "我已经看穿你的意图！\n我不可能输！$"
@@ -809,7 +809,7 @@ Route110_Text_JaclynDefeated:
     .string "我居然输了！$"
 
 Route110_Text_JaclynPostBattle:
-    .string "你会赢仅仅是应为\n那是一个奇迹！是的，一个奇迹！\l你别认为你可以一直赢！$"
+    .string "你会赢仅仅是因为\n那是一个奇迹！是的，一个奇迹！\l别以为你能一直赢！$"
 
 Route110_Text_EdwinIntro:
     .string "我可以看你的宝可梦吗？\n就一下，拜托了？$"
@@ -863,7 +863,7 @@ Route110_Text_IsabelRematchPostBattle:
     .string "我永远不会停止炫耀我的\n宝可梦的。\p不过，我也很喜欢对战！$"
 
 Route110_Text_TimmyIntro:
-    .string "我发现附近的草里发现了很帅\n的宝可梦！$"
+    .string "我在附近的草丛里发现了很帅的\n宝可梦！$"
 
 Route110_Text_TimmyDefeated:
     .string "只是帅是赢不了的……$"
@@ -941,7 +941,7 @@ Route111_Text_DustyDefeat:
     .string "虽然我找过遗迹，\n却从没找过强大的宝可梦。$"
 
 Route111_Text_DustyPostBattle:
-    .string "我已经找了30年的遗迹！\p等等，是已经找了40年了吗？\n现在是哪一年？$"
+    .string "我已经找了 30 年的遗迹！\p等等，已经找了 40 年吗？\n到底是多少年呢？$"
 
 Route111_Text_DustyRegister:
     .string "我从没找过任何强力的\n宝可梦。\p不过不知道为什么，\n我真的很喜欢宝可导航。$"
@@ -953,7 +953,7 @@ Route111_Text_DustyRematchDefeat:
     .string "我还没找到过任何遗迹，\n也没找到过强大的宝可梦……$"
 
 Route111_Text_DustyPostRematch:
-    .string "我已经找了30年的遗迹！\n等等，是已经找了40年了吗？\p嗯……肯定还没到50年……\n我到底找了多久了？$"
+    .string "我已经找了 30 年的遗迹！\p等等，已经找了 40 年吗？\p嗯……我感觉也许已有 50 年了……\n我到底找了多久？$"
 
 Route111_Text_TravisIntro:
     .string "我现在很有活力！\n我的宝可梦也跟我一样！$"
@@ -1103,7 +1103,7 @@ Route112_Text_TrentDefeat:
     .string "哎呦！我的腿抽筋了！$"
 
 Route112_Text_TrentPostBattle:
-    .string "试着去徒步旅行吧，我的意思是\n背着一大包的东西在\l山上进行徒步旅行。\p我的朋友，那样会让你身体\n变得很好的。$"
+    .string "试着背着几十公斤重的行李，\n一直走在山路上吧。\l那样身体会变得结实哦！$"
 
 Route112_Text_TrentRegister:
     .string "啊，我的腿抽筋了。\n能从我的包包里拿些\l绷带给我吗？\p哦不，那个是我的宝可导航！\n好吧，我会登记上你的。$"
@@ -1124,7 +1124,7 @@ Route112_Text_LarryDefeat:
     .string "哇哇哇！$"
 
 Route112_Text_LarryPostBattle:
-    .string "我哭是因为我想我妈妈了！\n抽泣……$"
+    .string "我不是因为想妈妈才哭的！\n抽泣……$"
 
 Route112_Text_CarolIntro:
     .string "当你在野炊的时候，\n为什么不唱首歌呢！\l来吧，和我一起唱吧！$"
@@ -1133,7 +1133,7 @@ Route112_Text_CarolDefeat:
     .string "哦，你太厉害了！$"
 
 Route112_Text_CarolPostBattle:
-    .string "你是不是擅长唱歌或者\n培育宝可梦，这都不重要。\p只要乐在其中就是胜利！$"
+    .string "不管擅不擅长唱歌或\n宝可梦对战，都不重要。\p只要乐在其中就是胜利！$"
 
 Route112_Text_BryantIntro:
     .string "我在烈焰小径里捉到了火热的宝可梦！\n来看看吧！$"
@@ -1241,7 +1241,7 @@ Route113_Text_TiaDefeat:
     .string "宁宁：我们输了……真是太无聊了\n我们要去收集更多的火山灰了。$"
 
 Route113_Text_TiaPostBattle:
-    .string "宁宁：我们有多少火山灰了？\n应该够做白色玻璃哨了吧。$"
+    .string "宁宁：我们已经攒了不少火山灰！\n肯定够做白色玻璃哨了！$"
 
 Route113_Text_TiaNotEnoughMons:
     .string "宁宁：我们来个2对2的对战吧。\n如果不的话我们就输了！$"
@@ -1772,7 +1772,7 @@ Route117_Text_AnnaIntro:
     .string "美穗：我和我的漂亮的初中\n学妹。我一定会做好的！$"
 
 Route117_Text_AnnaDefeat:
-    .string "美穗：我和我的漂亮的初中\n学妹！我们会胜利的！$"
+    .string "美穗：我和漂亮的学妹在一起！\n请让我赢吧！$"
 
 Route117_Text_AnnaPostBattle:
     .string "美穗：你的宝可梦也有着\n很不错的配合。\p可以说仅次于我们！$"
@@ -2117,7 +2117,7 @@ Route120_Text_ColinDefeat:
     .string "你的实力远在我之上！$"
 
 Route120_Text_ColinPostBattle:
-    .string "飞翔这招真方便啊，\n你觉得呢？\p当宝可梦飞起来时，\n几乎没什么什么可以打中它。$"
+    .string "飞翔这招真方便啊，\n你觉得呢？\p当宝可梦飞起来时，\n几乎没什么招式能打中它。$"
 
 Route120_Text_RobertIntro:
     .string "我的宝可梦很强的！\n你的呢？$"
@@ -2549,7 +2549,7 @@ Route123_Text_AlbertoDefeat:
     .string "即便被打败了，\n鸟类宝可梦还是很酷！$"
 
 Route123_Text_AlbertoPostBattle:
-    .string "我一直在收集鸟类宝可梦\n在战斗中散落的羽毛。\p我想用鸟类宝可梦\n的羽毛来用一顶帽子。$"
+    .string "我一直在收集鸟类宝可梦\n在战斗中散落的羽毛。\p我想用鸟类宝可梦\n的羽毛来做一顶帽子。$"
 
 Route123_Text_EdIntro:
     .string "附近没有训练家的时候，\n我就让我的宝可梦各自对打。\l然后我就在一边看着。$"
@@ -3329,7 +3329,7 @@ Route133_Text_MollieIntro:
     .string "我大概已经对战了几千次了，\n我自己都数不清了。$"
 
 Route133_Text_MollieDefeat:
-    .string "我大概已经输了几千次了，\n但现在还是在输。$"
+    .string "我大概已经输了几千次了，\n但输了还是很不甘心。$"
 
 Route133_Text_MolliePostBattle:
     .string "就这样加油吧，年轻人，总有一天\n你也会成为我们这样的高手的。$"

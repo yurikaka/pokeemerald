@@ -232,7 +232,7 @@ BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier:
     .string "亚希达：你的目标不只是对战吧？\n对吗？\p我好像还记得你也在\n收集宝可梦图鉴。\p猜猜怎么着？\p在对战开拓区的某些地方\n你也能遇到野生宝可梦……\l呼呼呼！$"
 
 BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols:
-    .string "亚希达：在对战开拓区\n玩得开心吗？\p……等等……\n啊！\p你的开拓通行证！\n你已经收集到了\l所有的银色象征！\p简直超乎想象！\n如我所料，你真的强大无比！\p虽说通常我不会这样，\n不过这次就让我破例一回！\p相信你一定\n能妥善使用。$"
+    .string "亚希达：在对战开拓区\n玩得开心吗？\p……等等……\n啊！\p你的开拓通行证！\n你已经收集到了\l所有的银色象征！\p简直超乎想象！\n如我所料，你真的强大无比！\p虽说通常我不会这样，\n不过这次就让我破例一回！\p这个送给你。\n相信你一定\n能妥善使用。$"
 
 BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols:
     .string "亚希达：希望你享受\n对战开拓区的一切。\p……等等……\n难以置信！\p你的开拓通行证！\n你已经收集到了\l所有的金色象征！\p简直神乎其技！\n如我所料，你真的无与伦比！\p…… …… ……\p{PLAYER}，请务必收下这个！\p相信你一定能理解\n这份礼物的价值！$"
@@ -254,4 +254,3 @@ BattleFrontier_ScottsHouse_Text_ExpectingToHearEvenGreaterThings:
 
 BattleFrontier_ScottsHouse_Text_ComeBackForThisLater:
     .string "哦，你装的东西太多了，\n收拾收拾再来吧。$"
-

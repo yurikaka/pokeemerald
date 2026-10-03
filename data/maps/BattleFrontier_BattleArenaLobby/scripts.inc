@@ -371,10 +371,10 @@ BattleFrontier_BattleArenaLobby_Text_SelectThreeMons:
     .string "好的，\n请选择参加的3只宝可梦。$"
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLvOpen:
-    .string "尊敬的挑战者！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}。$"
+    .string "尊敬的挑战者！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，下列宝可梦不能参加：\n蛋{STR_VAR_1}。\p准备好后，\n请再来吧。$"
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLv50:
-    .string "尊敬的挑战者！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只等级50以内的\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}。$"
+    .string "尊敬的挑战者！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只等级50以内的\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，下列宝可梦不能参加：\n蛋{STR_VAR_1}。\p准备好后，\n请再来吧。$"
 
 BattleFrontier_BattleArenaLobby_Text_GuideYouToArena:
     .string "现在我将带您前往对战竞技场。$"
@@ -437,7 +437,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
     .string "第1个判定准则是“心”。\n这个因素评价战斗者的\l进攻意识。\p判定依据的是训练家下达\n攻击招式的命令的频率。$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
-    .string "第2个判定准则是“技”。\n这个因素评价宝可梦的\l招式命中。\p如果招式成功生效，\n技的评价就会上升。\p如果招式使用失败，\n技的评价则会下降。\p对于攻击招式，\n如果招式“效果绝佳”的话，\l技的评价就会上升。\l如果“没有效果”的话，\l技的评价就会下降。\p对于像保护和看穿的招式，\n技的评价是不会上升的。\p如果对手使用了保护或看穿等招式，\n即使您的宝可梦没能成功命中，\l技的评价也不会下降。$"
+    .string "第2个判定准则是“技”。\n这个因素评价宝可梦的\l招式命中。\p如果招式成功生效，\n技的评价就会上升。\p如果招式使用失败，\n技的评价则会下降。\p对于攻击招式，\n如果招式“效果绝佳”的话，\l技的评价就会上升。\l如果“效果不佳”的话，\l技的评价就会下降。\p对于像保护和看穿的招式，\n技的评价是不会上升的。\p如果对手使用了保护或看穿等招式，\n即使您的宝可梦没能成功命中，\l技的评价也不会下降。$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
     .string "第3个判定准则是“体”。\n这个因素评价宝可梦在战斗结束后\l剩余的体力比例。\p这个准则会同时参考宝可梦\n战斗开始时的体力和\l战斗结束后剩余的体力。$"

@@ -141,7 +141,6 @@ SecretBase_Text_Trainer3Defeated::
     .string "我失败了……$"
 
 SecretBase_Text_Trainer3PostBattle:
-	.string "我失败了……"
 	.string "你的秘密基地在哪儿？\n我也会去拜访你的。$"
 
 SecretBase_Text_Trainer3PreChampion:

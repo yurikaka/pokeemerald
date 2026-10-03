@@ -167,7 +167,7 @@ RustboroCity_Gym_Text_RegisteredRoxanne:
     .string "把道馆馆主杜娟\n登记到宝可导航里了。$"
 
 RustboroCity_Gym_Text_RoxannePreRematch:
-    .string "杜娟：我真高兴能再见到您。\n我是这个道馆的馆主杜娟。\p我相信我们可以再享受很多场\n像上次那样精彩的对战。\p我想看看我们彼此都变强了多少。\n让我们开始吧！$"
+    .string "杜娟：真高兴又见到您。\n我是这里的道馆馆主杜娟。\p自上次见面后，我们都经历了\n许多场对战。\p我想看看彼此变强了多少……\p请与我对战吧！$"
 
 RustboroCity_Gym_Text_RoxanneRematchDefeat:
     .string "呃……\n我又输了……$"
@@ -176,4 +176,4 @@ RustboroCity_Gym_Text_RoxannePostRematch:
     .string "杜娟：关于宝可梦对战，\n我还有许多事要学习。\p察觉到了这一点，\n让我更喜欢宝可梦对战了！$"
 
 RustboroCity_Gym_Text_RoxanneRematchNeedTwoMons:
-    .string "杜娟：我真高兴能再见到您。\n我是这个道馆的馆主杜娟。\p我相信我们可以再享受很多场\n像上次那样精彩的对战。\p我想看看我们彼此都变强了……\p哎，不……\n您只带了1只宝可梦？\p带至少2只\n宝可梦回来吧。$"
+    .string "杜娟：真高兴又见到您。\n我是这里的道馆馆主杜娟。\p自上次见面后，我们都经历了\n许多场对战。\p我想看看彼此变强了多少……\p……啊？您只带了1只\n能战斗的宝可梦。\p请带至少2只宝可梦\n再来吧。$"

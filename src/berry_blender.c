@@ -266,11 +266,11 @@ static const u8 sText_BerryBlenderStart[] = _("正在启动树果混合器。\p�
 static const u8 sText_NewParagraph[] = _("\p");
 static const u8 sText_WasMade[] = _("制作完成了！");
 static const u8 sText_Mister[] = _("先生");
-static const u8 sText_Laddie[] = _("女士");
+static const u8 sText_Laddie[] = _("男孩");
 static const u8 sText_Lassie[] = _("少女");
 static const u8 sText_Master[] = _("大师");
 static const u8 sText_Dude[] = _("男");
-static const u8 sText_Miss[] = _("想");
+static const u8 sText_Miss[] = _("小姐");
 
 static const u8 *const sBlenderOpponentsNames[] =
 {

@@ -534,10 +534,10 @@ BattleFrontier_BattlePyramidLobby_Text_SelectThreeMons:
     .string "好的，请选择要参加挑战的\n3只宝可梦。$"
 
 BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLvOpen:
-    .string "探险家啊，有点小问题！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p并且记得要取下它们携带的道具\n才可参加对战。\p此外，蛋{STR_VAR_1}！$"
+    .string "探险家啊，有点小问题！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p并且记得要取下它们携带的道具\n才可参加对战。\p此外，下列宝可梦不能参加：\n蛋{STR_VAR_1}。\p准备好后，\n请再来吧。$"
 
 BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLv50:
-    .string "探险家啊，有点小问题！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只等级50以内的\n不同种类的宝可梦，\p并且记得要取下它们携带的道具\n才可参加对战。\p此外，蛋{STR_VAR_1}！$"
+    .string "探险家啊，有点小问题！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只等级50以内的\n不同种类的宝可梦，\p并且记得要取下它们携带的道具\n才可参加对战。\p此外，下列宝可梦不能参加：\n蛋{STR_VAR_1}。\p准备好后，\n请再来吧。$"
 
 BattleFrontier_BattlePyramidLobby_Text_OkayToSaveBeforeChallenge:
     .string "进入对战金字塔之前\n要先写入记录，可以吗？$"
@@ -573,13 +573,13 @@ BattleFrontier_BattlePyramidLobby_Text_HeldItemsMovedToBag:
     .string "您的宝可梦携带的所有道具\n都会放回到战斗包包中，{PLAYER}。$"
 
 BattleFrontier_BattlePyramidLobby_Text_BagCannotHoldPickItemsToKeep:
-    .string "很抱歉，战斗包包装不下\n所有的道具，\p请选择您需要保留在\n战斗包包中的道具。$"
+    .string "很抱歉，战斗包包装不下\n所有的道具。\p请选择要保留在战斗包包中\n或让宝可梦携带的道具。$"
 
 BattleFrontier_BattlePyramidLobby_Text_LeastOneMonHoldingItem:
     .string "仍有宝可梦在\n携带着道具。$"
 
 BattleFrontier_BattlePyramidLobby_Text_PickItemsToKeep:
-    .string "请选择您需要保留在\n战斗包包中的道具。$"
+    .string "请选择要保留在战斗包包中\n或让宝可梦携带的道具。$"
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_ReturnedEverythingMonsHeld:
@@ -711,4 +711,3 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainMazeRules:
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainBagRules:
     .string "在金字塔中，您可以像使用\n您的包包一样使用战斗包包。\p有2种不同的战斗包包——\n分别是为Lv. 50级和\l自由等级的冒险而准备的。\p2种包包都可以携带10种道具，\n每种道具99个。\p如果在探索中失败的话，\n战斗包包里的东西都会丢失。$"
-

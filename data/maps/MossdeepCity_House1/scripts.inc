@@ -28,8 +28,7 @@ MossdeepCity_House1_Text_ItLikesXPokeblocks:
     .string "它喜欢{STR_VAR_1}\n是吧？\p不，我肯定它\n就是喜欢{STR_VAR_1}！$"
 
 MossdeepCity_House1_Text_DoesntLikeOrDislikePokeblocks:
-    .string "它看来并没什么\n特别喜欢或不喜欢的树果。$"
+    .string "它看来并没什么\n特别喜欢或不喜欢的宝可方块。$"
 
 MossdeepCity_House1_Text_HusbandCanTellPokeblockMonLikes:
-    .string "我的丈夫一眼就能看出\n宝可梦喜欢什么样的树果。$"
-
+    .string "我的丈夫一眼就能看出\n宝可梦喜欢什么样的宝可方块。$"

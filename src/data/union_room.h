@@ -334,7 +334,7 @@ static const u8 *const sIfYouWantToDoSomethingTexts[GENDER_COUNT] = {
 
 ALIGNED(4) static const u8 sText_TrainerBattleBusy[] = _("对不起！\n我现在有点不太方便。\l我们下次再说吧！\p");
 ALIGNED(4) static const u8 sText_NeedTwoMonsOfLevel30OrLower1[] = _("要对战的话，\n2只宝可梦都需要在等级30以内。\p");
-ALIGNED(4) static const u8 sText_NeedTwoMonsOfLevel30OrLower2[] = _("要对战的话，\n宝可梦需要在等级30以内。\p");
+ALIGNED(4) static const u8 sText_NeedTwoMonsOfLevel30OrLower2[] = _("要对战的话，需要两只\n等级30以内的宝可梦。\p");
 
 ALIGNED(4) static const u8 sText_DeclineChatMale[] = _("好吧，\n但随时欢迎你来！\p");
 ALIGNED(4) static const u8 stext_DeclineChatFemale[] = _("好吧……\n但随时欢迎你来！\p");
@@ -346,7 +346,7 @@ static const u8 *const sDeclineChatTexts[GENDER_COUNT] = {
 };
 
 ALIGNED(4) static const u8 sText_ChatDeclinedMale[] = _("对不起！\n我现在有点不太方便。\l我们下次再说吧！\p");
-ALIGNED(4) static const u8 sText_ChatDeclinedFemale[] = _("对不起！\n我们下次再说吧！\p");
+ALIGNED(4) static const u8 sText_ChatDeclinedFemale[] = _("哦，对不起。\n我现在有太多事情要做。\l下次再聊天吧。\p");
 
 // Response from partner when they decline chat
 static const u8 *const sChatDeclinedTexts[GENDER_COUNT] = {

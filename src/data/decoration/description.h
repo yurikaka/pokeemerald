@@ -22,11 +22,11 @@ const u8 DecorDesc_POKEMON_CHAIR[] = _("有着精灵球模样的\n小型椅子")
 
 const u8 DecorDesc_HEAVY_CHAIR[] = _("用铁做成的小型\n椅子");
 
-const u8 DecorDesc_PRETTY_CHAIR[] = _("用木头做成的小型\n椅子");
+const u8 DecorDesc_PRETTY_CHAIR[] = _("用玻璃做成的小型\n椅子");
 
 const u8 DecorDesc_COMFORT_CHAIR[] = _("用叶子做成的小型\n椅子");
 
-const u8 DecorDesc_RAGGED_CHAIR[] = _("用玻璃做成的小型\n椅子");
+const u8 DecorDesc_RAGGED_CHAIR[] = _("用木头做成的小型\n椅子");
 
 const u8 DecorDesc_BRICK_CHAIR[] = _("用砖块做成的小型\n椅子");
 

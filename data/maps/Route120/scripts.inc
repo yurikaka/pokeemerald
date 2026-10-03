@@ -360,7 +360,7 @@ Route120_Text_StevenIllWaitHere:
     .string "大吾：还没有吗？\p那我在这里等着你，\n去准备吧。$"
 
 Route120_Text_StevenReadyForBattle:
-    .string "大吾：{PLAYER}{KUN}，\n你的宝可梦准备好战斗了吗？？$"
+    .string "大吾：{PLAYER}{KUN}，\n你的宝可梦准备好战斗了吗？$"
 
 Route120_Text_StevenShowMeYourPower:
     .string "大吾：{PLAYER}{KUN}，\n让我见识下你作为训练家的实力吧！$"
@@ -369,7 +369,7 @@ Route120_Text_StevenUsedDevonScope:
     .string "大吾使用了得文侦测镜。\p看不见的宝可梦\n完全现形了！\p受惊的宝可梦攻击过来了！$"
 
 Route120_Text_StevenGiveDevonScope:
-    .string "大吾：原来如此……\n你的战斗方式很有趣呢。\p比起在我们在武斗镇初见时，\n你的宝可梦成长了不少。\p这个得文侦测镜\n送给你，\p说不定还有其他隐藏了\n身形的宝可梦呢。$"
+    .string "大吾：原来如此……\n你的战斗方式很有趣呢。\p比起我们在武斗镇初见时，\n你的宝可梦成长了不少。\p这个得文侦测镜\n送给你。\p说不定还有其他隐藏了\n身形的宝可梦呢。$"
 
 Route120_Text_StevenGoodbye:
     .string "大吾：{PLAYER}{KUN}，\p我很喜欢看到训练家和宝可梦\n共同努力一起成长，\p你做得很不错。\p那么，后会有期。$"

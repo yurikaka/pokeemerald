@@ -38,7 +38,7 @@ MoveTutor_Text_FuryCutterTaught:
     .string "当我连续击中对手时\n就会觉得很兴奋！$"
 
 MoveTutor_MimicTeach:
-    .string "啊，孩子！\p我也是个小孩子，\n但我在这个模仿这个镇子里的\l大人们的言谈举止。\p你说什么，小朋友？\n如果我能教你模仿\l你就能承认我？$"
+    .string "啊，孩子！\p我也是个年轻人，\n不过我在模仿这个镇子里的\l老人们的言谈举止。\p怎么样，孩子？\n要我教你的宝可梦\l学习模仿这个招式吗？$"
 
 MoveTutor_MimicDeclined:
     .string "嘘！我要让你的宝可梦\n学会模仿！$"
@@ -98,7 +98,7 @@ MoveTutor_Text_DynamicPunchTaught:
     .string "我希望你能用爆裂拳\n在绿岭市道馆获胜！$"
 
 MoveTutor_Text_DoubleEdgeTeach:
-    .string "唉……\p琉璃市道馆馆主可真是\n太让人敬爱不已了。\p但这也意味着会有很多同样被\n他吸引的人做我的竞争对手。\p他的魅力就像舍身冲撞\n一样有利有弊。\l他根本都注意不到我。\p那么，让我教你的宝可梦\n学习舍身冲撞！$"
+    .string "唉……\p琉璃市道馆馆主可真是\n太让人敬爱不已了。\p但这也意味着会有很多同样被\n他吸引的人做我的竞争对手。\p即使我像舍身冲撞般扑上去，\n也没能引起他的注意。\p那么，让我教你的宝可梦\n学习舍身冲撞！$"
 
 MoveTutor_Text_DoubleEdgeDeclined:
     .string "噢……\n连你都拒绝我……$"

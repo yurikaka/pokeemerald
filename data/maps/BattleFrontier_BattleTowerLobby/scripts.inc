@@ -1012,22 +1012,22 @@ BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpen:
     .string "这位客人！\p您符合条件的宝可梦不足{STR_VAR_2}只。\p需要有{STR_VAR_2}只不同的宝可梦\n才可以参加比赛，\p同时这些宝可梦携带的道具\n也需要各不相同。\p蛋{STR_VAR_1}。$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Singles:
-    .string "这位客人！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只等级50以内的\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}。$"
+    .string "这位客人！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只等级50以内的\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，下列宝可梦不能参加：\n蛋{STR_VAR_1}。\p准备好后，\n请再来吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenSingles:
-    .string "这位客人！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}。$"
+    .string "这位客人！\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，下列宝可梦不能参加：\n蛋{STR_VAR_1}。\p准备好后，\n请再来吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Doubles:
-    .string "这位客人！\p您能够参加对战的\n宝可梦不满4只。\p您需要准备4只等级50以内的\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}。$"
+    .string "这位客人！\p您能够参加对战的\n宝可梦不满4只。\p您需要准备4只等级50以内的\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，下列宝可梦不能参加：\n蛋{STR_VAR_1}。\p准备好后，\n请再来吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenDoubles:
-    .string "这位客人！\p您能够参加对战的\n宝可梦不满4只。\p您需要准备4只\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}。$"
+    .string "这位客人！\p您能够参加对战的\n宝可梦不满4只。\p您需要准备4只\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，下列宝可梦不能参加：\n蛋{STR_VAR_1}。\p准备好后，\n请再来吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLv50Multis:
-    .string "这位客人！\p您能够参加对战的\n宝可梦不满2只。\p您需要准备2只等级50以内的\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}。$"
+    .string "这位客人！\p您能够参加对战的\n宝可梦不满2只。\p您需要准备2只等级50以内的\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，下列宝可梦不能参加：\n蛋{STR_VAR_1}。\p准备好后，\n请再来吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_NotEnoughValidMonsLvOpenMultis:
-    .string "这位客人！\p您能够参加对战的\n宝可梦不满2只。\p您需要准备2只\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}。$"
+    .string "这位客人！\p您能够参加对战的\n宝可梦不满2只。\p您需要准备2只\n不同种类的宝可梦，\p且让它们分别携带不同道具\n才可参加对战。\p此外，下列宝可梦不能参加：\n蛋{STR_VAR_1}。\p准备好后，\n请再来吧。$"
 
 BattleFrontier_BattleTowerLobby_Text_WelcomSingleBattle:
     .string "训练家的才能\n将在此接受考验！\p欢迎来到对战塔！\p我是您的单打对战间向导。$"

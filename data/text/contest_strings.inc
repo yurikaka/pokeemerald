@@ -423,8 +423,7 @@ gText_StoodOutAsMuchAsSpecialAppeals::
 	.string "special appeals.$"
 
 gText_StoodOutAsMuchAsMon::
-	.string "It stood out as much as\n"
-	.string "{STR_VAR_1}老师。$"
+	.string "它和{STR_VAR_1}一样\n引人注目。$"
 
 gText_JammedAppealsMadeEvenLessNoticeable::
 	.string "Jammed appeals were made\n"

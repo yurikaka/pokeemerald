@@ -315,7 +315,7 @@ SlateportCity_OceanicMuseum_2F_Text_HoennModel:
     .string "“丰缘地区模型”\p是丰缘地区的\n微缩景观。\p未白镇在哪儿呢？$"
 
 SlateportCity_OceanicMuseum_2F_Text_DeepSeawaterDisplay:
-    .string "海水循环的演示。\p“在海地附近，海水由于\n温度和含盐量的不同，\l形成了环流。”$"
+    .string "海水循环的演示。\p“在海底附近，海水由于\n温度和含盐量的不同，\l形成了环流。”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SurfaceSeawaterDisplay:
     .string "海水循环的演示。\p“在洋面上，海水被风吹动，\n形成洋流。”$"
@@ -327,8 +327,7 @@ SlateportCity_OceanicMuseum_2F_Text_SubmarineReplica:
     .string "“潜艇海渊1号\p洋底勘探用\n高级潜水艇的模型。”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SumbersibleReplica:
-    .string "“潜水者\p海底勘探用的坚固的\n无人探测器的模型。”$"
+    .string "“潜水舱”\p这是为在海底作业而设计的\n小型无人潜水舱模型！$"
 
 SlateportCity_OceanicMuseum_2F_Text_SSAnneReplica:
     .string "“环游世界的\p豪华定期船\n圣特安努号的模型。”$"
-

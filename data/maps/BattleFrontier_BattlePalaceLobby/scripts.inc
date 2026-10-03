@@ -386,10 +386,10 @@ BattleFrontier_BattlePalaceLobby_Text_WhichChallenge:
     .string "对战厅有2种，\nLv. 50级和自由等级，\l您要挑战哪种？$"
 
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLv50:
-    .string "哎……\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只等级50以内的\n不同种类的宝可梦，\p并且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}！$"
+    .string "哎……\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只等级50以内的\n不同种类的宝可梦，\p并且让它们分别携带不同道具\n才可参加对战。\p此外，下列宝可梦不能参加：\n蛋{STR_VAR_1}。\p准备好后，\n请再来吧。$"
 
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLvOpen:
-    .string "哎……\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p并且让它们分别携带不同道具\n才可参加对战。\p此外，蛋{STR_VAR_1}！$"
+    .string "哎……\p您能够参加对战的\n宝可梦不满3只。\p您需要准备3只\n不同种类的宝可梦，\p并且让它们分别携带不同道具\n才可参加对战。\p此外，下列宝可梦不能参加：\n蛋{STR_VAR_1}。\p准备好后，\n请再来吧。$"
 
 BattleFrontier_BattlePalaceLobby_Text_NowSelectThreeMons:
     .string "好的。那么请选择要参加的\n3只宝可梦。$"
@@ -479,4 +479,3 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainRulesUnderpowered:
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesWhenInDanger:
     .string "根据性格的不同，宝可梦陷入危机时，\n它也有可能会使用并不\l符合它性格的招式。\p如果危机时宝可梦的表现\n开始变得异常，请多加注意它的表现。$"
-
