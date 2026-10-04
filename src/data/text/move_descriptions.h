@@ -703,9 +703,7 @@ static const u8 sReversalDescription[] = _(
 			"竭尽全力攻击。自己的\n"
 			"HP越少，招式的威力越大。");
 
-static const u8 sSpiteDescription[] = _(
-			"怨恨对手最后用的招式，\n"
-			"减少4PP该招式。");
+static const u8 sSpiteDescription[] = _("怨恨对手最后用的招式，\n减少该招式的PP。");
 
 static const u8 sPowderSnowDescription[] = _(
 			"将冰冷的细雪吹向对手攻击。\n"
@@ -1282,9 +1280,7 @@ static const u8 sSkyUppercutDescription[] = _(
 
 static const u8 sSandTombDescription[] = _("将对手困在铺天盖地的沙中，\n在2～5回合内攻击。");
 
-static const u8 sSheerColdDescription[] = _(
-			"给对手一击昏厥。若冰属性\n"
-			"以外宝可梦使用会难以打中。");
+static const u8 sSheerColdDescription[] = _("以绝对零度攻击对手。\n命中后会使对手一击昏厥。");
 
 static const u8 sMuddyWaterDescription[] = _(
 			"向对手喷射浑浊的水攻击。\n"

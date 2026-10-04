@@ -29,10 +29,7 @@ static const u8 sNetBallDesc[] = _(
 			"。能容易地捕捉水\n"
 			"或虫属性宝可梦。");
 
-static const u8 sDiveBallDesc[] = _(
-			"有点与众不同的球\n"
-			"。容易捕捉生活在\n"
-			"水世界的宝可梦。");
+static const u8 sDiveBallDesc[] = _("有点与众不同的球\n。容易捕捉生活在\n海底的宝可梦");
 
 static const u8 sNestBallDesc[] = _(
 			"有点与众不同的球\n"
@@ -442,10 +439,7 @@ static const u8 sFabMailDesc[] = _(
 			"可以让宝可梦携带\n"
 			"。");
 
-static const u8 sRetroMailDesc[] = _(
-			"印有三种宝可梦的\n"
-			"信纸，可以让宝可\n"
-			"梦携带。");
+static const u8 sRetroMailDesc[] = _("印有三只宝可梦的\n信纸，可以让宝可\n梦携带");
 
 // Berries
 static const u8 sCheriBerryDesc[] = _(
@@ -843,25 +837,16 @@ static const u8 sSilkScarfDesc[] = _(
 			"携带后，一般招式\n"
 			"威力会提高。");
 
-static const u8 sUpGradeDesc[] = _(
-			"内部储存了各种信\n"
-			"息的透明机器。西\n"
-			"尔佛公司制造。");
+static const u8 sUpGradeDesc[] = _("不可思议的盒子。\n西尔佛公司制造");
 
 static const u8 sShellBellDesc[] = _(
 			"当携带后攻击造成\n"
 			"伤害时，能回复少\n"
 			"量HP。");
 
-static const u8 sSeaIncenseDesc[] = _(
-			"香气神奇的薰香。\n"
-			"携带后，水属性的\n"
-			"招式会增强。");
+static const u8 sSeaIncenseDesc[] = _("香气神奇的薰香。\n携带后，水属性的\n招式会稍微增强");
 
-static const u8 sLaxIncenseDesc[] = _(
-			"携带后，对手招式\n"
-			"会变得不容易命中\n"
-			"。");
+static const u8 sLaxIncenseDesc[] = _("携带后，对手招式\n会稍微变得难命中\n");
 
 static const u8 sLuckyPunchDesc[] = _(
 			"让吉利蛋携带后，\n"
@@ -979,15 +964,9 @@ static const u8 sEonTicketDesc[] = _(
 			"前往南方孤岛的船\n"
 			"票。");
 
-static const u8 sRedOrbDesc[] = _(
-			"散发着红色光辉的\n"
-			"宝珠。据说和丰缘\n"
-			"传说渊源颇深。");
+static const u8 sRedOrbDesc[] = _("散发着红色光辉的\n宝珠。据说蕴含着\n超古代的力量");
 
-static const u8 sBlueOrbDesc[] = _(
-			"散发着蓝色光辉的\n"
-			"宝珠。据说和丰缘\n"
-			"传说渊源颇深。");
+static const u8 sBlueOrbDesc[] = _("散发着蓝色光辉的\n宝珠。据说蕴含着\n超古代的力量");
 
 static const u8 sScannerDesc[] = _(
 			"在弃船中找到的\n"
@@ -1032,10 +1011,7 @@ static const u8 sClawFossilDesc[] = _(
 			"海里的古代宝\n"
 			"可梦的化石。");
 
-static const u8 sDevonScopeDesc[] = _(
-			"会对看不见的宝可\n"
-			"梦起反应的得文特\n"
-			"制产品。");
+static const u8 sDevonScopeDesc[] = _("会对看不见的宝可\n梦起反应并发声的\n得文特制产品");
 
 // TMs/HMs
 static const u8 sTM01Desc[] = _(
@@ -1336,10 +1312,7 @@ static const u8 sSecretKeyDesc[] = _(
 			"座宝可梦道馆的钥\n"
 			"匙。");
 
-static const u8 sBikeVoucherDesc[] = _(
-			"给华蓝市的奇迹自\n"
-			"行车店就能交换得\n"
-			"到自行车。");
+static const u8 sBikeVoucherDesc[] = _("可在华蓝市的奇迹\n自行车店兑换折叠\n自行车的纸券");
 
 static const u8 sGoldTeethDesc[] = _(
 			"狩猎地带的园长遗\n"
@@ -1349,10 +1322,7 @@ static const u8 sOldAmberDesc[] = _(
 			"封存着古代宝可梦\n"
 			"遗传信息的石头");
 
-static const u8 sCardKeyDesc[] = _(
-			"用来打开的西尔佛\n"
-			"公司总部大厦门锁\n"
-			"的卡片式钥匙。");
+static const u8 sCardKeyDesc[] = _("能打开西尔佛公司\n大厦门锁的卡片式\n钥匙");
 
 static const u8 sLiftKeyDesc[] = _(
 			"能启动位于火箭队\n"
@@ -1387,10 +1357,7 @@ static const u8 sVSSeekerDesc[] = _(
 			"训练家在哪的机器\n"
 			"。走路就能充电。");
 
-static const u8 sFameCheckerDesc[] = _(
-			"可以重复查看打听\n"
-			"到的有名人物的东\n"
-			"西。");
+static const u8 sFameCheckerDesc[] = _("可以重复查看打听\n到的有名人物的信\n息");
 
 static const u8 sTMCaseDesc[] = _(
 			"用来存放招式学习\n"
