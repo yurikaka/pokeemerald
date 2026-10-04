@@ -103,14 +103,14 @@ static const u8 *const sCantTransmitToTrainerTexts[] = {
 };
 
 ALIGNED(4) static const u8 sText_ModeWithTheseMembersWillBeCanceled[] = _("与当前成员的{STR_VAR_1}模式\n即将中止。{PAUSE 60}");
-ALIGNED(4) static const u8 sText_MemberNoLongerAvailable[] = _("对方好像不方便……\p");
+ALIGNED(4) static const u8 sText_MemberNoLongerAvailable[] = _("有成员不便进行……\p");
 
 static const u8 *const sPlayerUnavailableTexts[] = {
     sText_OtherTrainerUnavailableNow,
     sText_MemberNoLongerAvailable
 };
 
-ALIGNED(4) static const u8 sText_TrainerAppearsUnavailable[] = _("有成员不便进行……\p");
+ALIGNED(4) static const u8 sText_TrainerAppearsUnavailable[] = _("对方好像不方便……\p");
 ALIGNED(4) static const u8 sText_PlayerSentBackOK[] = _("收到了来自\n{STR_VAR_1}的OK回复！");
 ALIGNED(4) static const u8 sText_PlayerOKdRegistration[] = _("收到了来自{STR_VAR_1}的OK联络，\n同意加您为成员！");
 ALIGNED(4) static const u8 sText_PlayerRepliedNo[] = _("收到了来自\n{STR_VAR_1}的NO回复……\p");
