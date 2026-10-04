@@ -888,7 +888,7 @@ static const u8 sBatonPassDescription[] = _(
 			"和后备宝可梦替换。换上的\n"
 			"宝可梦能继承能力的变化。");
 
-static const u8 sEncoreDescription[] = _("让对手接受再来一次，\n在3～6回合内重复最后的招式。");
+static const u8 sEncoreDescription[] = _("让对手接受再来一次，\n在2～6回合内重复最后的招式。");
 
 static const u8 sPursuitDescription[] = _(
 			"当对手替换宝可梦上场时，\n"
