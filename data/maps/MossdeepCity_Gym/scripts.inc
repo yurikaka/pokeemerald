@@ -377,7 +377,7 @@ MossdeepCity_Gym_Text_BlakeDefeat:
     .string "我的宝可梦战斗技术\n也不能同步了！$"
 
 MossdeepCity_Gym_Text_BlakePostBattle:
-    .string "要用精神力举起精灵球还是困难\n了点，但这么小的灰尘的话……\p呜啊啊啊啊啊啊啊！\n…… …… ……\p不不，我没骗人！\n我没吹牛！真的！$"
+    .string "要用精神力举起精灵球还是困难\n了点，但这么小的灰尘的话……\p呜啊啊啊啊啊啊啊！\n…… …… ……\p不不，我没骗人！\n我可没用嘴吹！真的！$"
 
 MossdeepCity_Gym_Text_HannahIntro:
     .string "输给我的话，\n也不要太责怪自己。\p不是你弱小——\n而是我太强了！$"

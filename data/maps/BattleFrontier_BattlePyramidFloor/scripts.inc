@@ -393,25 +393,25 @@ BattlePyramid_Text_ZeroTrainersRemaining1::
     .string "你真强！\p现在已经没有人\n能够打败你了！$"
 
 BattlePyramid_Text_SevenTrainersRemaining2::
-    .string "真不幸！\p后面还有7位训练家！\n他们中或许有人比你弱！$"
+    .string "真不幸！\p后面还有7位训练家！\n他们中一定有人能打败你！$"
 
 BattlePyramid_Text_SixTrainersRemaining2::
-    .string "真不幸！\p后面还有6位训练家！\n他们中或许有人比你弱！$"
+    .string "真不幸！\p后面还有6位训练家！\n他们中一定有人能打败你！$"
 
 BattlePyramid_Text_FiveTrainersRemaining2::
-    .string "真不幸！\p后面还有5位训练家！\n他们中或许有人比你弱！$"
+    .string "真不幸！\p后面还有5位训练家！\n他们中一定有人能打败你！$"
 
 BattlePyramid_Text_FourTrainersRemaining2::
-    .string "真不幸！\p后面还有4位训练家！\n他们中或许有人比你弱！$"
+    .string "真不幸！\p后面还有4位训练家！\n他们中一定有人能打败你！$"
 
 BattlePyramid_Text_ThreeTrainersRemaining2::
-    .string "真不幸！\p后面还有3位训练家！\n他们中或许有人比你弱！$"
+    .string "真不幸！\p后面还有3位训练家！\n他们中一定有人能打败你！$"
 
 BattlePyramid_Text_TwoTrainersRemaining2::
-    .string "真不幸！\p后面还有2位训练家！\n他们中或许有人比你弱！$"
+    .string "真不幸！\p后面还有2位训练家！\n他们中一定有人能打败你！$"
 
 BattlePyramid_Text_OneTrainersRemaining2::
-    .string "真不幸！\p后面还有1位训练家！\n他或许比你弱！$"
+    .string "真不幸！\p后面还有1位训练家！\n他一定会打败你！$"
 
 BattlePyramid_Text_ZeroTrainersRemaining2::
     .string "真不幸！\p后面已经没有训练家\n可以和你一起对战了。$"

@@ -317,7 +317,7 @@ BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutLeftPath:
     .string "哦，让我看看……有一些关于\n左边道路的事……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_AromaOfPokemon:
-    .string "似乎有宝可梦在里面的感觉……$"
+    .string "似乎有宝可梦的气味飘来……$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_PresenceOfPeople:
     .string "是……训练家吗？\n感觉到好像有人在里面……$"

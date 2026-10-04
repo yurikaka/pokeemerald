@@ -660,15 +660,10 @@ MauvilleCity_PokemonCenter_1F_Text_CheckedPokedexTitle::
 	.string "宝可梦图鉴研究者$"
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedPokedexAction::
-	.string "校对图鉴数据$"
+	.string "查看图鉴数据$"
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedPokedexStory::
-	.string "关于{STR_VAR_3}是这样流传\n"
-	.string "的。\p"
-	.string "他校对宝可梦图鉴有\n"
-	.string "{STR_VAR_1}次了！\p"
-	.string "{STR_VAR_3}喜欢在宝可梦图鉴中查看\n"
-	.string "宝可梦的数据！$"
+	.string "关于{STR_VAR_3}是这样流传\n的。\p他查看宝可梦图鉴有\n{STR_VAR_1}次了！\p{STR_VAR_3}喜欢在宝可梦图鉴中查看\n宝可梦的数据！$"
 
 MauvilleCity_PokemonCenter_1F_Text_ReceivedRibbonsTitle::
 	.string "奖章收藏家$"
@@ -691,12 +686,7 @@ MauvilleCity_PokemonCenter_1F_Text_LedgesJumpedAction::
 	.string "跳下岩礁$"
 
 MauvilleCity_PokemonCenter_1F_Text_LedgesJumpedStory::
-	.string "关于{STR_VAR_3}是这样流传\n"
-	.string "的。\p"
-	.string "他几经跳过\n"
-	.string "{STR_VAR_1}次了！\p"
-	.string "如果有适合跳跃的岩礁，\n"
-	.string "{STR_VAR_3}一定会去跳的！$"
+	.string "关于{STR_VAR_3}是这样流传\n的。\p他已经跳下\n{STR_VAR_1}次岩礁了！\p如果有适合跳跃的岩礁，\n{STR_VAR_3}一定会去跳的！$"
 
 MauvilleCity_PokemonCenter_1F_Text_TVWatchedTitle::
 	.string "电视迷$"
@@ -740,18 +730,13 @@ MauvilleCity_PokemonCenter_1F_Text_WonLotteryStory::
 	.string "宝可梦的朋友！$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareTitle::
-	.string "在培育屋工作的训练家$"
+	.string "善用培育屋的训练家$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareAction::
 	.string "在培育屋照顾宝可梦$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareStory::
-	.string "关于{STR_VAR_3}是这样流传\n"
-	.string "的。\p"
-	.string "他在培育屋照顾的宝可梦\n"
-	.string "有{STR_VAR_1}只！\p"
-	.string "{STR_VAR_3}一定是一个培育\n"
-	.string "宝可梦的老手了！$"
+	.string "关于{STR_VAR_3}是这样流传\n的。\p他曾把宝可梦寄存在培育屋\n{STR_VAR_1}次！\p{STR_VAR_3}一定是一个培育\n宝可梦的老手了！$"
 
 MauvilleCity_PokemonCenter_1F_Text_RodeCableCarTitle::
 	.string "缆车王$"

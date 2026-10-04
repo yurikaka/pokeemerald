@@ -155,7 +155,7 @@ MagmaHideout_4F_Text_TabithaPostBattle:
     .string "……在你和我浪费时间的时候，\n赤焰松应该已经唤醒了固拉多……$"
 
 MagmaHideout_4F_Text_MaxieAwakenGroudon:
-    .string "赤焰松：固拉多……\p无论怎样也不会\n从岩浆中苏醒的你……\p一直在寻求的，\n是这个靛蓝色宝珠吧？\p我已带来了靛蓝色宝珠。\n就让它的光芒唤醒你吧！\p向我展示……\n展示的你全部的力量吧！$"
+    .string "赤焰松：固拉多……\p无论怎样也不会\n从岩浆中苏醒的你……\p一直在寻求的，\n是这个靛蓝色宝珠吧？\p我已带来了靛蓝色宝珠。\n就让它的光芒唤醒你吧！\p向我展示……\n展示你全部的力量吧！$"
 
 MagmaHideout_4F_Text_MaxieGroudonWhatsWrong:
     .string "赤焰松：固拉多！\n怎么回事？\p难道靛蓝色宝珠不行吗？\p固拉多！\n你去哪了……$"

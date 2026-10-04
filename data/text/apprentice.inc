@@ -755,7 +755,7 @@ gText_ApprenticeMoveThanks13::
 	.string "嗯，{STR_VAR_1}，好吧。咳咳！\n等我好一点就去教它。\p希望以后还能这样\n继续请你帮忙。$"
 
 gText_ApprenticeWhichMove14::
-	.string "呃……嗯……\n{PLAYER}{KUN}……？\p拜托，别那样看着我。\p我很紧张……\p我……我再次需要你的建议。\p虽然这是我最后一次……\p真的很不好意思问，\p对我的{STR_VAR_1}而言，\n{STR_VAR_2}和{STR_VAR_3}哪个更好？$"
+	.string "呃……嗯……\n{PLAYER}{KUN}……？\p拜托，别那样看着我。\p我很紧张……\p我……我再次需要你的建议。\p真的很不好意思问，\p对我的{STR_VAR_1}而言，\n{STR_VAR_2}和{STR_VAR_3}哪个更好？$"
 
 gText_ApprenticeMoveThanks14::
 	.string "哦……好的！\n我会试试{STR_VAR_1}。\p希望我能教会它这个招式……\n真让人紧张啊……\p谢谢你，{PLAYER}{KUN}。\n如果再见面，还请你\l像这样帮助我。$"
@@ -824,7 +824,7 @@ gText_ApprenticePickWinSpeech9::
 	.string "喂，你好！\n{PLAYER}{KUN}！\p你知道吗，\n我有点想去各地旅行对战了。\p但在那之前，我还想\n再请教你一次，拜托了！\p如果我赢了比赛，\n有什么好的炫耀词\l可以对战败的训练家对手说呢？$"
 
 gText_ApprenticeWinSpeechThanks9::
-	.string "{STR_VAR_1}\p嗯哼，这话真棒！\nSi, bueno！嗯哼，\l我会试着这么说，就像，火腿！\p那么，是时候说再见了！\n感谢你为我做的一切！\p改天和我对战一场，好吗？\n再见！$"
+	.string "{STR_VAR_1}\p嗯哼，这话真棒！\n好的，嗯哼！\l我会爽快地试着这么说！\p那么，是时候说再见了！\n感谢你为我做的一切！\p改天和我对战一场，好吗？\n再见！$"
 
 gText_ApprenticePickWinSpeech10::
 	.string "{PLAYER}{KUN}，出大麻烦了！\p我赢了比赛后，\n至少要吹嘘一个小时！\p当然我是骗你的！\n哇哈哈哈！\p不过这不是骗人的。\n我不太擅长聊天。\p所以，不如你替我决定一下\n赢了比赛后该说什么吧，\l师父？$"

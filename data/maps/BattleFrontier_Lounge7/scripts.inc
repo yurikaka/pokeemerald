@@ -337,7 +337,7 @@ BattleFrontier_Lounge7_Text_BodySlamDesc::
     .string "用整个身体压制，\n可以使对手\n麻痹。$"
 
 BattleFrontier_Lounge7_Text_RockSlideDesc::
-    .string "投出巨大的石块，\n可以使对手\n恐惧。$"
+    .string "投出巨大的石块，\n可以使对手\n畏缩。$"
 
 BattleFrontier_Lounge7_Text_CounterDesc::
     .string "以两倍的力量\n反击任何\n物理攻击。$"

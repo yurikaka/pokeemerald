@@ -110,7 +110,7 @@ BravoTrainerBattleTower_Text_ResponseSatisfied::
     .string "“{STR_VAR_1}。”\n这不是很棒吗？\p完美表达了{STR_VAR_2}\n此刻的喜悦心情。\p最后和{STR_VAR_3}的那场对战\n……确实配得上\l“{STR_VAR_1}”这个评价！$"
 
 BravoTrainerBattleTower_Text_ResponseUnsatisfied::
-    .string "“{STR_VAR_1}。”\n这也太贴切了吧？\p最后和{STR_VAR_3}的那场对战\n……除了{STR_VAR_1}”之外简直\l找不到更合适的描述了！\p{STR_VAR_2}的失落感\n简直扑面而来呢！$"
+    .string "“{STR_VAR_1}。”\n这也太贴切了吧？\p最后和{STR_VAR_3}的那场对战\n……除了“{STR_VAR_1}”之外简直\l找不到更合适的描述了！\p{STR_VAR_2}的失落感\n简直扑面而来呢！$"
 
 BravoTrainerBattleTower_Text_Outro::
     .string "Bravo，{STR_VAR_1}！\nBravo，{STR_VAR_2}！\p期待看到{STR_VAR_1}\n未来再创佳绩！\p本期节目就到这里！\n下次再见！$"
@@ -742,10 +742,10 @@ gTVPokemonNewsBattleFrontierText04::
     .string "训练家{STR_VAR_1}在\n对战塔多人连线对战间挑战中\l创造了{STR_VAR_2}连胜的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
 
 gTVPokemonNewsBattleFrontierText05::
-    .string "训练家{STR_VAR_1}在\n在对战巨蛋单打对战锦标赛中\l创造了{STR_VAR_2}连冠的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
+    .string "训练家{STR_VAR_1}在\n对战巨蛋单打对战锦标赛中\l创造了{STR_VAR_2}连冠的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
 
 gTVPokemonNewsBattleFrontierText06::
-    .string "训练家{STR_VAR_1}在\n在对战巨蛋双打对战锦标赛中\l创造了{STR_VAR_2}连冠的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
+    .string "训练家{STR_VAR_1}在\n对战巨蛋双打对战锦标赛中\l创造了{STR_VAR_2}连冠的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
 
 gTVPokemonNewsBattleFrontierText07::
     .string "训练家{STR_VAR_1}在\n对战工厂交换式对战单打锦标赛中\l创造了{STR_VAR_2}连胜的新纪录。\p让我们为{STR_VAR_1}欢呼！$"

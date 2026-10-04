@@ -129,7 +129,7 @@ BattleFrontier_Lounge2_Text_BattleTowerIsHottest::
     .string "让我想想……\p现在好像对战塔\n{STR_VAR_1}是最热门的。$"
 
 BattleFrontier_Lounge2_Text_SalonMaidenIsThere::
-    .string "告诉你个秘密！\p被亚希达称作开拓区大脑\n的顶级训练家之一现在就在那里。\p那里就是由那个名叫对战塔大君的\n神秘的训练家所掌管的。$"
+    .string "告诉你个秘密！\p被亚希达称作开拓之脑\n的顶级训练家之一现在就在那里。\p那里就是由那个名叫对战塔大君的\n神秘的训练家所掌管的。$"
 
 BattleFrontier_Lounge2_Text_SalonMaidenSilverMons::
     .string "你跟对战塔大君交过手了吗？\p一开始她测试对手的实力的时候，\n通常都会用这些宝可梦：\p超能力属性的念力宝可梦，\n火属性的火山宝可梦，\l和一般属性的瞌睡宝可梦。$"

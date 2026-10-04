@@ -12,7 +12,7 @@ GiddyText_SoSunny::
     .string " 太愉快了！$"
 
 GiddyText_SoDesirable::
-    .string " 太合意的了！$"
+    .string " 太令人向往了！$"
 
 GiddyText_SoExciting::
     .string " 太令人激动！$"

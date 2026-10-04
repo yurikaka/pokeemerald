@@ -74,7 +74,7 @@ MoveTutor_Text_SleepTalkTaught:
     .string "我从来都猜不对我老伴的\n硬币把戏。\p要是我能在梦话里说中了\n感觉也挺不错的。$"
 
 MoveTutor_Text_SubstituteTeach:
-    .string "当我在屋顶上看着\n这广阔的世界时……\p我在想如果这个世界如果\n有不止一个自己该多有趣啊，\l那样我就能体验各种各样的人生了。\p当然这是不可能的。\n嘿嘿……\p明白了！\n不如让你的宝可梦学习替身吧？$"
+    .string "当我在屋顶上看着\n这广阔的世界时……\p我在想如果这个世界\n有不止一个自己该多有趣啊，\l那样我就能体验各种各样的人生了。\p当然这是不可能的。\n嘿嘿……\p明白了！\n不如让你的宝可梦学习替身吧？$"
 
 MoveTutor_Text_SubstituteDeclined:
     .string "噢，不？\p宝可梦可是能用这个招式\n再复制出一个自己的。$"

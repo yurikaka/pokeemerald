@@ -410,7 +410,7 @@ MatchCall_BattleFrontierStreakText2::
     .string "你好，我是{STR_VAR_1}！\n听说你的事了！\p他们说你在{STR_VAR_2}\n一下子取得了{STR_VAR_3}连胜。\p太厉害了！我也要努力！\n再见！$"
 
 MatchCall_BattleFrontierStreakText3::
-    .string "喂你好，{PLAYER}！\n是我，{STR_VAR_1}。\p我听说你在{STR_VAR_2}\n势不可挡！\p一个漂亮的{STR_VAR_3}连胜……\n这是个新纪录，对吧？\p我也要努力了！\n以后联系！$"
+    .string "喂你好，{PLAYER}！\n是我，{STR_VAR_1}。\p我听说你在{STR_VAR_2}\n势不可挡！\p一个漂亮的{STR_VAR_3}连胜……\n这纪录很了不起，对吧？\p我也要努力了！\n以后联系！$"
 
 MatchCall_BattleFrontierStreakText4::
     .string "喂，{PLAYER}{KUN}。\n是我{STR_VAR_1}，最近怎样？\p有传言说你在{STR_VAR_2}\n取得了{STR_VAR_3}连胜。\p我也要加油啊。\n再见！$"
@@ -452,7 +452,7 @@ MatchCall_BattleFrontierRecordStreakText2::
     .string "你好，我是{STR_VAR_1}！\n听说你的事了！\p他们说你在{STR_VAR_2}\n一下子取得了{STR_VAR_3}连胜。\p太厉害了！我也要努力！\n再见！$"
 
 MatchCall_BattleFrontierRecordStreakText3::
-    .string "喂你好，{PLAYER}！\n是我，{STR_VAR_1}。\p我听说你在{STR_VAR_2}\n势不可挡！\p一个漂亮的{STR_VAR_3}连胜……\n这是个新纪录，对吧？\p我也要努力了！\n以后联系！$"
+    .string "喂你好，{PLAYER}！\n是我，{STR_VAR_1}。\p我听说你在{STR_VAR_2}\n势不可挡！\p一个漂亮的{STR_VAR_3}连胜……\n这纪录很了不起，对吧？\p我也要努力了！\n以后联系！$"
 
 MatchCall_BattleFrontierRecordStreakText4::
     .string "喂，{PLAYER}{KUN}。\n是我{STR_VAR_1}，最近怎样？\p有传言说你在{STR_VAR_2}\n取得了{STR_VAR_3}连胜。\p我也要加油啊。\n再见！$"

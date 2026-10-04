@@ -532,7 +532,7 @@ BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureChallenger:
     .string "黄瓜香：嗨哟！\n你好！\p……等等，你就是挑战者？$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_IsThatRight:
-    .string "没有搞错吗？哈……\n哈哈……$"
+    .string "是吗？哈……\n哈哈……$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_YouLookWeakTakeThingsEasy:
     .string "但该怎么说呢……\n老实说，我觉得你好像非常弱哎。\l你确定你招架得住吗？\p哈……\p那么，好吧！\n我们慢慢来！$"

@@ -45,8 +45,7 @@ Roulette_Text_NothingDoing::
 	.string "没中——$"
 
 Roulette_Text_YouveWonXCoins::
-	.string "恭喜中奖！\n"
-	.string "获得了{STR_VAR_1}枚硬币！$"
+	.string "恭喜中奖！\n获得了{STR_VAR_1}枚代币！$"
 
 Roulette_Text_NoCoinsLeft::
 	.string "代币用光了……$"

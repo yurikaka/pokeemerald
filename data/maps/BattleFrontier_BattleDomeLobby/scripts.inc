@@ -525,7 +525,7 @@ BattleFrontier_BattleDomeLobby_Text_WinnersGainReputation:
     .string "当一位训练家连续在对战巨蛋\n中取得胜利，他/她\l将获得明星般的名誉。\p厉害的训练家将会慕名而来\n挑战对战巨蛋。\p真正的超级明星是能够不断\n赢得比赛的训练家。$"
 
 BattleFrontier_BattleDomeLobby_Text_TrashedInFirstRound:
-    .string "比赛的第一场我就碰上了\n一个夺冠热门的选手。\p输掉也是预料之中……$"
+    .string "比赛的第一场我就碰上了\n一个夺冠热门的选手。\p被打得落花流水……$"
 
 BattleFrontier_BattleDomeLobby_Text_NeedToCheckOpponentCarefully:
     .string "我要是让这只宝可梦保留待命的话，\n我也许就能赢了。\p你得仔细查看清楚对手\n的宝可梦后，\l再挑选你的宝可梦。$"

@@ -65,7 +65,7 @@ LilycoveCity_MoveDeletersHouse_EventScript_LastMonWithSurf::
 	end
 
 LilycoveCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove:
-    .string "那个……\n俺是谁来着？\p…… …… ……\n…… …… ……\p哦哦，对了！\n俺是遗忘爷爷哩！\p你是来让宝可梦\n忘记招式的呐？$"
+    .string "那个……\n哦，对了！俺是遗忘爷爷哩！\p俺能让宝可梦\n忘记招式。\p你想让俺帮忙吗？$"
 
 LilycoveCity_MoveDeletersHouse_Text_WhichMonShouldForget:
     .string "要选哪只宝可梦哩？$"
@@ -90,4 +90,3 @@ LilycoveCity_MoveDeletersHouse_Text_EggCantForgetMoves:
 
 LilycoveCity_MoveDeletersHouse_Text_CantForgetSurf:
     .string "嗯……\p你的{STR_VAR_1}好像不想\n忘记冲浪呐。$"
-

@@ -626,7 +626,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintPoison:
     .string "我看到了毒……\p……你的宝可梦\n正忍受着中毒的苦……$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintBurn:
-    .string "我看到了闪亮的火焰……\p……你的宝可梦\n正在被烧灼着……$"
+    .string "我看到了赤红的火焰……\p……你的宝可梦\n正在被烧灼着……$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintPPWaste:
     .string "我感受到了无尽的怒火\n产生出的庞大的压力……\p是诅咒……\p……你的宝可梦没有了\n招式点数，\l只有无助地挣扎……$"

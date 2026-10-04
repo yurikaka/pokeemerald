@@ -199,12 +199,10 @@ BerryTree_Text_BerryGrowthStage2:
 	.string "{STR_VAR_1}已经发芽了。$"
 
 BerryTree_Text_BerryGrowthStage3:
-	.string "{STR_VAR_1}的幼苗长得很漂亮！$"
-	.string "{STR_VAR_1}正在变得更高。$"
+	.string "{STR_VAR_1}的树干长高了！${STR_VAR_1}正在变得更高。$"
 
 BerryTree_Text_BerryGrowthStage4:
-	.string "{STR_VAR_1}开花了！$"
-	.string "{STR_VAR_1}的花正在{STR_VAR_2}盛开\n。"
+	.string "{STR_VAR_1}的花\n{STR_VAR_2}盛开着！${STR_VAR_1}的花正在{STR_VAR_2}盛开\n。"
 
 BerryTree_Text_CareAdverbGreat:
     .string "非常美丽地$"

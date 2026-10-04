@@ -241,7 +241,7 @@ BattleFrontier_OutsideEast_Text_BattlePyramidSign:
     .string "这里是对战金字塔！\n前进吧！探索式对战！$"
 
 BattleFrontier_OutsideEast_Text_RankingHallSign:
-    .string "对战开拓区排名大厅\n关注最新的纪录！$"
+    .string "对战开拓区排名大厅\n向新纪录发起挑战！$"
 
 BattleFrontier_OutsideEast_Text_ExchangeCornerSign:
     .string "对战点数兑换服务区\n兑换你的对战点数！$"
@@ -256,7 +256,7 @@ BattleFrontier_OutsideEast_Text_PyramidTooHarsh:
     .string "对战金字塔实在是太难了！\n我想我是走不到最上层了。\p实在没有其他办法的话，\n也许我可以试试从外面爬上去……$"
 
 BattleFrontier_OutsideEast_Text_ThriveInDarkness:
-    .string "我是在黑暗中长大的……\n是的……哪里最适合我？\l必然是对战金字塔……\p在黑暗中探索的时候\n你是不是也会陷入完全的绝望？$"
+    .string "我最喜欢黑暗……\n是的……哪里最适合我？\l必然是对战金字塔……\p在黑暗中探索的时候\n你是不是也会陷入完全的绝望？$"
 
 BattleFrontier_OutsideEast_Text_PutTogetherUltimateTeam:
     .string "我一个星期没有睡觉了，\n但我已经找到了最强组合！\p我是绝对不会输的，我没开玩笑，\n我们的风暴会席卷对战竞技场！$"
@@ -292,7 +292,7 @@ BattleFrontier_OutsideEast_Text_SometimesImportantOldManInThere:
     .string "有时候能看到这位看上去\n明显是大人物的老人到这儿来，\p他的宝可梦真强，\n但他本人看起来很和善。$"
 
 BattleFrontier_OutsideEast_Text_LegendOfBattlePyramid:
-    .string "你听说过那个关于\n对战金字塔的传说吗？\p当一位勇敢的训练家到达\n金光闪闪的顶峰之时，\l就会有一个人出现在人群中。\p你知道这个传说吗？\n哈哈，你当然不知道！\l这是我刚刚编的！\p至于这是什么意思，\n那是，呃，不告诉你！$"
+    .string "你听说过那个关于\n对战金字塔的传说吗？\p当一位勇敢的训练家到达\n金光闪闪的顶峰之时，\l就会有一位真正的男子汉出现。\p你知道这个传说吗？\n哈哈，你当然不知道！\l这是我刚刚编的！\p至于这是什么意思，\n那是，呃，不告诉你！$"
 
 BattleFrontier_OutsideEast_Text_GotWipedOut:
     .string "可恶！\n我以前从来没输过！\p但一到这里我就被\n毫不留情地打败了！\p然后还被人说我根本没有才能？！\n可恶！$"
@@ -322,4 +322,4 @@ BattleFrontier_OutsideEast_Text_OnceAnOddTreePastHere:
     .string "打扰一下，年轻人，\n你的记忆力还可以吧？\p我好像记得那边曾经\n有棵奇怪的树。$"
 
 BattleFrontier_OutsideEast_Text_StickyMonWithLongTail:
-    .string "我……\n我看见了！\p是一只举着长长尾巴的\n小小的宝可梦！\p刚才它藏在一块大石头底下，\n还一直偷偷地盯着我看！$"
+    .string "我……\n我看见了！\p是一只长着长长尾巴的\n黏糊糊的宝可梦！\p刚才它藏在一块大石头底下，\n还一直偷偷地盯着我看！$"

@@ -941,13 +941,13 @@ BattleFrontier_BattleTowerLobby_Text_ProgressWillBeSaved:
     .string "进入对战间之前需要\n写入记录，请稍等。$"
 
 BattleFrontier_BattleTowerLobby_Text_AboutToFace50thTrainer:
-    .string "下面您即将迎战的是\n第50位训练家了，\p现在起，您每次连续打败7位训练家，\n我们将会把奖章送给您参战的宝可梦。\p祝您好运！$"
+    .string "下面您即将迎战的是\n第50位训练家了，\p现在起，您每次连续打败7位训练家，\n我们将会把缎带送给您参战的宝可梦。\p祝您好运！$"
 
 BattleFrontier_BattleTowerLobby_Text_HereAreSomeRibbons:
-    .string "这是连续打败7位\n强大的训练家的奖励。\p{PLAYER}得到奖章！$"
+    .string "这是连续打败7位\n强大的训练家的奖励。\p{PLAYER}得到缎带！$"
 
 BattleFrontier_BattleTowerLobby_Text_PutRibbonOnMons:
-    .string "{PLAYER}给挑战的宝可梦\n戴上了奖章。$"
+    .string "{PLAYER}给挑战的宝可梦\n戴上了缎带。$"
 
 BattleFrontier_BattleTowerLobby_Text_DescribeFeelingsAboutBattleTower:
     .string "打扰了，\n能占用你一点时间吗？\p请说说你在对战塔比赛开始之前的\n想法，也可以谈谈赢了或输了比赛\l之后的感受。$"
@@ -1072,7 +1072,7 @@ BattleFrontier_BattleTowerLobby_Text_TakeLinkMultisChallenge:
     .string "要挑战多人连线对战间吗？$"
 
 BattleFrontier_BattleTowerLobby_Text_ExplainLinkMultisChallenge:
-    .string "对战塔的多人对战间\n是和朋友一起进行\l多人对战的设施。\p您需要先使用无线适配器\n或GBA连接线与朋友连接，\p携带2只宝可梦和朋友\n组队进行挑战。\p对战塔内有很多\n多人对战间，\p供团队对战使用。\n在多人对战间中，\l会有7组训练家等待\p您和您朋友的组队挑战。\n如果顺利战胜7组，\p我们会向您呈上对战点数。\n请注意这里与其他房间不同，\p您不能暂停挑战。一旦挑战开始，\n就需要不间断地进行7次多人对战。$"
+    .string "对战塔的多人对战间\n是和朋友一起进行\l多人对战的设施。\p您需要先使用无线适配器\n或GBA连接线与朋友连接，\p每人携带2只不同种类的\n宝可梦，和朋友组队挑战。\p对战塔内有很多\n多人对战间，\p供团队对战使用。\n在多人对战间中，\l会有7组训练家等待\p您和您朋友的组队挑战。\n如果顺利战胜7组，\p我们会向您呈上对战点数。\n请注意这里与其他房间不同，\p您不能暂停挑战。一旦挑战开始，\n就需要不间断地进行7次多人对战。$"
 
 BattleFrontier_BattleTowerLobby_Text_PleaseSelectTwoMons2:
     .string "请选择要参加挑战的\n2只宝可梦。$"

@@ -359,10 +359,10 @@ BattleFrontier_ReceptionGate_Text_LevelModeInfo:
     .string "对战开拓区的所有挑战设施\n都提供2种模式可供选择——\lLv. 50级和自由等级。$"
 
 BattleFrontier_ReceptionGate_Text_Level50Info:
-    .string "Lv. 50级允许等级50级以内的\n宝可梦参加。\p但是，您遇到的训练家不会\n使用等级50以内的宝可梦。\p这是对战开拓区的\n入门级对战，\p我们建议您从这个模式\n开始挑战。$"
+    .string "Lv. 50级允许等级50级以内的\n宝可梦参加。\p但是，您遇到的训练家不会\n使用低于50级的宝可梦。\p这是对战开拓区的\n入门级对战，\p我们建议您从这个模式\n开始挑战。$"
 
 BattleFrontier_ReceptionGate_Text_OpenLevelInfo:
-    .string "自由等级对于参加的宝可梦\n没有等级限制。\p对手的宝可梦等级会根据\n您的宝可梦等级进行调整。\p但是，您遇到的训练家不会\n使用等级60以内的宝可梦。$"
+    .string "自由等级对于参加的宝可梦\n没有等级限制。\p对手的宝可梦等级会根据\n您的宝可梦等级进行调整。\p但是，您遇到的训练家不会\n使用低于60级的宝可梦。$"
 
 BattleFrontier_ReceptionGate_Text_MonEntryInfo:
     .string "绝大多数种类的宝可梦都可以\n参加所有设施里面的挑战，\p但蛋和某些特定种类的宝可梦\n无法参加。\p挑战所需的宝可梦数量\n取决于具体设施。\p但在所有设施中，都无法使用2只\n或以上的相同种类的宝可梦。$"
@@ -384,4 +384,3 @@ BattleFrontier_ReceptionGate_Text_RecordedBattleInfo:
 
 BattleFrontier_ReceptionGate_Text_BattlePointsInfo:
     .string "对战点数是向对战开拓区中表现出色\n的训练家给予的奖励。\p您可以在兑换服务区用\n对战点数兑换奖品。$"
-

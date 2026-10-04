@@ -63,9 +63,7 @@ SecretBase_Text_Trainer1PreChampion:
 	.string "我一直在等它打开，\n我一定要得到它！$"
 
 SecretBase_Text_Trainer6Intro:
-	.string "欢迎来到我的精灵研究所，\n"
-	.string "我在调查秘密的对战。\p"
-	.string "想试试我有多么强吗？$"
+	.string "欢迎来到我的宝可梦研究所，\n我在暗中进行对战研究。\p想试试我有多么强吗？$"
 
 SecretBase_Text_Trainer6AcceptBattle:
 	.string "我会全力以赴的！$"

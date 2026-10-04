@@ -4,8 +4,7 @@ gText_HighlyAppealingMove::
 	.string "能够吸引人的表演。$"
 
 gText_UserMoreEasilyStartled::
-	.string "虽然能够演出很好的表演，\n"
-	.string "但是之后会更容易受干扰。$"
+	.string "使用这个招式后，\n会更容易受到干扰。$"
 
 gText_GreatAppealButNoMoreToEnd::
 	.string "极具吸引力的表演，\n"
@@ -714,7 +713,7 @@ gText_MonsMoveIsIgnored::
     .string "被完全无视了……{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_Contest_Shyness::
-    .string "扑通扑通$"
+    .string "扭扭捏捏$"
 
 gText_Contest_Anxiety::
     .string "慌慌张张$"

@@ -947,7 +947,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_RisingStar:
     .string "后起之秀啊！\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillTheyRaceToChampionship:
-    .string "哪一位训练家进入\n冠军赛了呢？\p$"
+    .string "这位训练家能否\n一举夺冠呢？\p$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanAchieveChampionFirstTry:
     .string "首次挑战就能获得冠军的壮举\n能够实现吗？\p$"
@@ -1019,7 +1019,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_WontUnderestimateYouNextTime:
     .string "…… …… ……\p我太过低估你了，\n下一次我不会犯同样的错误……$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanWinStreakBeStretched:
-    .string "我们的冠军还会继续称霸吗？\n让我们期待比赛的结果吧！$"
+    .string "我们的冠军还会继续称霸吗？\n真是信心十足！$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_LegendHasReturnedDomeAceTucker:
     .string "女士们，先生们，\n男孩们，女孩们，还有宝可梦们！\p最后，\n最后的最后，我们的传说回归了！\p是的，就是那个传说中的名字！\n我们的巨蛋超级巨星！\l他就是——石南！$"

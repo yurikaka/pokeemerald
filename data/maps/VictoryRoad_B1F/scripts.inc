@@ -54,7 +54,7 @@ VictoryRoad_B1F_Text_MichellePostBattle:
     .string "你一定会干得很好的！\n你的宝可梦都那么渴望着胜利！$"
 
 VictoryRoad_B1F_Text_MitchellIntro:
-    .string "我的宝可梦的士气已经\n达到了顶点！$"
+    .string "我的宝可梦\n真是令人惊叹！$"
 
 VictoryRoad_B1F_Text_MitchellDefeat:
     .string "我从来没见过像你这样的人。$"
@@ -70,4 +70,3 @@ VictoryRoad_B1F_Text_HalleDefeat:
 
 VictoryRoad_B1F_Text_HallePostBattle:
     .string "尽管这里的确是\n冠军之路，\p但它与你之前所经过的道路\n并无太大不同。\p试着去享受你之后\n将会遇到的一切吧！$"
-

@@ -50,8 +50,7 @@ SootopolisCity_PokemonCenter_1F_Text_EveryoneTakenRefuge:
     .string "城镇里的人都躲在家里\n不愿出来，\p就算是我也\n不想出门冒险。$"
 
 SootopolisCity_PokemonCenter_1F_Text_AlwaysBeFriendsWithPokemon:
-    .string "无论何时，无论何地，\n无论发生什么，\l我都会和宝可梦在一起。\p和宝可梦交朋友是我的乐趣！$"
+    .string "无论何时，无论何地，\n无论发生什么，\l我都会和宝可梦做朋友。\p和宝可梦交朋友是我的乐趣！$"
 
 SootopolisCity_PokemonCenter_1F_Text_ArentPokemonOurFriends:
     .string "宝可梦不是我们的朋友吗？\p它们为什么会如此疯狂？$"
-

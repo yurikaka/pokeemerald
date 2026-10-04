@@ -407,7 +407,7 @@ BattleFrontier_BattleFactoryLobby_Text_NeedToCheckOpponentsMons:
     .string "一切都变得和我想的\n完全不一样了。\p你要在对战中仔细检查\n你对手的宝可梦是否强大。$"
 
 BattleFrontier_BattleFactoryLobby_Text_CantFigureOutStaffHints:
-    .string "你知道这的工作人员会给你\n一些关于你下个对手的提示吧？\p好吧，虽然我是一个经验丰富的人，\n但我弄不懂他们的提示。$"
+    .string "你知道这的工作人员会给你\n一些关于你下个对手的提示吧？\p好吧，虽然我是一个成年人，\n但我弄不懂他们的提示。$"
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_RentalMonsAreVaried:

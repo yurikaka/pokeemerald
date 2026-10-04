@@ -518,7 +518,7 @@ Route108_Text_MatthewDefeated:
     .string "我在下沉！\n咕噜……咕噜……$"
 
 Route108_Text_MatthewPostBattle:
-    .string "有些人甚至走进了那个\n那艘废弃的船。$"
+    .string "有些人甚至会进入\n那艘废弃的船。$"
 
 Route108_Text_TaraIntro:
     .string "我的那个爱说谎的男友告诉我\n我穿比基尼好看极了……$"

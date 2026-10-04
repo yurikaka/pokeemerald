@@ -1379,7 +1379,7 @@ SootopolisCity_Text_FlyingMonStoppedRampage:
     .string "那只飞行的宝可梦从空中\n降临，平息了那两只\l宝可梦的怒火……$"
 
 SootopolisCity_Text_WonderWhatWorldIsLike:
-    .string "我……我从未离开过这座城。\p不知这圆椭的天空的\n另一端会有什么呢？$"
+    .string "我……我从未离开过这座城。\p不知这圆形的天空的\n另一端会有什么呢？$"
 
 SootopolisCity_Text_ThisIsWicked:
     .string "哇！\n这太炸裂了！$"

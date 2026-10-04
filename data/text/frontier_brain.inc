@@ -17,8 +17,7 @@ gText_TuckerWonSilver::
 	.string "所有人都在看着呢！$"
 
 gText_TuckerDefeatSilver::
-	.string "呃……\n"
-	.string "怎么回……$"
+	.string "呃……\n怎么会……$"
 
 gText_TuckerWonGold::
 	.string "我巨蛋超级巨星\n"
