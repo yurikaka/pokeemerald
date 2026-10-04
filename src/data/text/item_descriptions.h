@@ -205,46 +205,45 @@ static const u8 sShoalShellDesc[] = _(
 			"找到的贝壳。");
 
 static const u8 sRedShardDesc[] = _(
-			"好像是以前制作\n"
-			"的某道具的碎片。");
+			"好像是以前制作的\n"
+			"某道具的碎片，可\n"
+			"以低价卖出");
 
 static const u8 sBlueShardDesc[] = _(
-			"好像是以前制作\n"
-			"的某道具的碎片。");
+			"好像是以前制作的\n"
+			"某道具的碎片，可\n"
+			"以低价卖出");
 
 static const u8 sYellowShardDesc[] = _(
-			"好像是以前制作\n"
-			"的某道具的碎片。");
+			"好像是以前制作的\n"
+			"某道具的碎片，可\n"
+			"以低价卖出");
 
 static const u8 sGreenShardDesc[] = _(
-			"好像是以前制作\n"
-			"的某道具的碎片。");
+			"好像是以前制作的\n"
+			"某道具的碎片，可\n"
+			"以低价卖出");
 
 // Vitamins
 static const u8 sHPUpDesc[] = _(
-			"宝可梦的营养饮料\n"
-			"。能提高宝可梦的\n"
-			"HP的基础点数。");
+			"能提高宝可梦的\n"
+			"HP基础点数");
 
 static const u8 sProteinDesc[] = _(
-			"宝可梦的营养饮料\n"
-			"。能提高宝可梦的\n"
-			"攻击的基础点数。");
+			"能提高宝可梦的\n"
+			"攻击基础点数");
 
 static const u8 sIronDesc[] = _(
-			"宝可梦的营养饮料\n"
-			"。能提高宝可梦的\n"
-			"防御的基础点数。");
+			"能提高宝可梦的\n"
+			"防御基础点数");
 
 static const u8 sCarbosDesc[] = _(
-			"宝可梦的营养饮料\n"
-			"。能提高宝可梦的\n"
-			"速度的基础点数。");
+			"能提高宝可梦的\n"
+			"速度基础点数");
 
 static const u8 sCalciumDesc[] = _(
-			"宝可梦的营养饮料\n"
-			"。能提高宝可梦的\n"
-			"特攻的基础点数。");
+			"能提高宝可梦的\n"
+			"特攻基础点数");
 
 static const u8 sRareCandyDesc[] = _(
 			"充满能量的糖果。\n"
@@ -257,9 +256,8 @@ static const u8 sPPUpDesc[] = _(
 			"最大值少量提高。");
 
 static const u8 sZincDesc[] = _(
-			"宝可梦的营养饮料\n"
-			"。能提高宝可梦的\n"
-			"特防的基础点数。");
+			"能提高宝可梦的\n"
+			"特防基础点数");
 
 static const u8 sPPMaxDesc[] = _(
 			"能将宝可梦学会的\n"
@@ -268,20 +266,21 @@ static const u8 sPPMaxDesc[] = _(
 
 // Battle items
 static const u8 sGuardSpecDesc[] = _(
-			"在战斗中，5回合\n"
-			"内不让我方能力降\n"
-			"低的道具。");
+			"在战斗中使用，不\n"
+			"让我方能力降低的\n"
+			"道具");
 
 static const u8 sDireHitDesc[] = _(
-			"击中要害的几率会\n"
-			"大幅提高。只能使\n"
-			"用1次。");
+			"在这场战斗中提高\n"
+			"击中要害的几率");
 
 static const u8 sXAttackDesc[] = _(
 			"提高战斗中宝可梦\n"
 			"攻击的道具。");
 
-static const u8 sXDefendDesc[] = _("在战斗中提高防御\n的道具。离场后效\n果消失。");
+static const u8 sXDefendDesc[] = _(
+			"在这场战斗中提高\n"
+			"防御的道具");
 
 static const u8 sXSpeedDesc[] = _(
 			"提高战斗中宝可梦\n"
@@ -296,32 +295,30 @@ static const u8 sXSpecialDesc[] = _(
 			"特攻的道具。");
 
 static const u8 sPokeDollDesc[] = _(
-			"能吸引宝可梦注\n"
-			"意。在野生宝可梦\n"
-			"的战斗中能逃走。");
+			"与野生宝可梦战斗\n"
+			"时，能必定逃走");
 
 static const u8 sFluffyTailDesc[] = _(
-			"能吸引宝可梦注\n"
-			"意。在野生宝可梦\n"
-			"的战斗中能逃走。");
+			"与野生宝可梦战斗\n"
+			"时，能必定逃走");
 
 // Field items
 static const u8 sSuperRepelDesc[] = _(
-			"弱小的野生宝可梦\n"
-			"将不会出现。效果\n"
-			"比除虫喷雾持久。");
+			"200步内，弱小\n"
+			"的野生宝可梦将不\n"
+			"会出现");
 
 static const u8 sMaxRepelDesc[] = _(
-			"弱小的野生宝可梦\n"
-			"将不会出现。效果\n"
-			"比白银喷雾持久。");
+			"250步内，弱小\n"
+			"的野生宝可梦将不\n"
+			"会出现");
 
 static const u8 sEscapeRopeDesc[] = _("结实的长绳。可从\n洞窟或迷宫中脱身。");
 
 static const u8 sRepelDesc[] = _(
-			"使用后一段时间内\n"
-			"，弱小的野生宝可\n"
-			"梦将不会出现。");
+			"100步内，弱小\n"
+			"的野生宝可梦将不\n"
+			"会出现");
 
 // Evolution stones
 static const u8 sSunStoneDesc[] = _(
@@ -355,12 +352,13 @@ static const u8 sLeafStoneDesc[] = _(
 			"神奇石头。");
 
 // Valuable items
-static const u8 sTinyMushroomDesc[] = _("珍稀的小蘑菇。可\n以在商店低价出售。");
+static const u8 sTinyMushroomDesc[] = _(
+			"普通的蘑菇，可以\n"
+			"在商店低价出售");
 
 static const u8 sBigMushroomDesc[] = _(
-			"珍稀的大蘑菇。\n"
-			"在一些爱好者\n"
-			"中非常有人气。");
+			"珍稀的蘑菇，可以\n"
+			"在商店高价出售");
 
 static const u8 sPearlDesc[] = _(
 			"散发着光泽且有点\n"
@@ -385,9 +383,8 @@ static const u8 sNuggetDesc[] = _(
 			"在商店高价出售。");
 
 static const u8 sHeartScaleDesc[] = _(
-			"有着美丽心形外形\n"
-			"的珍稀鳞片。有些\n"
-			"人收到会很高兴。");
+			"美丽的鳞片，在爱\n"
+			"好者中很有人气");
 
 // Mail
 static const u8 sOrangeMailDesc[] = _(
@@ -517,29 +514,29 @@ static const u8 sIapapaBerryDesc[] = _(
 			"讨厌味道会混乱。");
 
 static const u8 sRazzBerryDesc[] = _(
-			"可用于制作宝可方\n"
-			"块打磨强壮。黄色\n"
-			"的果实有点酸的。");
+			"宝可方块的材料\n"
+			"埋在土里可以培育\n"
+			"出蔓莓果");
 
 static const u8 sBlukBerryDesc[] = _(
-			"可用于制作宝可方\n"
-			"块打磨美丽。蓝色\n"
-			"的果实有点涩的。");
+			"宝可方块的材料\n"
+			"埋在土里可以培育\n"
+			"出墨莓果");
 
 static const u8 sNanabBerryDesc[] = _(
-			"捕捉宝可梦时，给\n"
-			"它就能稍微平复一\n"
-			"下情绪。");
+			"宝可方块的材料\n"
+			"埋在土里可以培育\n"
+			"出蕉香果");
 
 static const u8 sWepearBerryDesc[] = _(
-			"可用于制作宝可方\n"
-			"块打磨聪明。绿色\n"
-			"的果实有点苦的。");
+			"宝可方块的材料\n"
+			"埋在土里可以培育\n"
+			"出西梨果");
 
 static const u8 sPinapBerryDesc[] = _(
-			"可用于制作宝可方\n"
-			"块打磨强壮。黄色\n"
-			"的果实有点酸的。");
+			"宝可方块的材料\n"
+			"埋在土里可以培育\n"
+			"出凰梨果");
 
 static const u8 sPomegBerryDesc[] = _(
 			"给宝可梦后会变得\n"
@@ -572,49 +569,49 @@ static const u8 sTamatoBerryDesc[] = _(
 			"基础点数会降低。");
 
 static const u8 sCornnBerryDesc[] = _(
-			"可用于制作宝可方\n"
-			"块打磨美丽。在其\n"
-			"他地区很少见。");
+			"宝可方块的材料\n"
+			"埋在土里可以培育\n"
+			"出玉黍果");
 
 static const u8 sMagostBerryDesc[] = _(
-			"可用于制作宝可方\n"
-			"块打磨可爱。在其\n"
-			"他地区很少见。");
+			"宝可方块的材料\n"
+			"埋在土里可以培育\n"
+			"出岳竹果");
 
 static const u8 sRabutaBerryDesc[] = _(
-			"可用于制作宝可方\n"
-			"块打磨聪明。在其\n"
-			"他地区很少见。");
+			"宝可方块的材料\n"
+			"埋在土里可以培育\n"
+			"出茸丹果");
 
 static const u8 sNomelBerryDesc[] = _(
-			"可用于制作宝可方\n"
-			"块打磨强壮。在其\n"
-			"他地区很少见。");
+			"宝可方块的材料\n"
+			"埋在土里可以培育\n"
+			"出檬柠果");
 
 static const u8 sSpelonBerryDesc[] = _(
-			"可用于制作宝可方\n"
-			"块打磨可爱。在其\n"
-			"他地区很少见。");
+			"宝可方块的材料\n"
+			"埋在土里可以培育\n"
+			"出刺角果");
 
 static const u8 sPamtreBerryDesc[] = _(
-			"可用于制作宝可方\n"
-			"块打磨美丽。在其\n"
-			"他地区很少见。");
+			"宝可方块的材料\n"
+			"埋在土里可以培育\n"
+			"出椰木果");
 
 static const u8 sWatmelBerryDesc[] = _(
-			"可用于制作宝可方\n"
-			"块打磨聪明。在其\n"
-			"他地区很少见。");
+			"宝可方块的材料\n"
+			"埋在土里可以培育\n"
+			"出瓜西果");
 
 static const u8 sDurinBerryDesc[] = _(
-			"可用于制作宝可方\n"
-			"块打磨聪明。在其\n"
-			"他地区很少见。");
+			"宝可方块的材料\n"
+			"埋在土里可以培育\n"
+			"出金枕果");
 
 static const u8 sBelueBerryDesc[] = _(
-			"可用于制作宝可方\n"
-			"块打磨美丽。在其\n"
-			"他地区很少见。");
+			"宝可方块的材料\n"
+			"埋在土里可以培育\n"
+			"出靛莓果");
 
 static const u8 sLiechiBerryDesc[] = _(
 			"携带后，危机时，\n"
@@ -651,7 +648,10 @@ static const u8 sStarfBerryDesc[] = _(
 			"某一项能力就会大\n"
 			"幅提高。");
 
-static const u8 sEnigmaBerryDesc[] = _("一种非常稀奇的树\n果。不能作为宝可\n方块的原料。");
+static const u8 sEnigmaBerryDesc[] = _(
+			"宝可方块的材料\n"
+			"埋在土里可以培育\n"
+			"出谜芝果");
 
 // Hold items
 static const u8 sBrightPowderDesc[] = _(
@@ -938,13 +938,11 @@ static const u8 sSuperRodDesc[] = _(
 
 static const u8 sSSTicketDesc[] = _(
 			"乘坐渡轮时需要用\n"
-			"到的船票。上面绘\n"
-			"有船只的图案。");
+			"到的船票");
 
 static const u8 sContestPassDesc[] = _(
 			"拿着它就可以参加\n"
-			"华丽大赛。上面印\n"
-			"有纪念奖章。");
+			"华丽大赛");
 
 static const u8 sWailmerPailDesc[] = _(
 			"浇水的道具。能让\n"
@@ -1001,9 +999,8 @@ static const u8 sGoGogglesDesc[] = _(
 			"目镜。");
 
 static const u8 sMeteoriteDesc[] = _(
-			"原本是落入流星瀑\n"
-			"布里的陨石。是在\n"
-			"烟囱山获得的。");
+			"落入流星瀑布里的\n"
+			"陨石");
 
 static const u8 sRoom1KeyDesc[] = _(
 			"进入弃船的房间时\n"
@@ -1350,8 +1347,7 @@ static const u8 sGoldTeethDesc[] = _(
 
 static const u8 sOldAmberDesc[] = _(
 			"封存着古代宝可梦\n"
-			"遗传基因的琥珀，\n"
-			"透着点红色。");
+			"遗传信息的石头");
 
 static const u8 sCardKeyDesc[] = _(
 			"用来打开的西尔佛\n"
@@ -1422,18 +1418,16 @@ static const u8 sRainbowPassDesc[] = _(
 			"动的通行证。");
 
 static const u8 sTeaDesc[] = _(
-			"有一点点苦，却又\n"
-			"芬芳宜人的香茶。");
+			"婆婆泡的美味茶，\n"
+			"能解渴");
 
 static const u8 sMysticTicketDesc[] = _(
 			"前往肚脐岩时必要\n"
-			"的船票。神秘地发\n"
-			"着光。");
+			"的船票");
 
 static const u8 sAuroraTicketDesc[] = _(
 			"前往诞生之岛时必\n"
-			"要的船票。美丽地\n"
-			"散发着光芒。");
+			"要的船票");
 
 static const u8 sPowderJarDesc[] = _(
 			"能收纳树果碾碎器\n"
