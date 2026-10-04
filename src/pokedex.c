@@ -3759,10 +3759,12 @@ static void Task_LoadSizeScreen(u8 taskId)
         break;
     case 3:
         {
+            static const u8 sizeComparedToSuffix[] = _("的体型比较");
             u8 string[64];
 
             StringCopy(string, gText_SizeComparedTo);
             StringAppend(string, gSaveBlock2Ptr->playerName);
+            StringAppend(string, sizeComparedToSuffix);
             PrintInfoScreenText(string, GetStringCenterAlignXOffset(FONT_NORMAL, string, DISPLAY_WIDTH), 121);
             gMain.state++;
         }

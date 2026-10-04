@@ -779,12 +779,9 @@ const u8 gHoundourPokedexText[] = _(
 const u8 gHoundoomPokedexText[] = _(
     "头上的角又大又向后弯的黑鲁加就是群体中的首领。会通过伙伴间的相互争斗决出首领。");
 
-const u8 gKingdraPokedexText[] = _(
-    "在深沉的海底里静静地沉睡着。当它浮出水面的时候，会产生足以将船只吞没的巨大海浪。");
+const u8 gKingdraPokedexText[] = _("在深沉的海底里静静地沉睡着。当它浮出水面的时候，会产生足以将船只吞没的巨大漩涡。");
 
-const u8 gPhanpyPokedexText[] = _(
-    "小小象的巨大耳朵可以代替扇子，天气热的时候会啪嗒啪嗒扇动着前进，\n"
-    "即使是幼年时力气也非常大。");
+const u8 gPhanpyPokedexText[] = _("小小象的巨大耳朵可以代替扇子，天气热的时候会啪嗒啪嗒扇动耳朵纳凉，\n即使是幼年时力气也非常大。");
 
 const u8 gDonphanPokedexText[] = _(
     "拥有能轻松将翻斗车拉动的力量。像岩石一样坚硬的皮肤，光靠普通的攻击是无法造成损伤的。");
@@ -992,9 +989,7 @@ const u8 gNincadaPokedexText[] = _(
 const u8 gNinjaskPokedexText[] = _(
     "由于会高速且激烈地到处移动，因此很难捕捉到它的身影。若是一直持续听到其叫声的话就会开始头痛。");
 
-const u8 gShedinjaPokedexText[] = _(
-    "没有拍动翅膀就可以飞在天上的相当特别的宝可梦，身体是中空的，\n"
-    "里面什么也没有。");
+const u8 gShedinjaPokedexText[] = _("没有拍动翅膀就可以飞在天上的相当特别的宝可梦，身体是中空的，\n里面一片漆黑。");
 
 const u8 gWhismurPokedexText[] = _(
     "叫声的音量和喷射机一样大，可以从耳朵的洞里吸进空气，因此可以一直持续大叫而不会没气。");
@@ -1018,9 +1013,7 @@ const u8 gAzurillPokedexText[] = _(
 const u8 gNosepassPokedexText[] = _(
     "会利用从身体里发出的强烈磁力，将吸引过来的猎物吃掉。越是寒冷的季节磁力就越强。");
 
-const u8 gSkittyPokedexText[] = _(
-    "以其非常怜爱的动作大受欢迎。战斗的时候会拍动尾巴上的毛。\n"
-    "能发出尖锐的叫声威吓敌人。");
+const u8 gSkittyPokedexText[] = _("以其非常怜爱的动作大受欢迎。战斗的时候会竖起尾巴上的毛。\n能发出尖锐的叫声威吓敌人。");
 
 const u8 gDelcattyPokedexText[] = _(
     "没有固定的栖息地，具有会寻找舒适寄居处以改变睡眠地的习性。\n"
@@ -1058,9 +1051,7 @@ const u8 gManectricPokedexText[] = _(
     "由于在雷电兽的附近会有电光落下，因此被人认为是从电光中诞生的。\n"
     "一旦进行战斗就会产生雷云。");
 
-const u8 gPluslePokedexText[] = _(
-    "具有会为伙伴宝可梦加油的习性。可以将两手所散发出的电力发射出去，\n"
-    "以做出火花的碰撞效果。");
+const u8 gPluslePokedexText[] = _("具有会为伙伴宝可梦加油的习性。可以让两手释放的电力短路，\n制成用于加油的火花花球。");
 
 const u8 gMinunPokedexText[] = _(
     "据宝可梦学会研究，当同时处于正电拍拍与负电拍拍的电流之下，\n"
@@ -1189,9 +1180,7 @@ const u8 gCradilyPokedexText[] = _(
     "拖着沉重的身体在海底移动。以温暖海域里的浅滩作为栖息之地。\n"
     "当潮水退去时就会现身在沙滩上。");
 
-const u8 gAnorithPokedexText[] = _(
-    "以科学的力量从化石中再度复活。会以摆动左右的8片羽毛的方式游动。\n"
-    "居住在海里的时候脚变成了羽毛。");
+const u8 gAnorithPokedexText[] = _("以科学的力量从化石中再度复活。会以摆动左右的8片翅膀的方式游动。\n居住在海里的时候脚变成了翅膀。");
 
 const u8 gArmaldoPokedexText[] = _(
     "虽然太古盔甲平常都住在陆地上，不过在捕捉猎物的时候就会潜入海中，\n"
