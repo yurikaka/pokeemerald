@@ -461,7 +461,7 @@ MauvilleCity_Text_WallyMyUncleWontKnowImStrong:
     .string "满充：唔……{PLAYER}，如果你不跟我对战，\n叔叔就不会知道\l我真的变强了……$"
 
 MauvilleCity_Text_UncleCanYouBattleWally:
-    .string "叔叔：你是{PLAYER}{KUN}吧？\n为了满充，\l能请你和来一场对战吗？\p我想他现在这样\n是没法听得进劝的。$"
+    .string "叔叔：你是{PLAYER}{KUN}吧？\n为了满充，\l能请你和满充来一场对战吗？\p我想他现在这样\n是没法听得进劝的。$"
 
 MauvilleCity_Text_WallyPleaseBattleMe:
     .string "满充：{PLAYER}，拜托了！\n和我对战吧！$"

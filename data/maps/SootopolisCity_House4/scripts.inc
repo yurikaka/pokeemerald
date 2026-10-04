@@ -20,7 +20,7 @@ SootopolisCity_House4_EventScript_Azumarill::
 	end
 
 SootopolisCity_House4_Text_AncientTreasuresWaitingInSea:
-    .string "听着，我要告诉你\n一些好事。\p据说这附近的海里\n有一座古代遗迹，\p那里面一定有\n等待被发掘的宝藏。$"
+    .string "听着，我要告诉你\n一些好事。\p据说这附近的海里\n有一座古代遗迹，\p那里面可能有\n等待被发掘的宝藏。$"
 
 SootopolisCity_House4_Text_StrollUnderwaterWithPokemon:
     .string "古代的宝藏……\p如果真的有当然好，\n但就算没有，\l和宝可梦一起进行一次\l海底旅行也不错。$"

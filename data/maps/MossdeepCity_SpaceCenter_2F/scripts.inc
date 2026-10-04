@@ -385,7 +385,7 @@ MossdeepCity_SpaceCenter_2F_Text_Grunt6PostBattle:
     .string "我们仨守在这儿，\n却把事情搞得一团糟。$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt7PostBattle:
-    .string "我们仨就这么输了……\n输得比平常更惨！$"
+    .string "我们仨就这么输了……\n比平常丢脸三倍！$"
 
 MossdeepCity_SpaceCenter_2F_Text_Grunt5PostBattle:
     .string "对老大来说，\n我们真的有用吗？$"

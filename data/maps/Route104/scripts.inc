@@ -1012,7 +1012,7 @@ Route104_Text_MrBrineysCottage:
     .string "哈奇老人的小屋$"
 
 Route104_Text_RouteSignPetalburg:
-    .string "1O4号道路\n{RIGHT_ARROW}橙华市$"
+    .string "104号道路\n{RIGHT_ARROW}橙华市$"
 
 Route104_Text_RouteSignRustboro:
     .string "104号道路\n{UP_ARROW}卡那兹市$"

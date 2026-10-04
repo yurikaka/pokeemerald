@@ -32,7 +32,7 @@ SootopolisCity_House6_EventScript_NoRoomForWailmerDoll::
 	end
 
 SootopolisCity_House6_Text_FirstGuestInWhileTakeDoll:
-    .string "你好！你是我们\n第一个客人，\p你照亮了我的一天，\n这个大吼吼鲸玩偶送给你。$"
+    .string "你好！好久没有\n客人来了，\p你照亮了我的一天，\n这个大吼吼鲸玩偶送给你。$"
 
 SootopolisCity_House6_Text_TakeGoodCareOfIt:
     .string "要保存好它！$"
