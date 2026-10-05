@@ -559,7 +559,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_HeardAboutYouImYourFan:
     .string "我听说了！\n你真强！\p我们一直在这儿争论\n谁是最强的训练家，\p当我听说你的时候，\n我就准备做你的粉丝！\p我想看你继续跟其他\n强大的训练家对战，\p这样我们就能看到\n你对战的英姿，\p然后大家都能\n了解你有多么强大。\p我会一直支持你的，\n{PLAYER}！$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YoureOneWeWantToWin:
-    .string "嗨，{PLAYER}！\n我们一直想要胜过你！$"
+    .string "嗨，{PLAYER}！\n我们希望你能获胜！$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_OthersDontKnowYoureTheBest:
     .string "别人还不知道\n你是最优秀的！\p我说的不对吗，{PLAYER}？\n给大家看看你的决心吧！$"

@@ -97,7 +97,7 @@ RustboroCity_DevonCorp_1F_Text_OnlyAuthorizedPeopleEnter:
     .string "对不起，\n无关人士请勿入内。$"
 
 RustboroCity_DevonCorp_1F_Text_HowCouldWeGetRobbed:
-    .string "说什么傻话，\n谁会抢我们的东西？$"
+    .string "包裹居然被抢走了，\n我们也太不小心了……$"
 
 RustboroCity_DevonCorp_1F_Text_YoureAlwaysWelcomeHere:
     .string "您好！\n随时欢迎您来参观！$"
@@ -107,4 +107,3 @@ RustboroCity_DevonCorp_1F_Text_RocksMetalDisplay:
 
 RustboroCity_DevonCorp_1F_Text_ProductDisplay:
     .string "玻璃展示柜里放了些\n产品的原型和试验品。\p有张卡片上写着说明……\p“除工业产品外，\n得文如今也开发\l日常用品与药品。\p近年来，得文致力于\n为宝可梦训练家开发包括精灵球和\l宝可导航系统等一系列工具。”$"
-

@@ -60,7 +60,7 @@ AbandonedShip_Corridors_B1F_Text_DuncanDefeat:
     .string "哎呀，我被击沉了！$"
 
 AbandonedShip_Corridors_B1F_Text_DuncanPostBattle:
-    .string "我们的船现在搁浅了。\p如果有会潜水的宝可梦的话，\n或许能帮上什么忙……$"
+    .string "船底已经沉到水里了。\p如果有会潜水的宝可梦，\n也许就能继续前进了……$"
 
 AbandonedShip_Corridors_B1F_Text_YayItsAShip:
     .string "耶！\n是船啊！$"
@@ -73,4 +73,3 @@ AbandonedShip_Corridors_B1F_Text_InsertedStorageKey:
 
 AbandonedShip_Text_TheDoorIsOpen:
     .string "门开了。$"
-

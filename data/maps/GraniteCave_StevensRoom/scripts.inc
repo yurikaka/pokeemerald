@@ -79,7 +79,7 @@ GraniteCave_StevensRoom_Movement_StevenExitSouth:
 	step_end
 
 GraniteCave_StevensRoom_Text_ImStevenLetterForMe:
-    .string "我的名字是大吾。\p我对稀有的石头很有兴趣，\n所有经常四处旅行。\p哦？\n有给我的信？$"
+    .string "我的名字是大吾。\p我对稀有的石头很有兴趣，\n所以经常四处旅行。\p哦？\n有给我的信？$"
 
 GraniteCave_StevensRoom_Text_ThankYouTakeThis:
     .string "大吾：嗯，谢谢你。\p特意专程送信过来，\n要好好答谢你才行。\p我想想……\n这个招式学习器给你吧。\p里面有我最爱的招式\n钢翼。$"
@@ -95,4 +95,3 @@ GraniteCave_StevensRoom_Text_IveGotToHurryAlong:
 
 GraniteCave_StevensRoom_Text_OhBagIsFull:
     .string "喔，你的包满了……\n真可惜呢。$"
-

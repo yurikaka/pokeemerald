@@ -1565,7 +1565,7 @@ Route116_Text_ClarkPostBattle:
     .string "没有隧道也没什么大不了的嘛。\n对于我们登山男，山就是路！$"
 
 Route116_Text_JoeyIntro:
-    .string "我的宝可梦运用！\n你就好好瞧瞧吧！$"
+    .string "我的宝可梦很厉害！\n你就好好瞧瞧吧！$"
 
 Route116_Text_JoeyDefeat:
     .string "好痛！有伤口了！\n我得赶紧缠上绷带！$"
@@ -2408,7 +2408,7 @@ Route123_Text_BraxtonDefeat:
     .string "哦，你的确是有实力。$"
 
 Route123_Text_BraxtonPostBattle:
-    .string "在那样的对战中获得徽章\n是你的骄傲。$"
+    .string "这场战斗真是\n无愧于你的道馆徽章！$"
 
 Route123_Text_VioletIntro:
     .string "人们说，美好的时光总是\n充满着美好的香气。$"

@@ -325,7 +325,7 @@ DewfordTown_Gym_Text_LilithPostBattle:
     .string "尽管你可能迷路了，\n但最后还会回到出口的！$"
 
 DewfordTown_Gym_Text_BrendenIntro:
-    .string "让你看看\n水手的智慧！$"
+    .string "让你看看\n海之男儿的骨气！$"
 
 DewfordTown_Gym_Text_BrendenDefeat:
     .string "这怎么可能？\n我怎么会这样输掉！$"

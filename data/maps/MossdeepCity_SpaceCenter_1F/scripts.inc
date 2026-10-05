@@ -271,7 +271,7 @@ MossdeepCity_SpaceCenter_1F_Text_SuccessfulLaunchNumber:
     .string "火箭发射成功！\n这是第{STR_VAR_1}次成功发射！$"
 
 MossdeepCity_SpaceCenter_1F_Text_HaywireButRocketLaunchImminent:
-    .string "我知道现在一切有些混乱，\n但是……\p火箭发射程序不会停止！$"
+    .string "我知道现在一切有些混乱，\n但是……\p火箭马上就要发射了！$"
 
 MossdeepCity_SpaceCenter_1F_Text_HaywireButSuccessfulLaunchNumber:
     .string "我知道现在一切有些混乱，\n但是……\p火箭仍然成功发射了！\n这是第{STR_VAR_1}次成功发射！$"

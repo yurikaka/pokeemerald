@@ -479,7 +479,7 @@ MauvilleCity_Text_ThankYouNotEnoughToBattle:
     .string "{PLAYER}，谢谢你。\n果然做训练家真的\l很不容易啊……\p光是拥有自己的宝可梦\n让它们对战还不够，\l还算不上是真正的训练家……$"
 
 MauvilleCity_Text_UncleNoNeedToBeDown:
-    .string "叔叔：满充，\n别这么沮丧。\p想想是什么激励着你\n要变得越来越强的？\p好了，我们回家吧，\n大家都在等你呢。$"
+    .string "叔叔：满充，\n别这么沮丧。\p今后继续努力，\n变得越来越强就好啦！\p好了，我们回家吧，\n大家都在等你呢。$"
 
 MauvilleCity_Text_UncleVisitUsSometime:
     .string "叔叔：{PLAYER}{KUN}，我刚刚才想起来，\n你就是那位看着满充捕捉他的\l第一只宝可梦的训练家吧？\p有空的话，\n来绿茵镇转转好吗？\l我想满充也会很开心的。$"

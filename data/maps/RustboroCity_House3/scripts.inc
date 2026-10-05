@@ -24,8 +24,7 @@ RustboroCity_House3_Text_IGivePerfectlySuitedNicknames:
     .string "我给我的宝可梦起了\n最合适的名字！\p这是我，呃……\n创造力的表现！$"
 
 RustboroCity_House3_Text_NamingPikachuPekachu:
-    .string "但叫皮卡丘为\n猫卡球？这没什么意义。\p我想最好起个容易\n让人理解的名字，但是……$"
+    .string "但给皮卡丘起名叫\n“佩卡丘”？这没什么意义。\p我想最好起个容易\n让人理解的名字，但是……$"
 
 RustboroCity_House3_Text_Pekachu:
-    .string "猫卡球：猫球！$"
-
+    .string "佩卡丘：佩卡！$"

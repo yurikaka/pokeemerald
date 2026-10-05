@@ -71,11 +71,10 @@ FortreeCity_House1_Text_YouWontTradeMe:
     .string "不？你不跟我换？\n即使你看到了我的真心也不肯换？$"
 
 FortreeCity_House1_Text_GoingToMakeVolbeatStrong:
-    .string "从现在开始，我要把甜甜萤\n养得壮壮的！\p你也要善待正电拍拍啊！$"
+    .string "从现在开始，我要把甜甜萤\n养得壮壮的！\p你也要把正电拍拍\n培养得更强啊！$"
 
 FortreeCity_House1_Text_TradingMemoriesWithOthers:
     .string "和别人交换宝可梦……\p就像跟别人交换\n自己的记忆一样。$"
 
 FortreeCity_House1_Text_Zigzagoon:
     .string "蛇纹熊：咕莫莫？$"
-

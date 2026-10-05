@@ -686,7 +686,7 @@ MauvilleCity_PokemonCenter_1F_Text_LedgesJumpedAction::
 	.string "跳下岩礁$"
 
 MauvilleCity_PokemonCenter_1F_Text_LedgesJumpedStory::
-	.string "关于{STR_VAR_3}是这样流传\n的。\p他已经跳下\n{STR_VAR_1}次岩礁了！\p如果有适合跳跃的岩礁，\n{STR_VAR_3}一定会去跳的！$"
+    .string "关于{STR_VAR_3}是这样流传\n的。\p他已经跳下\n{STR_VAR_1}次台阶了！\p如果有适合跳跃的台阶，\n{STR_VAR_3}一定会去跳的！$"
 
 MauvilleCity_PokemonCenter_1F_Text_TVWatchedTitle::
 	.string "电视迷$"

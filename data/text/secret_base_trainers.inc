@@ -59,8 +59,7 @@ SecretBase_Text_Trainer1PostBattle:
 	.string "好，等我有一天我搬走之后，\n这个地方就是你的了！$"
 
 SecretBase_Text_Trainer1PreChampion:
-	.string "这个地方非常受欢迎，\n经常会有人来这里。\p"
-	.string "我一直在等它打开，\n我一定要得到它！$"
+    .string "这个地方很受欢迎，\n总是有人占着。\p我等了很久，\n终于轮到我使用了！$"
 
 SecretBase_Text_Trainer6Intro:
 	.string "欢迎来到我的宝可梦研究所，\n我在暗中进行对战研究。\p想试试我有多么强吗？$"

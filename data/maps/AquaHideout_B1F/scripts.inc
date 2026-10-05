@@ -116,7 +116,7 @@ AquaHideout_B1F_Text_Grunt2PostBattle:
     .string "我们基地的秘密？\p这么说吧……\n这儿深处有一艘潜水艇！\p但是，现在……\n嘿嘿嘿……$"
 
 AquaHideout_B1F_Text_Grunt3Intro:
-    .string "燃料供给完成！\n巡航系统正常！\p一切正常，除了一个\n找麻烦的人！$"
+    .string "燃料补给完毕！\n零食补给完毕！\p接下来只要打倒\n捣乱的家伙就行了！$"
 
 AquaHideout_B1F_Text_Grunt3Defeat:
     .string "被打得落花流水！$"

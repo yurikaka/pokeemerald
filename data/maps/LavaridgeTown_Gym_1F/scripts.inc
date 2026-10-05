@@ -214,13 +214,13 @@ LavaridgeTown_Gym_B1F_Text_KeeganPostBattle:
     .string "你的技术不错……\n但我们的馆主亚莎很强，\p你不小心的话\n会被烧焦的。$"
 
 LavaridgeTown_Gym_1F_Text_GeraldIntro:
-    .string "你的宝可梦能抵挡\n392度的高温吗？$"
+    .string "你的宝可梦能抵挡\n392华氏度的高温吗？$"
 
 LavaridgeTown_Gym_1F_Text_GeraldDefeat:
     .string "火还不够热……$"
 
 LavaridgeTown_Gym_1F_Text_GeraldPostBattle:
-    .string "岩浆的温度\n是392度。\p你的宝可梦打败了我，那么在岩浆中\n也应该能比较容易生存下来。$"
+    .string "岩浆的温度\n是392华氏度。\p你的宝可梦打败了我，那么在岩浆中\n也应该能比较容易生存下来。$"
 
 LavaridgeTown_Gym_1F_Text_DanielleIntro:
     .string "呃……\n好吧，我就和你对战吧。$"
