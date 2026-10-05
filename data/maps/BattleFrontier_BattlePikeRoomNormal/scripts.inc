@@ -682,7 +682,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForDusclops:
     .string "我必须向您道歉……\n我的彷徨夜灵性格胆小……$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_AttacksWhenStartled:
-    .string "一旦受到了惊吓就会\n不听指挥胡乱攻击……\p您和您的宝可梦还好吗？$"
+    .string "突然看见人时会受惊，\n然后扑过来攻击……\p您和您的宝可梦还好吗？$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeHopeMonsAreFine:
     .string "我为所发生的一切道歉……\n我希望您的宝可梦没事。$"

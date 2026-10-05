@@ -116,7 +116,7 @@ BattleFrontier_Lounge5_Text_NatureGirlEgg::
     .string "你在说什么傻话！蛋可在沉睡啊！\n我怎么跟它交谈呢！$"
 
 BattleFrontier_Lounge5_Text_LadyClaimsSheUnderstandsPokemon::
-    .string "好像魔法一样啊！\n那边那位小女孩说她能\l懂得宝可梦在说什么！$"
+    .string "真有意思！\n那位小女孩说她能\l懂得宝可梦的心情！$"
 
 BattleFrontier_Lounge5_Text_GirlSayingSomethingProfound::
     .string "我感觉那个小女孩好像在\n说什么很晦涩难懂的话。$"

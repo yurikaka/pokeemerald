@@ -210,7 +210,7 @@ BattleFrontier_Lounge2_Text_NewsGatheringPower::
     .string "收集消息好厉害！\n老师果然非同一般！$"
 
 BattleFrontier_Lounge2_Text_AmazingPowersOfObservation::
-    .string "调查资料好厉害！\n老师果然非同一般！$"
+    .string "好厉害的观察力！\n前辈果然非同一般！$"
 
 BattleFrontier_Lounge2_Text_AmazingPowerOfPersuasion::
     .string "说服别人好厉害！\n老师果然非同一般！$"

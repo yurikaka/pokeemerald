@@ -1261,10 +1261,10 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMIntro::
     .string "怎么了？\n我是{STR_VAR_1}，一个铁人三项选手。$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMMon1::
-    .string "我有一对高贵的宝可梦。\n一只掌握{STR_VAR_1}的{STR_VAR_2}和$"
+    .string "我有两只不错的宝可梦。\n一只掌握{STR_VAR_1}的{STR_VAR_2}和$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMMon2Ask::
-    .string "一只掌握{STR_VAR_1}的{STR_VAR_2}！\p如果我们组队，那是多高雅的\n一件事呀，你觉得呢？$"
+    .string "一只掌握{STR_VAR_1}的{STR_VAR_2}！\p如果我们一起组队\n一定很不错，你觉得呢？$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMAccept::
     .string "太好了！\n你等我去登记一下，好不好？$"

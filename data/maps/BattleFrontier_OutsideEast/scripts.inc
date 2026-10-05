@@ -256,7 +256,7 @@ BattleFrontier_OutsideEast_Text_PyramidTooHarsh:
     .string "对战金字塔实在是太难了！\n我想我是走不到最上层了。\p实在没有其他办法的话，\n也许我可以试试从外面爬上去……$"
 
 BattleFrontier_OutsideEast_Text_ThriveInDarkness:
-    .string "我最喜欢黑暗……\n是的……哪里最适合我？\l必然是对战金字塔……\p在黑暗中探索的时候\n你是不是也会陷入完全的绝望？$"
+    .string "我最喜欢黑暗……\n是的……哪里最适合我？\l必然是对战金字塔……\p你也要不要在黑暗与\n彻底的绝望中探索一番？$"
 
 BattleFrontier_OutsideEast_Text_PutTogetherUltimateTeam:
     .string "我一个星期没有睡觉了，\n但我已经找到了最强组合！\p我是绝对不会输的，我没开玩笑，\n我们的风暴会席卷对战竞技场！$"
