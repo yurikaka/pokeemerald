@@ -435,8 +435,7 @@ gText_EveryonesAppealsMadeSame::
 @ Appeal result texts
 
 gText_BecameMoreConsciousOfOtherMons::
-    .string "它变得比平时\n"
-    .string "更加担心其他宝可梦了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+    .string "它变得比平时\n更加在意其他宝可梦了！{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonCantMakeAnAppealAfterThis::
     .string "{STR_VAR_1}此后\n"

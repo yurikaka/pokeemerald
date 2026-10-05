@@ -990,7 +990,7 @@ LilycoveCity_ContestLobby_Text_WholeVarietyOfPokemonHere:
     .string "在这儿能看到\n很多宝可梦。\p因此我每天闲逛\n都会到这儿来。$"
 
 LilycoveCity_ContestLobby_Text_ContestFeastForEyes:
-    .string "哇，观看华丽大赛\n简直是场视觉盛宴！\p你看过那些\n画里的宝可梦吗？$"
+    .string "哇，观看华丽大赛\n简直是场视觉盛宴！\p看看这些让人\n忍不住想画下来的宝可梦！$"
 
 LilycoveCity_ContestLobby_Text_ToughContestIsExtreme:
     .string "强壮华丽大赛的\n表演非常非常精彩！\p那摄人心魂的魅力……\n瀑布般的汗水……我要晕倒了！$"
@@ -1000,4 +1000,3 @@ LilycoveCity_ContestLobby_Text_LavishedCareOnMon:
 
 LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily:
     .string "我和爸爸，妈妈，姐姐一起\n制作宝可方块！\p我想如果人多的话，\n就能做出更光滑更好的宝可方块。$"
-

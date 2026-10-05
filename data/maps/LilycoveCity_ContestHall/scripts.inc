@@ -355,7 +355,7 @@ LilycoveCity_ContestHall_Text_InTheMiddleOfContest:
     .string "主持人：呃，啊，你好！\n现在华丽大赛正在进行之中！\p请先去接待处登记\n再来参加比赛。$"
 
 LilycoveCity_ContestHall_Text_SuchCharmingCuteAppeals:
-    .string "评委：啊，如此迷人，\n如此可爱！\p哎，天啊！那水之游\n多么完美，多么可爱！$"
+    .string "评委：啊，如此迷人，\n如此可爱！\p哎，天啊！那玩水\n多么完美，多么可爱！$"
 
 LilycoveCity_ContestHall_Text_MyAzurillWasDistracted:
     .string "哦，不……我的小露力丽\n被其他宝可梦分散注意力了！$"
