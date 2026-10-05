@@ -184,7 +184,7 @@ CableClub_Text_PlayerIsWaiting:
     .string "看来{STR_VAR_1}已经\n准备好了。\l加油！$"
 
 MossdeepCity_GameCorner_1F_Text_DescribeWhichGame:
-    .string "需要的话，\n我可以向您解说对战规则。\p需要解说哪一项？$"
+    .string "需要的话，\n我可以向您解说游戏规则。\p需要解说哪一项？$"
 
 MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo:
     .string "“宝可梦跳绳”\p用 A 键让您的宝可梦\n跳过藤鞭。\p只有 70 厘米左右以下的小型\n宝可梦可以参加。\p而且，只会游泳、挖掘、飞行的\n宝可梦并不擅长跳跃，\p因此，这些宝可梦\n也无法参加。\p如果大家都及时跳起，\n会有好事情发生。$"
@@ -193,7 +193,7 @@ MossdeepCity_GameCorner_1F_Text_DodrioBerryPickingInfo:
     .string "“嘟嘟利摘树果”\p指挥嘟嘟利的3个头\n接住落下的树果。\p按十字方向键的\n左、右、上键移动这些头。\p要玩此游戏，\n您必须拥有嘟嘟利。$"
 
 MossdeepCity_GameCorner_1F_Text_TalkToOldManToPlay:
-    .string "如果您想玩游戏，\n就告诉我后面的老人。$"
+    .string "如果您想玩游戏，\n就告诉我旁边的老人。$"
 
 MossdeepCity_GameCorner_1F_Text_WelcomeCanYouWait:
     .string "嗨，欢迎！\n您是想用无线连接\l玩游戏吗？\p请稍等一下好吗？$"
