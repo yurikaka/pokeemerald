@@ -202,7 +202,7 @@ RustboroCity_PokemonSchool_Text_ReadWhichTopic:
     .string "想读哪一条？$"
 
 RustboroCity_PokemonSchool_Text_ExplainPoison:
-    .string "宝可梦中毒后，\n会慢慢损失体力，\p此效果在战斗后\n依然残留。\p在探险中，中毒的宝可梦的体力P\n也会不断减少。\p使用解毒药可解毒。$"
+    .string "宝可梦中毒后，\n会慢慢损失体力，\p此效果在战斗后\n依然残留。\p在探险中，中毒的宝可梦的HP\n也会不断减少。\p使用解毒药可解毒。$"
 
 RustboroCity_PokemonSchool_Text_ExplainParalysis:
     .string "宝可梦麻痹后，\n速度会降低，\p战斗中有可能\n无法使用招式。\p此效果战斗后依然残留。\n使用解麻药可治愈。$"
@@ -251,4 +251,3 @@ RustboroCity_PokemonSchool_Text_ScottStoneBadge:
 
 RustboroCity_PokemonSchool_Text_ScottMetAlreadyStoneBadge:
     .string "你好，我们以前见过面吧？\n我想是在橙华市见过。\p我来介绍一下自己。\n我叫亚希达，\p正为了寻找出类拔萃的\n训练家而四处旅行，\p具体地说，就是寻找宝可梦对战专家。\p哦，那是什么？\p岩石徽章是吗？\p真令人吃惊，尤其是对你这样的\n新人训练家来说。\p不过，我更想看看\n对战时的你。\p仅凭一枚联盟徽章\n很难看出训练家的水平高低。$"
-
