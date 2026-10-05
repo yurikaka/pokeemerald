@@ -493,9 +493,7 @@ static const u8 sFireBlastDescription[] = _(
 			"用大字形状的火焰烧尽对手。\n"
 			"有时会让对手陷入灼伤状态。");
 
-static const u8 sWaterfallDescription[] = _(
-			"以惊人的气势扑向对手。\n"
-			"有时会使对手畏缩。");
+static const u8 sWaterfallDescription[] = _("以惊人的气势扑向对手。");
 
 static const u8 sClampDescription[] = _("用坚固且厚实的贝壳，\n在2～5回合内夹住对手攻击。");
 

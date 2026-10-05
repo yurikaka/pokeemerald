@@ -150,8 +150,8 @@ static const u8 sMaxEtherDesc[] = _(
 
 static const u8 sElixirDesc[] = _(
 			"能让宝可梦学会的\n"
-			"4个招式各回复1\n"
-			"0PP。");
+			"4个招式各回复\n"
+			"10PP。");
 
 static const u8 sMaxElixirDesc[] = _(
 			"能让宝可梦学会的\n"
@@ -480,7 +480,7 @@ static const u8 sLumBerryDesc[] = _(
 
 static const u8 sSitrusBerryDesc[] = _(
 			"携带后，可以回复\n"
-			"少量HP。");
+			"30HP。");
 
 static const u8 sFigyBerryDesc[] = _(
 			"携带后危机时可以\n"
