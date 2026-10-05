@@ -871,8 +871,7 @@ gText_UnusedNicknameReceivedPokemon::
 	.string "the {STR_VAR_2} you received?$"
 
 gText_PlayerWhitedOut::
-	.string "{PLAYER}没有可以\n"
-	.string "战斗的宝可梦\p！{PLAYER}昏迷了！$"
+    .string "{PLAYER}没有可以\n战斗的宝可梦！\p{PLAYER}昏迷了！$"
 
 gText_RegisteredTrainerinPokeNav::
 	.string "把{STR_VAR_1} {STR_VAR_2}\n"
