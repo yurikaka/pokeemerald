@@ -842,8 +842,7 @@ gText_PokemonCenterSign::
 	.string "宝可梦中心$"
 
 gText_MomOrDadMightLikeThisProgram::
-	.string "也许是{STR_VAR_1}喜欢的游戏\n"
-	.string "…… …… …… …… …… …… …… ……\p该走了！$"
+    .string "也许是{STR_VAR_1}喜欢的节目\n…… …… …… …… …… …… …… ……\p该走了！$"
 
 gText_WhichFloorWouldYouLike::
 	.string "欢迎来到水静百货。\p要去几层？$"

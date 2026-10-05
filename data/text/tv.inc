@@ -17,7 +17,7 @@ LilycoveCity_ContestLobby_Text_LookingForwardToNextContest:
     .string "我会期待你下次的\n宝可梦华丽大赛表现。$"
 
 gTVBravoTrainerText00::
-    .string "太好了！\n现在是BRAVO训练家时间！\p今天我们所要介绍的\n主角就是{STR_VAR_1}。\p现在，这只宝可梦在{STR_VAR_2}\n比赛中荣获{STR_VAR_3}优胜。$"
+    .string "太好了！\n现在是BRAVO训练家时间！\p今天我们要介绍的，\n是{STR_VAR_1}的宝可梦！\p这只宝可梦在{STR_VAR_2}\n比赛中达到了{STR_VAR_3}级别。$"
 
 gTVBravoTrainerText01::
     .string "现在开始介绍{STR_VAR_1}的\n{STR_VAR_2}！\p昵称是{STR_VAR_2}……\p光是昵称就散发着\n一种“{STR_VAR_3}”的气氛啊！$"
@@ -760,10 +760,10 @@ gTVPokemonNewsBattleFrontierText10::
     .string "训练家{STR_VAR_1}在\n对战竞技场三回合定胜负锦标赛中\l创造了{STR_VAR_2}连胜的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
 
 gTVPokemonNewsBattleFrontierText11::
-    .string "训练家{STR_VAR_1}在\n在对战宫殿单打对战厅中\l创造了{STR_VAR_2}连胜的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
+    .string "训练家{STR_VAR_1}在\n对战宫殿单打对战厅中\l创造了{STR_VAR_2}连胜的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
 
 gTVPokemonNewsBattleFrontierText12::
-    .string "训练家{STR_VAR_1}在\n在对战宫殿双打对战厅中\l创造了{STR_VAR_2}连胜的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
+    .string "训练家{STR_VAR_1}在\n对战宫殿双打对战厅中\l创造了{STR_VAR_2}连胜的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
 
 gTVPokemonNewsBattleFrontierText13::
     .string "训练家{STR_VAR_1}在\n对战金字塔探索式对战中\l创造了{STR_VAR_2}层连续通关的新纪录。\p让我们为{STR_VAR_1}欢呼！$"
